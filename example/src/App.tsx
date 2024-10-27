@@ -10,6 +10,7 @@ export default function App() {
 	// useEffect(() => {
 	//   multiply(3, 9).then(setResult);
 	// }, []);
+
 	const { Toggle } = Func;
 	console.log("stuff: ", Func, "and..", Toggle);
 

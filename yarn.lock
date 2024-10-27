@@ -13274,6 +13274,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-uuid@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "react-native-uuid@npm:2.0.2"
+  checksum: 149f65549132a240ac237f4db34063fd08473e4b3a9b5958e3d0d6722cf10754efb222b1c6085a3dc42e0718ca9575b38cd5535ae83a96534dde0f54d343e915
+  languageName: node
+  linkType: hard
+
 "react-native-web@npm:~0.19.10":
   version: 0.19.13
   resolution: "react-native-web@npm:0.19.13"
@@ -14000,6 +14007,7 @@ __metadata:
     react-native-root-siblings: ^5.0.1
     react-native-side-menu: ^1.1.3
     react-native-svg: ^15.8.0
+    react-native-uuid: ^2.0.2
     redux: ^4.0.0
     release-it: ^15.0.0
     snyk: ^1.1294.0
@@ -14007,7 +14015,6 @@ __metadata:
     styled-system: ^2.3.2
     styled-theming: ^2.2.0
     typescript: ^5.2.2
-    uuid: 11.0.0
     victory-create-container: ^37.3.0
     victory-native: ^41.8.0
     xdate: ^0.8.3
@@ -15848,15 +15855,6 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: c81095493225ecfc28add49c106ca4f09cdf56bc66731aa8dabc2edbbccb1e1bfe2de6a115e5c6a380d3ea166d1636410b62ef216bb07b3feb1cfde1d95d5080
-  languageName: node
-  linkType: hard
-
-"uuid@npm:11.0.0":
-  version: 11.0.0
-  resolution: "uuid@npm:11.0.0"
-  bin:
-    uuid: dist/esm/bin/uuid
-  checksum: 060b646193d035a610632aeaa5a6709e0687e7e8b4c4d92afd095c38a25cf5eaf3ceaab1eccf2bc6b07ff41de947321bc5b4fe513a0b4cc9d9978c6c848ed56e
   languageName: node
   linkType: hard
 

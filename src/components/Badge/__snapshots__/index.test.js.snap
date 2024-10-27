@@ -1,0 +1,5608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Badge,  With Icon on the left, disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Disabled Badge"
+    contentBadgeWidth={300}
+    disabled={true}
+    iconPosition="left"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderBottomLeftRadius={6}
+        borderBottomRightRadius={6}
+        flexDirection="row"
+        height={30}
+        justifyContent="space-around"
+        opacity={0.5}
+        width={300}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingRight": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Disabled Badge
+          </Styled(Text)>
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingRight": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Disabled Badge
+          </Styled(Text)>
+        </Styled(View)>,
+        "flexDirection": "row",
+        "height": 30,
+        "justifyContent": "space-around",
+        "opacity": 0.5,
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingRight": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Disabled Badge
+            </Styled(Text)>,
+            false,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "style": Object {
+            "paddingHorizontal": 25,
+            "paddingVertical": 7,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 16,
+              "style": Object {
+                "paddingRight": 15,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Disabled Badge",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+              "minWidth": "220",
+            },
+            "ref": null,
+            "rendered": "Disabled Badge",
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          flexDirection="row"
+          height={30}
+          justifyContent="space-around"
+          opacity={0.5}
+          width={300}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingRight": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Disabled Badge
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingRight": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Disabled Badge
+            </Styled(Text)>
+          </Styled(View)>,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "opacity": 0.5,
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={16}
+                style={
+                  Object {
+                    "paddingRight": 15,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+                minWidth="220"
+              >
+                Disabled Badge
+              </Styled(Text)>,
+              false,
+            ],
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "style": Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 16,
+                "style": Object {
+                  "paddingRight": 15,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Disabled Badge",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+                "minWidth": "220",
+              },
+              "ref": null,
+              "rendered": "Disabled Badge",
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  of type Simple 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    badgeType="simple"
+    contentBadgeWidth={300}
+    disabled={false}
+    iconPosition="right"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderRadius={6}
+        height={20}
+        justifyContent="center"
+        maxWidth={152}
+        opacity={1}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>,
+        "height": 20,
+        "justifyContent": "center",
+        "maxWidth": 152,
+        "opacity": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+          ],
+          "flexDirection": "row",
+          "style": Object {
+            "paddingHorizontal": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 14,
+              "style": Object {
+                "paddingRight": 10,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderRadius={6}
+          height={20}
+          justifyContent="center"
+          maxWidth={152}
+          opacity={1}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>,
+          "height": 20,
+          "justifyContent": "center",
+          "maxWidth": 152,
+          "opacity": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={14}
+                style={
+                  Object {
+                    "paddingRight": 10,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+            ],
+            "flexDirection": "row",
+            "style": Object {
+              "paddingHorizontal": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 14,
+                "style": Object {
+                  "paddingRight": 10,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  simple type disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    badgeType="simple"
+    contentBadgeWidth={300}
+    disabled={true}
+    iconPosition="right"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderRadius={6}
+        height={20}
+        justifyContent="center"
+        maxWidth={152}
+        opacity={0.5}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>,
+        "height": 20,
+        "justifyContent": "center",
+        "maxWidth": 152,
+        "opacity": 0.5,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+          ],
+          "flexDirection": "row",
+          "style": Object {
+            "paddingHorizontal": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 14,
+              "style": Object {
+                "paddingRight": 10,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderRadius={6}
+          height={20}
+          justifyContent="center"
+          maxWidth={152}
+          opacity={0.5}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>,
+          "height": 20,
+          "justifyContent": "center",
+          "maxWidth": 152,
+          "opacity": 0.5,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={14}
+                style={
+                  Object {
+                    "paddingRight": 10,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+            ],
+            "flexDirection": "row",
+            "style": Object {
+              "paddingHorizontal": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 14,
+                "style": Object {
+                  "paddingRight": 10,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  simple type with Icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    badgeType="simple"
+    contentBadgeWidth={300}
+    disabled={false}
+    iconPosition="right"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderRadius={6}
+        height={20}
+        justifyContent="center"
+        maxWidth={152}
+        opacity={1}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          style={
+            Object {
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={14}
+            style={
+              Object {
+                "paddingRight": 10,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+        </Styled(View)>,
+        "height": 20,
+        "justifyContent": "center",
+        "maxWidth": 152,
+        "opacity": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+          ],
+          "flexDirection": "row",
+          "style": Object {
+            "paddingHorizontal": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 14,
+              "style": Object {
+                "paddingRight": 10,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderRadius={6}
+          height={20}
+          justifyContent="center"
+          maxWidth={152}
+          opacity={1}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={14}
+              style={
+                Object {
+                  "paddingRight": 10,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+          </Styled(View)>,
+          "height": 20,
+          "justifyContent": "center",
+          "maxWidth": 152,
+          "opacity": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={14}
+                style={
+                  Object {
+                    "paddingRight": 10,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+            ],
+            "flexDirection": "row",
+            "style": Object {
+              "paddingHorizontal": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 14,
+                "style": Object {
+                  "paddingRight": 10,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  with Icon on the left 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    contentBadgeWidth={300}
+    disabled={false}
+    iconPosition="right"
+    icpnPosition="left "
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderBottomLeftRadius={6}
+        borderBottomRightRadius={6}
+        flexDirection="row"
+        height={30}
+        justifyContent="space-around"
+        opacity={1}
+        width={300}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>,
+        "flexDirection": "row",
+        "height": 30,
+        "justifyContent": "space-around",
+        "opacity": 1,
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            false,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "style": Object {
+            "paddingHorizontal": 25,
+            "paddingVertical": 7,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+              "minWidth": "220",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 16,
+              "style": Object {
+                "paddingLeft": 15,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          flexDirection="row"
+          height={30}
+          justifyContent="space-around"
+          opacity={1}
+          width={300}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "opacity": 1,
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              false,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+                minWidth="220"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={16}
+                style={
+                  Object {
+                    "paddingLeft": 15,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+            ],
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "style": Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+                "minWidth": "220",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 16,
+                "style": Object {
+                  "paddingLeft": 15,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  with Icon on the right 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    contentBadgeWidth={300}
+    disabled={false}
+    iconPosition="right"
+    icpnPosition="right"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderBottomLeftRadius={6}
+        borderBottomRightRadius={6}
+        flexDirection="row"
+        height={30}
+        justifyContent="space-around"
+        opacity={1}
+        width={300}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>,
+        "flexDirection": "row",
+        "height": 30,
+        "justifyContent": "space-around",
+        "opacity": 1,
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            false,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "style": Object {
+            "paddingHorizontal": 25,
+            "paddingVertical": 7,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+              "minWidth": "220",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 16,
+              "style": Object {
+                "paddingLeft": 15,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          flexDirection="row"
+          height={30}
+          justifyContent="space-around"
+          opacity={1}
+          width={300}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "opacity": 1,
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              false,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+                minWidth="220"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={16}
+                style={
+                  Object {
+                    "paddingLeft": 15,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+            ],
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "style": Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+                "minWidth": "220",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 16,
+                "style": Object {
+                  "paddingLeft": 15,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly Badge,  with default props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    badgeText="Delivery in 3-4 days"
+    contentBadgeWidth={300}
+    disabled={false}
+    iconPosition="right"
+    simpleMaxWidth={152}
+    themeName="vibrantCyan"
+    withIcon={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        backgroundColor="#ffc832"
+        borderBottomLeftRadius={6}
+        borderBottomRightRadius={6}
+        flexDirection="row"
+        height={30}
+        justifyContent="space-around"
+        opacity={1}
+        width={300}
+      >
+        <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffc832",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="space-between"
+          style={
+            Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            }
+          }
+        >
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Regular"
+            fontSize="12"
+            minWidth="220"
+          >
+            Delivery in 3-4 days
+          </Styled(Text)>
+          <Icon
+            color="#1b1b25"
+            name="placeholder"
+            size={16}
+            style={
+              Object {
+                "paddingLeft": 15,
+              }
+            }
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>,
+        "flexDirection": "row",
+        "height": 30,
+        "justifyContent": "space-around",
+        "opacity": 1,
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            false,
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>,
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "style": Object {
+            "paddingHorizontal": 25,
+            "paddingVertical": 7,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delivery in 3-4 days",
+              "color": "#1b1b25",
+              "fontFamily": "Lato-Regular",
+              "fontSize": "12",
+              "minWidth": "220",
+            },
+            "ref": null,
+            "rendered": "Delivery in 3-4 days",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#1b1b25",
+              "name": "placeholder",
+              "size": 16,
+              "style": Object {
+                "paddingLeft": 15,
+              },
+              "themeName": "vibrantCyan",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#ffc832"
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          flexDirection="row"
+          height={30}
+          justifyContent="space-around"
+          opacity={1}
+          width={300}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffc832",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="space-between"
+            style={
+              Object {
+                "paddingHorizontal": 25,
+                "paddingVertical": 7,
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize="12"
+              minWidth="220"
+            >
+              Delivery in 3-4 days
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="placeholder"
+              size={16}
+              style={
+                Object {
+                  "paddingLeft": 15,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "opacity": 1,
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "children": Array [
+              false,
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize="12"
+                minWidth="220"
+              >
+                Delivery in 3-4 days
+              </Styled(Text)>,
+              <Icon
+                color="#1b1b25"
+                name="placeholder"
+                size={16}
+                style={
+                  Object {
+                    "paddingLeft": 15,
+                  }
+                }
+                themeName="vibrantCyan"
+              />,
+            ],
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "style": Object {
+              "paddingHorizontal": 25,
+              "paddingVertical": 7,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delivery in 3-4 days",
+                "color": "#1b1b25",
+                "fontFamily": "Lato-Regular",
+                "fontSize": "12",
+                "minWidth": "220",
+              },
+              "ref": null,
+              "rendered": "Delivery in 3-4 days",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "placeholder",
+                "size": 16,
+                "style": Object {
+                  "paddingLeft": 15,
+                },
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

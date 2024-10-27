@@ -1,0 +1,1651 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly a Circular Progress Bar 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProgressBar
+    circleRadius={70}
+    circularProgressBarLabel="Label"
+    inactive={false}
+    inactiveProgressBarColor="#efeff1"
+    inactiveProgressBarUnfilledColor="#f8f8fc"
+    linearProgressBarWidth={300}
+    overdueProgressBarColor="#e61e50"
+    overdueProgressBarUnfilledColor="#f5a5b9"
+    primaryProgressBarColor="#a5cd50"
+    stepCount={4}
+    stepProgressBarWidth={320}
+    themeName="vibrantCyan"
+    type="circular"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        style={
+          Object {
+            "borderRadius": 100,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <Svg
+          height={140}
+          preserveAspectRatio="xMidYMid meet"
+          width={140}
+        >
+          <Path
+            d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+            fill="transparent"
+            stroke="#abe5eb"
+            strokeLinecap="square"
+            strokeWidth={20}
+          />
+          <AnimatedPath
+            d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+            fill="transparent"
+            strokeColor="#2dbecd"
+            strokeLinecap="round"
+            strokeWidth={20}
+          />
+          <Text
+            fill="#2dbecd"
+            fontFamily="MerckWeb-Regular"
+            fontSize={34}
+            lineHeight={1.25}
+            textAnchor="middle"
+            x={70}
+            y={75}
+          >
+            undefined%
+          </Text>
+          <Text
+            fontFamily="Lato-Regular"
+            fontSize={12}
+            lineHeight={1.25}
+            textAnchor="middle"
+            x={70}
+            y={100}
+          >
+            Label
+          </Text>
+        </Svg>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Svg
+          height={140}
+          preserveAspectRatio="xMidYMid meet"
+          width={140}
+        >
+          <Path
+            d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+            fill="transparent"
+            stroke="#abe5eb"
+            strokeLinecap="square"
+            strokeWidth={20}
+          />
+          <AnimatedPath
+            d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+            fill="transparent"
+            strokeColor="#2dbecd"
+            strokeLinecap="round"
+            strokeWidth={20}
+          />
+          <Text
+            fill="#2dbecd"
+            fontFamily="MerckWeb-Regular"
+            fontSize={34}
+            lineHeight={1.25}
+            textAnchor="middle"
+            x={70}
+            y={75}
+          >
+            undefined%
+          </Text>
+          <Text
+            fontFamily="Lato-Regular"
+            fontSize={12}
+            lineHeight={1.25}
+            textAnchor="middle"
+            x={70}
+            y={100}
+          >
+            Label
+          </Text>
+        </Svg>,
+        "style": Object {
+          "borderRadius": 100,
+          "overflow": "hidden",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Path
+              d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              stroke="#abe5eb"
+              strokeLinecap="square"
+              strokeWidth={20}
+            />,
+            <AnimatedPath
+              d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              strokeColor="#2dbecd"
+              strokeLinecap="round"
+              strokeWidth={20}
+            />,
+            <Text
+              fill="#2dbecd"
+              fontFamily="MerckWeb-Regular"
+              fontSize={34}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={75}
+            >
+              undefined%
+            </Text>,
+            <Text
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={100}
+            >
+              Label
+            </Text>,
+          ],
+          "height": 140,
+          "preserveAspectRatio": "xMidYMid meet",
+          "width": 140,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "d": "M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606",
+              "fill": "transparent",
+              "stroke": "#abe5eb",
+              "strokeLinecap": "square",
+              "strokeWidth": 20,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "d": "M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606",
+              "fill": "transparent",
+              "progress": undefined,
+              "strokeColor": "#2dbecd",
+              "strokeLinecap": "round",
+              "strokeWidth": 20,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "undefined%",
+              "fill": "#2dbecd",
+              "fontFamily": "MerckWeb-Regular",
+              "fontSize": 34,
+              "lineHeight": 1.25,
+              "textAnchor": "middle",
+              "x": 70,
+              "y": 75,
+            },
+            "ref": null,
+            "rendered": "undefined%",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Label",
+              "fill": undefined,
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+              "lineHeight": 1.25,
+              "textAnchor": "middle",
+              "x": 70,
+              "y": 100,
+            },
+            "ref": null,
+            "rendered": "Label",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          style={
+            Object {
+              "borderRadius": 100,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <Svg
+            height={140}
+            preserveAspectRatio="xMidYMid meet"
+            width={140}
+          >
+            <Path
+              d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              stroke="#abe5eb"
+              strokeLinecap="square"
+              strokeWidth={20}
+            />
+            <AnimatedPath
+              d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              strokeColor="#2dbecd"
+              strokeLinecap="round"
+              strokeWidth={20}
+            />
+            <Text
+              fill="#2dbecd"
+              fontFamily="MerckWeb-Regular"
+              fontSize={34}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={75}
+            >
+              undefined%
+            </Text>
+            <Text
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={100}
+            >
+              Label
+            </Text>
+          </Svg>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Svg
+            height={140}
+            preserveAspectRatio="xMidYMid meet"
+            width={140}
+          >
+            <Path
+              d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              stroke="#abe5eb"
+              strokeLinecap="square"
+              strokeWidth={20}
+            />
+            <AnimatedPath
+              d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+              fill="transparent"
+              strokeColor="#2dbecd"
+              strokeLinecap="round"
+              strokeWidth={20}
+            />
+            <Text
+              fill="#2dbecd"
+              fontFamily="MerckWeb-Regular"
+              fontSize={34}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={75}
+            >
+              undefined%
+            </Text>
+            <Text
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              lineHeight={1.25}
+              textAnchor="middle"
+              x={70}
+              y={100}
+            >
+              Label
+            </Text>
+          </Svg>,
+          "style": Object {
+            "borderRadius": 100,
+            "overflow": "hidden",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Path
+                d="M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606"
+                fill="transparent"
+                stroke="#abe5eb"
+                strokeLinecap="square"
+                strokeWidth={20}
+              />,
+              <AnimatedPath
+                d="M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606"
+                fill="transparent"
+                strokeColor="#2dbecd"
+                strokeLinecap="round"
+                strokeWidth={20}
+              />,
+              <Text
+                fill="#2dbecd"
+                fontFamily="MerckWeb-Regular"
+                fontSize={34}
+                lineHeight={1.25}
+                textAnchor="middle"
+                x={70}
+                y={75}
+              >
+                undefined%
+              </Text>,
+              <Text
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                lineHeight={1.25}
+                textAnchor="middle"
+                x={70}
+                y={100}
+              >
+                Label
+              </Text>,
+            ],
+            "height": 140,
+            "preserveAspectRatio": "xMidYMid meet",
+            "width": 140,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "d": "M 66.94664288442647 0.06662448926995523 A 70.1 70 0 1 0 76.10090199233608 0.26637113357780606",
+                "fill": "transparent",
+                "stroke": "#abe5eb",
+                "strokeLinecap": "square",
+                "strokeWidth": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "d": "M 66.94664288442648 0.06662448926995523 A 70.1 70 0 0 0 76.10090199233608 0.26637113357780606",
+                "fill": "transparent",
+                "progress": undefined,
+                "strokeColor": "#2dbecd",
+                "strokeLinecap": "round",
+                "strokeWidth": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "undefined%",
+                "fill": "#2dbecd",
+                "fontFamily": "MerckWeb-Regular",
+                "fontSize": 34,
+                "lineHeight": 1.25,
+                "textAnchor": "middle",
+                "x": 70,
+                "y": 75,
+              },
+              "ref": null,
+              "rendered": "undefined%",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Label",
+                "fill": undefined,
+                "fontFamily": "Lato-Regular",
+                "fontSize": 12,
+                "lineHeight": 1.25,
+                "textAnchor": "middle",
+                "x": 70,
+                "y": 100,
+              },
+              "ref": null,
+              "rendered": "Label",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly a Step Progress Bar 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProgressBar
+    circleRadius={70}
+    circularProgressBarLabel="Label"
+    inactive={false}
+    inactiveProgressBarColor="#efeff1"
+    inactiveProgressBarUnfilledColor="#f8f8fc"
+    linearProgressBarWidth={300}
+    overdueProgressBarColor="#e61e50"
+    overdueProgressBarUnfilledColor="#f5a5b9"
+    primaryProgressBarColor="#a5cd50"
+    stepCount={4}
+    stepProgressBarWidth={320}
+    themeName="vibrantCyan"
+    type="step"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "animationDisabled": false,
+      "circleRadius": 70,
+      "circularProgressBarLabel": "Label",
+      "currentPosition": undefined,
+      "customStyles": Object {
+        "borderWidth": 0,
+        "currentStepIndicatorLabelFontSize": 12,
+        "currentStepIndicatorSize": 26,
+        "currentStepLabelColor": undefined,
+        "disabledStepProgressBarColor": "#f3f3f7",
+        "finishedStepLabelColor": undefined,
+        "labelSize": 12,
+        "labelStepProgressBarColor": "#1b1b25",
+        "primaryStepProgressBarColor": "#2dbecd",
+        "separatorStrokeWidth": 2,
+        "stepIndicatorCurrentBackgroundColor": "#ffffff",
+        "stepIndicatorFinishedBackgroundColor": "#ffffff",
+        "stepIndicatorLabelFontSize": 12,
+        "stepIndicatorSize": 26,
+        "stepIndicatorUnFinishedBackgroundColor": "#ffffff",
+        "unfinishedStepLabelColor": "#494953",
+        "unfinishedStepProgressBarColor": "#e9e9ed",
+      },
+      "disabledStep": undefined,
+      "inactive": false,
+      "inactiveProgressBarColor": "#efeff1",
+      "inactiveProgressBarUnfilledColor": "#f8f8fc",
+      "labels": undefined,
+      "linearProgressBarWidth": 300,
+      "overdueProgressBarColor": "#e61e50",
+      "overdueProgressBarUnfilledColor": "#f5a5b9",
+      "primaryProgressBarColor": "#a5cd50",
+      "stepCount": 4,
+      "stepProgressBarWidth": 320,
+      "themeName": "vibrantCyan",
+      "type": "step",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "animationDisabled": false,
+        "circleRadius": 70,
+        "circularProgressBarLabel": "Label",
+        "currentPosition": undefined,
+        "customStyles": Object {
+          "borderWidth": 0,
+          "currentStepIndicatorLabelFontSize": 12,
+          "currentStepIndicatorSize": 26,
+          "currentStepLabelColor": undefined,
+          "disabledStepProgressBarColor": "#f3f3f7",
+          "finishedStepLabelColor": undefined,
+          "labelSize": 12,
+          "labelStepProgressBarColor": "#1b1b25",
+          "primaryStepProgressBarColor": "#2dbecd",
+          "separatorStrokeWidth": 2,
+          "stepIndicatorCurrentBackgroundColor": "#ffffff",
+          "stepIndicatorFinishedBackgroundColor": "#ffffff",
+          "stepIndicatorLabelFontSize": 12,
+          "stepIndicatorSize": 26,
+          "stepIndicatorUnFinishedBackgroundColor": "#ffffff",
+          "unfinishedStepLabelColor": "#494953",
+          "unfinishedStepProgressBarColor": "#e9e9ed",
+        },
+        "disabledStep": undefined,
+        "inactive": false,
+        "inactiveProgressBarColor": "#efeff1",
+        "inactiveProgressBarUnfilledColor": "#f8f8fc",
+        "labels": undefined,
+        "linearProgressBarWidth": 300,
+        "overdueProgressBarColor": "#e61e50",
+        "overdueProgressBarUnfilledColor": "#f5a5b9",
+        "primaryProgressBarColor": "#a5cd50",
+        "stepCount": 4,
+        "stepProgressBarWidth": 320,
+        "themeName": "vibrantCyan",
+        "type": "step",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly a default Progress Bar 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProgressBar
+    circleRadius={70}
+    circularProgressBarLabel="Label"
+    inactive={false}
+    inactiveProgressBarColor="#efeff1"
+    inactiveProgressBarUnfilledColor="#f8f8fc"
+    linearProgressBarWidth={300}
+    overdueProgressBarColor="#e61e50"
+    overdueProgressBarUnfilledColor="#f5a5b9"
+    primaryProgressBarColor="#a5cd50"
+    stepCount={4}
+    stepProgressBarWidth={320}
+    themeName="vibrantCyan"
+    type="linear"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ProgressBar
+        animated={true}
+        animationConfig={
+          Object {
+            "bounciness": 0,
+          }
+        }
+        animationType="spring"
+        borderRadius={10}
+        borderWidth={0}
+        color="#2dbecd"
+        height={10}
+        indeterminate={false}
+        progress={NaN}
+        unfilledColor="#abe5eb"
+        useNativeDriver={false}
+        width={300}
+      />,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "animated": true,
+        "animationConfig": Object {
+          "bounciness": 0,
+        },
+        "animationType": "spring",
+        "borderRadius": 10,
+        "borderWidth": 0,
+        "color": "#2dbecd",
+        "height": 10,
+        "indeterminate": false,
+        "progress": NaN,
+        "unfilledColor": "#abe5eb",
+        "useNativeDriver": false,
+        "width": 300,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ProgressBar
+          animated={true}
+          animationConfig={
+            Object {
+              "bounciness": 0,
+            }
+          }
+          animationType="spring"
+          borderRadius={10}
+          borderWidth={0}
+          color="#2dbecd"
+          height={10}
+          indeterminate={false}
+          progress={NaN}
+          unfilledColor="#abe5eb"
+          useNativeDriver={false}
+          width={300}
+        />,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animated": true,
+          "animationConfig": Object {
+            "bounciness": 0,
+          },
+          "animationType": "spring",
+          "borderRadius": 10,
+          "borderWidth": 0,
+          "color": "#2dbecd",
+          "height": 10,
+          "indeterminate": false,
+          "progress": NaN,
+          "unfilledColor": "#abe5eb",
+          "useNativeDriver": false,
+          "width": 300,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

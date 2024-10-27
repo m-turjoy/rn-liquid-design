@@ -1,0 +1,5473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component Renders correctly it renders default bottom-left tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="bottom-left"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default bottom-right tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="bottom-right"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default left-bottom tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="left-bottom"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default left-top tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="left-top"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default right-bottom tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="right-bottom"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default right-top tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="right-top"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default top-left tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="top-left"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Tooltip component Renders correctly it renders default top-right tooltip 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    headlineColor="#1b1b25"
+    headlineFontFamily="Lato-Black"
+    headlineLabel="Headline"
+    headlineStyle={Object {}}
+    headlineType="H6"
+    iconSize={24}
+    modalBackgroundColor="#ffffff"
+    modalHeight={165}
+    modalRenderSide="top-right"
+    modalStyle={Object {}}
+    modalWidth={250}
+    numberOfParagraphLines={4}
+    onIconPress={[Function]}
+    paragraphColor="#1b1b25"
+    paragraphFontFamily="Lato-Regular"
+    paragraphStyle={Object {}}
+    paragraphText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam    nonumy eirmod tempor invidunt ut    labore et dolore magna."
+    paragraphType="XSmall"
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)>
+        <TouchableHighlight
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <View>
+            <Icon
+              color="#2dbecd"
+              name="tooltipEmpty"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </View>
+        </TouchableHighlight>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "tooltipEmpty",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)>
+          <TouchableHighlight
+            activeOpacity={1}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <View>
+              <Icon
+                color="#2dbecd"
+                name="tooltipEmpty"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </View>
+          </TouchableHighlight>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <TouchableHighlight
+              activeOpacity={1}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>
+            </TouchableHighlight>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <View>
+                <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </View>,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="tooltipEmpty"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "tooltipEmpty",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

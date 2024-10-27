@@ -1,0 +1,1841 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component Renders correctly it renders default Modal 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modal
+    buttonText="Button Text"
+    cancelText="Cancel Text"
+    contentText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. "
+    errorMessage="Error Message"
+    headerTitle="Header Label"
+    headlineText="Headline Text"
+    headlineType="H3"
+    modalWidth={350}
+    onBlur={[Function]}
+    onButtonPress={[Function]}
+    onCancelPress={[Function]}
+    onChangeText={[Function]}
+    onError={false}
+    onFocus={[Function]}
+    placeholder="Add Placeholder Text here"
+    themeName="vibrantCyan"
+    withCta={false}
+    withGraphic={false}
+    withTextField={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <View>
+        <Styled(View)
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 6,
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 20,
+            }
+          }
+          width={350}
+        >
+          <Styled(View)
+            backgroundColor="#f8f8fc"
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+                "paddingVertical": 18,
+                "width": "100%",
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              fontWeight={null}
+              lineHeight={15}
+            >
+              Header Label
+            </Styled(Text)>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "width": "20%",
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                style={
+                  Object {
+                    "width": 20,
+                  }
+                }
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="closingX"
+                  size={20}
+                  themeName="vibrantCyan"
+                />
+              </TouchableOpacity>
+            </View>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#ffffff"
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingBottom": 40,
+                "paddingTop": 35,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 50,
+                }
+              }
+            >
+              <Headline
+                color="#1b1b25"
+                fontFamily="Lato-Black"
+                fontSize={14}
+                lineHeight={14}
+                text="Headline Text"
+                textStyle={Object {}}
+                type="H3"
+              />
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                    "paddingBottom": 10,
+                  }
+                }
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  fontWeight={null}
+                  lineHeight={28}
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                </Styled(Text)>
+              </View>
+            </View>
+          </Styled(View)>
+        </Styled(View)>
+      </View>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 6,
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 20,
+            }
+          }
+          width={350}
+        >
+          <Styled(View)
+            backgroundColor="#f8f8fc"
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+                "paddingVertical": 18,
+                "width": "100%",
+              }
+            }
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              fontWeight={null}
+              lineHeight={15}
+            >
+              Header Label
+            </Styled(Text)>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "width": "20%",
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                style={
+                  Object {
+                    "width": 20,
+                  }
+                }
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="closingX"
+                  size={20}
+                  themeName="vibrantCyan"
+                />
+              </TouchableOpacity>
+            </View>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#ffffff"
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingBottom": 40,
+                "paddingTop": 35,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 50,
+                }
+              }
+            >
+              <Headline
+                color="#1b1b25"
+                fontFamily="Lato-Black"
+                fontSize={14}
+                lineHeight={14}
+                text="Headline Text"
+                textStyle={Object {}}
+                type="H3"
+              />
+              <View
+                style={
+                  Object {
+                    "marginTop": 40,
+                    "paddingBottom": 10,
+                  }
+                }
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  fontWeight={null}
+                  lineHeight={28}
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                </Styled(Text)>
+              </View>
+            </View>
+          </Styled(View)>
+        </Styled(View)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(View)
+              backgroundColor="#f8f8fc"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 18,
+                  "width": "100%",
+                }
+              }
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                fontWeight={null}
+                lineHeight={15}
+              >
+                Header Label
+              </Styled(Text)>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "width": "20%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  style={
+                    Object {
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="closingX"
+                    size={20}
+                    themeName="vibrantCyan"
+                  />
+                </TouchableOpacity>
+              </View>
+            </Styled(View)>,
+            <Styled(View)
+              backgroundColor="#ffffff"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 6,
+                  "borderBottomRightRadius": 6,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingBottom": 40,
+                  "paddingTop": 35,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 50,
+                  }
+                }
+              >
+                <Headline
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={14}
+                  lineHeight={14}
+                  text="Headline Text"
+                  textStyle={Object {}}
+                  type="H3"
+                />
+                <View
+                  style={
+                    Object {
+                      "marginTop": 40,
+                      "paddingBottom": 10,
+                    }
+                  }
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    fontWeight={null}
+                    lineHeight={28}
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                  </Styled(Text)>
+                </View>
+              </View>
+            </Styled(View)>,
+          ],
+          "style": Object {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 6,
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 20,
+          },
+          "width": 350,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "#f8f8fc",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  fontWeight={null}
+                  lineHeight={15}
+                >
+                  Header Label
+                </Styled(Text)>,
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "width": "20%",
+                    }
+                  }
+                >
+                  <TouchableOpacity
+                    activeOpacity={0.2}
+                    style={
+                      Object {
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="closingX"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </TouchableOpacity>
+                </View>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+                "paddingVertical": 18,
+                "width": "100%",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Header Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 12,
+                  "fontWeight": null,
+                  "lineHeight": 15,
+                },
+                "ref": null,
+                "rendered": "Header Label",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <TouchableOpacity
+                    activeOpacity={0.2}
+                    style={
+                      Object {
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="closingX"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </TouchableOpacity>,
+                  "style": Object {
+                    "alignItems": "flex-end",
+                    "width": "20%",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "activeOpacity": 0.2,
+                    "children": <Icon
+                      color="#2dbecd"
+                      name="closingX"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />,
+                    "onPress": undefined,
+                    "style": Object {
+                      "width": 20,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#2dbecd",
+                      "name": "closingX",
+                      "size": 20,
+                      "themeName": "vibrantCyan",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "#ffffff",
+              "children": <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 50,
+                  }
+                }
+              >
+                <Headline
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={14}
+                  lineHeight={14}
+                  text="Headline Text"
+                  textStyle={Object {}}
+                  type="H3"
+                />
+                <View
+                  style={
+                    Object {
+                      "marginTop": 40,
+                      "paddingBottom": 10,
+                    }
+                  }
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    fontWeight={null}
+                    lineHeight={28}
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                  </Styled(Text)>
+                </View>
+              </View>,
+              "style": Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingBottom": 40,
+                "paddingTop": 35,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Headline
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    lineHeight={14}
+                    text="Headline Text"
+                    textStyle={Object {}}
+                    type="H3"
+                  />,
+                  <View
+                    style={
+                      Object {
+                        "marginTop": 40,
+                        "paddingBottom": 10,
+                      }
+                    }
+                  >
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={16}
+                      fontWeight={null}
+                      lineHeight={28}
+                    >
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                    </Styled(Text)>
+                  </View>,
+                ],
+                "style": Object {
+                  "alignItems": "center",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 50,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Black",
+                    "fontSize": 14,
+                    "lineHeight": 14,
+                    "text": "Headline Text",
+                    "textStyle": Object {},
+                    "type": "H3",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={16}
+                      fontWeight={null}
+                      lineHeight={28}
+                    >
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                    </Styled(Text)>,
+                    "style": Object {
+                      "marginTop": 40,
+                      "paddingBottom": 10,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. ",
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Regular",
+                      "fontSize": 16,
+                      "fontWeight": null,
+                      "lineHeight": 28,
+                    },
+                    "ref": null,
+                    "rendered": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. ",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <View>
+          <Styled(View)
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 6,
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 20,
+              }
+            }
+            width={350}
+          >
+            <Styled(View)
+              backgroundColor="#f8f8fc"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 18,
+                  "width": "100%",
+                }
+              }
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                fontWeight={null}
+                lineHeight={15}
+              >
+                Header Label
+              </Styled(Text)>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "width": "20%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  style={
+                    Object {
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="closingX"
+                    size={20}
+                    themeName="vibrantCyan"
+                  />
+                </TouchableOpacity>
+              </View>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#ffffff"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 6,
+                  "borderBottomRightRadius": 6,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingBottom": 40,
+                  "paddingTop": 35,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 50,
+                  }
+                }
+              >
+                <Headline
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={14}
+                  lineHeight={14}
+                  text="Headline Text"
+                  textStyle={Object {}}
+                  type="H3"
+                />
+                <View
+                  style={
+                    Object {
+                      "marginTop": 40,
+                      "paddingBottom": 10,
+                    }
+                  }
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    fontWeight={null}
+                    lineHeight={28}
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                  </Styled(Text)>
+                </View>
+              </View>
+            </Styled(View)>
+          </Styled(View)>
+        </View>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Styled(View)
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 6,
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 20,
+              }
+            }
+            width={350}
+          >
+            <Styled(View)
+              backgroundColor="#f8f8fc"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 18,
+                  "width": "100%",
+                }
+              }
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                fontWeight={null}
+                lineHeight={15}
+              >
+                Header Label
+              </Styled(Text)>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "width": "20%",
+                  }
+                }
+              >
+                <TouchableOpacity
+                  activeOpacity={0.2}
+                  style={
+                    Object {
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="closingX"
+                    size={20}
+                    themeName="vibrantCyan"
+                  />
+                </TouchableOpacity>
+              </View>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#ffffff"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 6,
+                  "borderBottomRightRadius": 6,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingBottom": 40,
+                  "paddingTop": 35,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 50,
+                  }
+                }
+              >
+                <Headline
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={14}
+                  lineHeight={14}
+                  text="Headline Text"
+                  textStyle={Object {}}
+                  type="H3"
+                />
+                <View
+                  style={
+                    Object {
+                      "marginTop": 40,
+                      "paddingBottom": 10,
+                    }
+                  }
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    fontWeight={null}
+                    lineHeight={28}
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                  </Styled(Text)>
+                </View>
+              </View>
+            </Styled(View)>
+          </Styled(View)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(View)
+                backgroundColor="#f8f8fc"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderTopLeftRadius": 6,
+                    "borderTopRightRadius": 6,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                    "paddingVertical": 18,
+                    "width": "100%",
+                  }
+                }
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  fontWeight={null}
+                  lineHeight={15}
+                >
+                  Header Label
+                </Styled(Text)>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "width": "20%",
+                    }
+                  }
+                >
+                  <TouchableOpacity
+                    activeOpacity={0.2}
+                    style={
+                      Object {
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="closingX"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </TouchableOpacity>
+                </View>
+              </Styled(View)>,
+              <Styled(View)
+                backgroundColor="#ffffff"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 6,
+                    "borderBottomRightRadius": 6,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingBottom": 40,
+                    "paddingTop": 35,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 50,
+                    }
+                  }
+                >
+                  <Headline
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    lineHeight={14}
+                    text="Headline Text"
+                    textStyle={Object {}}
+                    type="H3"
+                  />
+                  <View
+                    style={
+                      Object {
+                        "marginTop": 40,
+                        "paddingBottom": 10,
+                      }
+                    }
+                  >
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={16}
+                      fontWeight={null}
+                      lineHeight={28}
+                    >
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                    </Styled(Text)>
+                  </View>
+                </View>
+              </Styled(View)>,
+            ],
+            "style": Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 6,
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 20,
+            },
+            "width": 350,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "#f8f8fc",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    fontWeight={null}
+                    lineHeight={15}
+                  >
+                    Header Label
+                  </Styled(Text)>,
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "flex-end",
+                        "width": "20%",
+                      }
+                    }
+                  >
+                    <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="closingX"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </TouchableOpacity>
+                  </View>,
+                ],
+                "style": Object {
+                  "alignItems": "center",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 18,
+                  "width": "100%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Header Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 12,
+                    "fontWeight": null,
+                    "lineHeight": 15,
+                  },
+                  "ref": null,
+                  "rendered": "Header Label",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="closingX"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </TouchableOpacity>,
+                    "style": Object {
+                      "alignItems": "flex-end",
+                      "width": "20%",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "activeOpacity": 0.2,
+                      "children": <Icon
+                        color="#2dbecd"
+                        name="closingX"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />,
+                      "onPress": undefined,
+                      "style": Object {
+                        "width": 20,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#2dbecd",
+                        "name": "closingX",
+                        "size": 20,
+                        "themeName": "vibrantCyan",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "#ffffff",
+                "children": <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 50,
+                    }
+                  }
+                >
+                  <Headline
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    lineHeight={14}
+                    text="Headline Text"
+                    textStyle={Object {}}
+                    type="H3"
+                  />
+                  <View
+                    style={
+                      Object {
+                        "marginTop": 40,
+                        "paddingBottom": 10,
+                      }
+                    }
+                  >
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={16}
+                      fontWeight={null}
+                      lineHeight={28}
+                    >
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                    </Styled(Text)>
+                  </View>
+                </View>,
+                "style": Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 6,
+                  "borderBottomRightRadius": 6,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "paddingBottom": 40,
+                  "paddingTop": 35,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Headline
+                      color="#1b1b25"
+                      fontFamily="Lato-Black"
+                      fontSize={14}
+                      lineHeight={14}
+                      text="Headline Text"
+                      textStyle={Object {}}
+                      type="H3"
+                    />,
+                    <View
+                      style={
+                        Object {
+                          "marginTop": 40,
+                          "paddingBottom": 10,
+                        }
+                      }
+                    >
+                      <Styled(Text)
+                        color="#1b1b25"
+                        fontFamily="Lato-Regular"
+                        fontSize={16}
+                        fontWeight={null}
+                        lineHeight={28}
+                      >
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                      </Styled(Text)>
+                    </View>,
+                  ],
+                  "style": Object {
+                    "alignItems": "center",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "paddingHorizontal": 50,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Black",
+                      "fontSize": 14,
+                      "lineHeight": 14,
+                      "text": "Headline Text",
+                      "textStyle": Object {},
+                      "type": "H3",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        color="#1b1b25"
+                        fontFamily="Lato-Regular"
+                        fontSize={16}
+                        fontWeight={null}
+                        lineHeight={28}
+                      >
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
+                      </Styled(Text)>,
+                      "style": Object {
+                        "marginTop": 40,
+                        "paddingBottom": 10,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. ",
+                        "color": "#1b1b25",
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 16,
+                        "fontWeight": null,
+                        "lineHeight": 28,
+                      },
+                      "ref": null,
+                      "rendered": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. ",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

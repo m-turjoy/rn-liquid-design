@@ -1,0 +1,1723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconToggle component Renders correctly it renders Default IconToggle with Icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <IconToggle
+    defaultPosition="left"
+    disabled={false}
+    disabledIconColor="#e9e9ed"
+    disabledThumbTintColor="#e9e9ed"
+    icon={
+      Object {
+        "color": "#ffffff",
+        "name": "placeholder",
+        "size": 22,
+      }
+    }
+    onLeftState={[Function]}
+    onRightState={[Function]}
+    themeName="vibrantCyan"
+    tintColor="#f8f8fc"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <TouchableWithoutFeedback
+        onPress={[Function]}
+      >
+        <Styled(View)
+          alignItems="center"
+          backgroundColor="#f8f8fc"
+          borderRadius={20}
+          flexDirection="row"
+          height={40}
+          opacity={1}
+          overflow="hidden"
+          width={110}
+        >
+          <AnimatedComponent
+            alignItems="center"
+            backgroundColor="#2dbecd"
+            borderRadius={18}
+            height={36}
+            justifyContent="center"
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            position="absolute"
+            shadowColor="#1b1b25"
+            shadowOffset={
+              Object {
+                "height": 2,
+                "width": 2,
+              }
+            }
+            shadowOpacity={0.1}
+            shadowRadius={5}
+            style={
+              Object {
+                "left": 2,
+              }
+            }
+            width={50}
+          />
+          <AnimatedComponent
+            backgroundColor="transparent"
+            borderRadius={18}
+            elevation={35}
+            height={36}
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            position="absolute"
+            style={
+              Object {
+                "left": 2,
+              }
+            }
+            width={50}
+          />
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="space-around"
+          >
+            <Styled(View)
+              activeOpacity={1}
+              alignItems="center"
+              height={36}
+              justifyContent="center"
+              onPress={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
+              width={50}
+            >
+              <AnimatedComponent
+                name="placeholder"
+                size={22}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                  }
+                }
+              />
+            </Styled(View)>
+            <Styled(View)
+              activeOpacity={1}
+              alignItems="center"
+              height={36}
+              justifyContent="center"
+              onPress={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
+              width={50}
+            >
+              <AnimatedComponent
+                name="placeholder"
+                size={22}
+                style={
+                  Object {
+                    "color": "rgba(233, 233, 237, 1)",
+                    "paddingLeft": 4,
+                  }
+                }
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </Styled(View)>
+      </TouchableWithoutFeedback>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          backgroundColor="#f8f8fc"
+          borderRadius={20}
+          flexDirection="row"
+          height={40}
+          opacity={1}
+          overflow="hidden"
+          width={110}
+        >
+          <AnimatedComponent
+            alignItems="center"
+            backgroundColor="#2dbecd"
+            borderRadius={18}
+            height={36}
+            justifyContent="center"
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            position="absolute"
+            shadowColor="#1b1b25"
+            shadowOffset={
+              Object {
+                "height": 2,
+                "width": 2,
+              }
+            }
+            shadowOpacity={0.1}
+            shadowRadius={5}
+            style={
+              Object {
+                "left": 2,
+              }
+            }
+            width={50}
+          />
+          <AnimatedComponent
+            backgroundColor="transparent"
+            borderRadius={18}
+            elevation={35}
+            height={36}
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            position="absolute"
+            style={
+              Object {
+                "left": 2,
+              }
+            }
+            width={50}
+          />
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="space-around"
+          >
+            <Styled(View)
+              activeOpacity={1}
+              alignItems="center"
+              height={36}
+              justifyContent="center"
+              onPress={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
+              width={50}
+            >
+              <AnimatedComponent
+                name="placeholder"
+                size={22}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                  }
+                }
+              />
+            </Styled(View)>
+            <Styled(View)
+              activeOpacity={1}
+              alignItems="center"
+              height={36}
+              justifyContent="center"
+              onPress={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                }
+              }
+              width={50}
+            >
+              <AnimatedComponent
+                name="placeholder"
+                size={22}
+                style={
+                  Object {
+                    "color": "rgba(233, 233, 237, 1)",
+                    "paddingLeft": 4,
+                  }
+                }
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </Styled(View)>,
+        "onPress": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "backgroundColor": "#f8f8fc",
+          "borderRadius": 20,
+          "children": Array [
+            <AnimatedComponent
+              alignItems="center"
+              backgroundColor="#2dbecd"
+              borderRadius={18}
+              height={36}
+              justifyContent="center"
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              shadowColor="#1b1b25"
+              shadowOffset={
+                Object {
+                  "height": 2,
+                  "width": 2,
+                }
+              }
+              shadowOpacity={0.1}
+              shadowRadius={5}
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />,
+            <AnimatedComponent
+              backgroundColor="transparent"
+              borderRadius={18}
+              elevation={35}
+              height={36}
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />,
+            <Styled(View)
+              flex={1}
+              flexDirection="row"
+              justifyContent="space-around"
+            >
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 1)",
+                    }
+                  }
+                />
+              </Styled(View)>
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(233, 233, 237, 1)",
+                      "paddingLeft": 4,
+                    }
+                  }
+                />
+              </Styled(View)>
+            </Styled(View)>,
+          ],
+          "flexDirection": "row",
+          "height": 40,
+          "opacity": 1,
+          "overflow": "hidden",
+          "width": 110,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "backgroundColor": "#2dbecd",
+              "borderRadius": 18,
+              "height": 36,
+              "justifyContent": "center",
+              "onMoveShouldSetResponder": [Function],
+              "onMoveShouldSetResponderCapture": [Function],
+              "onResponderEnd": [Function],
+              "onResponderGrant": [Function],
+              "onResponderMove": [Function],
+              "onResponderReject": [Function],
+              "onResponderRelease": [Function],
+              "onResponderStart": [Function],
+              "onResponderTerminate": [Function],
+              "onResponderTerminationRequest": [Function],
+              "onStartShouldSetResponder": [Function],
+              "onStartShouldSetResponderCapture": [Function],
+              "position": "absolute",
+              "shadowColor": "#1b1b25",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 2,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 5,
+              "style": Object {
+                "left": 2,
+              },
+              "width": 50,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 18,
+              "elevation": 35,
+              "height": 36,
+              "onMoveShouldSetResponder": [Function],
+              "onMoveShouldSetResponderCapture": [Function],
+              "onResponderEnd": [Function],
+              "onResponderGrant": [Function],
+              "onResponderMove": [Function],
+              "onResponderReject": [Function],
+              "onResponderRelease": [Function],
+              "onResponderStart": [Function],
+              "onResponderTerminate": [Function],
+              "onResponderTerminationRequest": [Function],
+              "onStartShouldSetResponder": [Function],
+              "onStartShouldSetResponderCapture": [Function],
+              "position": "absolute",
+              "style": Object {
+                "left": 2,
+              },
+              "width": 50,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(View)
+                  activeOpacity={1}
+                  alignItems="center"
+                  height={36}
+                  justifyContent="center"
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                    }
+                  }
+                  width={50}
+                >
+                  <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                      }
+                    }
+                  />
+                </Styled(View)>,
+                <Styled(View)
+                  activeOpacity={1}
+                  alignItems="center"
+                  height={36}
+                  justifyContent="center"
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                    }
+                  }
+                  width={50}
+                >
+                  <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(233, 233, 237, 1)",
+                        "paddingLeft": 4,
+                      }
+                    }
+                  />
+                </Styled(View)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "activeOpacity": 1,
+                  "alignItems": "center",
+                  "children": <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                      }
+                    }
+                  />,
+                  "height": 36,
+                  "justifyContent": "center",
+                  "onPress": [Function],
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "width": 50,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "name": "placeholder",
+                    "size": 22,
+                    "style": Object {
+                      "color": "rgba(255, 255, 255, 1)",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "activeOpacity": 1,
+                  "alignItems": "center",
+                  "children": <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(233, 233, 237, 1)",
+                        "paddingLeft": 4,
+                      }
+                    }
+                  />,
+                  "height": 36,
+                  "justifyContent": "center",
+                  "onPress": [Function],
+                  "style": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "width": 50,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "name": "placeholder",
+                    "size": 22,
+                    "style": Object {
+                      "color": "rgba(233, 233, 237, 1)",
+                      "paddingLeft": 4,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <TouchableWithoutFeedback
+          onPress={[Function]}
+        >
+          <Styled(View)
+            alignItems="center"
+            backgroundColor="#f8f8fc"
+            borderRadius={20}
+            flexDirection="row"
+            height={40}
+            opacity={1}
+            overflow="hidden"
+            width={110}
+          >
+            <AnimatedComponent
+              alignItems="center"
+              backgroundColor="#2dbecd"
+              borderRadius={18}
+              height={36}
+              justifyContent="center"
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              shadowColor="#1b1b25"
+              shadowOffset={
+                Object {
+                  "height": 2,
+                  "width": 2,
+                }
+              }
+              shadowOpacity={0.1}
+              shadowRadius={5}
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />
+            <AnimatedComponent
+              backgroundColor="transparent"
+              borderRadius={18}
+              elevation={35}
+              height={36}
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />
+            <Styled(View)
+              flex={1}
+              flexDirection="row"
+              justifyContent="space-around"
+            >
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 1)",
+                    }
+                  }
+                />
+              </Styled(View)>
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(233, 233, 237, 1)",
+                      "paddingLeft": 4,
+                    }
+                  }
+                />
+              </Styled(View)>
+            </Styled(View)>
+          </Styled(View)>
+        </TouchableWithoutFeedback>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Styled(View)
+            alignItems="center"
+            backgroundColor="#f8f8fc"
+            borderRadius={20}
+            flexDirection="row"
+            height={40}
+            opacity={1}
+            overflow="hidden"
+            width={110}
+          >
+            <AnimatedComponent
+              alignItems="center"
+              backgroundColor="#2dbecd"
+              borderRadius={18}
+              height={36}
+              justifyContent="center"
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              shadowColor="#1b1b25"
+              shadowOffset={
+                Object {
+                  "height": 2,
+                  "width": 2,
+                }
+              }
+              shadowOpacity={0.1}
+              shadowRadius={5}
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />
+            <AnimatedComponent
+              backgroundColor="transparent"
+              borderRadius={18}
+              elevation={35}
+              height={36}
+              onMoveShouldSetResponder={[Function]}
+              onMoveShouldSetResponderCapture={[Function]}
+              onResponderEnd={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderReject={[Function]}
+              onResponderRelease={[Function]}
+              onResponderStart={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              onStartShouldSetResponderCapture={[Function]}
+              position="absolute"
+              style={
+                Object {
+                  "left": 2,
+                }
+              }
+              width={50}
+            />
+            <Styled(View)
+              flex={1}
+              flexDirection="row"
+              justifyContent="space-around"
+            >
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(255, 255, 255, 1)",
+                    }
+                  }
+                />
+              </Styled(View)>
+              <Styled(View)
+                activeOpacity={1}
+                alignItems="center"
+                height={36}
+                justifyContent="center"
+                onPress={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                  }
+                }
+                width={50}
+              >
+                <AnimatedComponent
+                  name="placeholder"
+                  size={22}
+                  style={
+                    Object {
+                      "color": "rgba(233, 233, 237, 1)",
+                      "paddingLeft": 4,
+                    }
+                  }
+                />
+              </Styled(View)>
+            </Styled(View)>
+          </Styled(View)>,
+          "onPress": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "center",
+            "backgroundColor": "#f8f8fc",
+            "borderRadius": 20,
+            "children": Array [
+              <AnimatedComponent
+                alignItems="center"
+                backgroundColor="#2dbecd"
+                borderRadius={18}
+                height={36}
+                justifyContent="center"
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                position="absolute"
+                shadowColor="#1b1b25"
+                shadowOffset={
+                  Object {
+                    "height": 2,
+                    "width": 2,
+                  }
+                }
+                shadowOpacity={0.1}
+                shadowRadius={5}
+                style={
+                  Object {
+                    "left": 2,
+                  }
+                }
+                width={50}
+              />,
+              <AnimatedComponent
+                backgroundColor="transparent"
+                borderRadius={18}
+                elevation={35}
+                height={36}
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                position="absolute"
+                style={
+                  Object {
+                    "left": 2,
+                  }
+                }
+                width={50}
+              />,
+              <Styled(View)
+                flex={1}
+                flexDirection="row"
+                justifyContent="space-around"
+              >
+                <Styled(View)
+                  activeOpacity={1}
+                  alignItems="center"
+                  height={36}
+                  justifyContent="center"
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                    }
+                  }
+                  width={50}
+                >
+                  <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                      }
+                    }
+                  />
+                </Styled(View)>
+                <Styled(View)
+                  activeOpacity={1}
+                  alignItems="center"
+                  height={36}
+                  justifyContent="center"
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                    }
+                  }
+                  width={50}
+                >
+                  <AnimatedComponent
+                    name="placeholder"
+                    size={22}
+                    style={
+                      Object {
+                        "color": "rgba(233, 233, 237, 1)",
+                        "paddingLeft": 4,
+                      }
+                    }
+                  />
+                </Styled(View)>
+              </Styled(View)>,
+            ],
+            "flexDirection": "row",
+            "height": 40,
+            "opacity": 1,
+            "overflow": "hidden",
+            "width": 110,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "backgroundColor": "#2dbecd",
+                "borderRadius": 18,
+                "height": 36,
+                "justifyContent": "center",
+                "onMoveShouldSetResponder": [Function],
+                "onMoveShouldSetResponderCapture": [Function],
+                "onResponderEnd": [Function],
+                "onResponderGrant": [Function],
+                "onResponderMove": [Function],
+                "onResponderReject": [Function],
+                "onResponderRelease": [Function],
+                "onResponderStart": [Function],
+                "onResponderTerminate": [Function],
+                "onResponderTerminationRequest": [Function],
+                "onStartShouldSetResponder": [Function],
+                "onStartShouldSetResponderCapture": [Function],
+                "position": "absolute",
+                "shadowColor": "#1b1b25",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 2,
+                },
+                "shadowOpacity": 0.1,
+                "shadowRadius": 5,
+                "style": Object {
+                  "left": 2,
+                },
+                "width": 50,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 18,
+                "elevation": 35,
+                "height": 36,
+                "onMoveShouldSetResponder": [Function],
+                "onMoveShouldSetResponderCapture": [Function],
+                "onResponderEnd": [Function],
+                "onResponderGrant": [Function],
+                "onResponderMove": [Function],
+                "onResponderReject": [Function],
+                "onResponderRelease": [Function],
+                "onResponderStart": [Function],
+                "onResponderTerminate": [Function],
+                "onResponderTerminationRequest": [Function],
+                "onStartShouldSetResponder": [Function],
+                "onStartShouldSetResponderCapture": [Function],
+                "position": "absolute",
+                "style": Object {
+                  "left": 2,
+                },
+                "width": 50,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(View)
+                    activeOpacity={1}
+                    alignItems="center"
+                    height={36}
+                    justifyContent="center"
+                    onPress={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                      }
+                    }
+                    width={50}
+                  >
+                    <AnimatedComponent
+                      name="placeholder"
+                      size={22}
+                      style={
+                        Object {
+                          "color": "rgba(255, 255, 255, 1)",
+                        }
+                      }
+                    />
+                  </Styled(View)>,
+                  <Styled(View)
+                    activeOpacity={1}
+                    alignItems="center"
+                    height={36}
+                    justifyContent="center"
+                    onPress={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                      }
+                    }
+                    width={50}
+                  >
+                    <AnimatedComponent
+                      name="placeholder"
+                      size={22}
+                      style={
+                        Object {
+                          "color": "rgba(233, 233, 237, 1)",
+                          "paddingLeft": 4,
+                        }
+                      }
+                    />
+                  </Styled(View)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "activeOpacity": 1,
+                    "alignItems": "center",
+                    "children": <AnimatedComponent
+                      name="placeholder"
+                      size={22}
+                      style={
+                        Object {
+                          "color": "rgba(255, 255, 255, 1)",
+                        }
+                      }
+                    />,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "onPress": [Function],
+                    "style": Object {
+                      "backgroundColor": "transparent",
+                    },
+                    "width": 50,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "name": "placeholder",
+                      "size": 22,
+                      "style": Object {
+                        "color": "rgba(255, 255, 255, 1)",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "activeOpacity": 1,
+                    "alignItems": "center",
+                    "children": <AnimatedComponent
+                      name="placeholder"
+                      size={22}
+                      style={
+                        Object {
+                          "color": "rgba(233, 233, 237, 1)",
+                          "paddingLeft": 4,
+                        }
+                      }
+                    />,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "onPress": [Function],
+                    "style": Object {
+                      "backgroundColor": "transparent",
+                    },
+                    "width": 50,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "name": "placeholder",
+                      "size": 22,
+                      "style": Object {
+                        "color": "rgba(233, 233, 237, 1)",
+                        "paddingLeft": 4,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

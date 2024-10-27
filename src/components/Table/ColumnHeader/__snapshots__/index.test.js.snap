@@ -1,0 +1,1837 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column Header component Renders correctly it renders Default Header 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColumnHeader
+    arrowIconColor="#2dbecd"
+    arrowIconSize={24}
+    cellStyle={Object {}}
+    checkbox={false}
+    checkboxIconColor="#2dbecd"
+    checkboxUnchecked={false}
+    dropdown={false}
+    handleMainCheckboxPressed={[Function]}
+    handleMainOptionPressed={[Function]}
+    headerColor="#1b1b25"
+    headerFontFamily="Lato-Regular"
+    headerFontSize={14}
+    headerStyle={Object {}}
+    headerWidth={130}
+    headerWrapperStyle={Object {}}
+    index={1}
+    indexPressed={null}
+    item="Column 01"
+    loading={false}
+    mainCheckboxChecked={false}
+    mainOptionOpened={false}
+    onIconPress={[Function]}
+    spaceBetweenColumns={30}
+    themeObj={
+      Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      }
+    }
+    type="small"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="flex-start"
+        marginRight={30}
+        paddingBottom={5}
+        paddingTop={5}
+        style={Object {}}
+        width={130}
+      >
+        <Styled(TouchableWithoutFeedback)
+          disabled={false}
+          onPress={[Function]}
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={14}
+              style={Object {}}
+            >
+              Column 01
+            </Styled(Text)>
+            <AnimatedComponent
+              marginLeft={3}
+              style={
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "0deg",
+                    },
+                  ],
+                }
+              }
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </AnimatedComponent>
+          </Styled(View)>
+        </Styled(TouchableWithoutFeedback)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          null,
+          null,
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>,
+        ],
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginRight": 30,
+        "paddingBottom": 5,
+        "paddingTop": 5,
+        "style": Object {},
+        "width": 130,
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>,
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Column 01",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 14,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Column 01",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />,
+                  "marginLeft": 3,
+                  "style": Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#e9e9ed",
+                    "name": "arrowDown",
+                    "size": 24,
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="flex-start"
+          marginRight={30}
+          paddingBottom={5}
+          paddingTop={5}
+          style={Object {}}
+          width={130}
+        >
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "primary": Object {
+              "base": "#00000",
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            null,
+            null,
+            <Styled(TouchableWithoutFeedback)
+              disabled={false}
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginRight": 30,
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "style": Object {},
+          "width": 130,
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    Column 01
+                  </Styled(Text)>,
+                  <AnimatedComponent
+                    marginLeft={3}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Column 01",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 14,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Column 01",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />,
+                    "marginLeft": 3,
+                    "style": Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#e9e9ed",
+                      "name": "arrowDown",
+                      "size": 24,
+                      "themeName": "vibrantCyan",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Column Header component Renders correctly it renders checkbox Header 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColumnHeader
+    arrowIconColor="#2dbecd"
+    arrowIconSize={24}
+    cellStyle={Object {}}
+    checkbox={true}
+    checkboxIconColor="#2dbecd"
+    checkboxUnchecked={false}
+    dropdown={false}
+    handleMainCheckboxPressed={[Function]}
+    handleMainOptionPressed={[Function]}
+    headerColor="#1b1b25"
+    headerFontFamily="Lato-Regular"
+    headerFontSize={14}
+    headerStyle={Object {}}
+    headerWidth={130}
+    headerWrapperStyle={Object {}}
+    index={1}
+    indexPressed={null}
+    item="Column 01"
+    loading={false}
+    mainCheckboxChecked={false}
+    mainOptionOpened={false}
+    onIconPress={[Function]}
+    spaceBetweenColumns={30}
+    themeObj={
+      Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      }
+    }
+    type="small"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="flex-start"
+        marginRight={30}
+        paddingBottom={5}
+        paddingTop={5}
+        style={Object {}}
+        width={130}
+      >
+        <Styled(TouchableWithoutFeedback)
+          disabled={false}
+          onPress={[Function]}
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={14}
+              style={Object {}}
+            >
+              Column 01
+            </Styled(Text)>
+            <AnimatedComponent
+              marginLeft={3}
+              style={
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "0deg",
+                    },
+                  ],
+                }
+              }
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </AnimatedComponent>
+          </Styled(View)>
+        </Styled(TouchableWithoutFeedback)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          null,
+          null,
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>,
+        ],
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginRight": 30,
+        "paddingBottom": 5,
+        "paddingTop": 5,
+        "style": Object {},
+        "width": 130,
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>,
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Column 01",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 14,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Column 01",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />,
+                  "marginLeft": 3,
+                  "style": Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#e9e9ed",
+                    "name": "arrowDown",
+                    "size": 24,
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="flex-start"
+          marginRight={30}
+          paddingBottom={5}
+          paddingTop={5}
+          style={Object {}}
+          width={130}
+        >
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "primary": Object {
+              "base": "#00000",
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            null,
+            null,
+            <Styled(TouchableWithoutFeedback)
+              disabled={false}
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginRight": 30,
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "style": Object {},
+          "width": 130,
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    Column 01
+                  </Styled(Text)>,
+                  <AnimatedComponent
+                    marginLeft={3}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Column 01",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 14,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Column 01",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />,
+                    "marginLeft": 3,
+                    "style": Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#e9e9ed",
+                      "name": "arrowDown",
+                      "size": 24,
+                      "themeName": "vibrantCyan",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Column Header component Renders correctly it renders dropdown Header 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColumnHeader
+    arrowIconColor="#2dbecd"
+    arrowIconSize={24}
+    cellStyle={Object {}}
+    checkbox={false}
+    checkboxIconColor="#2dbecd"
+    checkboxUnchecked={false}
+    dropdown={true}
+    handleMainCheckboxPressed={[Function]}
+    handleMainOptionPressed={[Function]}
+    headerColor="#1b1b25"
+    headerFontFamily="Lato-Regular"
+    headerFontSize={14}
+    headerStyle={Object {}}
+    headerWidth={130}
+    headerWrapperStyle={Object {}}
+    index={1}
+    indexPressed={null}
+    item="Column 01"
+    loading={false}
+    mainCheckboxChecked={false}
+    mainOptionOpened={false}
+    onIconPress={[Function]}
+    spaceBetweenColumns={30}
+    themeObj={
+      Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      }
+    }
+    type="small"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="flex-start"
+        marginRight={30}
+        paddingBottom={5}
+        paddingTop={5}
+        style={Object {}}
+        width={130}
+      >
+        <Styled(TouchableWithoutFeedback)
+          disabled={false}
+          onPress={[Function]}
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={14}
+              style={Object {}}
+            >
+              Column 01
+            </Styled(Text)>
+            <AnimatedComponent
+              marginLeft={3}
+              style={
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "0deg",
+                    },
+                  ],
+                }
+              }
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </AnimatedComponent>
+          </Styled(View)>
+        </Styled(TouchableWithoutFeedback)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "primary": Object {
+            "base": "#00000",
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          null,
+          null,
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>,
+        ],
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginRight": 30,
+        "paddingBottom": 5,
+        "paddingTop": 5,
+        "style": Object {},
+        "width": 130,
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>,
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Column 01",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 14,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Column 01",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />,
+                  "marginLeft": 3,
+                  "style": Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#e9e9ed",
+                    "name": "arrowDown",
+                    "size": 24,
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          justifyContent="flex-start"
+          marginRight={30}
+          paddingBottom={5}
+          paddingTop={5}
+          style={Object {}}
+          width={130}
+        >
+          <Styled(TouchableWithoutFeedback)
+            disabled={false}
+            onPress={[Function]}
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={14}
+                style={Object {}}
+              >
+                Column 01
+              </Styled(Text)>
+              <AnimatedComponent
+                marginLeft={3}
+                style={
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </AnimatedComponent>
+            </Styled(View)>
+          </Styled(TouchableWithoutFeedback)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "primary": Object {
+              "base": "#00000",
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            null,
+            null,
+            <Styled(TouchableWithoutFeedback)
+              disabled={false}
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>,
+          ],
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginRight": 30,
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "style": Object {},
+          "width": 130,
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  Column 01
+                </Styled(Text)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#e9e9ed"
+                    name="arrowDown"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    Column 01
+                  </Styled(Text)>,
+                  <AnimatedComponent
+                    marginLeft={3}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Column 01",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 14,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Column 01",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Icon
+                      color="#e9e9ed"
+                      name="arrowDown"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />,
+                    "marginLeft": 3,
+                    "style": Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#e9e9ed",
+                      "name": "arrowDown",
+                      "size": 24,
+                      "themeName": "vibrantCyan",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

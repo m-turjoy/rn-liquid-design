@@ -1,0 +1,5048 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHeader component Renders correctly it renders Default ListHeader without Icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListHeader
+    bottomSeparator={[Function]}
+    containerStyle={Object {}}
+    containerWidth={300}
+    icon={Object {}}
+    iconLeft={false}
+    onPress={[Function]}
+    title="List Head 01"
+    titleColor="#1b1b25"
+    titleFontFamily="Lato-Black"
+    titleFontSize={16}
+    titleStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(TouchableHighlight)
+        activeOpacity={1}
+        onPress={[Function]}
+        underlayColor="transparent"
+      >
+        <Styled(View)>
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ]
+            }
+            width={300}
+          >
+            <Styled(View)
+              marginLeft={15}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Black"
+                fontSize={16}
+                style={Object {}}
+              >
+                List Head 01
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#efeff1"
+            height={1}
+            width="100%"
+          />
+        </Styled(View)>
+      </Styled(TouchableHighlight)>,
+      "theme": Object {
+        "theme": Object {
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+        "themes": Object {
+          "richBlue": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "light": "#3f87bf",
+                "lightest": "#9fc3df",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "light": "#ffd35b",
+                "lightest": "#ffe9ad",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "richPurple": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "light": "#735ba7",
+                "lightest": "#b9add3",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "light": "#57cbd7",
+                "lightest": "#abe5eb",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "vibrantCyan": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "light": "#57cbd7",
+                "lightest": "#abe5eb",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "light": "#ffd35b",
+                "lightest": "#ffe9ad",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "vibrantMagenta": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "light": "#ef63ab",
+                "lightest": "#f7b1d5",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "light": "#735ba7",
+                "lightest": "#b9add3",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "children": <Styled(View)>
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ]
+            }
+            width={300}
+          >
+            <Styled(View)
+              marginLeft={15}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Black"
+                fontSize={16}
+                style={Object {}}
+              >
+                List Head 01
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#efeff1"
+            height={1}
+            width="100%"
+          />
+        </Styled(View)>,
+        "onPress": [Function],
+        "underlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                marginLeft={15}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>,
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": <Styled(View)
+                marginLeft={15}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>,
+              "flexDirection": "row",
+              "style": Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ],
+              "width": 300,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>,
+                "marginLeft": 15,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "List Head 01",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Black",
+                  "fontSize": 16,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "List Head 01",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "#efeff1",
+              "height": 1,
+              "width": "100%",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(TouchableHighlight)
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                marginLeft={15}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>,
+        "theme": Object {
+          "theme": Object {
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "themes": Object {
+            "richBlue": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "light": "#3f87bf",
+                  "lightest": "#9fc3df",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "light": "#ffd35b",
+                  "lightest": "#ffe9ad",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "richPurple": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "light": "#735ba7",
+                  "lightest": "#b9add3",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "light": "#57cbd7",
+                  "lightest": "#abe5eb",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "vibrantCyan": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "light": "#57cbd7",
+                  "lightest": "#abe5eb",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "light": "#ffd35b",
+                  "lightest": "#ffe9ad",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "vibrantMagenta": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "light": "#ef63ab",
+                  "lightest": "#f7b1d5",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "light": "#735ba7",
+                  "lightest": "#b9add3",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "children": <Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                marginLeft={15}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />
+          </Styled(View)>,
+          "onPress": [Function],
+          "underlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "minHeight": 50,
+                      "paddingRight": 15,
+                      "paddingVertical": 11,
+                    },
+                  ]
+                }
+                width={300}
+              >
+                <Styled(View)
+                  marginLeft={15}
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>
+              </Styled(View)>,
+              <Styled(View)
+                backgroundColor="#efeff1"
+                height={1}
+                width="100%"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": <Styled(View)
+                  marginLeft={15}
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>,
+                "flexDirection": "row",
+                "style": Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ],
+                "width": 300,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>,
+                  "marginLeft": 15,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "List Head 01",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Black",
+                    "fontSize": 16,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "List Head 01",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "#efeff1",
+                "height": 1,
+                "width": "100%",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ListHeader component Renders correctly it renders ListHeader with Icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListHeader
+    bottomSeparator={[Function]}
+    containerStyle={Object {}}
+    containerWidth={300}
+    icon={
+      Object {
+        "name": "circleX",
+        "size": 16,
+      }
+    }
+    iconLeft={true}
+    onPress={[Function]}
+    title="List Head 01"
+    titleColor="#1b1b25"
+    titleFontFamily="Lato-Black"
+    titleFontSize={16}
+    titleStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(TouchableHighlight)
+        activeOpacity={1}
+        onPress={[Function]}
+        underlayColor="transparent"
+      >
+        <Styled(View)>
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ]
+            }
+            width={300}
+          >
+            <Styled(View)
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginLeft={15}
+            >
+              <Icon
+                color="#1b1b25"
+                name="circleX"
+                size={16}
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                    "marginTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(View)
+                marginLeft={10}
+              >
+                <Styled(Text)
+                  alignSelf="center"
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#efeff1"
+            height={1}
+            width="100%"
+          />
+        </Styled(View)>
+      </Styled(TouchableHighlight)>,
+      "theme": Object {
+        "theme": Object {
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+        "themes": Object {
+          "richBlue": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "light": "#3f87bf",
+                "lightest": "#9fc3df",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "light": "#ffd35b",
+                "lightest": "#ffe9ad",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "richPurple": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "light": "#735ba7",
+                "lightest": "#b9add3",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "light": "#57cbd7",
+                "lightest": "#abe5eb",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "vibrantCyan": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "light": "#57cbd7",
+                "lightest": "#abe5eb",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "light": "#ffd35b",
+                "lightest": "#ffe9ad",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "vibrantMagenta": Object {
+            "colors": Object {
+              "black": Object {
+                "base": undefined,
+              },
+              "primary": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "light": "#ef63ab",
+                "lightest": "#f7b1d5",
+              },
+              "richBlack": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "richBlue": Object {
+                "base": "#0f69af",
+                "dark": "#0e5f9e",
+                "darker": "#0b4a7b",
+                "darkest": "#083558",
+                "light": "#3f87bf",
+                "lighter": "#6fa5cf",
+                "lightest": "#9fc3df",
+              },
+              "richGreen": Object {
+                "base": "#149b5f",
+                "dark": "#0d6c42",
+                "darker": "#0c5d39",
+                "darkest": "#094d2f",
+                "light": "#5ab98f",
+                "lighter": "#72c39f",
+                "lightest": "#89cdaf",
+              },
+              "richPurple": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "darkest": "#281949",
+                "light": "#735ba7",
+                "lighter": "#9684bd",
+                "lightest": "#b9add3",
+              },
+              "richRed": Object {
+                "base": "#e61e50",
+                "dark": "#cf1b48",
+                "darker": "#a11538",
+                "darkest": "#730f28",
+                "light": "#eb4b73",
+                "lighter": "#f07896",
+                "lightest": "#f5a5b9",
+              },
+              "secondary": Object {
+                "base": "#503291",
+                "dark": "#482d83",
+                "darker": "#382366",
+                "light": "#735ba7",
+                "lightest": "#b9add3",
+              },
+              "sensitiveGrey": Object {
+                "base": "#f8f8fc",
+                "dark": "#f3f3f7",
+                "darker": "#efeff1",
+                "darkest": "#e9e9ed",
+                "light": "#f8f8fc",
+                "lighter": "#ffffff",
+                "lightest": "#ffffff",
+              },
+              "vibrantCyan": Object {
+                "base": "#2dbecd",
+                "dark": "#29abb9",
+                "darker": "#208590",
+                "darkest": "#175f67",
+                "light": "#57cbd7",
+                "lighter": "#81d8e1",
+                "lightest": "#abe5eb",
+              },
+              "vibrantGreen": Object {
+                "base": undefined,
+                "dark": undefined,
+                "darker": undefined,
+                "darkest": undefined,
+                "light": undefined,
+                "lighter": undefined,
+                "lightest": undefined,
+              },
+              "vibrantMagenta": Object {
+                "base": "#eb3c96",
+                "dark": "#d43687",
+                "darker": "#a52a69",
+                "darkest": "#761e4b",
+                "light": "#ef63ab",
+                "lighter": "#f38ac0",
+                "lightest": "#f7b1d5",
+              },
+              "vibrantYellow": Object {
+                "base": "#ffc832",
+                "dark": "#f3be2f",
+                "darker": "#ddac28",
+                "darkest": "#806419",
+                "light": "#ffd35b",
+                "lighter": "#ffde84",
+                "lightest": "#ffe9ad",
+              },
+              "white": Object {
+                "base": "#ffffff",
+              },
+            },
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "children": <Styled(View)>
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            style={
+              Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ]
+            }
+            width={300}
+          >
+            <Styled(View)
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginLeft={15}
+            >
+              <Icon
+                color="#1b1b25"
+                name="circleX"
+                size={16}
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                    "marginTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(View)
+                marginLeft={10}
+              >
+                <Styled(Text)
+                  alignSelf="center"
+                  color="#1b1b25"
+                  fontFamily="Lato-Black"
+                  fontSize={16}
+                  style={Object {}}
+                >
+                  List Head 01
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)
+            backgroundColor="#efeff1"
+            height={1}
+            width="100%"
+          />
+        </Styled(View)>,
+        "onPress": [Function],
+        "underlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginLeft={15}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="circleX"
+                  size={16}
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "marginTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(View)
+                  marginLeft={10}
+                >
+                  <Styled(Text)
+                    alignSelf="center"
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>
+              </Styled(View)>
+            </Styled(View)>,
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginLeft={15}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="circleX"
+                  size={16}
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "marginTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(View)
+                  marginLeft={10}
+                >
+                  <Styled(Text)
+                    alignSelf="center"
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>
+              </Styled(View)>,
+              "flexDirection": "row",
+              "style": Array [
+                Object {},
+                Object {
+                  "minHeight": 50,
+                  "paddingRight": 15,
+                  "paddingVertical": 11,
+                },
+              ],
+              "width": 300,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Icon
+                    color="#1b1b25"
+                    name="circleX"
+                    size={16}
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "marginTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />,
+                  <Styled(View)
+                    marginLeft={10}
+                  >
+                    <Styled(Text)
+                      alignSelf="center"
+                      color="#1b1b25"
+                      fontFamily="Lato-Black"
+                      fontSize={16}
+                      style={Object {}}
+                    >
+                      List Head 01
+                    </Styled(Text)>
+                  </Styled(View)>,
+                ],
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginLeft": 15,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#1b1b25",
+                    "name": "circleX",
+                    "size": 16,
+                    "style": Object {
+                      "alignSelf": "flex-start",
+                      "marginTop": 2,
+                    },
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(Text)
+                      alignSelf="center"
+                      color="#1b1b25"
+                      fontFamily="Lato-Black"
+                      fontSize={16}
+                      style={Object {}}
+                    >
+                      List Head 01
+                    </Styled(Text)>,
+                    "marginLeft": 10,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignSelf": "center",
+                      "children": "List Head 01",
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Black",
+                      "fontSize": 16,
+                      "style": Object {},
+                    },
+                    "ref": null,
+                    "rendered": "List Head 01",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "backgroundColor": "#efeff1",
+              "height": 1,
+              "width": "100%",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(TouchableHighlight)
+          activeOpacity={1}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginLeft={15}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="circleX"
+                  size={16}
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "marginTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(View)
+                  marginLeft={10}
+                >
+                  <Styled(Text)
+                    alignSelf="center"
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>
+              </Styled(View)>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>,
+        "theme": Object {
+          "theme": Object {
+            "fontSizes": Array [
+              8,
+              10,
+              12,
+              14,
+              16,
+              18,
+              20,
+              24,
+              36,
+            ],
+            "fontWeights": Array [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+            ],
+            "fonts": Object {
+              "Black": "Lato-Black",
+              "Bold": "Lato-Bold",
+              "IcoMoon": "icomoon",
+              "Merck": "MerckWeb-Regular",
+              "Regular": "Lato-Regular",
+            },
+            "heights": Object {
+              "Big": 50,
+              "Default": 40,
+            },
+            "shadows": Object {
+              "active": Object {
+                "elevation": 40,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+              "default": Object {},
+              "stacked": Object {
+                "elevation": 25,
+                "shadowColor": "#1b1b25",
+                "shadowOffset": "0px 30px",
+                "shadowOpacity": 0.3,
+                "shadowRadius": 20,
+              },
+            },
+            "space": Array [
+              0,
+              1,
+              2,
+              5,
+              10,
+              15,
+              20,
+              24,
+              50,
+              8,
+              7,
+              4,
+              9,
+              6,
+            ],
+            "stacked": Object {
+              "stackedFirst": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "position": "absolute",
+                "zIndex": 10,
+              },
+              "stackedSecond": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 3,
+                "position": "absolute",
+                "top": 3,
+                "zIndex": 9,
+              },
+              "stackedThird": Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#f3f3f7",
+                "borderRightWidth": 1,
+                "left": 6,
+                "top": 6,
+                "zIndex": 8,
+              },
+            },
+            "widths": Array [
+              50,
+              100,
+              130,
+            ],
+          },
+          "themes": Object {
+            "richBlue": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "light": "#3f87bf",
+                  "lightest": "#9fc3df",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "light": "#ffd35b",
+                  "lightest": "#ffe9ad",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "richPurple": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "light": "#735ba7",
+                  "lightest": "#b9add3",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "light": "#57cbd7",
+                  "lightest": "#abe5eb",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "vibrantCyan": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "light": "#57cbd7",
+                  "lightest": "#abe5eb",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "light": "#ffd35b",
+                  "lightest": "#ffe9ad",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+            "vibrantMagenta": Object {
+              "colors": Object {
+                "black": Object {
+                  "base": undefined,
+                },
+                "primary": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "light": "#ef63ab",
+                  "lightest": "#f7b1d5",
+                },
+                "richBlack": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "richBlue": Object {
+                  "base": "#0f69af",
+                  "dark": "#0e5f9e",
+                  "darker": "#0b4a7b",
+                  "darkest": "#083558",
+                  "light": "#3f87bf",
+                  "lighter": "#6fa5cf",
+                  "lightest": "#9fc3df",
+                },
+                "richGreen": Object {
+                  "base": "#149b5f",
+                  "dark": "#0d6c42",
+                  "darker": "#0c5d39",
+                  "darkest": "#094d2f",
+                  "light": "#5ab98f",
+                  "lighter": "#72c39f",
+                  "lightest": "#89cdaf",
+                },
+                "richPurple": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "darkest": "#281949",
+                  "light": "#735ba7",
+                  "lighter": "#9684bd",
+                  "lightest": "#b9add3",
+                },
+                "richRed": Object {
+                  "base": "#e61e50",
+                  "dark": "#cf1b48",
+                  "darker": "#a11538",
+                  "darkest": "#730f28",
+                  "light": "#eb4b73",
+                  "lighter": "#f07896",
+                  "lightest": "#f5a5b9",
+                },
+                "secondary": Object {
+                  "base": "#503291",
+                  "dark": "#482d83",
+                  "darker": "#382366",
+                  "light": "#735ba7",
+                  "lightest": "#b9add3",
+                },
+                "sensitiveGrey": Object {
+                  "base": "#f8f8fc",
+                  "dark": "#f3f3f7",
+                  "darker": "#efeff1",
+                  "darkest": "#e9e9ed",
+                  "light": "#f8f8fc",
+                  "lighter": "#ffffff",
+                  "lightest": "#ffffff",
+                },
+                "vibrantCyan": Object {
+                  "base": "#2dbecd",
+                  "dark": "#29abb9",
+                  "darker": "#208590",
+                  "darkest": "#175f67",
+                  "light": "#57cbd7",
+                  "lighter": "#81d8e1",
+                  "lightest": "#abe5eb",
+                },
+                "vibrantGreen": Object {
+                  "base": undefined,
+                  "dark": undefined,
+                  "darker": undefined,
+                  "darkest": undefined,
+                  "light": undefined,
+                  "lighter": undefined,
+                  "lightest": undefined,
+                },
+                "vibrantMagenta": Object {
+                  "base": "#eb3c96",
+                  "dark": "#d43687",
+                  "darker": "#a52a69",
+                  "darkest": "#761e4b",
+                  "light": "#ef63ab",
+                  "lighter": "#f38ac0",
+                  "lightest": "#f7b1d5",
+                },
+                "vibrantYellow": Object {
+                  "base": "#ffc832",
+                  "dark": "#f3be2f",
+                  "darker": "#ddac28",
+                  "darkest": "#806419",
+                  "light": "#ffd35b",
+                  "lighter": "#ffde84",
+                  "lightest": "#ffe9ad",
+                },
+                "white": Object {
+                  "base": "#ffffff",
+                },
+              },
+              "fontSizes": Array [
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                24,
+                36,
+              ],
+              "fontWeights": Array [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700,
+                800,
+                900,
+              ],
+              "fonts": Object {
+                "Black": "Lato-Black",
+                "Bold": "Lato-Bold",
+                "IcoMoon": "icomoon",
+                "Merck": "MerckWeb-Regular",
+                "Regular": "Lato-Regular",
+              },
+              "heights": Object {
+                "Big": 50,
+                "Default": 40,
+              },
+              "shadows": Object {
+                "active": Object {
+                  "elevation": 40,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+                "default": Object {},
+                "stacked": Object {
+                  "elevation": 25,
+                  "shadowColor": "#1b1b25",
+                  "shadowOffset": "0px 30px",
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 20,
+                },
+              },
+              "space": Array [
+                0,
+                1,
+                2,
+                5,
+                10,
+                15,
+                20,
+                24,
+                50,
+                8,
+                7,
+                4,
+                9,
+                6,
+              ],
+              "stacked": Object {
+                "stackedFirst": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "position": "absolute",
+                  "zIndex": 10,
+                },
+                "stackedSecond": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 3,
+                  "position": "absolute",
+                  "top": 3,
+                  "zIndex": 9,
+                },
+                "stackedThird": Object {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#f3f3f7",
+                  "borderRightWidth": 1,
+                  "left": 6,
+                  "top": 6,
+                  "zIndex": 8,
+                },
+              },
+              "widths": Array [
+                50,
+                100,
+                130,
+              ],
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "children": <Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ]
+              }
+              width={300}
+            >
+              <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginLeft={15}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="circleX"
+                  size={16}
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "marginTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(View)
+                  marginLeft={10}
+                >
+                  <Styled(Text)
+                    alignSelf="center"
+                    color="#1b1b25"
+                    fontFamily="Lato-Black"
+                    fontSize={16}
+                    style={Object {}}
+                  >
+                    List Head 01
+                  </Styled(Text)>
+                </Styled(View)>
+              </Styled(View)>
+            </Styled(View)>
+            <Styled(View)
+              backgroundColor="#efeff1"
+              height={1}
+              width="100%"
+            />
+          </Styled(View)>,
+          "onPress": [Function],
+          "underlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "minHeight": 50,
+                      "paddingRight": 15,
+                      "paddingVertical": 11,
+                    },
+                  ]
+                }
+                width={300}
+              >
+                <Styled(View)
+                  flexDirection="row"
+                  justifyContent="flex-start"
+                  marginLeft={15}
+                >
+                  <Icon
+                    color="#1b1b25"
+                    name="circleX"
+                    size={16}
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "marginTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />
+                  <Styled(View)
+                    marginLeft={10}
+                  >
+                    <Styled(Text)
+                      alignSelf="center"
+                      color="#1b1b25"
+                      fontFamily="Lato-Black"
+                      fontSize={16}
+                      style={Object {}}
+                    >
+                      List Head 01
+                    </Styled(Text)>
+                  </Styled(View)>
+                </Styled(View)>
+              </Styled(View)>,
+              <Styled(View)
+                backgroundColor="#efeff1"
+                height={1}
+                width="100%"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": <Styled(View)
+                  flexDirection="row"
+                  justifyContent="flex-start"
+                  marginLeft={15}
+                >
+                  <Icon
+                    color="#1b1b25"
+                    name="circleX"
+                    size={16}
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "marginTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />
+                  <Styled(View)
+                    marginLeft={10}
+                  >
+                    <Styled(Text)
+                      alignSelf="center"
+                      color="#1b1b25"
+                      fontFamily="Lato-Black"
+                      fontSize={16}
+                      style={Object {}}
+                    >
+                      List Head 01
+                    </Styled(Text)>
+                  </Styled(View)>
+                </Styled(View)>,
+                "flexDirection": "row",
+                "style": Array [
+                  Object {},
+                  Object {
+                    "minHeight": 50,
+                    "paddingRight": 15,
+                    "paddingVertical": 11,
+                  },
+                ],
+                "width": 300,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Icon
+                      color="#1b1b25"
+                      name="circleX"
+                      size={16}
+                      style={
+                        Object {
+                          "alignSelf": "flex-start",
+                          "marginTop": 2,
+                        }
+                      }
+                      themeName="vibrantCyan"
+                    />,
+                    <Styled(View)
+                      marginLeft={10}
+                    >
+                      <Styled(Text)
+                        alignSelf="center"
+                        color="#1b1b25"
+                        fontFamily="Lato-Black"
+                        fontSize={16}
+                        style={Object {}}
+                      >
+                        List Head 01
+                      </Styled(Text)>
+                    </Styled(View)>,
+                  ],
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginLeft": 15,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#1b1b25",
+                      "name": "circleX",
+                      "size": 16,
+                      "style": Object {
+                        "alignSelf": "flex-start",
+                        "marginTop": 2,
+                      },
+                      "themeName": "vibrantCyan",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(Text)
+                        alignSelf="center"
+                        color="#1b1b25"
+                        fontFamily="Lato-Black"
+                        fontSize={16}
+                        style={Object {}}
+                      >
+                        List Head 01
+                      </Styled(Text)>,
+                      "marginLeft": 10,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alignSelf": "center",
+                        "children": "List Head 01",
+                        "color": "#1b1b25",
+                        "fontFamily": "Lato-Black",
+                        "fontSize": 16,
+                        "style": Object {},
+                      },
+                      "ref": null,
+                      "rendered": "List Head 01",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "backgroundColor": "#efeff1",
+                "height": 1,
+                "width": "100%",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

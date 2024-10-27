@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarDotComponent component Renders correctly it renders Default dot icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StarDotRating
+    active={false}
+    disabled={false}
+    dot={true}
+    halfIcon={false}
+    iconSize={24}
+    inactiveIconColor="#e9e9ed"
+    onIconPress={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 1,
+      "children": <Styled(View)
+        marginRight={6}
+        opacity={1}
+      >
+        <Icon
+          color="#e9e9ed"
+          name="dot"
+          size={24}
+          themeName="vibrantCyan"
+        />
+      </Styled(View)>,
+      "disabled": false,
+      "onPress": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Icon
+          color="#e9e9ed"
+          name="dot"
+          size={24}
+          themeName="vibrantCyan"
+        />,
+        "marginRight": 6,
+        "opacity": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "color": "#e9e9ed",
+          "name": "dot",
+          "size": 24,
+          "themeName": "vibrantCyan",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "children": <Styled(View)
+          marginRight={6}
+          opacity={1}
+        >
+          <Icon
+            color="#e9e9ed"
+            name="dot"
+            size={24}
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>,
+        "disabled": false,
+        "onPress": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Icon
+            color="#e9e9ed"
+            name="dot"
+            size={24}
+            themeName="vibrantCyan"
+          />,
+          "marginRight": 6,
+          "opacity": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "color": "#e9e9ed",
+            "name": "dot",
+            "size": 24,
+            "themeName": "vibrantCyan",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`StarDotComponent component Renders correctly it renders Default star icon 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StarDotRating
+    active={false}
+    disabled={false}
+    dot={false}
+    halfIcon={false}
+    iconSize={24}
+    inactiveIconColor="#e9e9ed"
+    onIconPress={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 1,
+      "children": <Styled(View)
+        marginRight={6}
+        opacity={1}
+      >
+        <Icon
+          color="#e9e9ed"
+          name="star"
+          size={24}
+          themeName="vibrantCyan"
+        />
+      </Styled(View)>,
+      "disabled": false,
+      "onPress": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Icon
+          color="#e9e9ed"
+          name="star"
+          size={24}
+          themeName="vibrantCyan"
+        />,
+        "marginRight": 6,
+        "opacity": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "color": "#e9e9ed",
+          "name": "star",
+          "size": 24,
+          "themeName": "vibrantCyan",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "children": <Styled(View)
+          marginRight={6}
+          opacity={1}
+        >
+          <Icon
+            color="#e9e9ed"
+            name="star"
+            size={24}
+            themeName="vibrantCyan"
+          />
+        </Styled(View)>,
+        "disabled": false,
+        "onPress": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Icon
+            color="#e9e9ed"
+            name="star"
+            size={24}
+            themeName="vibrantCyan"
+          />,
+          "marginRight": 6,
+          "opacity": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "color": "#e9e9ed",
+            "name": "star",
+            "size": 24,
+            "themeName": "vibrantCyan",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

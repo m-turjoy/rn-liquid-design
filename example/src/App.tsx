@@ -1,17 +1,22 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'rn-liquid-design';
+import Func from 'rn-liquid-design';
+// import { Toggle } from 'rn-liquid-design';
+// import { Toggle } from '@liquid-design/liquid-design-react-native';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
+  // const [result, setResult] = useState<number | undefined>();
 
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  // useEffect(() => {
+  //   multiply(3, 9).then(setResult);
+  // }, []);
+  const { Toggle } = Func;
+  console.log('stuff: ', Func, 'and..', Toggle);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: </Text>
+      <Toggle value={true} />
     </View>
   );
 }

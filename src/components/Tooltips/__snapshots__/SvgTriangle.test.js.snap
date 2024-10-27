@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SvgTriangle component Renders correctly it renders default SvgTriangle 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SvgTriangle
+    modalBackgroundColor="#ffffff"
+    modalRenderSide="bottom-left"
+    positionX={0}
+    positionY={0}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "flex-start",
+      "children": <Svg
+        height={8}
+        preserveAspectRatio="xMidYMid meet"
+        width={16}
+      >
+        <Polygon
+          fill="#ffffff"
+          points="11,20 20,10 29,20"
+          stroke="#ffffff"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={5}
+          x={-12}
+          y={-7}
+        />
+      </Svg>,
+      "elevation": 15,
+      "justifyContent": "flex-start",
+      "left": false,
+      "position": "absolute",
+      "top": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Polygon
+          fill="#ffffff"
+          points="11,20 20,10 29,20"
+          stroke="#ffffff"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={5}
+          x={-12}
+          y={-7}
+        />,
+        "height": 8,
+        "preserveAspectRatio": "xMidYMid meet",
+        "width": 16,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "fill": "#ffffff",
+          "points": "11,20 20,10 29,20",
+          "stroke": "#ffffff",
+          "strokeLinecap": "round",
+          "strokeLinejoin": "round",
+          "strokeWidth": 5,
+          "x": -12,
+          "y": -7,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "flex-start",
+        "children": <Svg
+          height={8}
+          preserveAspectRatio="xMidYMid meet"
+          width={16}
+        >
+          <Polygon
+            fill="#ffffff"
+            points="11,20 20,10 29,20"
+            stroke="#ffffff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={5}
+            x={-12}
+            y={-7}
+          />
+        </Svg>,
+        "elevation": 15,
+        "justifyContent": "flex-start",
+        "left": false,
+        "position": "absolute",
+        "top": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Polygon
+            fill="#ffffff"
+            points="11,20 20,10 29,20"
+            stroke="#ffffff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={5}
+            x={-12}
+            y={-7}
+          />,
+          "height": 8,
+          "preserveAspectRatio": "xMidYMid meet",
+          "width": 16,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "fill": "#ffffff",
+            "points": "11,20 20,10 29,20",
+            "stroke": "#ffffff",
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 5,
+            "x": -12,
+            "y": -7,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

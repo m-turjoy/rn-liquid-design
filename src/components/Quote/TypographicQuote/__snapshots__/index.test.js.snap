@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TypographicQuote component Renders correctly it renders big TypographicQuote 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TypographicQuote
+    author="Test"
+    big={true}
+    quotation="Test"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(Text)
+          color="#1b1b25"
+          fontFamily="Lato-Black"
+          fontSize={32}
+          fontWeight={null}
+          lineHeight={40}
+        >
+          »Test«
+        </Styled(Text)>,
+        <Styled(Text)
+          color="#2dbecd"
+          fontFamily="Lato-Regular"
+          fontSize={12}
+          fontWeight={null}
+          lineHeight={15}
+        >
+          – Test
+        </Styled(Text)>,
+      ],
+      "width": 250,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "»Test«",
+          "color": "#1b1b25",
+          "fontFamily": "Lato-Black",
+          "fontSize": 32,
+          "fontWeight": null,
+          "lineHeight": 40,
+        },
+        "ref": null,
+        "rendered": "»Test«",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "– Test",
+          "color": "#2dbecd",
+          "fontFamily": "Lato-Regular",
+          "fontSize": 12,
+          "fontWeight": null,
+          "lineHeight": 15,
+        },
+        "ref": null,
+        "rendered": "– Test",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(Text)
+            color="#1b1b25"
+            fontFamily="Lato-Black"
+            fontSize={32}
+            fontWeight={null}
+            lineHeight={40}
+          >
+            »Test«
+          </Styled(Text)>,
+          <Styled(Text)
+            color="#2dbecd"
+            fontFamily="Lato-Regular"
+            fontSize={12}
+            fontWeight={null}
+            lineHeight={15}
+          >
+            – Test
+          </Styled(Text)>,
+        ],
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "»Test«",
+            "color": "#1b1b25",
+            "fontFamily": "Lato-Black",
+            "fontSize": 32,
+            "fontWeight": null,
+            "lineHeight": 40,
+          },
+          "ref": null,
+          "rendered": "»Test«",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "– Test",
+            "color": "#2dbecd",
+            "fontFamily": "Lato-Regular",
+            "fontSize": 12,
+            "fontWeight": null,
+            "lineHeight": 15,
+          },
+          "ref": null,
+          "rendered": "– Test",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

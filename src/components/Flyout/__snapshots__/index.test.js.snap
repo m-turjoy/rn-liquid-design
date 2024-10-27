@@ -1,0 +1,5775 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly,  FlyOut Center Aligned 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="center"
+    arrowIconSize={24}
+    disabled={false}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="center"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={false}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            justifyContent="center"
+            opacity={1}
+            style={Object {}}
+          >
+            <Icon
+              color="#2dbecd"
+              name="options"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": <Icon
+                color="#2dbecd"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "justifyContent": "center",
+              "opacity": 1,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "options",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="center"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={false}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+                opacity={1}
+                style={Object {}}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+                opacity={1}
+                style={Object {}}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "justifyContent": "center",
+                "opacity": 1,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "options",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  FlyOut Center Aligned Disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="center"
+    arrowIconSize={24}
+    disabled={true}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="center"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={true}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            justifyContent="center"
+            opacity={0.3}
+            style={Object {}}
+          >
+            <Icon
+              color="#1b1b25"
+              name="options"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            "disabled": true,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": <Icon
+                color="#1b1b25"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "justifyContent": "center",
+              "opacity": 0.3,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#1b1b25",
+                "name": "options",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="center"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={true}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              "disabled": true,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "justifyContent": "center",
+                "opacity": 0.3,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#1b1b25",
+                  "name": "options",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  FlyOut Left Aligned 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="left"
+    arrowIconSize={24}
+    disabled={false}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="flex-start"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={false}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            backgroundColor="transparent"
+            flexDirection="row"
+            marginLeft={15}
+            opacity={1}
+            style={Object {}}
+          >
+            <Icon
+              color="#2dbecd"
+              name="options"
+              size={16}
+              style={
+                Object {
+                  "paddingTop": 2,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={16}
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "paddingLeft": 10,
+                  },
+                ]
+              }
+            >
+              Flyout Label
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "flex-start",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "children": Array [
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>,
+              ],
+              "flexDirection": "row",
+              "marginLeft": 15,
+              "opacity": 1,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "options",
+                  "size": 16,
+                  "style": Object {
+                    "paddingTop": 2,
+                  },
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Flyout Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 16,
+                  "style": Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": "Flyout Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="flex-start"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={false}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginLeft={15}
+                opacity={1}
+                style={Object {}}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "flex-start",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginLeft={15}
+                opacity={1}
+                style={Object {}}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "children": Array [
+                  <Icon
+                    color="#2dbecd"
+                    name="options"
+                    size={16}
+                    style={
+                      Object {
+                        "paddingTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingLeft": 10,
+                        },
+                      ]
+                    }
+                  >
+                    Flyout Label
+                  </Styled(Text)>,
+                ],
+                "flexDirection": "row",
+                "marginLeft": 15,
+                "opacity": 1,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#2dbecd",
+                    "name": "options",
+                    "size": 16,
+                    "style": Object {
+                      "paddingTop": 2,
+                    },
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Flyout Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 16,
+                    "style": Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": "Flyout Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  FlyOut Left Aligned disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="left"
+    arrowIconSize={24}
+    disabled={true}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="flex-start"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={true}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            backgroundColor="transparent"
+            flexDirection="row"
+            marginLeft={15}
+            opacity={0.3}
+            style={Object {}}
+          >
+            <Icon
+              color="#1b1b25"
+              name="options"
+              size={16}
+              style={
+                Object {
+                  "paddingTop": 2,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={16}
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "paddingLeft": 10,
+                  },
+                ]
+              }
+            >
+              Flyout Label
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "flex-start",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>,
+            "disabled": true,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "children": Array [
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>,
+              ],
+              "flexDirection": "row",
+              "marginLeft": 15,
+              "opacity": 0.3,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#1b1b25",
+                  "name": "options",
+                  "size": 16,
+                  "style": Object {
+                    "paddingTop": 2,
+                  },
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Flyout Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 16,
+                  "style": Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": "Flyout Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="flex-start"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginLeft={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={true}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginLeft={15}
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "flex-start",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginLeft={15}
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+              </Styled(View)>,
+              "disabled": true,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "children": Array [
+                  <Icon
+                    color="#1b1b25"
+                    name="options"
+                    size={16}
+                    style={
+                      Object {
+                        "paddingTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingLeft": 10,
+                        },
+                      ]
+                    }
+                  >
+                    Flyout Label
+                  </Styled(Text)>,
+                ],
+                "flexDirection": "row",
+                "marginLeft": 15,
+                "opacity": 0.3,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#1b1b25",
+                    "name": "options",
+                    "size": 16,
+                    "style": Object {
+                      "paddingTop": 2,
+                    },
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Flyout Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 16,
+                    "style": Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 10,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": "Flyout Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  FlyOut Right Aligned 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="right"
+    arrowIconSize={24}
+    disabled={false}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="flex-end"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={false}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            backgroundColor="transparent"
+            flexDirection="row"
+            marginRight={15}
+            opacity={1}
+            style={Object {}}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={16}
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "paddingRight": 10,
+                  },
+                ]
+              }
+            >
+              Flyout Label
+            </Styled(Text)>
+            <Icon
+              color="#2dbecd"
+              name="options"
+              size={16}
+              style={
+                Object {
+                  "paddingTop": 2,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "flex-end",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            "disabled": false,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>,
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />,
+              ],
+              "flexDirection": "row",
+              "marginRight": 15,
+              "opacity": 1,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Flyout Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 16,
+                  "style": Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": "Flyout Label",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "options",
+                  "size": 16,
+                  "style": Object {
+                    "paddingTop": 2,
+                  },
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="flex-end"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={false}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={1}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#2dbecd"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={false}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginRight={15}
+                opacity={1}
+                style={Object {}}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginRight={15}
+                opacity={1}
+                style={Object {}}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+                <Icon
+                  color="#2dbecd"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              "disabled": false,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    Flyout Label
+                  </Styled(Text)>,
+                  <Icon
+                    color="#2dbecd"
+                    name="options"
+                    size={16}
+                    style={
+                      Object {
+                        "paddingTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />,
+                ],
+                "flexDirection": "row",
+                "marginRight": 15,
+                "opacity": 1,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Flyout Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 16,
+                    "style": Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": "Flyout Label",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#2dbecd",
+                    "name": "options",
+                    "size": 16,
+                    "style": Object {
+                      "paddingTop": 2,
+                    },
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  FlyOut Right Aligned disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flyout
+    aligned="right"
+    arrowIconSize={24}
+    disabled={true}
+    headerBackgroundColor="#ffffff"
+    headerColor="#1b1b25"
+    headerContainerHeight={59}
+    headerContainerStyle={Object {}}
+    headerFontFamily="Lato-Black"
+    headerFontSize={16}
+    headerStyle={Object {}}
+    headerTitle="Headline"
+    iconSize={24}
+    label="Flyout Label"
+    labelColor="#1b1b25"
+    labelContainerStyle={Object {}}
+    labelFontFamily="Lato-Regular"
+    labelFontFamilyActive="Lato-Black"
+    labelFontSize={16}
+    labelStyle={Object {}}
+    listBackgroundColor="#ffffff"
+    listCenteredWidth={150}
+    listStyle={
+      Object {
+        "maxHeight": 298,
+      }
+    }
+    listWidth={250}
+    onHeaderPress={[Function]}
+    onLabelPress={[Function]}
+    onRowPress={[Function]}
+    onSubOptionPress={[Function]}
+    options={
+      Array [
+        Object {
+          "name": "Option 1 Option 1 Option 1 Option 1",
+        },
+        Object {
+          "name": "Option 2",
+          "options": Array [
+            Object {
+              "name": "Sub Option 1 Sub Option 1 Sub Option 1",
+            },
+            Object {
+              "name": "Sub Option 2",
+            },
+            Object {
+              "name": "Sub Option 3",
+            },
+            Object {
+              "name": "Sub Option 4",
+            },
+          ],
+        },
+        Object {
+          "name": "Option 3",
+        },
+      ]
+    }
+    rowBackgroundColor="#ffffff"
+    rowBackgroundColorActive="#f3f3f7"
+    rowHeight={53}
+    rowStyle={Object {}}
+    rowTitleColor="#1b1b25"
+    rowTitleFontFamilyActive="Lato-Black"
+    rowTitleFontSize={16}
+    rowTitleStyle={Object {}}
+    rowTtileFontFamily="Lato-Regular"
+    subOptionActiveFontFamily="Lato-Black"
+    subOptionColor="#1b1b25"
+    subOptionContainerBackgroundColor="#f8f8fc"
+    subOptionContainerBackgroundColorActive="#f3f3f7"
+    subOptionContainerHeight={50}
+    subOptionContainerStyle={Object {}}
+    subOptionContainerWidth={250}
+    subOptionFontFamily="Lato-Regular"
+    subOptionFontSize={16}
+    subOptionTitleStyle={Object {}}
+    themeName="vibrantCyan"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        alignItems="center"
+        flexDirection="row"
+        height={50}
+        justifyContent="flex-end"
+        width={250}
+      >
+        <Styled(TouchableHighlight)
+          activeOpacity={1}
+          disabled={true}
+          onPress={[Function]}
+          underlayColor="transparent"
+        >
+          <Styled(View)
+            alignItems="center"
+            backgroundColor="transparent"
+            flexDirection="row"
+            marginRight={15}
+            opacity={0.3}
+            style={Object {}}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={16}
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "paddingRight": 10,
+                  },
+                ]
+              }
+            >
+              Flyout Label
+            </Styled(Text)>
+            <Icon
+              color="#1b1b25"
+              name="options"
+              size={16}
+              style={
+                Object {
+                  "paddingTop": 2,
+                }
+              }
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(TouchableHighlight)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": Array [
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>,
+          null,
+        ],
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "flex-end",
+        "width": 250,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeOpacity": 1,
+            "children": <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            "disabled": true,
+            "onPress": [Function],
+            "underlayColor": "transparent",
+          },
+          "ref": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "children": Array [
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>,
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />,
+              ],
+              "flexDirection": "row",
+              "marginRight": 15,
+              "opacity": 0.3,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Flyout Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 16,
+                  "style": Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": "Flyout Label",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#1b1b25",
+                  "name": "options",
+                  "size": 16,
+                  "style": Object {
+                    "paddingTop": 2,
+                  },
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          alignItems="center"
+          flexDirection="row"
+          height={50}
+          justifyContent="flex-end"
+          width={250}
+        >
+          <Styled(TouchableHighlight)
+            activeOpacity={1}
+            disabled={true}
+            onPress={[Function]}
+            underlayColor="transparent"
+          >
+            <Styled(View)
+              alignItems="center"
+              backgroundColor="transparent"
+              flexDirection="row"
+              marginRight={15}
+              opacity={0.3}
+              style={Object {}}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={16}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingRight": 10,
+                    },
+                  ]
+                }
+              >
+                Flyout Label
+              </Styled(Text)>
+              <Icon
+                color="#1b1b25"
+                name="options"
+                size={16}
+                style={
+                  Object {
+                    "paddingTop": 2,
+                  }
+                }
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(TouchableHighlight)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "center",
+          "children": Array [
+            <Styled(TouchableHighlight)
+              activeOpacity={1}
+              disabled={true}
+              onPress={[Function]}
+              underlayColor="transparent"
+            >
+              <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginRight={15}
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableHighlight)>,
+            null,
+          ],
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "width": 250,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeOpacity": 1,
+              "children": <Styled(View)
+                alignItems="center"
+                backgroundColor="transparent"
+                flexDirection="row"
+                marginRight={15}
+                opacity={0.3}
+                style={Object {}}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={16}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ]
+                  }
+                >
+                  Flyout Label
+                </Styled(Text)>
+                <Icon
+                  color="#1b1b25"
+                  name="options"
+                  size={16}
+                  style={
+                    Object {
+                      "paddingTop": 2,
+                    }
+                  }
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              "disabled": true,
+              "onPress": [Function],
+              "underlayColor": "transparent",
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={16}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingRight": 10,
+                        },
+                      ]
+                    }
+                  >
+                    Flyout Label
+                  </Styled(Text)>,
+                  <Icon
+                    color="#1b1b25"
+                    name="options"
+                    size={16}
+                    style={
+                      Object {
+                        "paddingTop": 2,
+                      }
+                    }
+                    themeName="vibrantCyan"
+                  />,
+                ],
+                "flexDirection": "row",
+                "marginRight": 15,
+                "opacity": 0.3,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Flyout Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 16,
+                    "style": Array [
+                      Object {},
+                      Object {
+                        "paddingRight": 10,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": "Flyout Label",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "#1b1b25",
+                    "name": "options",
+                    "size": 16,
+                    "style": Object {
+                      "paddingTop": 2,
+                    },
+                    "themeName": "vibrantCyan",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

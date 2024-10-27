@@ -1,0 +1,3399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablePagination component Renders correctly it renders Default Pagination 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TablePagination
+    actualItemsPerPage={10}
+    amountAndRangeSplittingLabel="of"
+    amountItemsLabel="items"
+    amountPagesLabel="pages"
+    backgroundColor="#ffffff"
+    currentPage={1}
+    dropdownItemsRowBackgroundColor="#ffffff"
+    dropdownItemsRowBackgroundColorActive="#f3f3f7"
+    dropdownItemsRowHeight={40}
+    dropdownItemsRowTextColor="#1b1b25"
+    dropdownItemsRowTextColorActive="#29abb9"
+    dropdownItemsRowTextFontFamily="Lato-Regular"
+    dropdownItemsRowTextFontFamilyActive="Lato-Black"
+    dropdownItemsRowTextFontSize={14}
+    dropdownItemsRowWidth={145}
+    dropdownPagesRowBackgroundColor="#ffffff"
+    dropdownPagesRowBackgroundColorActive="#f3f3f7"
+    dropdownPagesRowHeight={40}
+    dropdownPagesRowTextColor="#1b1b25"
+    dropdownPagesRowTextColorActive="#29abb9"
+    dropdownPagesRowTextFontFamily="Lato-Regular"
+    dropdownPagesRowTextFontFamilyActive="Lato-Black"
+    dropdownPagesRowTextFontSize={14}
+    dropdownPagesRowWidth={145}
+    height={32}
+    horizontalIconColor="#2dbecd"
+    horizontalIconSize={24}
+    iconColor="#2dbecd"
+    iconSize={20}
+    itemsAmount={100}
+    itemsDropdownBackgroundColor="#ffffff"
+    itemsDropdownStyle={Object {}}
+    itemsDropdownWidth={145}
+    itemsPerPage={
+      Array [
+        10,
+        20,
+        40,
+        80,
+      ]
+    }
+    itemsPerPageLabel="Items per page:"
+    itemsPerPageLabelColor="#1b1b25"
+    itemsPerPageLabelFontFamily="Lato-Regular"
+    itemsPerPageLabelFontSize={12}
+    itemsPerPageLabelStyle={Object {}}
+    itemsPerPageNumberColor="#2dbecd"
+    itemsPerPageNumberFontFamily="Lato-Black"
+    itemsPerPageNumberFontSize={14}
+    itemsPerPageNumberStyle={Object {}}
+    itemsPerPageWrapperStyle={
+      Object {
+        "paddingLeft": 20,
+      }
+    }
+    itemsRangeColor="#1b1b25"
+    itemsRangeFontFamily="Lato-Regular"
+    itemsRangeFontSize={12}
+    itemsRangeStyle={Object {}}
+    onChange={[Function]}
+    onItemRowPressed={[Function]}
+    onItemsDropdownRowPressed={[Function]}
+    onPageChange={[Function]}
+    onPagesDropdownRowPressed={[Function]}
+    pageNumberColor="#2dbecd"
+    pageNumberFontFamily="Lato-Black"
+    pageNumberFontSize={14}
+    pageNumberStyle={Object {}}
+    pagesDropdownBackgroundColor="#ffffff"
+    pagesDropdownStyle={Object {}}
+    pagesDropdownWidth={145}
+    pagesRangeColor="#1b1b25"
+    pagesRangeFontFamily="Lato-Regular"
+    pagesRangeFontSize={12}
+    pagesRangeStyle={Object {}}
+    pagesWrapperStyle={Object {}}
+    paginationBelow={false}
+    themeName="vibrantCyan"
+    width={600}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(View)
+        backgroundColor="#ffffff"
+        borderBottomLeftRadius={0}
+        borderBottomRightRadius={0}
+        borderTopLeftRadius={6}
+        borderTopRightRadius={6}
+        flexDirection="row"
+        height={32}
+        minWidth={550}
+        width={600}
+      >
+        <Styled(View)
+          flex={1}
+          flexDirection="row"
+          justifyContent="flex-start"
+          style={
+            Object {
+              "paddingLeft": 20,
+            }
+          }
+        >
+          <Styled(View)
+            flexDirection="row"
+            justifyContent="flex-start"
+            paddingLeft={10}
+          >
+            <Styled(View)
+              alignItems="center"
+              justifyContent="center"
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={Object {}}
+              >
+                Items per page:
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(TouchableWithoutFeedback)
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                justifyContent="center"
+                paddingLeft={16}
+              >
+                <Styled(View)>
+                  <Styled(Text)
+                    color="#2dbecd"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    10
+                  </Styled(Text)>
+                </Styled(View)>
+                <AnimatedComponent
+                  marginLeft={3}
+                  style={
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="arrowDown"
+                    size={20}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>
+          </Styled(View)>
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="center"
+            paddingLeft={30}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              style={Object {}}
+            >
+              |
+            </Styled(Text)>
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "paddingLeft": 25,
+                  },
+                ]
+              }
+            >
+              1-10 of 100 items
+            </Styled(Text)>
+          </Styled(View)>
+        </Styled(View)>
+        <Styled(View)
+          flex={1}
+          flexDirection="row"
+          justifyContent="flex-end"
+          style={Object {}}
+        >
+          <Styled(View)
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="center"
+            paddingRight={8}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={12}
+              style={Object {}}
+            >
+              1 of 10 pages
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            flexDirection="row"
+          >
+            <Styled(TouchableWithoutFeedback)
+              disabled={true}
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                borderLeftColor="#f8f8fc"
+                borderLeftWidth={2}
+                justifyContent="center"
+                paddingLeft={8}
+                paddingRight={8}
+              >
+                <Icon
+                  color="#f3f3f7"
+                  name="arrowLeft"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>
+            <Styled(TouchableWithoutFeedback)
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                borderLeftColor="#f8f8fc"
+                borderLeftWidth={2}
+                borderRightColor="#f8f8fc"
+                borderRightWidth={2}
+                flexDirection="row"
+                justifyContent="center"
+                paddingLeft={5}
+                paddingRight={5}
+                width={45}
+              >
+                <Styled(Text)
+                  color="#2dbecd"
+                  fontFamily="Lato-Black"
+                  fontSize={14}
+                  style={Object {}}
+                >
+                  1
+                </Styled(Text)>
+                <AnimatedComponent
+                  style={
+                    Object {
+                      "marginLeft": 1,
+                      "transform": Array [
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="arrowDown"
+                    size={20}
+                    themeName="vibrantCyan"
+                  />
+                </AnimatedComponent>
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>
+            <Styled(TouchableWithoutFeedback)
+              disabled={false}
+              onPress={[Function]}
+            >
+              <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+                paddingLeft={8}
+                paddingRight={18}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="arrowRight"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>
+            </Styled(TouchableWithoutFeedback)>
+          </Styled(View)>
+        </Styled(View)>
+      </Styled(View)>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backgroundColor": "#ffffff",
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+        "children": Array [
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            style={
+              Object {
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Styled(View)
+              flexDirection="row"
+              justifyContent="flex-start"
+              paddingLeft={10}
+            >
+              <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  Items per page:
+                </Styled(Text)>
+              </Styled(View)>
+              <Styled(TouchableWithoutFeedback)
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingLeft={16}
+                >
+                  <Styled(View)>
+                    <Styled(Text)
+                      color="#2dbecd"
+                      fontFamily="Lato-Black"
+                      fontSize={14}
+                      style={Object {}}
+                    >
+                      10
+                    </Styled(Text)>
+                  </Styled(View)>
+                  <AnimatedComponent
+                    marginLeft={3}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowDown"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+            </Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              justifyContent="center"
+              paddingLeft={30}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={Object {}}
+              >
+                |
+              </Styled(Text)>
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 25,
+                    },
+                  ]
+                }
+              >
+                1-10 of 100 items
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(View)>,
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-end"
+            style={Object {}}
+          >
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              justifyContent="center"
+              paddingRight={8}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={Object {}}
+              >
+                1 of 10 pages
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              flexDirection="row"
+            >
+              <Styled(TouchableWithoutFeedback)
+                disabled={true}
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  borderLeftColor="#f8f8fc"
+                  borderLeftWidth={2}
+                  justifyContent="center"
+                  paddingLeft={8}
+                  paddingRight={8}
+                >
+                  <Icon
+                    color="#f3f3f7"
+                    name="arrowLeft"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+              <Styled(TouchableWithoutFeedback)
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  borderLeftColor="#f8f8fc"
+                  borderLeftWidth={2}
+                  borderRightColor="#f8f8fc"
+                  borderRightWidth={2}
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingLeft={5}
+                  paddingRight={5}
+                  width={45}
+                >
+                  <Styled(Text)
+                    color="#2dbecd"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    1
+                  </Styled(Text)>
+                  <AnimatedComponent
+                    style={
+                      Object {
+                        "marginLeft": 1,
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowDown"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+              <Styled(TouchableWithoutFeedback)
+                disabled={false}
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  justifyContent="center"
+                  paddingLeft={8}
+                  paddingRight={18}
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="arrowRight"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+            </Styled(View)>
+          </Styled(View)>,
+        ],
+        "flexDirection": "row",
+        "height": 32,
+        "minWidth": 550,
+        "width": 600,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                paddingLeft={10}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    Items per page:
+                  </Styled(Text)>
+                </Styled(View)>
+                <Styled(TouchableWithoutFeedback)
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    flexDirection="row"
+                    justifyContent="center"
+                    paddingLeft={16}
+                  >
+                    <Styled(View)>
+                      <Styled(Text)
+                        color="#2dbecd"
+                        fontFamily="Lato-Black"
+                        fontSize={14}
+                        style={Object {}}
+                      >
+                        10
+                      </Styled(Text)>
+                    </Styled(View)>
+                    <AnimatedComponent
+                      marginLeft={3}
+                      style={
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "rotate": "0deg",
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowDown"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </AnimatedComponent>
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+              </Styled(View)>,
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                justifyContent="center"
+                paddingLeft={30}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  |
+                </Styled(Text)>
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 25,
+                      },
+                    ]
+                  }
+                >
+                  1-10 of 100 items
+                </Styled(Text)>
+              </Styled(View)>,
+            ],
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "style": Object {
+              "paddingLeft": 20,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(View)
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={12}
+                      style={Object {}}
+                    >
+                      Items per page:
+                    </Styled(Text)>
+                  </Styled(View)>,
+                  <Styled(TouchableWithoutFeedback)
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={16}
+                    >
+                      <Styled(View)>
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          10
+                        </Styled(Text)>
+                      </Styled(View)>
+                      <AnimatedComponent
+                        marginLeft={3}
+                        style={
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>,
+                  null,
+                ],
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingLeft": 10,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alignItems": "center",
+                    "children": <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={12}
+                      style={Object {}}
+                    >
+                      Items per page:
+                    </Styled(Text)>,
+                    "justifyContent": "center",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Items per page:",
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Regular",
+                      "fontSize": 12,
+                      "style": Object {},
+                    },
+                    "ref": null,
+                    "rendered": "Items per page:",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(View)
+                      alignItems="center"
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={16}
+                    >
+                      <Styled(View)>
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          10
+                        </Styled(Text)>
+                      </Styled(View)>
+                      <AnimatedComponent
+                        marginLeft={3}
+                        style={
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>,
+                    "onPress": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignItems": "center",
+                      "children": Array [
+                        <Styled(View)>
+                          <Styled(Text)
+                            color="#2dbecd"
+                            fontFamily="Lato-Black"
+                            fontSize={14}
+                            style={Object {}}
+                          >
+                            10
+                          </Styled(Text)>
+                        </Styled(View)>,
+                        <AnimatedComponent
+                          marginLeft={3}
+                          style={
+                            Object {
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>,
+                      ],
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingLeft": 16,
+                    },
+                    "ref": [Function],
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Styled(Text)
+                            color="#2dbecd"
+                            fontFamily="Lato-Black"
+                            fontSize={14}
+                            style={Object {}}
+                          >
+                            10
+                          </Styled(Text)>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": 10,
+                            "color": "#2dbecd",
+                            "fontFamily": "Lato-Black",
+                            "fontSize": 14,
+                            "style": Object {},
+                          },
+                          "ref": null,
+                          "rendered": 10,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />,
+                          "marginLeft": 3,
+                          "style": Object {
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "color": "#2dbecd",
+                            "name": "arrowDown",
+                            "size": 20,
+                            "themeName": "vibrantCyan",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                null,
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    |
+                  </Styled(Text)>,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingLeft": 25,
+                        },
+                      ]
+                    }
+                  >
+                    1-10 of 100 items
+                  </Styled(Text)>,
+                ],
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingLeft": 30,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "|",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 12,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "|",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "1-10 of 100 items",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 12,
+                    "style": Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 25,
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": "1-10 of 100 items",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                justifyContent="center"
+                paddingRight={8}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  1 of 10 pages
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                flexDirection="row"
+              >
+                <Styled(TouchableWithoutFeedback)
+                  disabled={true}
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    borderLeftColor="#f8f8fc"
+                    borderLeftWidth={2}
+                    justifyContent="center"
+                    paddingLeft={8}
+                    paddingRight={8}
+                  >
+                    <Icon
+                      color="#f3f3f7"
+                      name="arrowLeft"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+                <Styled(TouchableWithoutFeedback)
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    borderLeftColor="#f8f8fc"
+                    borderLeftWidth={2}
+                    borderRightColor="#f8f8fc"
+                    borderRightWidth={2}
+                    flexDirection="row"
+                    justifyContent="center"
+                    paddingLeft={5}
+                    paddingRight={5}
+                    width={45}
+                  >
+                    <Styled(Text)
+                      color="#2dbecd"
+                      fontFamily="Lato-Black"
+                      fontSize={14}
+                      style={Object {}}
+                    >
+                      1
+                    </Styled(Text)>
+                    <AnimatedComponent
+                      style={
+                        Object {
+                          "marginLeft": 1,
+                          "transform": Array [
+                            Object {
+                              "rotate": "0deg",
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowDown"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </AnimatedComponent>
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+                <Styled(TouchableWithoutFeedback)
+                  disabled={false}
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    justifyContent="center"
+                    paddingLeft={8}
+                    paddingRight={18}
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowRight"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+              </Styled(View)>,
+              null,
+            ],
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "style": Object {},
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  1 of 10 pages
+                </Styled(Text)>,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingRight": 8,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "1 of 10 pages",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 12,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "1 of 10 pages",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(TouchableWithoutFeedback)
+                    disabled={true}
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={8}
+                    >
+                      <Icon
+                        color="#f3f3f7"
+                        name="arrowLeft"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>,
+                  <Styled(TouchableWithoutFeedback)
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      borderRightColor="#f8f8fc"
+                      borderRightWidth={2}
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={5}
+                      paddingRight={5}
+                      width={45}
+                    >
+                      <Styled(Text)
+                        color="#2dbecd"
+                        fontFamily="Lato-Black"
+                        fontSize={14}
+                        style={Object {}}
+                      >
+                        1
+                      </Styled(Text)>
+                      <AnimatedComponent
+                        style={
+                          Object {
+                            "marginLeft": 1,
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>,
+                  <Styled(TouchableWithoutFeedback)
+                    disabled={false}
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={18}
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowRight"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>,
+                ],
+                "flexDirection": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={8}
+                    >
+                      <Icon
+                        color="#f3f3f7"
+                        name="arrowLeft"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>,
+                    "disabled": true,
+                    "onPress": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#f8f8fc",
+                      "borderLeftWidth": 2,
+                      "children": <Icon
+                        color="#f3f3f7"
+                        name="arrowLeft"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />,
+                      "justifyContent": "center",
+                      "paddingLeft": 8,
+                      "paddingRight": 8,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#f3f3f7",
+                        "name": "arrowLeft",
+                        "size": 24,
+                        "themeName": "vibrantCyan",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      borderRightColor="#f8f8fc"
+                      borderRightWidth={2}
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={5}
+                      paddingRight={5}
+                      width={45}
+                    >
+                      <Styled(Text)
+                        color="#2dbecd"
+                        fontFamily="Lato-Black"
+                        fontSize={14}
+                        style={Object {}}
+                      >
+                        1
+                      </Styled(Text)>
+                      <AnimatedComponent
+                        style={
+                          Object {
+                            "marginLeft": 1,
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>,
+                    "onPress": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#f8f8fc",
+                      "borderLeftWidth": 2,
+                      "borderRightColor": "#f8f8fc",
+                      "borderRightWidth": 2,
+                      "children": Array [
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          1
+                        </Styled(Text)>,
+                        <AnimatedComponent
+                          style={
+                            Object {
+                              "marginLeft": 1,
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>,
+                      ],
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingLeft": 5,
+                      "paddingRight": 5,
+                      "width": 45,
+                    },
+                    "ref": [Function],
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": 1,
+                          "color": "#2dbecd",
+                          "fontFamily": "Lato-Black",
+                          "fontSize": 14,
+                          "style": Object {},
+                        },
+                        "ref": null,
+                        "rendered": 1,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />,
+                          "style": Object {
+                            "marginLeft": 1,
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "color": "#2dbecd",
+                            "name": "arrowDown",
+                            "size": 20,
+                            "themeName": "vibrantCyan",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Styled(View)
+                      alignItems="center"
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={18}
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowRight"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>,
+                    "disabled": false,
+                    "onPress": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignItems": "center",
+                      "children": <Icon
+                        color="#2dbecd"
+                        name="arrowRight"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />,
+                      "justifyContent": "center",
+                      "paddingLeft": 8,
+                      "paddingRight": 18,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#2dbecd",
+                        "name": "arrowRight",
+                        "size": 24,
+                        "themeName": "vibrantCyan",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(View)
+          backgroundColor="#ffffff"
+          borderBottomLeftRadius={0}
+          borderBottomRightRadius={0}
+          borderTopLeftRadius={6}
+          borderTopRightRadius={6}
+          flexDirection="row"
+          height={32}
+          minWidth={550}
+          width={600}
+        >
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            style={
+              Object {
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Styled(View)
+              flexDirection="row"
+              justifyContent="flex-start"
+              paddingLeft={10}
+            >
+              <Styled(View)
+                alignItems="center"
+                justifyContent="center"
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  Items per page:
+                </Styled(Text)>
+              </Styled(View)>
+              <Styled(TouchableWithoutFeedback)
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingLeft={16}
+                >
+                  <Styled(View)>
+                    <Styled(Text)
+                      color="#2dbecd"
+                      fontFamily="Lato-Black"
+                      fontSize={14}
+                      style={Object {}}
+                    >
+                      10
+                    </Styled(Text)>
+                  </Styled(View)>
+                  <AnimatedComponent
+                    marginLeft={3}
+                    style={
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowDown"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+            </Styled(View)>
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              justifyContent="center"
+              paddingLeft={30}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={Object {}}
+              >
+                |
+              </Styled(Text)>
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={
+                  Array [
+                    Object {},
+                    Object {
+                      "paddingLeft": 25,
+                    },
+                  ]
+                }
+              >
+                1-10 of 100 items
+              </Styled(Text)>
+            </Styled(View)>
+          </Styled(View)>
+          <Styled(View)
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-end"
+            style={Object {}}
+          >
+            <Styled(View)
+              alignItems="center"
+              flexDirection="row"
+              justifyContent="center"
+              paddingRight={8}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={12}
+                style={Object {}}
+              >
+                1 of 10 pages
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              flexDirection="row"
+            >
+              <Styled(TouchableWithoutFeedback)
+                disabled={true}
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  borderLeftColor="#f8f8fc"
+                  borderLeftWidth={2}
+                  justifyContent="center"
+                  paddingLeft={8}
+                  paddingRight={8}
+                >
+                  <Icon
+                    color="#f3f3f7"
+                    name="arrowLeft"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+              <Styled(TouchableWithoutFeedback)
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  borderLeftColor="#f8f8fc"
+                  borderLeftWidth={2}
+                  borderRightColor="#f8f8fc"
+                  borderRightWidth={2}
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingLeft={5}
+                  paddingRight={5}
+                  width={45}
+                >
+                  <Styled(Text)
+                    color="#2dbecd"
+                    fontFamily="Lato-Black"
+                    fontSize={14}
+                    style={Object {}}
+                  >
+                    1
+                  </Styled(Text)>
+                  <AnimatedComponent
+                    style={
+                      Object {
+                        "marginLeft": 1,
+                        "transform": Array [
+                          Object {
+                            "rotate": "0deg",
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowDown"
+                      size={20}
+                      themeName="vibrantCyan"
+                    />
+                  </AnimatedComponent>
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+              <Styled(TouchableWithoutFeedback)
+                disabled={false}
+                onPress={[Function]}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  justifyContent="center"
+                  paddingLeft={8}
+                  paddingRight={18}
+                >
+                  <Icon
+                    color="#2dbecd"
+                    name="arrowRight"
+                    size={24}
+                    themeName="vibrantCyan"
+                  />
+                </Styled(View)>
+              </Styled(TouchableWithoutFeedback)>
+            </Styled(View)>
+          </Styled(View)>
+        </Styled(View)>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomLeftRadius": 0,
+          "borderBottomRightRadius": 0,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              style={
+                Object {
+                  "paddingLeft": 20,
+                }
+              }
+            >
+              <Styled(View)
+                flexDirection="row"
+                justifyContent="flex-start"
+                paddingLeft={10}
+              >
+                <Styled(View)
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    Items per page:
+                  </Styled(Text)>
+                </Styled(View)>
+                <Styled(TouchableWithoutFeedback)
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    flexDirection="row"
+                    justifyContent="center"
+                    paddingLeft={16}
+                  >
+                    <Styled(View)>
+                      <Styled(Text)
+                        color="#2dbecd"
+                        fontFamily="Lato-Black"
+                        fontSize={14}
+                        style={Object {}}
+                      >
+                        10
+                      </Styled(Text)>
+                    </Styled(View)>
+                    <AnimatedComponent
+                      marginLeft={3}
+                      style={
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "rotate": "0deg",
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowDown"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </AnimatedComponent>
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+              </Styled(View)>
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                justifyContent="center"
+                paddingLeft={30}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  |
+                </Styled(Text)>
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "paddingLeft": 25,
+                      },
+                    ]
+                  }
+                >
+                  1-10 of 100 items
+                </Styled(Text)>
+              </Styled(View)>
+            </Styled(View)>,
+            <Styled(View)
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-end"
+              style={Object {}}
+            >
+              <Styled(View)
+                alignItems="center"
+                flexDirection="row"
+                justifyContent="center"
+                paddingRight={8}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={12}
+                  style={Object {}}
+                >
+                  1 of 10 pages
+                </Styled(Text)>
+              </Styled(View)>
+              <Styled(View)
+                flexDirection="row"
+              >
+                <Styled(TouchableWithoutFeedback)
+                  disabled={true}
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    borderLeftColor="#f8f8fc"
+                    borderLeftWidth={2}
+                    justifyContent="center"
+                    paddingLeft={8}
+                    paddingRight={8}
+                  >
+                    <Icon
+                      color="#f3f3f7"
+                      name="arrowLeft"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+                <Styled(TouchableWithoutFeedback)
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    borderLeftColor="#f8f8fc"
+                    borderLeftWidth={2}
+                    borderRightColor="#f8f8fc"
+                    borderRightWidth={2}
+                    flexDirection="row"
+                    justifyContent="center"
+                    paddingLeft={5}
+                    paddingRight={5}
+                    width={45}
+                  >
+                    <Styled(Text)
+                      color="#2dbecd"
+                      fontFamily="Lato-Black"
+                      fontSize={14}
+                      style={Object {}}
+                    >
+                      1
+                    </Styled(Text)>
+                    <AnimatedComponent
+                      style={
+                        Object {
+                          "marginLeft": 1,
+                          "transform": Array [
+                            Object {
+                              "rotate": "0deg",
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowDown"
+                        size={20}
+                        themeName="vibrantCyan"
+                      />
+                    </AnimatedComponent>
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+                <Styled(TouchableWithoutFeedback)
+                  disabled={false}
+                  onPress={[Function]}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    justifyContent="center"
+                    paddingLeft={8}
+                    paddingRight={18}
+                  >
+                    <Icon
+                      color="#2dbecd"
+                      name="arrowRight"
+                      size={24}
+                      themeName="vibrantCyan"
+                    />
+                  </Styled(View)>
+                </Styled(TouchableWithoutFeedback)>
+              </Styled(View)>
+            </Styled(View)>,
+          ],
+          "flexDirection": "row",
+          "height": 32,
+          "minWidth": 550,
+          "width": 600,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(View)
+                  flexDirection="row"
+                  justifyContent="flex-start"
+                  paddingLeft={10}
+                >
+                  <Styled(View)
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={12}
+                      style={Object {}}
+                    >
+                      Items per page:
+                    </Styled(Text)>
+                  </Styled(View)>
+                  <Styled(TouchableWithoutFeedback)
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={16}
+                    >
+                      <Styled(View)>
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          10
+                        </Styled(Text)>
+                      </Styled(View)>
+                      <AnimatedComponent
+                        marginLeft={3}
+                        style={
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>
+                </Styled(View)>,
+                <Styled(View)
+                  alignItems="center"
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingLeft={30}
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    |
+                  </Styled(Text)>
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "paddingLeft": 25,
+                        },
+                      ]
+                    }
+                  >
+                    1-10 of 100 items
+                  </Styled(Text)>
+                </Styled(View)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "style": Object {
+                "paddingLeft": 20,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Styled(View)
+                      alignItems="center"
+                      justifyContent="center"
+                    >
+                      <Styled(Text)
+                        color="#1b1b25"
+                        fontFamily="Lato-Regular"
+                        fontSize={12}
+                        style={Object {}}
+                      >
+                        Items per page:
+                      </Styled(Text)>
+                    </Styled(View)>,
+                    <Styled(TouchableWithoutFeedback)
+                      onPress={[Function]}
+                    >
+                      <Styled(View)
+                        alignItems="center"
+                        flexDirection="row"
+                        justifyContent="center"
+                        paddingLeft={16}
+                      >
+                        <Styled(View)>
+                          <Styled(Text)
+                            color="#2dbecd"
+                            fontFamily="Lato-Black"
+                            fontSize={14}
+                            style={Object {}}
+                          >
+                            10
+                          </Styled(Text)>
+                        </Styled(View)>
+                        <AnimatedComponent
+                          marginLeft={3}
+                          style={
+                            Object {
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>
+                      </Styled(View)>
+                    </Styled(TouchableWithoutFeedback)>,
+                    null,
+                  ],
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "paddingLeft": 10,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "alignItems": "center",
+                      "children": <Styled(Text)
+                        color="#1b1b25"
+                        fontFamily="Lato-Regular"
+                        fontSize={12}
+                        style={Object {}}
+                      >
+                        Items per page:
+                      </Styled(Text)>,
+                      "justifyContent": "center",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Items per page:",
+                        "color": "#1b1b25",
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                        "style": Object {},
+                      },
+                      "ref": null,
+                      "rendered": "Items per page:",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(View)
+                        alignItems="center"
+                        flexDirection="row"
+                        justifyContent="center"
+                        paddingLeft={16}
+                      >
+                        <Styled(View)>
+                          <Styled(Text)
+                            color="#2dbecd"
+                            fontFamily="Lato-Black"
+                            fontSize={14}
+                            style={Object {}}
+                          >
+                            10
+                          </Styled(Text)>
+                        </Styled(View)>
+                        <AnimatedComponent
+                          marginLeft={3}
+                          style={
+                            Object {
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>
+                      </Styled(View)>,
+                      "onPress": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alignItems": "center",
+                        "children": Array [
+                          <Styled(View)>
+                            <Styled(Text)
+                              color="#2dbecd"
+                              fontFamily="Lato-Black"
+                              fontSize={14}
+                              style={Object {}}
+                            >
+                              10
+                            </Styled(Text)>
+                          </Styled(View)>,
+                          <AnimatedComponent
+                            marginLeft={3}
+                            style={
+                              Object {
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "0deg",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <Icon
+                              color="#2dbecd"
+                              name="arrowDown"
+                              size={20}
+                              themeName="vibrantCyan"
+                            />
+                          </AnimatedComponent>,
+                        ],
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "paddingLeft": 16,
+                      },
+                      "ref": [Function],
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <Styled(Text)
+                              color="#2dbecd"
+                              fontFamily="Lato-Black"
+                              fontSize={14}
+                              style={Object {}}
+                            >
+                              10
+                            </Styled(Text)>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": 10,
+                              "color": "#2dbecd",
+                              "fontFamily": "Lato-Black",
+                              "fontSize": 14,
+                              "style": Object {},
+                            },
+                            "ref": null,
+                            "rendered": 10,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <Icon
+                              color="#2dbecd"
+                              name="arrowDown"
+                              size={20}
+                              themeName="vibrantCyan"
+                            />,
+                            "marginLeft": 3,
+                            "style": Object {
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            },
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "color": "#2dbecd",
+                              "name": "arrowDown",
+                              "size": 20,
+                              "themeName": "vibrantCyan",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  null,
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alignItems": "center",
+                  "children": Array [
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={12}
+                      style={Object {}}
+                    >
+                      |
+                    </Styled(Text)>,
+                    <Styled(Text)
+                      color="#1b1b25"
+                      fontFamily="Lato-Regular"
+                      fontSize={12}
+                      style={
+                        Array [
+                          Object {},
+                          Object {
+                            "paddingLeft": 25,
+                          },
+                        ]
+                      }
+                    >
+                      1-10 of 100 items
+                    </Styled(Text)>,
+                  ],
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingLeft": 30,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "|",
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Regular",
+                      "fontSize": 12,
+                      "style": Object {},
+                    },
+                    "ref": null,
+                    "rendered": "|",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "1-10 of 100 items",
+                      "color": "#1b1b25",
+                      "fontFamily": "Lato-Regular",
+                      "fontSize": 12,
+                      "style": Array [
+                        Object {},
+                        Object {
+                          "paddingLeft": 25,
+                        },
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": "1-10 of 100 items",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(View)
+                  alignItems="center"
+                  flexDirection="row"
+                  justifyContent="center"
+                  paddingRight={8}
+                >
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    1 of 10 pages
+                  </Styled(Text)>
+                </Styled(View)>,
+                <Styled(View)
+                  flexDirection="row"
+                >
+                  <Styled(TouchableWithoutFeedback)
+                    disabled={true}
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={8}
+                    >
+                      <Icon
+                        color="#f3f3f7"
+                        name="arrowLeft"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>
+                  <Styled(TouchableWithoutFeedback)
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      borderLeftColor="#f8f8fc"
+                      borderLeftWidth={2}
+                      borderRightColor="#f8f8fc"
+                      borderRightWidth={2}
+                      flexDirection="row"
+                      justifyContent="center"
+                      paddingLeft={5}
+                      paddingRight={5}
+                      width={45}
+                    >
+                      <Styled(Text)
+                        color="#2dbecd"
+                        fontFamily="Lato-Black"
+                        fontSize={14}
+                        style={Object {}}
+                      >
+                        1
+                      </Styled(Text)>
+                      <AnimatedComponent
+                        style={
+                          Object {
+                            "marginLeft": 1,
+                            "transform": Array [
+                              Object {
+                                "rotate": "0deg",
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowDown"
+                          size={20}
+                          themeName="vibrantCyan"
+                        />
+                      </AnimatedComponent>
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>
+                  <Styled(TouchableWithoutFeedback)
+                    disabled={false}
+                    onPress={[Function]}
+                  >
+                    <Styled(View)
+                      alignItems="center"
+                      justifyContent="center"
+                      paddingLeft={8}
+                      paddingRight={18}
+                    >
+                      <Icon
+                        color="#2dbecd"
+                        name="arrowRight"
+                        size={24}
+                        themeName="vibrantCyan"
+                      />
+                    </Styled(View)>
+                  </Styled(TouchableWithoutFeedback)>
+                </Styled(View)>,
+                null,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alignItems": "center",
+                  "children": <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={12}
+                    style={Object {}}
+                  >
+                    1 of 10 pages
+                  </Styled(Text)>,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingRight": 8,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "1 of 10 pages",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 12,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "1 of 10 pages",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Styled(TouchableWithoutFeedback)
+                      disabled={true}
+                      onPress={[Function]}
+                    >
+                      <Styled(View)
+                        alignItems="center"
+                        borderLeftColor="#f8f8fc"
+                        borderLeftWidth={2}
+                        justifyContent="center"
+                        paddingLeft={8}
+                        paddingRight={8}
+                      >
+                        <Icon
+                          color="#f3f3f7"
+                          name="arrowLeft"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />
+                      </Styled(View)>
+                    </Styled(TouchableWithoutFeedback)>,
+                    <Styled(TouchableWithoutFeedback)
+                      onPress={[Function]}
+                    >
+                      <Styled(View)
+                        alignItems="center"
+                        borderLeftColor="#f8f8fc"
+                        borderLeftWidth={2}
+                        borderRightColor="#f8f8fc"
+                        borderRightWidth={2}
+                        flexDirection="row"
+                        justifyContent="center"
+                        paddingLeft={5}
+                        paddingRight={5}
+                        width={45}
+                      >
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          1
+                        </Styled(Text)>
+                        <AnimatedComponent
+                          style={
+                            Object {
+                              "marginLeft": 1,
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>
+                      </Styled(View)>
+                    </Styled(TouchableWithoutFeedback)>,
+                    <Styled(TouchableWithoutFeedback)
+                      disabled={false}
+                      onPress={[Function]}
+                    >
+                      <Styled(View)
+                        alignItems="center"
+                        justifyContent="center"
+                        paddingLeft={8}
+                        paddingRight={18}
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowRight"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />
+                      </Styled(View)>
+                    </Styled(TouchableWithoutFeedback)>,
+                  ],
+                  "flexDirection": "row",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(View)
+                        alignItems="center"
+                        borderLeftColor="#f8f8fc"
+                        borderLeftWidth={2}
+                        justifyContent="center"
+                        paddingLeft={8}
+                        paddingRight={8}
+                      >
+                        <Icon
+                          color="#f3f3f7"
+                          name="arrowLeft"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />
+                      </Styled(View)>,
+                      "disabled": true,
+                      "onPress": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alignItems": "center",
+                        "borderLeftColor": "#f8f8fc",
+                        "borderLeftWidth": 2,
+                        "children": <Icon
+                          color="#f3f3f7"
+                          name="arrowLeft"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />,
+                        "justifyContent": "center",
+                        "paddingLeft": 8,
+                        "paddingRight": 8,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "color": "#f3f3f7",
+                          "name": "arrowLeft",
+                          "size": 24,
+                          "themeName": "vibrantCyan",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(View)
+                        alignItems="center"
+                        borderLeftColor="#f8f8fc"
+                        borderLeftWidth={2}
+                        borderRightColor="#f8f8fc"
+                        borderRightWidth={2}
+                        flexDirection="row"
+                        justifyContent="center"
+                        paddingLeft={5}
+                        paddingRight={5}
+                        width={45}
+                      >
+                        <Styled(Text)
+                          color="#2dbecd"
+                          fontFamily="Lato-Black"
+                          fontSize={14}
+                          style={Object {}}
+                        >
+                          1
+                        </Styled(Text)>
+                        <AnimatedComponent
+                          style={
+                            Object {
+                              "marginLeft": 1,
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            }
+                          }
+                        >
+                          <Icon
+                            color="#2dbecd"
+                            name="arrowDown"
+                            size={20}
+                            themeName="vibrantCyan"
+                          />
+                        </AnimatedComponent>
+                      </Styled(View)>,
+                      "onPress": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alignItems": "center",
+                        "borderLeftColor": "#f8f8fc",
+                        "borderLeftWidth": 2,
+                        "borderRightColor": "#f8f8fc",
+                        "borderRightWidth": 2,
+                        "children": Array [
+                          <Styled(Text)
+                            color="#2dbecd"
+                            fontFamily="Lato-Black"
+                            fontSize={14}
+                            style={Object {}}
+                          >
+                            1
+                          </Styled(Text)>,
+                          <AnimatedComponent
+                            style={
+                              Object {
+                                "marginLeft": 1,
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "0deg",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <Icon
+                              color="#2dbecd"
+                              name="arrowDown"
+                              size={20}
+                              themeName="vibrantCyan"
+                            />
+                          </AnimatedComponent>,
+                        ],
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "paddingLeft": 5,
+                        "paddingRight": 5,
+                        "width": 45,
+                      },
+                      "ref": [Function],
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": 1,
+                            "color": "#2dbecd",
+                            "fontFamily": "Lato-Black",
+                            "fontSize": 14,
+                            "style": Object {},
+                          },
+                          "ref": null,
+                          "rendered": 1,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <Icon
+                              color="#2dbecd"
+                              name="arrowDown"
+                              size={20}
+                              themeName="vibrantCyan"
+                            />,
+                            "style": Object {
+                              "marginLeft": 1,
+                              "transform": Array [
+                                Object {
+                                  "rotate": "0deg",
+                                },
+                              ],
+                            },
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "color": "#2dbecd",
+                              "name": "arrowDown",
+                              "size": 20,
+                              "themeName": "vibrantCyan",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Styled(View)
+                        alignItems="center"
+                        justifyContent="center"
+                        paddingLeft={8}
+                        paddingRight={18}
+                      >
+                        <Icon
+                          color="#2dbecd"
+                          name="arrowRight"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />
+                      </Styled(View)>,
+                      "disabled": false,
+                      "onPress": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "alignItems": "center",
+                        "children": <Icon
+                          color="#2dbecd"
+                          name="arrowRight"
+                          size={24}
+                          themeName="vibrantCyan"
+                        />,
+                        "justifyContent": "center",
+                        "paddingLeft": 8,
+                        "paddingRight": 18,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "color": "#2dbecd",
+                          "name": "arrowRight",
+                          "size": 24,
+                          "themeName": "vibrantCyan",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              null,
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

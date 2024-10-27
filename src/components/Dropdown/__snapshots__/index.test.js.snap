@@ -1,0 +1,6691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly,  Default Dropdown 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    amountClosingIconColor="#ffffff"
+    amountClosingIconSize={12}
+    amountFontFamily="Lato-Black"
+    amountTextColor="#ffffff"
+    amountTextSize={14}
+    checkboxSize={24}
+    disabled={false}
+    dropdownContainerStyle={Object {}}
+    dropdownLabel="Dropdown Label"
+    dropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "borderWidth": 0,
+        "elevation": 20,
+        "shadowColor": "#1B1B1B",
+        "shadowOffset": Object {
+          "height": 20,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 15,
+        "width": 250,
+      }
+    }
+    fontFamily="Lato-Regular"
+    fontSize={3}
+    height={40}
+    iconSize={24}
+    inline={false}
+    inlineDropdownContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineDropdownStyle={
+      Object {
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiSelectContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineMultiselectDropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiselectRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    labelStyle={Object {}}
+    multiSelect={false}
+    multiSelectIconStyle={
+      Object {
+        "height": 24,
+        "width": 40,
+      }
+    }
+    multiselect={false}
+    onOptionPress={[Function]}
+    options={
+      Array [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+      ]
+    }
+    rowActiveBackgroundColor="#f3f3f7"
+    rowActiveFontFamily="Lato-Black"
+    rowBackgroundColor="#ffffff"
+    rowFontFamily="Lato-Regular"
+    rowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 250,
+      }
+    }
+    rowTitleColor="#1b1b25"
+    rowTitleStyle={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    themeName="vibrantCyan"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ModalDropdown
+        activeOpacity={1}
+        animated={true}
+        defaultIndex={-1}
+        defaultValue="Please select..."
+        disabled={false}
+        dropdownShadow={
+          Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          }
+        }
+        dropdownStyle={
+          Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ]
+        }
+        keyboardShouldPersistTaps="never"
+        multiSelect={false}
+        onDropdownWillHide={[Function]}
+        onDropdownWillShow={[Function]}
+        onSelect={[Function]}
+        options={
+          Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ]
+        }
+        renderRow={[Function]}
+        scrollEnabled={true}
+        showsVerticalScrollIndicator={true}
+        touchableHighlightUnderlayColor="transparent"
+      >
+        <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </ModalDropdown>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "animated": true,
+        "children": <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "defaultIndex": -1,
+        "defaultValue": "Please select...",
+        "disabled": false,
+        "dropdownShadow": Object {
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 30,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 15,
+        },
+        "dropdownStyle": Array [
+          Object {
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "elevation": 20,
+            "shadowColor": "#1B1B1B",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+            "width": 250,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderRadius": 6,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+          },
+        ],
+        "keyboardShouldPersistTaps": "never",
+        "multiSelect": false,
+        "onDropdownWillHide": [Function],
+        "onDropdownWillShow": [Function],
+        "onSelect": [Function],
+        "options": Array [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4",
+        ],
+        "renderRow": [Function],
+        "scrollEnabled": true,
+        "showsVerticalScrollIndicator": true,
+        "touchableHighlightUnderlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>,
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            null,
+          ],
+          "opacity": 1,
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "width": 250,
+            },
+            Object {},
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                null,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 12,
+              "marginLeft": 15,
+              "marginTop": 12,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Dropdown Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 3,
+                  "numberOfLines": 1,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Dropdown Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "marginBottom": 13,
+              "marginRight": 9,
+              "marginTop": 13,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "arrowDown",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ModalDropdown
+          activeOpacity={1}
+          animated={true}
+          defaultIndex={-1}
+          defaultValue="Please select..."
+          disabled={false}
+          dropdownShadow={
+            Object {
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 30,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+            }
+          }
+          dropdownStyle={
+            Array [
+              Object {
+                "borderRadius": 6,
+                "borderWidth": 0,
+                "elevation": 20,
+                "shadowColor": "#1B1B1B",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 15,
+                "width": 250,
+              },
+              Object {
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderRadius": 6,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "borderWidth": 0,
+                "overflow": "hidden",
+              },
+            ]
+          }
+          keyboardShouldPersistTaps="never"
+          multiSelect={false}
+          onDropdownWillHide={[Function]}
+          onDropdownWillShow={[Function]}
+          onSelect={[Function]}
+          options={
+            Array [
+              "Option 1",
+              "Option 2",
+              "Option 3",
+              "Option 4",
+            ]
+          }
+          renderRow={[Function]}
+          scrollEnabled={true}
+          showsVerticalScrollIndicator={true}
+          touchableHighlightUnderlayColor="transparent"
+        >
+          <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </ModalDropdown>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "animated": true,
+          "children": <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>,
+          "defaultIndex": -1,
+          "defaultValue": "Please select...",
+          "disabled": false,
+          "dropdownShadow": Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          },
+          "dropdownStyle": Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ],
+          "keyboardShouldPersistTaps": "never",
+          "multiSelect": false,
+          "onDropdownWillHide": [Function],
+          "onDropdownWillShow": [Function],
+          "onSelect": [Function],
+          "options": Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ],
+          "renderRow": [Function],
+          "scrollEnabled": true,
+          "showsVerticalScrollIndicator": true,
+          "touchableHighlightUnderlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginBottom={12}
+                marginLeft={15}
+                marginTop={12}
+                opacity={1}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                marginBottom={13}
+                marginRight={9}
+                marginTop={13}
+                opacity={1}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              null,
+            ],
+            "opacity": 1,
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  null,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={3}
+                    numberOfLines={1}
+                    style={Object {}}
+                  >
+                    Dropdown Label
+                  </Styled(Text)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginBottom": 12,
+                "marginLeft": 15,
+                "marginTop": 12,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Dropdown Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 3,
+                    "numberOfLines": 1,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Dropdown Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "marginBottom": 13,
+                "marginRight": 9,
+                "marginTop": 13,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "arrowDown",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  Disabled Dropdown 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    amountClosingIconColor="#ffffff"
+    amountClosingIconSize={12}
+    amountFontFamily="Lato-Black"
+    amountTextColor="#ffffff"
+    amountTextSize={14}
+    checkboxSize={24}
+    disabled={true}
+    dropdownContainerStyle={Object {}}
+    dropdownLabel="Dropdown Label"
+    dropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "borderWidth": 0,
+        "elevation": 20,
+        "shadowColor": "#1B1B1B",
+        "shadowOffset": Object {
+          "height": 20,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 15,
+        "width": 250,
+      }
+    }
+    fontFamily="Lato-Regular"
+    fontSize={3}
+    height={40}
+    iconSize={24}
+    inline={false}
+    inlineDropdownContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineDropdownStyle={
+      Object {
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiSelectContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineMultiselectDropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiselectRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    labelStyle={Object {}}
+    multiSelect={false}
+    multiSelectIconStyle={
+      Object {
+        "height": 24,
+        "width": 40,
+      }
+    }
+    multiselect={false}
+    onOptionPress={[Function]}
+    options={
+      Array [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+      ]
+    }
+    rowActiveBackgroundColor="#f3f3f7"
+    rowActiveFontFamily="Lato-Black"
+    rowBackgroundColor="#ffffff"
+    rowFontFamily="Lato-Regular"
+    rowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 250,
+      }
+    }
+    rowTitleColor="#1b1b25"
+    rowTitleStyle={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    themeName="vibrantCyan"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ModalDropdown
+        activeOpacity={1}
+        animated={true}
+        defaultIndex={-1}
+        defaultValue="Please select..."
+        disabled={true}
+        dropdownShadow={
+          Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          }
+        }
+        dropdownStyle={
+          Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ]
+        }
+        keyboardShouldPersistTaps="never"
+        multiSelect={false}
+        onDropdownWillHide={[Function]}
+        onDropdownWillShow={[Function]}
+        onSelect={[Function]}
+        options={
+          Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ]
+        }
+        renderRow={[Function]}
+        scrollEnabled={true}
+        showsVerticalScrollIndicator={true}
+        touchableHighlightUnderlayColor="transparent"
+      >
+        <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={0.5}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={0.15}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={0.5}
+          >
+            <Icon
+              color="#e9e9ed"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </ModalDropdown>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "animated": true,
+        "children": <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={0.5}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={0.15}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={0.5}
+          >
+            <Icon
+              color="#e9e9ed"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "defaultIndex": -1,
+        "defaultValue": "Please select...",
+        "disabled": true,
+        "dropdownShadow": Object {
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 30,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 15,
+        },
+        "dropdownStyle": Array [
+          Object {
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "elevation": 20,
+            "shadowColor": "#1B1B1B",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+            "width": 250,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderRadius": 6,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+          },
+        ],
+        "keyboardShouldPersistTaps": "never",
+        "multiSelect": false,
+        "onDropdownWillHide": [Function],
+        "onDropdownWillShow": [Function],
+        "onSelect": [Function],
+        "options": Array [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4",
+        ],
+        "renderRow": [Function],
+        "scrollEnabled": true,
+        "showsVerticalScrollIndicator": true,
+        "touchableHighlightUnderlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={0.15}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>,
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={0.5}
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            null,
+          ],
+          "opacity": 0.5,
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "width": 250,
+            },
+            Object {},
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                null,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 12,
+              "marginLeft": 15,
+              "marginTop": 12,
+              "opacity": 0.15,
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Dropdown Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 3,
+                  "numberOfLines": 1,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Dropdown Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "marginBottom": 13,
+              "marginRight": 9,
+              "marginTop": 13,
+              "opacity": 0.5,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#e9e9ed",
+                "name": "arrowDown",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ModalDropdown
+          activeOpacity={1}
+          animated={true}
+          defaultIndex={-1}
+          defaultValue="Please select..."
+          disabled={true}
+          dropdownShadow={
+            Object {
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 30,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+            }
+          }
+          dropdownStyle={
+            Array [
+              Object {
+                "borderRadius": 6,
+                "borderWidth": 0,
+                "elevation": 20,
+                "shadowColor": "#1B1B1B",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 15,
+                "width": 250,
+              },
+              Object {
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderRadius": 6,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "borderWidth": 0,
+                "overflow": "hidden",
+              },
+            ]
+          }
+          keyboardShouldPersistTaps="never"
+          multiSelect={false}
+          onDropdownWillHide={[Function]}
+          onDropdownWillShow={[Function]}
+          onSelect={[Function]}
+          options={
+            Array [
+              "Option 1",
+              "Option 2",
+              "Option 3",
+              "Option 4",
+            ]
+          }
+          renderRow={[Function]}
+          scrollEnabled={true}
+          showsVerticalScrollIndicator={true}
+          touchableHighlightUnderlayColor="transparent"
+        >
+          <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={0.5}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={0.15}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={0.5}
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </ModalDropdown>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "animated": true,
+          "children": <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={0.5}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={0.15}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={0.5}
+            >
+              <Icon
+                color="#e9e9ed"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>,
+          "defaultIndex": -1,
+          "defaultValue": "Please select...",
+          "disabled": true,
+          "dropdownShadow": Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          },
+          "dropdownStyle": Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ],
+          "keyboardShouldPersistTaps": "never",
+          "multiSelect": false,
+          "onDropdownWillHide": [Function],
+          "onDropdownWillShow": [Function],
+          "onSelect": [Function],
+          "options": Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ],
+          "renderRow": [Function],
+          "scrollEnabled": true,
+          "showsVerticalScrollIndicator": true,
+          "touchableHighlightUnderlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginBottom={12}
+                marginLeft={15}
+                marginTop={12}
+                opacity={0.15}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                marginBottom={13}
+                marginRight={9}
+                marginTop={13}
+                opacity={0.5}
+              >
+                <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              null,
+            ],
+            "opacity": 0.5,
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  null,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={3}
+                    numberOfLines={1}
+                    style={Object {}}
+                  >
+                    Dropdown Label
+                  </Styled(Text)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginBottom": 12,
+                "marginLeft": 15,
+                "marginTop": 12,
+                "opacity": 0.15,
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Dropdown Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 3,
+                    "numberOfLines": 1,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Dropdown Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#e9e9ed"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "marginBottom": 13,
+                "marginRight": 9,
+                "marginTop": 13,
+                "opacity": 0.5,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#e9e9ed",
+                  "name": "arrowDown",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  Inline Default Dropdown 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    amountClosingIconColor="#ffffff"
+    amountClosingIconSize={12}
+    amountFontFamily="Lato-Black"
+    amountTextColor="#ffffff"
+    amountTextSize={14}
+    checkboxSize={24}
+    disabled={false}
+    dropdownContainerStyle={Object {}}
+    dropdownLabel="Dropdown Label"
+    dropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "borderWidth": 0,
+        "elevation": 20,
+        "shadowColor": "#1B1B1B",
+        "shadowOffset": Object {
+          "height": 20,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 15,
+        "width": 250,
+      }
+    }
+    fontFamily="Lato-Regular"
+    fontSize={3}
+    height={40}
+    iconSize={24}
+    inline={false}
+    inlineDropdownContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineDropdownStyle={
+      Object {
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiSelectContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineMultiselectDropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiselectRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    labelStyle={Object {}}
+    multiSelect={false}
+    multiSelectIconStyle={
+      Object {
+        "height": 24,
+        "width": 40,
+      }
+    }
+    multiselect={true}
+    onOptionPress={[Function]}
+    options={
+      Array [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+      ]
+    }
+    rowActiveBackgroundColor="#f3f3f7"
+    rowActiveFontFamily="Lato-Black"
+    rowBackgroundColor="#ffffff"
+    rowFontFamily="Lato-Regular"
+    rowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 250,
+      }
+    }
+    rowTitleColor="#1b1b25"
+    rowTitleStyle={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    themeName="vibrantCyan"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ModalDropdown
+        activeOpacity={1}
+        animated={true}
+        defaultIndex={-1}
+        defaultValue="Please select..."
+        disabled={false}
+        dropdownShadow={
+          Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          }
+        }
+        dropdownStyle={
+          Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ]
+        }
+        keyboardShouldPersistTaps="never"
+        multiSelect={false}
+        onDropdownWillHide={[Function]}
+        onDropdownWillShow={[Function]}
+        onSelect={[Function]}
+        options={
+          Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ]
+        }
+        renderRow={[Function]}
+        scrollEnabled={true}
+        showsVerticalScrollIndicator={true}
+        touchableHighlightUnderlayColor="transparent"
+      >
+        <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </ModalDropdown>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "animated": true,
+        "children": <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "defaultIndex": -1,
+        "defaultValue": "Please select...",
+        "disabled": false,
+        "dropdownShadow": Object {
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 30,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 15,
+        },
+        "dropdownStyle": Array [
+          Object {
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "elevation": 20,
+            "shadowColor": "#1B1B1B",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+            "width": 250,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderRadius": 6,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+          },
+        ],
+        "keyboardShouldPersistTaps": "never",
+        "multiSelect": false,
+        "onDropdownWillHide": [Function],
+        "onDropdownWillShow": [Function],
+        "onSelect": [Function],
+        "options": Array [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4",
+        ],
+        "renderRow": [Function],
+        "scrollEnabled": true,
+        "showsVerticalScrollIndicator": true,
+        "touchableHighlightUnderlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>,
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            null,
+          ],
+          "opacity": 1,
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "width": 250,
+            },
+            Object {},
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                null,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 12,
+              "marginLeft": 15,
+              "marginTop": 12,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Dropdown Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 3,
+                  "numberOfLines": 1,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Dropdown Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "marginBottom": 13,
+              "marginRight": 9,
+              "marginTop": 13,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "arrowDown",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ModalDropdown
+          activeOpacity={1}
+          animated={true}
+          defaultIndex={-1}
+          defaultValue="Please select..."
+          disabled={false}
+          dropdownShadow={
+            Object {
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 30,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+            }
+          }
+          dropdownStyle={
+            Array [
+              Object {
+                "borderRadius": 6,
+                "borderWidth": 0,
+                "elevation": 20,
+                "shadowColor": "#1B1B1B",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 15,
+                "width": 250,
+              },
+              Object {
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderRadius": 6,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "borderWidth": 0,
+                "overflow": "hidden",
+              },
+            ]
+          }
+          keyboardShouldPersistTaps="never"
+          multiSelect={false}
+          onDropdownWillHide={[Function]}
+          onDropdownWillShow={[Function]}
+          onSelect={[Function]}
+          options={
+            Array [
+              "Option 1",
+              "Option 2",
+              "Option 3",
+              "Option 4",
+            ]
+          }
+          renderRow={[Function]}
+          scrollEnabled={true}
+          showsVerticalScrollIndicator={true}
+          touchableHighlightUnderlayColor="transparent"
+        >
+          <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </ModalDropdown>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "animated": true,
+          "children": <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>,
+          "defaultIndex": -1,
+          "defaultValue": "Please select...",
+          "disabled": false,
+          "dropdownShadow": Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          },
+          "dropdownStyle": Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ],
+          "keyboardShouldPersistTaps": "never",
+          "multiSelect": false,
+          "onDropdownWillHide": [Function],
+          "onDropdownWillShow": [Function],
+          "onSelect": [Function],
+          "options": Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ],
+          "renderRow": [Function],
+          "scrollEnabled": true,
+          "showsVerticalScrollIndicator": true,
+          "touchableHighlightUnderlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginBottom={12}
+                marginLeft={15}
+                marginTop={12}
+                opacity={1}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                marginBottom={13}
+                marginRight={9}
+                marginTop={13}
+                opacity={1}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              null,
+            ],
+            "opacity": 1,
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  null,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={3}
+                    numberOfLines={1}
+                    style={Object {}}
+                  >
+                    Dropdown Label
+                  </Styled(Text)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginBottom": 12,
+                "marginLeft": 15,
+                "marginTop": 12,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Dropdown Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 3,
+                    "numberOfLines": 1,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Dropdown Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "marginBottom": 13,
+                "marginRight": 9,
+                "marginTop": 13,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "arrowDown",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  Inline Multiselect Dropdown 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    amountClosingIconColor="#ffffff"
+    amountClosingIconSize={12}
+    amountFontFamily="Lato-Black"
+    amountTextColor="#ffffff"
+    amountTextSize={14}
+    checkboxSize={24}
+    disabled={false}
+    dropdownContainerStyle={Object {}}
+    dropdownLabel="Dropdown Label"
+    dropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "borderWidth": 0,
+        "elevation": 20,
+        "shadowColor": "#1B1B1B",
+        "shadowOffset": Object {
+          "height": 20,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 15,
+        "width": 250,
+      }
+    }
+    fontFamily="Lato-Regular"
+    fontSize={3}
+    height={40}
+    iconSize={24}
+    inline={false}
+    inlineDropdownContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineDropdownStyle={
+      Object {
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiSelectContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineMultiselectDropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiselectRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    labelStyle={Object {}}
+    multiSelect={false}
+    multiSelectIconStyle={
+      Object {
+        "height": 24,
+        "width": 40,
+      }
+    }
+    multiselect={true}
+    onOptionPress={[Function]}
+    options={
+      Array [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+      ]
+    }
+    rowActiveBackgroundColor="#f3f3f7"
+    rowActiveFontFamily="Lato-Black"
+    rowBackgroundColor="#ffffff"
+    rowFontFamily="Lato-Regular"
+    rowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 250,
+      }
+    }
+    rowTitleColor="#1b1b25"
+    rowTitleStyle={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    themeName="vibrantCyan"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ModalDropdown
+        activeOpacity={1}
+        animated={true}
+        defaultIndex={-1}
+        defaultValue="Please select..."
+        disabled={false}
+        dropdownShadow={
+          Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          }
+        }
+        dropdownStyle={
+          Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ]
+        }
+        keyboardShouldPersistTaps="never"
+        multiSelect={false}
+        onDropdownWillHide={[Function]}
+        onDropdownWillShow={[Function]}
+        onSelect={[Function]}
+        options={
+          Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ]
+        }
+        renderRow={[Function]}
+        scrollEnabled={true}
+        showsVerticalScrollIndicator={true}
+        touchableHighlightUnderlayColor="transparent"
+      >
+        <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </ModalDropdown>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "animated": true,
+        "children": <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "defaultIndex": -1,
+        "defaultValue": "Please select...",
+        "disabled": false,
+        "dropdownShadow": Object {
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 30,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 15,
+        },
+        "dropdownStyle": Array [
+          Object {
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "elevation": 20,
+            "shadowColor": "#1B1B1B",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+            "width": 250,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderRadius": 6,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+          },
+        ],
+        "keyboardShouldPersistTaps": "never",
+        "multiSelect": false,
+        "onDropdownWillHide": [Function],
+        "onDropdownWillShow": [Function],
+        "onSelect": [Function],
+        "options": Array [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4",
+        ],
+        "renderRow": [Function],
+        "scrollEnabled": true,
+        "showsVerticalScrollIndicator": true,
+        "touchableHighlightUnderlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>,
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            null,
+          ],
+          "opacity": 1,
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "width": 250,
+            },
+            Object {},
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                null,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 12,
+              "marginLeft": 15,
+              "marginTop": 12,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Dropdown Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 3,
+                  "numberOfLines": 1,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Dropdown Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "marginBottom": 13,
+              "marginRight": 9,
+              "marginTop": 13,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "arrowDown",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ModalDropdown
+          activeOpacity={1}
+          animated={true}
+          defaultIndex={-1}
+          defaultValue="Please select..."
+          disabled={false}
+          dropdownShadow={
+            Object {
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 30,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+            }
+          }
+          dropdownStyle={
+            Array [
+              Object {
+                "borderRadius": 6,
+                "borderWidth": 0,
+                "elevation": 20,
+                "shadowColor": "#1B1B1B",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 15,
+                "width": 250,
+              },
+              Object {
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderRadius": 6,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "borderWidth": 0,
+                "overflow": "hidden",
+              },
+            ]
+          }
+          keyboardShouldPersistTaps="never"
+          multiSelect={false}
+          onDropdownWillHide={[Function]}
+          onDropdownWillShow={[Function]}
+          onSelect={[Function]}
+          options={
+            Array [
+              "Option 1",
+              "Option 2",
+              "Option 3",
+              "Option 4",
+            ]
+          }
+          renderRow={[Function]}
+          scrollEnabled={true}
+          showsVerticalScrollIndicator={true}
+          touchableHighlightUnderlayColor="transparent"
+        >
+          <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </ModalDropdown>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "animated": true,
+          "children": <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>,
+          "defaultIndex": -1,
+          "defaultValue": "Please select...",
+          "disabled": false,
+          "dropdownShadow": Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          },
+          "dropdownStyle": Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ],
+          "keyboardShouldPersistTaps": "never",
+          "multiSelect": false,
+          "onDropdownWillHide": [Function],
+          "onDropdownWillShow": [Function],
+          "onSelect": [Function],
+          "options": Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ],
+          "renderRow": [Function],
+          "scrollEnabled": true,
+          "showsVerticalScrollIndicator": true,
+          "touchableHighlightUnderlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginBottom={12}
+                marginLeft={15}
+                marginTop={12}
+                opacity={1}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                marginBottom={13}
+                marginRight={9}
+                marginTop={13}
+                opacity={1}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              null,
+            ],
+            "opacity": 1,
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  null,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={3}
+                    numberOfLines={1}
+                    style={Object {}}
+                  >
+                    Dropdown Label
+                  </Styled(Text)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginBottom": 12,
+                "marginLeft": 15,
+                "marginTop": 12,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Dropdown Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 3,
+                    "numberOfLines": 1,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Dropdown Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "marginBottom": 13,
+                "marginRight": 9,
+                "marginTop": 13,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "arrowDown",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Renders correctly,  Multiselect Dropdown 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    amountClosingIconColor="#ffffff"
+    amountClosingIconSize={12}
+    amountFontFamily="Lato-Black"
+    amountTextColor="#ffffff"
+    amountTextSize={14}
+    checkboxSize={24}
+    disabled={false}
+    dropdownContainerStyle={Object {}}
+    dropdownLabel="Dropdown Label"
+    dropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "borderWidth": 0,
+        "elevation": 20,
+        "shadowColor": "#1B1B1B",
+        "shadowOffset": Object {
+          "height": 20,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 15,
+        "width": 250,
+      }
+    }
+    fontFamily="Lato-Regular"
+    fontSize={3}
+    height={40}
+    iconSize={24}
+    inline={false}
+    inlineDropdownContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineDropdownStyle={
+      Object {
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiSelectContainerStyle={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineMultiselectDropdownStyle={
+      Object {
+        "borderRadius": 6,
+        "height": 200,
+        "width": 190,
+      }
+    }
+    inlineMultiselectRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    inlineRowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 190,
+      }
+    }
+    labelStyle={Object {}}
+    multiSelect={false}
+    multiSelectIconStyle={
+      Object {
+        "height": 24,
+        "width": 40,
+      }
+    }
+    multiselect={true}
+    onOptionPress={[Function]}
+    options={
+      Array [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+      ]
+    }
+    rowActiveBackgroundColor="#f3f3f7"
+    rowActiveFontFamily="Lato-Black"
+    rowBackgroundColor="#ffffff"
+    rowFontFamily="Lato-Regular"
+    rowStyle={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "width": 250,
+      }
+    }
+    rowTitleColor="#1b1b25"
+    rowTitleStyle={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    themeName="vibrantCyan"
+    width={250}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <ModalDropdown
+        activeOpacity={1}
+        animated={true}
+        defaultIndex={-1}
+        defaultValue="Please select..."
+        disabled={false}
+        dropdownShadow={
+          Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          }
+        }
+        dropdownStyle={
+          Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ]
+        }
+        keyboardShouldPersistTaps="never"
+        multiSelect={false}
+        onDropdownWillHide={[Function]}
+        onDropdownWillShow={[Function]}
+        onSelect={[Function]}
+        options={
+          Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ]
+        }
+        renderRow={[Function]}
+        scrollEnabled={true}
+        showsVerticalScrollIndicator={true}
+        touchableHighlightUnderlayColor="transparent"
+      >
+        <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>
+      </ModalDropdown>,
+      "theme": Object {
+        "colors": Object {
+          "black": Object {
+            "base": undefined,
+          },
+          "primary": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "light": "#57cbd7",
+            "lightest": "#abe5eb",
+          },
+          "richBlack": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "richBlue": Object {
+            "base": "#0f69af",
+            "dark": "#0e5f9e",
+            "darker": "#0b4a7b",
+            "darkest": "#083558",
+            "light": "#3f87bf",
+            "lighter": "#6fa5cf",
+            "lightest": "#9fc3df",
+          },
+          "richGreen": Object {
+            "base": "#149b5f",
+            "dark": "#0d6c42",
+            "darker": "#0c5d39",
+            "darkest": "#094d2f",
+            "light": "#5ab98f",
+            "lighter": "#72c39f",
+            "lightest": "#89cdaf",
+          },
+          "richPurple": Object {
+            "base": "#503291",
+            "dark": "#482d83",
+            "darker": "#382366",
+            "darkest": "#281949",
+            "light": "#735ba7",
+            "lighter": "#9684bd",
+            "lightest": "#b9add3",
+          },
+          "richRed": Object {
+            "base": "#e61e50",
+            "dark": "#cf1b48",
+            "darker": "#a11538",
+            "darkest": "#730f28",
+            "light": "#eb4b73",
+            "lighter": "#f07896",
+            "lightest": "#f5a5b9",
+          },
+          "secondary": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "light": "#ffd35b",
+            "lightest": "#ffe9ad",
+          },
+          "sensitiveGrey": Object {
+            "base": "#f8f8fc",
+            "dark": "#f3f3f7",
+            "darker": "#efeff1",
+            "darkest": "#e9e9ed",
+            "light": "#f8f8fc",
+            "lighter": "#ffffff",
+            "lightest": "#ffffff",
+          },
+          "vibrantCyan": Object {
+            "base": "#2dbecd",
+            "dark": "#29abb9",
+            "darker": "#208590",
+            "darkest": "#175f67",
+            "light": "#57cbd7",
+            "lighter": "#81d8e1",
+            "lightest": "#abe5eb",
+          },
+          "vibrantGreen": Object {
+            "base": undefined,
+            "dark": undefined,
+            "darker": undefined,
+            "darkest": undefined,
+            "light": undefined,
+            "lighter": undefined,
+            "lightest": undefined,
+          },
+          "vibrantMagenta": Object {
+            "base": "#eb3c96",
+            "dark": "#d43687",
+            "darker": "#a52a69",
+            "darkest": "#761e4b",
+            "light": "#ef63ab",
+            "lighter": "#f38ac0",
+            "lightest": "#f7b1d5",
+          },
+          "vibrantYellow": Object {
+            "base": "#ffc832",
+            "dark": "#f3be2f",
+            "darker": "#ddac28",
+            "darkest": "#806419",
+            "light": "#ffd35b",
+            "lighter": "#ffde84",
+            "lightest": "#ffe9ad",
+          },
+          "white": Object {
+            "base": "#ffffff",
+          },
+        },
+        "fontSizes": Array [
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          24,
+          36,
+        ],
+        "fontWeights": Array [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+        ],
+        "fonts": Object {
+          "Black": "Lato-Black",
+          "Bold": "Lato-Bold",
+          "IcoMoon": "icomoon",
+          "Merck": "MerckWeb-Regular",
+          "Regular": "Lato-Regular",
+        },
+        "heights": Object {
+          "Big": 50,
+          "Default": 40,
+        },
+        "shadows": Object {
+          "active": Object {
+            "elevation": 40,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+          "default": Object {},
+          "stacked": Object {
+            "elevation": 25,
+            "shadowColor": "#1b1b25",
+            "shadowOffset": "0px 30px",
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        },
+        "space": Array [
+          0,
+          1,
+          2,
+          5,
+          10,
+          15,
+          20,
+          24,
+          50,
+          8,
+          7,
+          4,
+          9,
+          6,
+        ],
+        "stacked": Object {
+          "stackedFirst": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "position": "absolute",
+            "zIndex": 10,
+          },
+          "stackedSecond": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 3,
+            "position": "absolute",
+            "top": 3,
+            "zIndex": 9,
+          },
+          "stackedThird": Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#f3f3f7",
+            "borderRightWidth": 1,
+            "left": 6,
+            "top": 6,
+            "zIndex": 8,
+          },
+        },
+        "widths": Array [
+          50,
+          100,
+          130,
+        ],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 1,
+        "animated": true,
+        "children": <Styled(View)
+          borderBottomLeftRadius={6}
+          borderBottomRightRadius={6}
+          opacity={1}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Styled(View)
+            alignItems="center"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            marginBottom={12}
+            marginLeft={15}
+            marginTop={12}
+            opacity={1}
+          >
+            <Styled(Text)
+              color="#1b1b25"
+              fontFamily="Lato-Regular"
+              fontSize={3}
+              numberOfLines={1}
+              style={Object {}}
+            >
+              Dropdown Label
+            </Styled(Text)>
+          </Styled(View)>
+          <Styled(View)
+            marginBottom={13}
+            marginRight={9}
+            marginTop={13}
+            opacity={1}
+          >
+            <Icon
+              color="#2dbecd"
+              name="arrowDown"
+              size={24}
+              themeName="vibrantCyan"
+            />
+          </Styled(View)>
+        </Styled(View)>,
+        "defaultIndex": -1,
+        "defaultValue": "Please select...",
+        "disabled": false,
+        "dropdownShadow": Object {
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 30,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 15,
+        },
+        "dropdownStyle": Array [
+          Object {
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "elevation": 20,
+            "shadowColor": "#1B1B1B",
+            "shadowOffset": Object {
+              "height": 20,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+            "width": 250,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderRadius": 6,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+          },
+        ],
+        "keyboardShouldPersistTaps": "never",
+        "multiSelect": false,
+        "onDropdownWillHide": [Function],
+        "onDropdownWillShow": [Function],
+        "onSelect": [Function],
+        "options": Array [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4",
+        ],
+        "renderRow": [Function],
+        "scrollEnabled": true,
+        "showsVerticalScrollIndicator": true,
+        "touchableHighlightUnderlayColor": "transparent",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "children": Array [
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>,
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>,
+            null,
+          ],
+          "opacity": 1,
+          "style": Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "width": 250,
+            },
+            Object {},
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "center",
+              "children": Array [
+                null,
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>,
+              ],
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 12,
+              "marginLeft": 15,
+              "marginTop": 12,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Dropdown Label",
+                  "color": "#1b1b25",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 3,
+                  "numberOfLines": 1,
+                  "style": Object {},
+                },
+                "ref": null,
+                "rendered": "Dropdown Label",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />,
+              "marginBottom": 13,
+              "marginRight": 9,
+              "marginTop": 13,
+              "opacity": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#2dbecd",
+                "name": "arrowDown",
+                "size": 24,
+                "themeName": "vibrantCyan",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <ModalDropdown
+          activeOpacity={1}
+          animated={true}
+          defaultIndex={-1}
+          defaultValue="Please select..."
+          disabled={false}
+          dropdownShadow={
+            Object {
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": 30,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+            }
+          }
+          dropdownStyle={
+            Array [
+              Object {
+                "borderRadius": 6,
+                "borderWidth": 0,
+                "elevation": 20,
+                "shadowColor": "#1B1B1B",
+                "shadowOffset": Object {
+                  "height": 20,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 15,
+                "width": 250,
+              },
+              Object {
+                "borderBottomLeftRadius": 6,
+                "borderBottomRightRadius": 6,
+                "borderRadius": 6,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "borderWidth": 0,
+                "overflow": "hidden",
+              },
+            ]
+          }
+          keyboardShouldPersistTaps="never"
+          multiSelect={false}
+          onDropdownWillHide={[Function]}
+          onDropdownWillShow={[Function]}
+          onSelect={[Function]}
+          options={
+            Array [
+              "Option 1",
+              "Option 2",
+              "Option 3",
+              "Option 4",
+            ]
+          }
+          renderRow={[Function]}
+          scrollEnabled={true}
+          showsVerticalScrollIndicator={true}
+          touchableHighlightUnderlayColor="transparent"
+        >
+          <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>
+        </ModalDropdown>,
+        "theme": Object {
+          "colors": Object {
+            "black": Object {
+              "base": undefined,
+            },
+            "primary": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "light": "#57cbd7",
+              "lightest": "#abe5eb",
+            },
+            "richBlack": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "richBlue": Object {
+              "base": "#0f69af",
+              "dark": "#0e5f9e",
+              "darker": "#0b4a7b",
+              "darkest": "#083558",
+              "light": "#3f87bf",
+              "lighter": "#6fa5cf",
+              "lightest": "#9fc3df",
+            },
+            "richGreen": Object {
+              "base": "#149b5f",
+              "dark": "#0d6c42",
+              "darker": "#0c5d39",
+              "darkest": "#094d2f",
+              "light": "#5ab98f",
+              "lighter": "#72c39f",
+              "lightest": "#89cdaf",
+            },
+            "richPurple": Object {
+              "base": "#503291",
+              "dark": "#482d83",
+              "darker": "#382366",
+              "darkest": "#281949",
+              "light": "#735ba7",
+              "lighter": "#9684bd",
+              "lightest": "#b9add3",
+            },
+            "richRed": Object {
+              "base": "#e61e50",
+              "dark": "#cf1b48",
+              "darker": "#a11538",
+              "darkest": "#730f28",
+              "light": "#eb4b73",
+              "lighter": "#f07896",
+              "lightest": "#f5a5b9",
+            },
+            "secondary": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "light": "#ffd35b",
+              "lightest": "#ffe9ad",
+            },
+            "sensitiveGrey": Object {
+              "base": "#f8f8fc",
+              "dark": "#f3f3f7",
+              "darker": "#efeff1",
+              "darkest": "#e9e9ed",
+              "light": "#f8f8fc",
+              "lighter": "#ffffff",
+              "lightest": "#ffffff",
+            },
+            "vibrantCyan": Object {
+              "base": "#2dbecd",
+              "dark": "#29abb9",
+              "darker": "#208590",
+              "darkest": "#175f67",
+              "light": "#57cbd7",
+              "lighter": "#81d8e1",
+              "lightest": "#abe5eb",
+            },
+            "vibrantGreen": Object {
+              "base": undefined,
+              "dark": undefined,
+              "darker": undefined,
+              "darkest": undefined,
+              "light": undefined,
+              "lighter": undefined,
+              "lightest": undefined,
+            },
+            "vibrantMagenta": Object {
+              "base": "#eb3c96",
+              "dark": "#d43687",
+              "darker": "#a52a69",
+              "darkest": "#761e4b",
+              "light": "#ef63ab",
+              "lighter": "#f38ac0",
+              "lightest": "#f7b1d5",
+            },
+            "vibrantYellow": Object {
+              "base": "#ffc832",
+              "dark": "#f3be2f",
+              "darker": "#ddac28",
+              "darkest": "#806419",
+              "light": "#ffd35b",
+              "lighter": "#ffde84",
+              "lightest": "#ffe9ad",
+            },
+            "white": Object {
+              "base": "#ffffff",
+            },
+          },
+          "fontSizes": Array [
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            36,
+          ],
+          "fontWeights": Array [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+          ],
+          "fonts": Object {
+            "Black": "Lato-Black",
+            "Bold": "Lato-Bold",
+            "IcoMoon": "icomoon",
+            "Merck": "MerckWeb-Regular",
+            "Regular": "Lato-Regular",
+          },
+          "heights": Object {
+            "Big": 50,
+            "Default": 40,
+          },
+          "shadows": Object {
+            "active": Object {
+              "elevation": 40,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+            "default": Object {},
+            "stacked": Object {
+              "elevation": 25,
+              "shadowColor": "#1b1b25",
+              "shadowOffset": "0px 30px",
+              "shadowOpacity": 0.3,
+              "shadowRadius": 20,
+            },
+          },
+          "space": Array [
+            0,
+            1,
+            2,
+            5,
+            10,
+            15,
+            20,
+            24,
+            50,
+            8,
+            7,
+            4,
+            9,
+            6,
+          ],
+          "stacked": Object {
+            "stackedFirst": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "position": "absolute",
+              "zIndex": 10,
+            },
+            "stackedSecond": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 3,
+              "position": "absolute",
+              "top": 3,
+              "zIndex": 9,
+            },
+            "stackedThird": Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#f3f3f7",
+              "borderRightWidth": 1,
+              "left": 6,
+              "top": 6,
+              "zIndex": 8,
+            },
+          },
+          "widths": Array [
+            50,
+            100,
+            130,
+          ],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeOpacity": 1,
+          "animated": true,
+          "children": <Styled(View)
+            borderBottomLeftRadius={6}
+            borderBottomRightRadius={6}
+            opacity={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderTopLeftRadius": 6,
+                  "borderTopRightRadius": 6,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "width": 250,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Styled(View)
+              alignItems="center"
+              flex={1}
+              flexDirection="row"
+              justifyContent="flex-start"
+              marginBottom={12}
+              marginLeft={15}
+              marginTop={12}
+              opacity={1}
+            >
+              <Styled(Text)
+                color="#1b1b25"
+                fontFamily="Lato-Regular"
+                fontSize={3}
+                numberOfLines={1}
+                style={Object {}}
+              >
+                Dropdown Label
+              </Styled(Text)>
+            </Styled(View)>
+            <Styled(View)
+              marginBottom={13}
+              marginRight={9}
+              marginTop={13}
+              opacity={1}
+            >
+              <Icon
+                color="#2dbecd"
+                name="arrowDown"
+                size={24}
+                themeName="vibrantCyan"
+              />
+            </Styled(View)>
+          </Styled(View)>,
+          "defaultIndex": -1,
+          "defaultValue": "Please select...",
+          "disabled": false,
+          "dropdownShadow": Object {
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 30,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 15,
+          },
+          "dropdownStyle": Array [
+            Object {
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "elevation": 20,
+              "shadowColor": "#1B1B1B",
+              "shadowOffset": Object {
+                "height": 20,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 15,
+              "width": 250,
+            },
+            Object {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderRadius": 6,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "borderWidth": 0,
+              "overflow": "hidden",
+            },
+          ],
+          "keyboardShouldPersistTaps": "never",
+          "multiSelect": false,
+          "onDropdownWillHide": [Function],
+          "onDropdownWillShow": [Function],
+          "onSelect": [Function],
+          "options": Array [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+          ],
+          "renderRow": [Function],
+          "scrollEnabled": true,
+          "showsVerticalScrollIndicator": true,
+          "touchableHighlightUnderlayColor": "transparent",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "children": Array [
+              <Styled(View)
+                alignItems="center"
+                flex={1}
+                flexDirection="row"
+                justifyContent="flex-start"
+                marginBottom={12}
+                marginLeft={15}
+                marginTop={12}
+                opacity={1}
+              >
+                <Styled(Text)
+                  color="#1b1b25"
+                  fontFamily="Lato-Regular"
+                  fontSize={3}
+                  numberOfLines={1}
+                  style={Object {}}
+                >
+                  Dropdown Label
+                </Styled(Text)>
+              </Styled(View)>,
+              <Styled(View)
+                marginBottom={13}
+                marginRight={9}
+                marginTop={13}
+                opacity={1}
+              >
+                <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />
+              </Styled(View)>,
+              null,
+            ],
+            "opacity": 1,
+            "style": Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderTopLeftRadius": 6,
+                "borderTopRightRadius": 6,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-between",
+                "width": 250,
+              },
+              Object {},
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "center",
+                "children": Array [
+                  null,
+                  <Styled(Text)
+                    color="#1b1b25"
+                    fontFamily="Lato-Regular"
+                    fontSize={3}
+                    numberOfLines={1}
+                    style={Object {}}
+                  >
+                    Dropdown Label
+                  </Styled(Text)>,
+                ],
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "marginBottom": 12,
+                "marginLeft": 15,
+                "marginTop": 12,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Dropdown Label",
+                    "color": "#1b1b25",
+                    "fontFamily": "Lato-Regular",
+                    "fontSize": 3,
+                    "numberOfLines": 1,
+                    "style": Object {},
+                  },
+                  "ref": null,
+                  "rendered": "Dropdown Label",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Icon
+                  color="#2dbecd"
+                  name="arrowDown"
+                  size={24}
+                  themeName="vibrantCyan"
+                />,
+                "marginBottom": 13,
+                "marginRight": 9,
+                "marginTop": 13,
+                "opacity": 1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#2dbecd",
+                  "name": "arrowDown",
+                  "size": 24,
+                  "themeName": "vibrantCyan",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

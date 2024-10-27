@@ -1,12 +1,12 @@
-import { StyleSheet } from 'react-native';
-import { colors } from '../../../config';
+import { StyleSheet } from "react-native";
+import { colors } from "../../../config";
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: colors.white,
-  },
+	container: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: colors.white,
+	},
 });
 export default styles;

@@ -1,18 +1,19 @@
-import styled from 'styled-components';
+import { TouchableWithoutFeedback } from "react-native";
+import styled from "styled-components";
 import {
-  backgroundColor,
-  width,
-  height,
-  color,
-  fontFamily,
-  fontSize,
-  paddingLeft,
-} from 'styled-system';
+	backgroundColor,
+	width,
+	height,
+	color,
+	fontFamily,
+	fontSize,
+	paddingLeft,
+} from "styled-system";
 
 const TooltipContainer = styled.View``;
 
 const TooltipWrapper = styled.View``;
 
-const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``;
+const TouchableModalChildrenWrapper = styled(TouchableWithoutFeedback)``;
 
 export { TooltipContainer, TooltipWrapper, TouchableModalChildrenWrapper };

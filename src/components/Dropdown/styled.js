@@ -1,34 +1,35 @@
-import styled from 'styled-components';
+import { TouchableWithoutFeedback } from "react-native";
+import styled from "styled-components";
 import {
-  backgroundColor,
-  width,
-  height,
-  borderRadius,
-  justifyContent,
-  alignItems,
-  fontFamily,
-  fontSize,
-  space,
-  flexDirection,
-  fontWeight,
-  flex,
-  color,
-  opacity,
-  marginRight,
-  marginLeft,
-  marginBottom,
-  marginTop,
-  paddingRight,
-  borderBottomLeftRadius,
-  borderBottomRightRadius,
-  borderTopLeftRadius,
-  borderTopRightRadius,
-  paddingLeft,
-} from 'styled-system';
+	backgroundColor,
+	width,
+	height,
+	borderRadius,
+	justifyContent,
+	alignItems,
+	fontFamily,
+	fontSize,
+	space,
+	flexDirection,
+	fontWeight,
+	flex,
+	color,
+	opacity,
+	marginRight,
+	marginLeft,
+	marginBottom,
+	marginTop,
+	paddingRight,
+	borderBottomLeftRadius,
+	borderBottomRightRadius,
+	borderTopLeftRadius,
+	borderTopRightRadius,
+	paddingLeft,
+} from "styled-system";
 
 const DropdownWrapper = styled.View`
-  ${backgroundColor}
-  ${width}
+	${backgroundColor}
+	${width}
   ${height}
   ${justifyContent}
   ${alignItems}
@@ -40,16 +41,16 @@ const DropdownWrapper = styled.View`
 `;
 
 const DropdownLabel = styled.Text`
-  ${fontFamily}
-  ${fontSize}
+	${fontFamily}
+	${fontSize}
   ${space}
   ${color}
   ${flexDirection}
   ${opacity}
 `;
 const IconWrapper = styled.View`
-  ${space}
-  ${width}
+	${space}
+	${width}
   ${flex}
   ${justifyContent}
   ${alignItems}
@@ -58,15 +59,15 @@ const IconWrapper = styled.View`
   ${marginBottom}
 `;
 const DropdownOption = styled.Text`
-  ${fontSize}
-  ${fontFamily}
+	${fontSize}
+	${fontFamily}
   ${fontWeight}
   ${space}
   ${color}
 `;
 const DropdownRowWrapper = styled.View`
-  ${flex}
-  ${height}
+	${flex}
+	${height}
   ${justifyContent}
   ${alignItems}
   ${space}
@@ -76,23 +77,23 @@ const DropdownRowWrapper = styled.View`
   ${paddingRight}
 `;
 const RowWithCheckboxWrapper = styled.View`
-  ${space}
-  ${flexDirection}
+	${space}
+	${flexDirection}
 `;
 const CheckboxIconWrapper = styled.View`
-  ${justifyContent}
-  ${alignItems}
+	${justifyContent}
+	${alignItems}
 `;
 const DropdownOptionWrapper = styled.View`
-  ${justifyContent}
-  ${alignItems}
+	${justifyContent}
+	${alignItems}
   ${marginLeft}
   ${marginRight}
   ${flex}
 `;
 const DropdownLabelWithIconLeftWrapper = styled.View`
-  ${flexDirection}
-  ${marginTop}
+	${flexDirection}
+	${marginTop}
   ${marginLeft}
   ${marginBottom}
   ${justifyContent}
@@ -103,8 +104,8 @@ const DropdownLabelWithIconLeftWrapper = styled.View`
 `;
 
 const AmountIconWrapper = styled.View`
-  ${backgroundColor}
-  ${borderRadius}
+	${backgroundColor}
+	${borderRadius}
   ${width}
   ${height}
   ${flexDirection}
@@ -113,32 +114,32 @@ const AmountIconWrapper = styled.View`
   ${space}
 `;
 const Amount = styled.Text`
-  ${space}
-  ${color}
+	${space}
+	${color}
   ${fontFamily}
   ${fontSize}
 `;
 const AmountWrapper = styled.View`
-  ${width}
-  ${flex}
+	${width}
+	${flex}
   ${space}
   ${justifyContent}
   ${alignItems}
   ${paddingLeft}
 `;
 
-const IconTouchable = styled.TouchableWithoutFeedback``;
+const IconTouchable = styled(TouchableWithoutFeedback)``;
 
 const IconOptionWrapper = styled.View`
-  ${flexDirection}
-  ${flex}
+	${flexDirection}
+	${flex}
   ${marginLeft}
   ${marginRight}
   ${alignItems}
 `;
 const AmountIconInnerWrapper = styled.View`
-  ${flexDirection}
-  ${justifyContent}
+	${flexDirection}
+	${justifyContent}
   ${alignItems}
   ${flex}
   ${marginLeft}
@@ -146,19 +147,19 @@ const AmountIconInnerWrapper = styled.View`
 `;
 
 export {
-  DropdownWrapper,
-  DropdownLabel,
-  IconWrapper,
-  DropdownOption,
-  DropdownRowWrapper,
-  RowWithCheckboxWrapper,
-  CheckboxIconWrapper,
-  DropdownOptionWrapper,
-  DropdownLabelWithIconLeftWrapper,
-  IconTouchable,
-  AmountIconWrapper,
-  Amount,
-  AmountWrapper,
-  IconOptionWrapper,
-  AmountIconInnerWrapper,
+	DropdownWrapper,
+	DropdownLabel,
+	IconWrapper,
+	DropdownOption,
+	DropdownRowWrapper,
+	RowWithCheckboxWrapper,
+	CheckboxIconWrapper,
+	DropdownOptionWrapper,
+	DropdownLabelWithIconLeftWrapper,
+	IconTouchable,
+	AmountIconWrapper,
+	Amount,
+	AmountWrapper,
+	IconOptionWrapper,
+	AmountIconInnerWrapper,
 };

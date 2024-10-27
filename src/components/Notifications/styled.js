@@ -1,11 +1,12 @@
-import styled from 'styled-components';
-import { fontFamily, color, fontSize, lineHeight } from 'styled-system';
+import { TouchableWithoutFeedback } from "react-native";
+import styled from "styled-components";
+import { fontFamily, color, fontSize, lineHeight } from "styled-system";
 
 const NotificationWrapper = styled.View``;
 
 const Label = styled.Text`
-  ${fontFamily}
-  ${color}
+	${fontFamily}
+	${color}
   ${fontSize}
   ${lineHeight}
 `;
@@ -18,14 +19,14 @@ const LabelWrapper = styled.View``;
 
 const Container = styled.View``;
 
-const IconTouchable = styled.TouchableWithoutFeedback``;
+const IconTouchable = styled(TouchableWithoutFeedback)``;
 
 export {
-  NotificationWrapper,
-  Label,
-  IconWrapper,
-  IconLabelWrapper,
-  LabelWrapper,
-  Container,
-  IconTouchable,
+	NotificationWrapper,
+	Label,
+	IconWrapper,
+	IconLabelWrapper,
+	LabelWrapper,
+	Container,
+	IconTouchable,
 };

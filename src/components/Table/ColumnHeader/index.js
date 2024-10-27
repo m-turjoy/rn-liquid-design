@@ -12,7 +12,8 @@ import {
 } from "prop-types";
 import { ThemeProvider } from "styled-components";
 import { colors } from "../../../config";
-import { Icon } from "../../";
+// import { Icon } from "../../";
+import Icon from "../../MerckIcons";
 import {
 	HeaderWrapper,
 	Header,

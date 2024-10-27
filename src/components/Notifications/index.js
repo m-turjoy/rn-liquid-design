@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Dimensions, Animated, Easing, Platform } from "react-native";
 import { ThemeProvider } from "styled-components";
-import uuidv1 from "uuid/v1";
+// import uuidv1 from "uuid/v1";
+import { v1 as uuidv1 } from "uuid";
 import {
 	string,
 	bool,

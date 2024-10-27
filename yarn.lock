@@ -14007,7 +14007,7 @@ __metadata:
     styled-system: ^2.3.2
     styled-theming: ^2.2.0
     typescript: ^5.2.2
-    uuid: 8.1.0
+    uuid: 11.0.0
     victory-create-container: ^37.3.0
     victory-native: ^41.8.0
     xdate: ^0.8.3
@@ -15851,12 +15851,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:8.1.0":
-  version: 8.1.0
-  resolution: "uuid@npm:8.1.0"
+"uuid@npm:11.0.0":
+  version: 11.0.0
+  resolution: "uuid@npm:11.0.0"
   bin:
-    uuid: dist/bin/uuid
-  checksum: 4fc4f12e5c704947cce132df07e6e8a20ca34dcbba4a5aef7a24cf76e0e13830cf7cdd69035a916caf2a00fa011876ceabc098d01f5827adc174ca5defdc8c99
+    uuid: dist/esm/bin/uuid
+  checksum: 060b646193d035a610632aeaa5a6709e0687e7e8b4c4d92afd095c38a25cf5eaf3ceaab1eccf2bc6b07ff41de947321bc5b4fe513a0b4cc9d9978c6c848ed56e
   languageName: node
   linkType: hard
 

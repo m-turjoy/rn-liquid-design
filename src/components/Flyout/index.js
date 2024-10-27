@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Modal, FlatList, Platform } from 'react-native'
+import React, { Component } from 'react';
+import { Modal, FlatList, Platform } from 'react-native';
 import {
   string,
   number,
@@ -8,14 +8,11 @@ import {
   bool,
   array,
   oneOfType,
-  PropTypes
-} from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import Svg, { Polygon } from 'react-native-svg'
-import {
-  colors,
-  fonts
-} from '../../config'
+  PropTypes,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import Svg, { Polygon } from 'react-native-svg';
+import { colors, fonts } from '../../config';
 import {
   FlyoutWrapper,
   Label,
@@ -27,55 +24,56 @@ import {
   HeaderContainer,
   Header,
   TouchableHeaderWrapper,
-  SvgWrapper
-} from './styled'
-import styles from './styles'
-import Icon from '../MerckIcons'
-import FlyoutItem from './FlyoutItem'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  SvgWrapper,
+} from './styled';
+import styles from './styles';
+import Icon from '../MerckIcons';
+import FlyoutItem from './FlyoutItem';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class Flyout extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       modalVisible: false,
-      optionPressed: null
-    }
-    this.labelPosition = null
-    this.labelFrame = null
+      optionPressed: null,
+    };
+    this.labelPosition = null;
+    this.labelFrame = null;
   }
 
   showModal = () => {
     this.updatePosition(() => {
       this.setState({
-        modalVisible: true
-      })
-    })
-  }
+        modalVisible: true,
+      });
+    });
+  };
 
   hideModal = () => {
     this.setState({
-      modalVisible: false
-    })
-  }
+      modalVisible: false,
+    });
+  };
 
   updatePosition = (callback) => {
     if (this.labelPosition && this.labelPosition.root.measure) {
       this.labelPosition.root.measure((fx, fy, width, height, px, py) => {
         this.labelFrame = {
-          x: px, y: py, w: width, h: height
-        }
+          x: px,
+          y: py,
+          w: width,
+          h: height,
+        };
 
-        return callback && callback()
-      })
+        return callback && callback();
+      });
     }
-  }
+  };
 
   keyExtractor = (item, _index) => item.name;
 
-  renderItem = ({
-    item, _index
-  }) => {
+  renderItem = ({ item, _index }) => {
     const {
       rowStyle,
       listWidth,
@@ -105,64 +103,68 @@ class Flyout extends Component {
       subOptionContainerWidth,
       subOptionContainerHeight,
       subOptionFontSize,
-      themeName
-    } = this.props
-    let themeObj = getThemeObject(themeName)
-    let themeColor = themeObj.colors.primary.base
+      themeName,
+    } = this.props;
+    let themeObj = getThemeObject(themeName);
+    let themeColor = themeObj.colors.primary.base;
 
-    const { options } = this.props
-    const subOptions = options.filter(val => val.name === item.name)
-    const subOption = subOptions.map(items => items.options)
-    const rowPrimaryColor = rowTitleColorActive || themeColor
-    const subPrimaryColor = subOptionActiveColor || themeColor
-    const arrowPrimary = arrowIconColor || themeColor
-    const hasSubOptions = subOption.length && subOption[0]
+    const { options } = this.props;
+    const subOptions = options.filter((val) => val.name === item.name);
+    const subOption = subOptions.map((items) => items.options);
+    const rowPrimaryColor = rowTitleColorActive || themeColor;
+    const subPrimaryColor = subOptionActiveColor || themeColor;
+    const arrowPrimary = arrowIconColor || themeColor;
+    const hasSubOptions = subOption.length && subOption[0];
 
     return (
       <FlyoutItem
         title={item.name}
-        containerWidth={(aligned === 'center' && listCenteredWidth) || listWidth}
+        containerWidth={
+          (aligned === 'center' && listCenteredWidth) || listWidth
+        }
         containerHeight={rowHeight}
         containerStyle={rowStyle}
         itemTitleStyle={rowTitleStyle}
         itemTitleColor={
-          this.state.optionPressed === item.name ?
-            rowPrimaryColor :
-            rowTitleColor
+          this.state.optionPressed === item.name
+            ? rowPrimaryColor
+            : rowTitleColor
         }
         itemTitleFontSize={rowTitleFontSize}
         itemTitleFontFamily={
-          this.state.optionPressed === item.name ?
-            rowTitleFontFamilyActive :
-            rowTtileFontFamily
+          this.state.optionPressed === item.name
+            ? rowTitleFontFamilyActive
+            : rowTtileFontFamily
         }
         onItemPress={() => {
           this.setState({
-            optionPressed: item.name
-          })
-          onRowPress()
+            optionPressed: item.name,
+          });
+          onRowPress();
           if (!hasSubOptions) {
-            this.hideModal()
+            this.hideModal();
           }
         }}
         subOptions={subOption}
         iconColor={arrowPrimary}
         iconSize={arrowIconSize}
         rowBackgroundColor={
-          this.state.optionPressed === item.name ?
-            rowBackgroundColorActive :
-            rowBackgroundColor
+          this.state.optionPressed === item.name
+            ? rowBackgroundColorActive
+            : rowBackgroundColor
         }
         subOptionTitleStyle={subOptionTitleStyle}
         subOptionContainerStyle={subOptionContainerStyle}
         onSubOptionPress={(subVal) => {
           this.setState({
-            optionPressed: subVal
-          })
-          onSubOptionPress()
-          this.hideModal()
+            optionPressed: subVal,
+          });
+          onSubOptionPress();
+          this.hideModal();
         }}
-        subOptionContainerBackgroundColorActive={subOptionContainerBackgroundColorActive}
+        subOptionContainerBackgroundColorActive={
+          subOptionContainerBackgroundColorActive
+        }
         subOptionContainerBackgroundColor={subOptionContainerBackgroundColor}
         subOptionFontFamily={subOptionFontFamily}
         subOptionActiveFontFamily={subOptionActiveFontFamily}
@@ -174,8 +176,8 @@ class Flyout extends Component {
         subOptionContainerHeight={subOptionContainerHeight}
         subOptionFontSize={subOptionFontSize}
       />
-    )
-  }
+    );
+  };
 
   renderHeader = () => {
     const {
@@ -188,24 +190,24 @@ class Flyout extends Component {
       headerContainerHeight,
       listWidth,
       onHeaderPress,
-      headerBackgroundColor
-    } = this.props
+      headerBackgroundColor,
+    } = this.props;
 
     return (
       <TouchableHeaderWrapper
         onPress={() => {
           this.setState({
-            optionPressed: ''
-          })
-          onHeaderPress()
+            optionPressed: '',
+          });
+          onHeaderPress();
         }}
       >
         <HeaderContainer
           style={headerContainerStyle}
           width={listWidth}
           height={headerContainerHeight}
-          justifyContent='center'
-          alignItems='flex-start'
+          justifyContent="center"
+          alignItems="flex-start"
           borderBottomWidth={1}
           paddingLeft={15}
           borderColor={colors.sensitiveGreyDefault}
@@ -222,70 +224,69 @@ class Flyout extends Component {
           </Header>
         </HeaderContainer>
       </TouchableHeaderWrapper>
-    )
-  }
+    );
+  };
 
   renderModal = () => {
     const {
-      listWidth, listBackgroundColor, listStyle, options, aligned, listCenteredWidth
-    } = this.props
+      listWidth,
+      listBackgroundColor,
+      listStyle,
+      options,
+      aligned,
+      listCenteredWidth,
+    } = this.props;
 
-    return this.state.modalVisible ?
+    return this.state.modalVisible ? (
       <Modal
-        animationType='fade'
+        animationType="fade"
         visible
         transparent
         onRequestClose={this.hideModal}
-        supportedOrientations={
-          [
-            'portrait',
-            'portrait-upside-down',
-            'landscape',
-            'landscape-left',
-            'landscape-right'
-          ]
-        }
+        supportedOrientations={[
+          'portrait',
+          'portrait-upside-down',
+          'landscape',
+          'landscape-left',
+          'landscape-right',
+        ]}
       >
-        <TouchableModalChildrenWrapper
-          onPress={this.hideModal}
-        >
+        <TouchableModalChildrenWrapper onPress={this.hideModal}>
           <ListContainer
             flexGrow={1}
             shadowColor={colors.richBlackDefault}
             shadowOffset={{
               width: 3,
-              height: 20
+              height: 20,
             }}
             shadowOpacity={0.2}
             shadowRadius={12}
           >
             <SvgWrapper
-              position='absolute'
+              position="absolute"
               elevation={20}
               left={
-                (aligned === 'right' && ((this.labelFrame.x + this.labelFrame.w) - 43)) ||
+                (aligned === 'right' &&
+                  this.labelFrame.x + this.labelFrame.w - 43) ||
                 (aligned === 'left' && this.labelFrame.x + 3) ||
                 (aligned === 'center' &&
-                  (this.labelFrame.x - (this.labelFrame.w / 2)) + 4)
+                  this.labelFrame.x - this.labelFrame.w / 2 + 4)
               }
               top={
-                Platform.OS === 'android' ?
-                  (aligned === 'center' && this.labelFrame.y + 24) ||
-                  this.labelFrame.y + 18 :
-                  (aligned === 'center' && this.labelFrame.y + 23) ||
-                  this.labelFrame.y + 19
+                Platform.OS === 'android'
+                  ? (aligned === 'center' && this.labelFrame.y + 24) ||
+                    this.labelFrame.y + 18
+                  : (aligned === 'center' && this.labelFrame.y + 23) ||
+                    this.labelFrame.y + 19
               }
             >
-              <Svg
-                width='40'
-                height='16'
-              >
+              <Svg width="40" height="16">
                 <Polygon
                   stroke={listBackgroundColor || listStyle.backgroundColor}
                   strokeWidth={5}
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  points='10,20 20,10 30,20'
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  points="10,20 20,10 30,20"
                   fill={listBackgroundColor || listStyle.backgroundColor}
                 />
               </Svg>
@@ -294,17 +295,20 @@ class Flyout extends Component {
               style={listStyle}
               width={(aligned === 'center' && listCenteredWidth) || listWidth}
               backgroundColor={listBackgroundColor}
-              justifyContent='center'
-              position='absolute'
+              justifyContent="center"
+              position="absolute"
               top={this.labelFrame.y + this.labelFrame.h + 15}
               left={
-                (aligned === 'right' && (this.labelFrame.x + this.labelFrame.w) - listWidth) ||
-                (aligned === 'left' && ((this.labelFrame.x == 0) ? 1 : this.labelFrame.x)) ||
+                (aligned === 'right' &&
+                  this.labelFrame.x + this.labelFrame.w - listWidth) ||
+                (aligned === 'left' &&
+                  (this.labelFrame.x == 0 ? 1 : this.labelFrame.x)) ||
                 (aligned === 'center' &&
-                  this.labelFrame.x - ((listCenteredWidth / 2) - (this.labelFrame.w / 2)))
+                  this.labelFrame.x -
+                    (listCenteredWidth / 2 - this.labelFrame.w / 2))
               }
               borderRadius={3}
-              overflow='hidden'
+              overflow="hidden"
               elevation={15}
             >
               <FlatList
@@ -320,8 +324,8 @@ class Flyout extends Component {
           </ListContainer>
         </TouchableModalChildrenWrapper>
       </Modal>
-      : null
-  }
+    ) : null;
+  };
 
   renderWrapperLeft = () => {
     const {
@@ -336,26 +340,26 @@ class Flyout extends Component {
       labelColor,
       labelFontFamilyActive,
       labelFontFamily,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    let themeObj = getThemeObject(themeName)
-    let themeColor = themeObj.colors.primary.base
+    let themeObj = getThemeObject(themeName);
+    let themeColor = themeObj.colors.primary.base;
 
-    const iconPrimary = iconColor || themeColor
-    const labelPrimary = labelColorActive || themeColor
+    const iconPrimary = iconColor || themeColor;
+    const labelPrimary = labelColorActive || themeColor;
 
     return (
       <IconLabelWrapper
-        flexDirection='row'
-        alignItems='center'
+        flexDirection="row"
+        alignItems="center"
         backgroundColor={colors.transparent}
         style={labelContainerStyle}
         opacity={disabled ? 0.3 : 1}
         marginLeft={15}
       >
         <Icon
-          name='options'
+          name="options"
           size={iconSize - 8}
           color={disabled ? colors.richBlackDefault : iconPrimary}
           style={styles.icon}
@@ -363,46 +367,41 @@ class Flyout extends Component {
         <Label
           fontSize={labelFontSize}
           color={this.state.modalVisible ? labelPrimary : labelColor}
-          fontFamily={this.state.modalVisible ? labelFontFamilyActive : labelFontFamily}
+          fontFamily={
+            this.state.modalVisible ? labelFontFamilyActive : labelFontFamily
+          }
           style={[labelStyle, styles.labelLeft]}
         >
           {label}
         </Label>
       </IconLabelWrapper>
-
-    )
-  }
+    );
+  };
 
   renderWrapperCenter = () => {
-    const {
-      iconSize,
-      iconColor,
-      disabled,
-      labelContainerStyle,
-      themeName
-    } = this.props
+    const { iconSize, iconColor, disabled, labelContainerStyle, themeName } =
+      this.props;
 
-    let themeObj = getThemeObject(themeName)
-    let themeColor = themeObj.colors.primary.base
+    let themeObj = getThemeObject(themeName);
+    let themeColor = themeObj.colors.primary.base;
 
-    const iconPrimary = iconColor || themeColor
+    const iconPrimary = iconColor || themeColor;
 
     return (
       <IconLabelWrapper
-        alignItems='center'
-        justifyContent='center'
+        alignItems="center"
+        justifyContent="center"
         style={labelContainerStyle}
         opacity={disabled ? 0.3 : 1}
       >
         <Icon
-          name='options'
+          name="options"
           size={iconSize}
           color={disabled ? colors.richBlackDefault : iconPrimary}
         />
       </IconLabelWrapper>
-
-    )
-  }
+    );
+  };
 
   renderWrapperRight = () => {
     const {
@@ -417,19 +416,19 @@ class Flyout extends Component {
       labelColor,
       labelFontFamilyActive,
       labelFontFamily,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    let themeObj = getThemeObject(themeName)
-    let themeColor = themeObj.colors.primary.base
+    let themeObj = getThemeObject(themeName);
+    let themeColor = themeObj.colors.primary.base;
 
-    const iconPrimary = iconColor || themeColor
-    const labelPrimary = labelColorActive || themeColor
+    const iconPrimary = iconColor || themeColor;
+    const labelPrimary = labelColorActive || themeColor;
 
     return (
       <IconLabelWrapper
-        flexDirection='row'
-        alignItems='center'
+        flexDirection="row"
+        alignItems="center"
         backgroundColor={colors.transparent}
         style={labelContainerStyle}
         opacity={disabled ? 0.3 : 1}
@@ -438,37 +437,31 @@ class Flyout extends Component {
         <Label
           fontSize={labelFontSize}
           color={this.state.modalVisible ? labelPrimary : labelColor}
-          fontFamily={this.state.modalVisible ? labelFontFamilyActive : labelFontFamily}
+          fontFamily={
+            this.state.modalVisible ? labelFontFamilyActive : labelFontFamily
+          }
           style={[labelStyle, styles.labelRight]}
         >
           {label}
         </Label>
         <Icon
-          name='options'
+          name="options"
           size={iconSize - 8}
           color={disabled ? colors.richBlackDefault : iconPrimary}
           style={styles.icon}
         />
       </IconLabelWrapper>
-
-    )
-  }
+    );
+  };
 
   render() {
-    const {
-      aligned,
-      onLabelPress,
-      disabled,
-      themeName
-    } = this.props
-    let themeObj = getThemeObject(themeName)
+    const { aligned, onLabelPress, disabled, themeName } = this.props;
+    let themeObj = getThemeObject(themeName);
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <FlyoutWrapper
-          flexDirection='row'
+          flexDirection="row"
           width={250}
           height={50}
           justifyContent={
@@ -476,31 +469,31 @@ class Flyout extends Component {
             (aligned === 'left' && 'flex-start') ||
             (aligned === 'right' && 'flex-end')
           }
-          alignItems='center'
+          alignItems="center"
         >
           <IconLabelTouchable
             activeOpacity={1}
             underlayColor={colors.transparent}
             onPress={() => {
-              onLabelPress()
+              onLabelPress();
               this.setState({
-                optionPressed: null
-              })
-              this.showModal()
+                optionPressed: null,
+              });
+              this.showModal();
             }}
             disabled={disabled}
-            ref={(ref) => { this.labelPosition = ref }}
+            ref={(ref) => {
+              this.labelPosition = ref;
+            }}
           >
-            {
-              (aligned === 'left' && this.renderWrapperLeft()) ||
+            {(aligned === 'left' && this.renderWrapperLeft()) ||
               (aligned === 'center' && this.renderWrapperCenter()) ||
-              (aligned === 'right' && this.renderWrapperRight())
-            }
+              (aligned === 'right' && this.renderWrapperRight())}
           </IconLabelTouchable>
           {this.renderModal()}
         </FlyoutWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -519,7 +512,7 @@ Flyout.defaultProps = {
   listWidth: 250,
   listBackgroundColor: colors.white,
   listStyle: {
-    maxHeight: 298
+    maxHeight: 298,
   },
   rowHeight: 53,
   headerBackgroundColor: colors.white,
@@ -553,8 +546,8 @@ Flyout.defaultProps = {
   rowBackgroundColorActive: colors.sensitiveGreyDark,
   rowBackgroundColor: colors.white,
   rowTitleFontFamilyActive: fonts.Black,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Flyout.propTypes = {
   disabled: bool,
@@ -617,17 +610,17 @@ Flyout.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default Flyout
+export default Flyout;

@@ -1,31 +1,16 @@
-import React, { Component } from 'react'
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  Platform
-} from 'react-native'
-import XDate from 'xdate'
-import {
-  bool,
-  func,
-  number,
-  object,
-  instanceOf,
-  string
-} from 'prop-types'
-import styleConstructor from './styles'
-import { weekDayNames } from '../utils/dateutils'
-import { TextField } from '../../../../../components'
-import {
-  colors,
-  fonts
-} from '../../../../../config'
+import React, { Component } from 'react';
+import { View, Text, TouchableOpacity, Platform } from 'react-native';
+import XDate from 'xdate';
+import { bool, func, number, object, instanceOf, string } from 'prop-types';
+import styleConstructor from './styles';
+import { weekDayNames } from '../utils/dateutils';
+import { TextField } from '../../../../../components';
+import { colors, fonts } from '../../../../../config';
 
 class CalendarHeader extends Component {
   constructor(props) {
-    super(props)
-    this.style = styleConstructor(props.theme)
+    super(props);
+    this.style = styleConstructor(props.theme);
   }
 
   shouldComponentUpdate(nextProps) {
@@ -33,78 +18,69 @@ class CalendarHeader extends Component {
       nextProps.month.toString('yyyy MM') !==
       this.props.month.toString('yyyy MM')
     ) {
-      return true
+      return true;
     }
     if (nextProps.theme !== this.props.theme) {
-      this.style = styleConstructor(nextProps.theme)
+      this.style = styleConstructor(nextProps.theme);
 
-      return true
+      return true;
     }
 
-    return false
+    return false;
   }
 
   onPressLeft = () => {
-    const { onPressArrowLeft } = this.props
+    const { onPressArrowLeft } = this.props;
 
-    return onPressArrowLeft(this.substractMonth)
-  }
+    return onPressArrowLeft(this.substractMonth);
+  };
 
   onPressRight = () => {
-    const { onPressArrowRight } = this.props
+    const { onPressArrowRight } = this.props;
 
-    return onPressArrowRight(this.addMonth)
-  }
+    return onPressArrowRight(this.addMonth);
+  };
 
   addMonth = () => {
-    this.props.addMonth(1)
-  }
+    this.props.addMonth(1);
+  };
 
   substractMonth = () => {
-    this.props.addMonth(-1)
-  }
+    this.props.addMonth(-1);
+  };
 
   render() {
-    const {
-      inputValue,
-      themeName,
-      onChangeText,
-      onBlur
-    } = this.props
+    const { inputValue, themeName, onChangeText, onBlur } = this.props;
 
-    const weekDaysNames = weekDayNames(this.props.firstDay)
+    const weekDaysNames = weekDayNames(this.props.firstDay);
 
     return (
       <View>
-        <View
-          style={this.style.header}
-        >
+        <View style={this.style.header}>
           <TouchableOpacity
             onPress={this.onPressLeft}
             activeOpacity={1}
             style={this.style.arrow}
             hitSlop={{
-             left: 20,
-             right: 20,
-             top: 20,
-             bottom: 20
+              left: 20,
+              right: 20,
+              top: 20,
+              bottom: 20,
             }}
           >
             {this.props.renderArrow('Left')}
           </TouchableOpacity>
-          <View
-            style={this.style.centerWrapper}
-          >
+          <View style={this.style.centerWrapper}>
             <Text
               allowFontScaling={false}
               style={this.style.monthText}
-              accessibilityTraits='header'
+              accessibilityTraits="header"
             >
               {this.props.month.toString('MMM')}
             </Text>
             <TextField
               textInputLabelVisible={false}
-              placeholder=''
+              placeholder=""
               value={inputValue}
               themeName={themeName}
               onChangeText={onChangeText}
@@ -126,40 +102,36 @@ class CalendarHeader extends Component {
             style={this.style.arrow}
             activeOpacity={1}
             hitSlop={{
-            left: 20,
-            right: 20,
-            top: 20,
-            bottom: 20
-           }}
+              left: 20,
+              right: 20,
+              top: 20,
+              bottom: 20,
+            }}
           >
             {this.props.renderArrow('Right')}
           </TouchableOpacity>
         </View>
-        {
-          !this.props.hideDayNames &&
-          <View
-            style={this.style.week}
-          >
-            {this.props.weekNumbers && <Text
-              allowFontScaling={false}
-              style={this.style.dayHeader}
-            />}
-            {weekDaysNames.map(day => (
+        {!this.props.hideDayNames && (
+          <View style={this.style.week}>
+            {this.props.weekNumbers && (
+              <Text allowFontScaling={false} style={this.style.dayHeader} />
+            )}
+            {weekDaysNames.map((day) => (
               <Text
                 allowFontScaling={false}
                 key={day}
                 accessible={false}
                 style={this.style.dayHeader}
                 numberOfLines={1}
-                importantForAccessibility='no'
+                importantForAccessibility="no"
               >
                 {day}
               </Text>
             ))}
           </View>
-        }
+        )}
       </View>
-    )
+    );
   }
 }
 
@@ -176,7 +148,7 @@ CalendarHeader.propTypes = {
   themeName: string,
   inputValue: string,
   onChangeText: func,
-  onBlur: func
-}
+  onBlur: func,
+};
 
-export default CalendarHeader
+export default CalendarHeader;

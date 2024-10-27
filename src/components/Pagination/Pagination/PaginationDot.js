@@ -1,21 +1,8 @@
-import React, { PureComponent } from 'react'
-import {
-  Animated,
-  Platform,
-  TouchableWithoutFeedback
-} from 'react-native'
-import {
-  bool,
-  number,
-  object,
-  string,
-  func
-} from 'prop-types'
-import { fonts } from '../../../config'
-import {
-  TextWrapper,
-  PaginationDotWrapper
-} from './styled'
+import React, { PureComponent } from 'react';
+import { Animated, Platform, TouchableWithoutFeedback } from 'react-native';
+import { bool, number, object, string, func } from 'prop-types';
+import { fonts } from '../../../config';
+import { TextWrapper, PaginationDotWrapper } from './styled';
 
 class PaginationDot extends PureComponent {
   render() {
@@ -36,24 +23,28 @@ class PaginationDot extends PureComponent {
       itemPaddingRight,
       activeFontWeight,
       disabled,
-      onDotPress
-    } = this.props
+      onDotPress,
+    } = this.props;
 
     const onPress = () => {
       if (onDotPress) {
-        onDotPress(index)
+        onDotPress(index);
       }
-      setTimeout(() =>
-        carouselRef && carouselRef._snapToItem(carouselRef._getPositionIndex(index)), 100)
-    }
+      setTimeout(
+        () =>
+          carouselRef &&
+          carouselRef._snapToItem(carouselRef._getPositionIndex(index)),
+        100
+      );
+    };
 
     const dotStyle = {
       backgroundColor: active ? activeBackgroundColor : null,
       width: itemWidth,
       height: itemHeight,
       borderRadius: 6,
-      overflow: 'hidden'
-    }
+      overflow: 'hidden',
+    };
 
     return (
       <PaginationDotWrapper
@@ -61,17 +52,16 @@ class PaginationDot extends PureComponent {
         paddingRight={itemPaddingRight}
         opacity={disabled ? 0.5 : 1}
       >
-        <TouchableWithoutFeedback
-          onPress = {
-            disabled ? null : onPress
-          }
-        >
-          <Animated.View
-            style={dotStyle}
-          >
+        <TouchableWithoutFeedback onPress={disabled ? null : onPress}>
+          <Animated.View style={dotStyle}>
             <TextWrapper
-              fontFamily={fontFamily !== fonts.Regular ?
-                fontFamily : (active ? fonts.Black : fonts.Regular)}
+              fontFamily={
+                fontFamily !== fonts.Regular
+                  ? fontFamily
+                  : active
+                    ? fonts.Black
+                    : fonts.Regular
+              }
               fontSize={fontSize}
               fontWeight={active ? activeFontWeight : fontWeight}
               lineHeight={lineHeight}
@@ -83,7 +73,7 @@ class PaginationDot extends PureComponent {
           </Animated.View>
         </TouchableWithoutFeedback>
       </PaginationDotWrapper>
-    )
+    );
   }
 }
 
@@ -104,7 +94,7 @@ PaginationDot.propTypes = {
   carouselRef: object,
   activeFontWeight: number,
   disabled: bool,
-  onDotPress: func
-}
+  onDotPress: func,
+};
 
-export default PaginationDot
+export default PaginationDot;

@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { ThemeProvider } from 'styled-components'
+import React, { Component } from 'react';
+import { ThemeProvider } from 'styled-components';
 import {
   string,
   bool,
@@ -7,35 +7,36 @@ import {
   object,
   oneOfType,
   array,
-  PropTypes
-} from 'prop-types'
+  PropTypes,
+} from 'prop-types';
 import {
   Title,
   ItemWrapper,
   ItemTouchableWrapper,
   TitleIconWrapper,
-  TitleWrapper
-} from './styled'
-import Icon from '../MerckIcons'
-import {
-  colors,
-  fonts
-} from '../../config'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
-import styles from './styles'
+  TitleWrapper,
+} from './styled';
+import Icon from '../MerckIcons';
+import { colors, fonts } from '../../config';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
+import styles from './styles';
 
 class ListItem extends Component {
   state = {
     titleActiveColor: this.props.titleColor,
     titleActiveFamily: this.props.titleFontFamily,
-    containerBackgroundColor: this.props.containerBackgroundColor
-  }
+    containerBackgroundColor: this.props.containerBackgroundColor,
+  };
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.themeName !== this.props.themeName) {
-      const themeObj = getThemeObject(nextProps.themeName)
-      const themeColor = themeObj.colors.primary.base
-      this.setState({ titleActiveColor: this.props.active ? themeColor : this.props.titleColor })
+      const themeObj = getThemeObject(nextProps.themeName);
+      const themeColor = themeObj.colors.primary.base;
+      this.setState({
+        titleActiveColor: this.props.active
+          ? themeColor
+          : this.props.titleColor,
+      });
     }
   }
 
@@ -43,24 +44,29 @@ class ListItem extends Component {
     this.setState({
       titleActiveColor: this.props.titleActiveColor || themeColor,
       titleActiveFamily: this.props.titleActiveFontFamily,
-      containerBackgroundColor: this.props.containerBackgroundColorActive
-    })
-  }
+      containerBackgroundColor: this.props.containerBackgroundColorActive,
+    });
+  };
 
   handleHideUnderlay = () => {
     this.setState({
       titleActiveColor: this.props.titleColor,
       titleActiveFamily: this.props.titleFontFamily,
-      containerBackgroundColor: this.props.containerBackgroundColor
-    })
-  }
+      containerBackgroundColor: this.props.containerBackgroundColor,
+    });
+  };
 
   renderTitleWithIcon = (
-    icon, title, titleStyle, active, titlePrimaryColor, titleActiveFontFamily
+    icon,
+    title,
+    titleStyle,
+    active,
+    titlePrimaryColor,
+    titleActiveFontFamily
   ) => (
     <TitleIconWrapper
-      flexDirection='row'
-      justifyContent='flex-start'
+      flexDirection="row"
+      justifyContent="flex-start"
       marginLeft={15}
       paddingRight={15}
     >
@@ -70,21 +76,20 @@ class ListItem extends Component {
         color={active ? titlePrimaryColor : this.state.titleActiveColor}
         style={styles.alignmentStyle}
       />
-      <TitleWrapper
-        marginLeft={10}
-        paddingRight={15}
-      >
+      <TitleWrapper marginLeft={10} paddingRight={15}>
         <Title
           style={titleStyle}
           color={active ? titlePrimaryColor : this.state.titleActiveColor}
-          fontFamily={active ? titleActiveFontFamily : this.state.titleActiveFamily}
-          alignSelf='center'
+          fontFamily={
+            active ? titleActiveFontFamily : this.state.titleActiveFamily
+          }
+          alignSelf="center"
         >
           {title}
         </Title>
       </TitleWrapper>
     </TitleIconWrapper>
-  )
+  );
   render() {
     const {
       onPress,
@@ -97,57 +102,65 @@ class ListItem extends Component {
       iconLeft,
       titleActiveColor,
       titleActiveFontFamily,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const titlePrimaryColor = titleActiveColor || themeColor
+    const titlePrimaryColor = titleActiveColor || themeColor;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <ItemTouchableWrapper
           activeOpacity={1}
           disabled={disabled}
           onPress={onPress}
-          underlayColor='transparent'
+          underlayColor="transparent"
           onShowUnderlay={() => {
-            this.handleShowUnderlay(themeColor)
+            this.handleShowUnderlay(themeColor);
           }}
           onHideUnderlay={() => {
-            this.handleHideUnderlay()
+            this.handleHideUnderlay();
           }}
         >
           <ItemWrapper
             style={[styles.container, containerStyle]}
-            flexDirection='row'
-            alignItems='center'
+            flexDirection="row"
+            alignItems="center"
             opacity={disabled ? 0.3 : 1}
             backgroundColor={this.state.containerBackgroundColor}
           >
-            {
-              icon && iconLeft ?
-                this.renderTitleWithIcon(icon, title, titleStyle, active,
-                  titlePrimaryColor, titleActiveFontFamily) :
-                <TitleWrapper
-                  marginLeft={15}
+            {icon && iconLeft ? (
+              this.renderTitleWithIcon(
+                icon,
+                title,
+                titleStyle,
+                active,
+                titlePrimaryColor,
+                titleActiveFontFamily
+              )
+            ) : (
+              <TitleWrapper marginLeft={15}>
+                <Title
+                  style={titleStyle}
+                  color={
+                    active ? titlePrimaryColor : this.state.titleActiveColor
+                  }
+                  fontFamily={
+                    active
+                      ? titleActiveFontFamily
+                      : this.state.titleActiveFamily
+                  }
                 >
-                  <Title
-                    style={titleStyle}
-                    color={active ? titlePrimaryColor : this.state.titleActiveColor}
-                    fontFamily={active ? titleActiveFontFamily : this.state.titleActiveFamily}
-                  >
-                    {title}
-                  </Title>
-                </TitleWrapper>
-            }
+                  {title}
+                </Title>
+              </TitleWrapper>
+            )}
           </ItemWrapper>
         </ItemTouchableWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -174,21 +187,21 @@ ListItem.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 ListItem.defaultProps = {
-  onPress: () => { },
+  onPress: () => {},
   title: 'List 01',
   icon: {},
   iconLeft: false,
@@ -196,14 +209,14 @@ ListItem.defaultProps = {
   active: false,
   containerStyle: {},
   titleStyle: {
-    fontSize: 14
+    fontSize: 14,
   },
   titleColor: colors.richBlackDefault,
   titleFontFamily: fonts.Regular,
   titleActiveFontFamily: fonts.Black,
   containerBackgroundColor: colors.sensitiveGreyDefault,
   containerBackgroundColorActive: colors.sensitiveGreyDark,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
-export default ListItem
+export default ListItem;

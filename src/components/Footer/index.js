@@ -1,48 +1,28 @@
-import React, { Component } from 'react'
-import {
-  Dimensions,
-  TouchableWithoutFeedback,
-  FlatList
-} from 'react-native'
-import {
-  arrayOf,
-  number,
-  string,
-  func,
-  shape
-} from 'prop-types'
-import { ThemeProvider } from 'styled-components'
+import React, { Component } from 'react';
+import { Dimensions, TouchableWithoutFeedback, FlatList } from 'react-native';
+import { arrayOf, number, string, func, shape } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
 import {
   FooterWrapper,
   LineWrapper,
   LabelWrapper,
   IconsWrapper,
   SecondaryIconsWrapper,
-  SecondaryCenterIcon
-} from './styled'
-import Headline from '../Headline'
-import Icon from '../MerckIcons'
-import {
-  theme,
-  fonts,
-  colors
-} from '../../config'
+  SecondaryCenterIcon,
+} from './styled';
+import Headline from '../Headline';
+import Icon from '../MerckIcons';
+import { theme, fonts, colors } from '../../config';
 
-const { width } = Dimensions.get('window')
+const { width } = Dimensions.get('window');
 
 class Footer extends Component {
   renderItem = ({ item }) => {
-    const {
-      labelFontFamily,
-      labelFontSize,
-      labelLineHeight,
-      labelColor
-    } = this.props
+    const { labelFontFamily, labelFontSize, labelLineHeight, labelColor } =
+      this.props;
 
     return (
-      <TouchableWithoutFeedback
-        onPress={item.onPress}
-      >
+      <TouchableWithoutFeedback onPress={item.onPress}>
         <LabelWrapper
           fontFamily={labelFontFamily}
           fontSize={labelFontSize}
@@ -52,8 +32,8 @@ class Footer extends Component {
           {item.title}
         </LabelWrapper>
       </TouchableWithoutFeedback>
-    )
-  }
+    );
+  };
 
   render() {
     const {
@@ -80,21 +60,13 @@ class Footer extends Component {
       secondaryRightIconName,
       secondaryRightIconColor,
       secondaryRightIconSize,
-      onSecondaryRightIconPress
-    } = this.props
+      onSecondaryRightIconPress,
+    } = this.props;
 
     return (
-      <ThemeProvider
-        theme={theme}
-      >
-        <FooterWrapper
-          backgroundColor={backgroundColor}
-          width={footerWidth}
-        >
-          <Headline
-            type={headlineType}
-            text={headlineText}
-          />
+      <ThemeProvider theme={theme}>
+        <FooterWrapper backgroundColor={backgroundColor} width={footerWidth}>
+          <Headline type={headlineType} text={headlineText} />
           <LineWrapper
             backgroundColor={lineColor}
             width={lineWidth}
@@ -103,13 +75,11 @@ class Footer extends Component {
           <FlatList
             data={labels}
             renderItem={this.renderItem}
-            keyExtractor={item => item.key.toString()}
+            keyExtractor={(item) => item.key.toString()}
             scrollEnabled={false}
           />
           <IconsWrapper>
-            <TouchableWithoutFeedback
-              onPress={onPrimaryIconPress}
-            >
+            <TouchableWithoutFeedback onPress={onPrimaryIconPress}>
               <Icon
                 name={primaryIconName}
                 color={primaryIconColor}
@@ -117,40 +87,34 @@ class Footer extends Component {
               />
             </TouchableWithoutFeedback>
             <SecondaryIconsWrapper>
-              <TouchableWithoutFeedback
-                onPress={onSecondaryLeftIconPress}
-              >
+              <TouchableWithoutFeedback onPress={onSecondaryLeftIconPress}>
                 <Icon
-                    name={secondaryLeftIconName}
-                    color={secondaryLeftIconColor}
-                    size={secondaryLeftIconSize}
-                  />
+                  name={secondaryLeftIconName}
+                  color={secondaryLeftIconColor}
+                  size={secondaryLeftIconSize}
+                />
               </TouchableWithoutFeedback>
               <SecondaryCenterIcon>
-                <TouchableWithoutFeedback
-                    onPress={onSecondaryCenterIconPress}
-                  >
-                    <Icon
-                      name={secondaryCenterIconName}
-                      color={secondaryCenterIconColor}
-                      size={secondaryCenterIconSize}
-                    />
-                  </TouchableWithoutFeedback>
-              </SecondaryCenterIcon>
-              <TouchableWithoutFeedback
-                onPress={onSecondaryRightIconPress}
-              >
-                <Icon
-                    name={secondaryRightIconName}
-                    color={secondaryRightIconColor}
-                    size={secondaryRightIconSize}
+                <TouchableWithoutFeedback onPress={onSecondaryCenterIconPress}>
+                  <Icon
+                    name={secondaryCenterIconName}
+                    color={secondaryCenterIconColor}
+                    size={secondaryCenterIconSize}
                   />
+                </TouchableWithoutFeedback>
+              </SecondaryCenterIcon>
+              <TouchableWithoutFeedback onPress={onSecondaryRightIconPress}>
+                <Icon
+                  name={secondaryRightIconName}
+                  color={secondaryRightIconColor}
+                  size={secondaryRightIconSize}
+                />
               </TouchableWithoutFeedback>
             </SecondaryIconsWrapper>
           </IconsWrapper>
         </FooterWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -162,11 +126,13 @@ Footer.propTypes = {
   lineWidth: string,
   lineHeight: number,
   footerWidth: number,
-  labels: arrayOf(shape({
-    key: number.isRequired,
-    title: string.isRequired,
-    onPress: func
-  })),
+  labels: arrayOf(
+    shape({
+      key: number.isRequired,
+      title: string.isRequired,
+      onPress: func,
+    })
+  ),
   labelFontFamily: string,
   labelFontSize: number,
   labelLineHeight: number,
@@ -186,8 +152,8 @@ Footer.propTypes = {
   secondaryRightIconName: string,
   secondaryRightIconColor: string,
   secondaryRightIconSize: number,
-  onSecondaryRightIconPress: func
-}
+  onSecondaryRightIconPress: func,
+};
 
 Footer.defaultProps = {
   backgroundColor: colors.sensitiveGreyDefault,
@@ -216,7 +182,7 @@ Footer.defaultProps = {
   secondaryRightIconName: 'placeholder',
   secondaryRightIconColor: colors.richBlackDefault,
   secondaryRightIconSize: 24,
-  onSecondaryRightIconPress: () => {}
-}
+  onSecondaryRightIconPress: () => {},
+};
 
-export default Footer
+export default Footer;

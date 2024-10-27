@@ -1,86 +1,97 @@
-import React, { Component } from 'react'
-import { bool, number, func, object, oneOfType, shape, string } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import { colors, fonts } from '../../config'
+import React, { Component } from 'react';
+import {
+  bool,
+  number,
+  func,
+  object,
+  oneOfType,
+  shape,
+  string,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { colors, fonts } from '../../config';
 import {
   ButtonTouchableWrapper,
   Title,
   GhostButtonWrapper,
   TitleIconWrapper,
   IconWrapper,
-  TitleWrapper
-} from './styled'
-import Icon from '../MerckIcons'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  TitleWrapper,
+} from './styled';
+import Icon from '../MerckIcons';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class GhostButton extends Component {
   constructor(props) {
-    super(props)
-    const theme = getThemeObject(this.props.themeName)
+    super(props);
+    const theme = getThemeObject(this.props.themeName);
     this.state = {
       theme,
       defaultActive: fonts.Bold,
       titleIconActive: 'normal',
       titleIconColor: colors.richBlackDefault,
       icon: this.props.icon,
-      color: this.props.color
-    }
+      color: this.props.color,
+    };
   }
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.themeName !== this.props.themeName) {
-      const theme = getThemeObject(nextProps.themeName)
+      const theme = getThemeObject(nextProps.themeName);
       this.setState({
-        theme
-      })
+        theme,
+      });
     }
     if (nextProps.icon !== this.props.icon) {
       this.setState({
-        icon: nextProps.icon
-      })
+        icon: nextProps.icon,
+      });
     }
     if (nextProps.color !== this.props.color) {
       this.setState({
-        color: nextProps.color
-      })
+        color: nextProps.color,
+      });
     }
   }
 
   handleDefaultActiveBoldShow = () => {
-    this.setState({ defaultActive: fonts.Black })
-  }
+    this.setState({ defaultActive: fonts.Black });
+  };
 
   handleDefaultActiveBoldHide = () => {
-    this.setState({ defaultActive: fonts.Bold })
-  }
+    this.setState({ defaultActive: fonts.Bold });
+  };
 
   handleIconActiveBoldShow = (color) => {
-    this.setState({ titleIconActive: 900, titleIconColor: color })
-  }
+    this.setState({ titleIconActive: 900, titleIconColor: color });
+  };
 
   handleIconActiveBoldHide = () => {
-    this.setState({ titleIconActive: 'normal', titleIconColor: colors.richBlackDefault })
-  }
+    this.setState({
+      titleIconActive: 'normal',
+      titleIconColor: colors.richBlackDefault,
+    });
+  };
 
   handleShowUnderlay = (iconLeft, iconRight, primaryColor) => {
-    const { active } = this.props
-    if (active) return null
+    const { active } = this.props;
+    if (active) return null;
     if (iconLeft || iconRight) {
-      this.handleIconActiveBoldShow(primaryColor)
+      this.handleIconActiveBoldShow(primaryColor);
     } else {
-      this.handleDefaultActiveBoldShow()
+      this.handleDefaultActiveBoldShow();
     }
-  }
+  };
 
   handleHideUnderlay = (iconLeft, iconRight) => {
-    const { active } = this.props
-    if (active) return null
+    const { active } = this.props;
+    if (active) return null;
     if (iconLeft || iconRight) {
-      this.handleIconActiveBoldHide()
+      this.handleIconActiveBoldHide();
     } else {
-      this.handleDefaultActiveBoldHide()
+      this.handleDefaultActiveBoldHide();
     }
-  }
+  };
 
   renderDefaultButton = (
     title,
@@ -95,14 +106,16 @@ class GhostButton extends Component {
     containerStyle
   ) => (
     <GhostButtonWrapper
-      alignItems='center'
-      justifyContent='center'
+      alignItems="center"
+      justifyContent="center"
       paddingHorizontal={30}
       style={containerStyle}
     >
       <Title
         color={disabled ? colors.sensitiveGreyDarkest : primaryColor}
-        fontFamily={active ? fonts.Black : this.state.defaultActive || fontFamily}
+        fontFamily={
+          active ? fonts.Black : this.state.defaultActive || fontFamily
+        }
         fontSize={Big ? 16 : fontSize}
         fontWeight={fontWeight}
         style={titleStyle}
@@ -110,7 +123,7 @@ class GhostButton extends Component {
         {title}
       </Title>
     </GhostButtonWrapper>
-  )
+  );
 
   renderButtonWithLeftIcon = (
     title,
@@ -128,14 +141,14 @@ class GhostButton extends Component {
     titleIconWrapperStyle
   ) => (
     <TitleIconWrapper
-      alignItems='center'
-      flexDirection='row'
-      justifyContent='center'
+      alignItems="center"
+      flexDirection="row"
+      justifyContent="center"
       style={containerStyle}
     >
       <IconWrapper
-        alignItems='center'
-        justifyContent='center'
+        alignItems="center"
+        justifyContent="center"
         marginRight={5}
         marginLeft={0}
       >
@@ -151,14 +164,14 @@ class GhostButton extends Component {
           size={icon.size || Big ? 18 : 16}
         />
       </IconWrapper>
-      <TitleWrapper
-        style={titleIconWrapperStyle}
-      >
+      <TitleWrapper style={titleIconWrapperStyle}>
         <Title
           color={
             disabled
               ? colors.sensitiveGreyDarkest
-              : (active && primaryColor) || this.state.titleIconColor || colors.richBlackDefault
+              : (active && primaryColor) ||
+                this.state.titleIconColor ||
+                colors.richBlackDefault
           }
           fontFamily={fontFamily}
           fontSize={Big ? 16 : fontSize}
@@ -170,7 +183,7 @@ class GhostButton extends Component {
         </Title>
       </TitleWrapper>
     </TitleIconWrapper>
-  )
+  );
 
   renderButtonWithRightIcon = (
     title,
@@ -187,20 +200,19 @@ class GhostButton extends Component {
     titleIconWrapperStyle
   ) => (
     <TitleIconWrapper
-      alignItems='center'
-      flexDirection='row'
-      justifyContent='center'
+      alignItems="center"
+      flexDirection="row"
+      justifyContent="center"
       style={containerStyle}
     >
-      <TitleWrapper
-        alignItems='flex-end'
-        style={titleIconWrapperStyle}
-      >
+      <TitleWrapper alignItems="flex-end" style={titleIconWrapperStyle}>
         <Title
           color={
             disabled
               ? colors.sensitiveGreyDarkest
-              : (active && primaryColor) || this.state.titleIconColor || colors.richBlackDefault
+              : (active && primaryColor) ||
+                this.state.titleIconColor ||
+                colors.richBlackDefault
           }
           fontFamily={fontFamily}
           fontSize={Big ? 16 : fontSize}
@@ -211,8 +223,8 @@ class GhostButton extends Component {
         </Title>
       </TitleWrapper>
       <IconWrapper
-        alignItems='center'
-        justifyContent='center'
+        alignItems="center"
+        justifyContent="center"
         paddingRight={0}
         paddingLeft={5}
       >
@@ -223,7 +235,7 @@ class GhostButton extends Component {
         />
       </IconWrapper>
     </TitleIconWrapper>
-  )
+  );
 
   render() {
     const {
@@ -241,29 +253,27 @@ class GhostButton extends Component {
       Big,
       containerStyle,
       titleIconWrapperStyle,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const { theme, color } = this.state
+    const { theme, color } = this.state;
 
-    const themeObj = getThemeObject(themeName)
-    const primaryColor = color || theme.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const primaryColor = color || theme.colors.primary.base;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <ButtonTouchableWrapper
           disabled={disabled}
           onPress={onPress}
           onShowUnderlay={() => {
-            this.handleShowUnderlay(iconLeft, iconRight, primaryColor)
+            this.handleShowUnderlay(iconLeft, iconRight, primaryColor);
           }}
           onHideUnderlay={() => {
-            this.handleHideUnderlay(iconLeft, iconRight)
+            this.handleHideUnderlay(iconLeft, iconRight);
           }}
           activeOpacity={1}
-          underlayColor='transparent'
+          underlayColor="transparent"
         >
           {(iconLeft &&
             !iconRight &&
@@ -314,13 +324,13 @@ class GhostButton extends Component {
             )}
         </ButtonTouchableWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
 Title.propTypes = {
-  color: string
-}
+  color: string,
+};
 
 GhostButton.defaultProps = {
   onPress: () => {},
@@ -338,9 +348,9 @@ GhostButton.defaultProps = {
   fontWeight: '',
   containerStyle: {
     paddingHorizontal: 30,
-    height: 30
-  }
-}
+    height: 30,
+  },
+};
 
 GhostButton.propTypes = {
   icon: shape({}),
@@ -366,17 +376,17 @@ GhostButton.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default GhostButton
+export default GhostButton;

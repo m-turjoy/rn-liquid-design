@@ -1,30 +1,31 @@
-import React, { Component } from 'react'
-import { bool, number, func, string, PropTypes } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import { RatingWrapper } from './styled'
-import StarDotRating from './StarDotRating'
-import { colors } from '../../config'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+import React, { Component } from 'react';
+import { bool, number, func, string, PropTypes } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { RatingWrapper } from './styled';
+import StarDotRating from './StarDotRating';
+import { colors } from '../../config';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class Rating extends Component {
   state = {
-    activeIndex: this.props.rating
-  }
+    activeIndex: this.props.rating,
+  };
 
   roundIcon = (value) => {
-    const remainder = value % 0.5
+    const remainder = value % 0.5;
 
-    return remainder > 0 ? value - remainder + 0.5 : value
-  }
+    return remainder > 0 ? value - remainder + 0.5 : value;
+  };
 
-  adjustMaxIcons = maxIcons => Object.keys([...Array(maxIcons)]).map(v => parseInt(v))
+  adjustMaxIcons = (maxIcons) =>
+    Object.keys([...Array(maxIcons)]).map((v) => parseInt(v));
 
   adjustHalfIcon = (index) => {
-    const { rating } = this.props
-    const roundedRating = this.roundIcon(rating)
+    const { rating } = this.props;
+    const roundedRating = this.roundIcon(rating);
 
-    return roundedRating !== index && Math.round(roundedRating) === index
-  }
+    return roundedRating !== index && Math.round(roundedRating) === index;
+  };
 
   render() {
     const {
@@ -35,24 +36,22 @@ class Rating extends Component {
       maxIcons,
       disabled,
       onIconPress,
-      themeName
-    } = this.props
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
-    const interactive = onIconPress && !disabled
-    const activeColor = activeIconColor || themeColor
+      themeName,
+    } = this.props;
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
+    const interactive = onIconPress && !disabled;
+    const activeColor = activeIconColor || themeColor;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <RatingWrapper
-          justifyContent='center'
-          alignItems='center'
-          flexDirection='row'
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="row"
         >
           {this.adjustMaxIcons(maxIcons).map((index) => {
-            const ratingNumber = index + 1
+            const ratingNumber = index + 1;
 
             return (
               <StarDotRating
@@ -60,8 +59,8 @@ class Rating extends Component {
                 onIconPress={
                   interactive
                     ? () => {
-                        this.setState({ activeIndex: ratingNumber })
-                        onIconPress(ratingNumber)
+                        this.setState({ activeIndex: ratingNumber });
+                        onIconPress(ratingNumber);
                       }
                     : null
                 }
@@ -73,11 +72,11 @@ class Rating extends Component {
                 activeIconColor={activeColor}
                 inactiveIconColor={inactiveIconColor}
               />
-            )
+            );
           })}
         </RatingWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -98,18 +97,18 @@ Rating.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 Rating.defaultProps = {
   disabled: false,
@@ -119,7 +118,7 @@ Rating.defaultProps = {
   iconSize: 24,
   rating: 0,
   onIconPress: null,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
-export default Rating
+export default Rating;

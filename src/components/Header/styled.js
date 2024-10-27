@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   width,
   height,
@@ -6,8 +6,8 @@ import {
   fontSize,
   lineHeight,
   color,
-  backgroundColor
-} from 'styled-system'
+  backgroundColor,
+} from 'styled-system';
 
 const HeaderWrapper = styled.View`
   ${width}
@@ -16,28 +16,28 @@ const HeaderWrapper = styled.View`
   align-items: center;
   justify-content: space-between;
   padding-horizontal: 15px;
-`
+`;
 
 const BackgroundWrapper = styled.View`
   ${width}
   ${height}
   ${backgroundColor}
-`
+`;
 
 const LogoWrapper = styled.View`
   padding-right: 7px;
   justify-content: center;
-`
+`;
 
 const IconsWrapper = styled.View`
   flex-direction: row;
   position: absolute;
   right: 15px;
-`
+`;
 
 const IconWrapper = styled.View`
-  padding-horizontal: 8px
-`
+  padding-horizontal: 8px;
+`;
 
 const LabelWrapper = styled.View`
   flex-direction: column;
@@ -48,11 +48,11 @@ const LabelWrapper = styled.View`
   padding-left: 15px;
   position: absolute;
   right: 15px;
-`
+`;
 
 const SearchWrapper = styled.View`
   flex-direction: row;
-`
+`;
 
 const Label = styled.Text`
   ${fontFamily}
@@ -60,12 +60,12 @@ const Label = styled.Text`
   ${color}
   ${lineHeight}
   backgroundColor: transparent;
-`
+`;
 
 const ButtonWrapper = styled.View`
   position: absolute;
   right: 15px;
-`
+`;
 
 export {
   HeaderWrapper,
@@ -76,5 +76,5 @@ export {
   Label,
   SearchWrapper,
   BackgroundWrapper,
-  ButtonWrapper
-}
+  ButtonWrapper,
+};

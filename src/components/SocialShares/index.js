@@ -1,17 +1,25 @@
-import React from 'react'
-import { bool, number, string, func, oneOfType, object, array } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
+import React from 'react';
+import {
+  bool,
+  number,
+  string,
+  func,
+  oneOfType,
+  object,
+  array,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
 import {
   SocialShareWrapper,
   IconLabelWrapper,
   Label,
   TouchableWrapper,
-  IconWrapper
-} from './styled'
-import Icon from '../MerckIcons'
-import { colors, theme, fonts } from '../../config'
+  IconWrapper,
+} from './styled';
+import Icon from '../MerckIcons';
+import { colors, theme, fonts } from '../../config';
 
-const adjustBackgroundColor = type => (
+const adjustBackgroundColor = (type) =>
   (type === 'facebook' && colors.facebookBlue) ||
   (type === 'instagram' && colors.instagramRed) ||
   (type === 'snapchat' && colors.snapchatYellow) ||
@@ -23,10 +31,9 @@ const adjustBackgroundColor = type => (
   (type === 'salesforce' && colors.salesforceBlue) ||
   (type === 'skype' && colors.skypeBlue) ||
   (type === 'microsoftTeams' && colors.microsoftPurple) ||
-  (type === 'xing' && colors.xingGreen)
-)
+  (type === 'xing' && colors.xingGreen);
 
-const adjustIconType = type => (
+const adjustIconType = (type) =>
   (type === 'facebook' && 'facebook') ||
   (type === 'instagram' && 'instagram') ||
   (type === 'snapchat' && 'snapchat') ||
@@ -38,10 +45,9 @@ const adjustIconType = type => (
   (type === 'salesforce' && 'salesforce') ||
   (type === 'skype' && 'skype') ||
   (type === 'microsoftTeams' && 'teams') ||
-  (type === 'xing' && 'xing')
-)
+  (type === 'xing' && 'xing');
 
-const adjustLabel = type => (
+const adjustLabel = (type) =>
   (type === 'facebook' && 'Facebook') ||
   (type === 'instagram' && 'Instagram') ||
   (type === 'snapchat' && 'Snapchat') ||
@@ -53,17 +59,15 @@ const adjustLabel = type => (
   (type === 'salesforce' && 'salesforce') ||
   (type === 'skype' && 'Skype') ||
   (type === 'microsoftTeams' && 'Teams') ||
-  (type === 'xing' && 'Xing')
-)
+  (type === 'xing' && 'Xing');
 
-const adjustIconSize = (type, iconSize) => (
+const adjustIconSize = (type, iconSize) =>
   (type === 'facebook' && iconSize - 4) ||
   ((type === 'snapchat' || type === 'twitter') && iconSize + 1) ||
   (type === 'linkedIn' && iconSize - 5) ||
   (type === 'salesforce' && iconSize + 5) ||
   (type === 'microsoftTeams' && iconSize + 2) ||
-  iconSize
-)
+  iconSize;
 
 const SocialShare = (props) => {
   const {
@@ -79,37 +83,32 @@ const SocialShare = (props) => {
     largeWidth,
     iconSize,
     containerStyle,
-    labelStyle
-  } = props
+    labelStyle,
+  } = props;
 
   return (
-    <ThemeProvider
-      theme={theme}
-    >
-      <TouchableWrapper
-        {...props}
-        onPress={onPress}
-      >
+    <ThemeProvider theme={theme}>
+      <TouchableWrapper {...props} onPress={onPress}>
         <SocialShareWrapper
           width={large ? largeWidth : width}
           height={height}
           backgroundColor={adjustBackgroundColor(type)}
           borderRadius={borderRadius}
           alignItems={large ? 'flex-start' : 'center'}
-          justifyContent='center'
+          justifyContent="center"
           style={containerStyle}
         >
-          {large ?
+          {large ? (
             <IconLabelWrapper
               flex={1}
-              flexDirection='row'
+              flexDirection="row"
               marginLeft={5}
-              alignItems='center'
-              justifyContent='flex-start'
+              alignItems="center"
+              justifyContent="flex-start"
             >
               <IconWrapper
-                alignItems='center'
-                justifyContent='center'
+                alignItems="center"
+                justifyContent="center"
                 height={height}
                 width={40}
                 marginRight={5}
@@ -129,24 +128,20 @@ const SocialShare = (props) => {
                 {adjustLabel(type)}
               </Label>
             </IconLabelWrapper>
-            :
-            <IconWrapper
-              alignItems='center'
-              justifyContent='center'
-              flex={1}
-            >
+          ) : (
+            <IconWrapper alignItems="center" justifyContent="center" flex={1}>
               <Icon
                 name={adjustIconType(type)}
                 color={type === 'snapchat' ? colors.snapchatBlack : color}
                 size={adjustIconSize(type, iconSize)}
               />
             </IconWrapper>
-            }
+          )}
         </SocialShareWrapper>
       </TouchableWrapper>
     </ThemeProvider>
-  )
-}
+  );
+};
 SocialShare.propTypes = {
   width: number,
   height: number,
@@ -160,8 +155,8 @@ SocialShare.propTypes = {
   largeWidth: number,
   iconSize: number,
   containerStyle: oneOfType([object, array]),
-  labelStyle: oneOfType([object, array])
-}
+  labelStyle: oneOfType([object, array]),
+};
 SocialShare.defaultProps = {
   width: 40,
   height: 40,
@@ -174,6 +169,6 @@ SocialShare.defaultProps = {
   largeWidth: 160,
   iconSize: 24,
   containerStyle: {},
-  labelStyle: {}
-}
-export default SocialShare
+  labelStyle: {},
+};
+export default SocialShare;

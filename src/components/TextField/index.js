@@ -1,8 +1,17 @@
-import React, { Component } from 'react'
-import { Platform } from 'react-native'
-import { bool, object, string, func, number, shape, oneOfType, array } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import { theme, colors, fonts } from '../../config'
+import React, { Component } from 'react';
+import { Platform } from 'react-native';
+import {
+  bool,
+  object,
+  string,
+  func,
+  number,
+  shape,
+  oneOfType,
+  array,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { theme, colors, fonts } from '../../config';
 import {
   TextInput,
   ErrorMessage,
@@ -10,14 +19,14 @@ import {
   TextInputContainer,
   Label,
   TextInputErrorWrapper,
-  ErrorContainer
-} from './styled'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  ErrorContainer,
+} from './styled';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class TextField extends Component {
   state = {
-    active: false
-  }
+    active: false,
+  };
 
   render() {
     const {
@@ -49,15 +58,13 @@ class TextField extends Component {
       errorMessageColor,
       errorMessageFontFamily,
       errorMessageFontSize,
-      bothTypesWrapperStyle
-    } = this.props
+      bothTypesWrapperStyle,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
+    const themeObj = getThemeObject(themeName);
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <TextInputContainer>
           {textInputLabelVisible ? (
             <Label
@@ -68,8 +75,8 @@ class TextField extends Component {
                 textInputLabelStyle,
                 {
                   paddingBottom: 5,
-                  opacity: disabled ? 0.6 : 1
-                }
+                  opacity: disabled ? 0.6 : 1,
+                },
               ]}
             >
               {textInputLabel}
@@ -83,15 +90,19 @@ class TextField extends Component {
               width={multiline ? multilineWrapperWidth : wrapperWidth}
               borderRadius={borderRadius}
               opacity={disabled ? 0.6 : 1}
-              overflow='hidden'
+              overflow="hidden"
             >
               <TextInputWrapper
                 flex={1}
                 minWidth={multiline ? 300 : null}
                 maxWidth={multiline ? 250 : null}
                 paddingRight={multiline ? 15 : null}
-                paddingTop={multiline ? (Platform.OS === 'android' ? 6 : 10) : null}
-                paddinbBottom={multiline ? (Platform.OS === 'android' ? 6 : 10) : null}
+                paddingTop={
+                  multiline ? (Platform.OS === 'android' ? 6 : 10) : null
+                }
+                paddinbBottom={
+                  multiline ? (Platform.OS === 'android' ? 6 : 10) : null
+                }
                 style={bothTypesWrapperStyle}
                 borderColor={
                   error
@@ -114,32 +125,30 @@ class TextField extends Component {
                   textAlignVertical={multiline ? 'top' : 'bottom'}
                   style={[
                     {
-                      height: multiline ? multilineWrapperHeight - 20 : wrapperHeight,
+                      height: multiline
+                        ? multilineWrapperHeight - 20
+                        : wrapperHeight,
                       top: 1,
                       backgroundColor: 'transparent',
                       color,
                       fontFamily,
-                      fontSize
-                    }
+                      fontSize,
+                    },
                   ]}
                   placeholderTextColor={placeholderTextColor}
                   onFocus={() => {
-                    onFocus()
-                    this.setState({ active: true })
+                    onFocus();
+                    this.setState({ active: true });
                   }}
                   onBlur={() => {
-                    onBlur()
-                    this.setState({ active: false })
+                    onBlur();
+                    this.setState({ active: false });
                   }}
                 />
               </TextInputWrapper>
             </TextInputContainer>
             {error ? (
-              <ErrorContainer
-                paddingLeft={2}
-                paddingTop={5}
-                paddingRight={2}
-              >
+              <ErrorContainer paddingLeft={2} paddingTop={5} paddingRight={2}>
                 <ErrorMessage
                   style={errorMessageStyle}
                   color={errorMessageColor}
@@ -154,7 +163,7 @@ class TextField extends Component {
           </TextInputErrorWrapper>
         </TextInputContainer>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -189,16 +198,16 @@ TextField.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
+        darker: string,
+      }).isRequired,
+    }),
   ]),
   multilineWrapperHeight: number,
   wrapperHeight: number,
@@ -207,8 +216,8 @@ TextField.propTypes = {
   errorMessageColor: string,
   errorMessageFontFamily: string,
   errorMessageFontSize: number,
-  bothTypesWrapperStyle: oneOfType([object, array])
-}
+  bothTypesWrapperStyle: oneOfType([object, array]),
+};
 
 TextField.defaultProps = {
   errorMessageColor: colors.richRedDefault,
@@ -240,8 +249,8 @@ TextField.defaultProps = {
   borderRadius: 6,
   themeName: defaultThemeName,
   bothTypesWrapperStyle: {
-    paddingLeft: Platform.OS === 'android' ? 13.5 : 15
-  }
-}
+    paddingLeft: Platform.OS === 'android' ? 13.5 : 15,
+  },
+};
 
-export default TextField
+export default TextField;

@@ -1,7 +1,7 @@
-import React from 'react'
-import { TouchableOpacity, Platform } from 'react-native'
-import { ThemeProvider } from 'styled-components'
-import ModalDropdown from 'react-native-modal-dropdown'
+import React from 'react';
+import { TouchableOpacity, Platform } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import ModalDropdown from 'react-native-modal-dropdown';
 import {
   arrayOf,
   oneOfType,
@@ -9,86 +9,77 @@ import {
   object,
   number,
   bool,
-  shape
-} from 'prop-types'
-import Icon from '../MerckIcons'
-import {
-  fonts,
-  colors
-} from '../../config'
-import {
-  StyledFilterText,
-  StyledFiltersTextContainer
-} from './styled'
-import styles from './styles'
-import {
-  defaultThemeName,
-  getThemeObject
-} from '../../config/theme'
+  shape,
+} from 'prop-types';
+import Icon from '../MerckIcons';
+import { fonts, colors } from '../../config';
+import { StyledFilterText, StyledFiltersTextContainer } from './styled';
+import styles from './styles';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class Filter extends React.Component {
   constructor(props) {
-    super(props)
-    const { filterLabel } = this.props
+    super(props);
+    const { filterLabel } = this.props;
 
     this.state = {
       filterText: filterLabel,
       isSelected: false,
       multiSelectedList: [],
-      dimensions: {}
-    }
+      dimensions: {},
+    };
   }
 
   onLayout = (event) => {
-    const { width, height } = event.nativeEvent.layout
-    this.setState({ dimensions: { width, height } })
-  }
+    const { width, height } = event.nativeEvent.layout;
+    this.setState({ dimensions: { width, height } });
+  };
 
   handleOnSelect = (option) => {
-    this.setState({ filterText: option, isSelected: true })
-  }
+    this.setState({ filterText: option, isSelected: true });
+  };
 
   handleClearSelect = () => {
-    const { filterLabel } = this.props
+    const { filterLabel } = this.props;
 
-    this.setState({ filterText: filterLabel, isSelected: false })
-  }
+    this.setState({ filterText: filterLabel, isSelected: false });
+  };
 
   handleClearMultiSelection = () => {
-    this.setState({ multiSelectedList: [] })
-  }
+    this.setState({ multiSelectedList: [] });
+  };
 
   handleMultiOnSelect = (option) => {
-    const { multiSelectedList } = this.state
+    const { multiSelectedList } = this.state;
 
     if (multiSelectedList.includes(option)) {
-      const filtered = multiSelectedList.filter(value => value !== option)
-      this.setState({ multiSelectedList: filtered })
+      const filtered = multiSelectedList.filter((value) => value !== option);
+      this.setState({ multiSelectedList: filtered });
     } else {
-      this.setState({ multiSelectedList: [...multiSelectedList, option] })
+      this.setState({ multiSelectedList: [...multiSelectedList, option] });
     }
-  }
+  };
 
   renderNoSelection = (disabled) => {
-    const { filterText } = this.state
+    const { filterText } = this.state;
     const {
       filterPrimaryColor,
       filterIconSize,
       filterContainerHeight,
       multiSelect,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryColor = filterPrimaryColor || themeColor
+    const primaryColor = filterPrimaryColor || themeColor;
 
     return (
       <StyledFiltersTextContainer
-        alignItems='center'
-        flexDirection='row'
-        justifyContent='flex-end'
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="flex-end"
         height={filterContainerHeight}
         onLayout={this.onLayout}
       >
@@ -99,7 +90,7 @@ class Filter extends React.Component {
         <StyledFilterText
           color={colors.richBlackDefault}
           opacity={disabled && 0.3}
-          fontSize='14'
+          fontSize="14"
           fontFamily={fonts.Regular}
           style={styles.filterTextStyle}
           maxWidth={Platform.select({ android: '170', ios: '176' })}
@@ -110,32 +101,32 @@ class Filter extends React.Component {
         <Icon
           color={disabled ? colors.richBlackDefault : primaryColor}
           style={disabled && styles.disabledIcon}
-          name='filter'
+          name="filter"
           size={filterIconSize + 6}
         />
       </StyledFiltersTextContainer>
-    )
-  }
+    );
+  };
 
   renderSingleSelected = () => {
-    const { filterText } = this.state
+    const { filterText } = this.state;
     const {
       filterIconSize,
       filterPrimaryColor,
       filterContainerHeight,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryColor = filterPrimaryColor || themeColor
+    const primaryColor = filterPrimaryColor || themeColor;
 
     return (
       <StyledFiltersTextContainer
-        alignItems='center'
-        flexDirection='row'
-        justifyContent='flex-end'
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="flex-end"
         height={filterContainerHeight}
         width={this.state.dimensions.width}
       >
@@ -145,16 +136,16 @@ class Filter extends React.Component {
             top: 8,
             bottom: 8,
             right: 8,
-            left: 8
+            left: 8,
           }}
         >
           <StyledFiltersTextContainer
-            justifyContent='center'
-            mr='11'
-            height='24'
+            justifyContent="center"
+            mr="11"
+            height="24"
           >
             <Icon
-              name='closingX'
+              name="closingX"
               size={filterIconSize + 8}
               color={themeColor}
             />
@@ -163,7 +154,7 @@ class Filter extends React.Component {
 
         <StyledFilterText
           color={primaryColor}
-          fontSize='14'
+          fontSize="14"
           fontFamily={fonts.Black}
           style={styles.filterTextStyle}
           maxWidth={Platform.select({ android: '170', ios: '176' })}
@@ -171,65 +162,59 @@ class Filter extends React.Component {
         >
           {filterText}
         </StyledFilterText>
-        <Icon
-          name='filter'
-          size={filterIconSize + 6}
-          color={primaryColor}
-        />
+        <Icon name="filter" size={filterIconSize + 6} color={primaryColor} />
       </StyledFiltersTextContainer>
-    )
-  }
+    );
+  };
 
   renderMultiSelected = () => {
-    const { multiSelectedList, filterText } = this.state
-    const selectedLength = multiSelectedList.length
+    const { multiSelectedList, filterText } = this.state;
+    const selectedLength = multiSelectedList.length;
     const {
       filterIconSize,
       filterPrimaryColor,
       filterContainerHeight,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryColor = filterPrimaryColor || themeColor
+    const primaryColor = filterPrimaryColor || themeColor;
 
     return (
       <StyledFiltersTextContainer
-        alignItems='center'
-        flexDirection='row'
-        justifyContent='center'
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="center"
         height={filterContainerHeight}
       >
-        <TouchableOpacity
-          onPress={this.handleClearMultiSelection}
-        >
+        <TouchableOpacity onPress={this.handleClearMultiSelection}>
           <StyledFiltersTextContainer
-            alignItems='center'
+            alignItems="center"
             backgroundColor={primaryColor}
             borderRadius={16}
-            flexDirection='row'
-            justifyContent='center'
-            width='40'
-            height='24'
-            mr='13'
+            flexDirection="row"
+            justifyContent="center"
+            width="40"
+            height="24"
+            mr="13"
           >
-            <StyledFiltersTextContainer
-              style={styles.closeIconContainer}
-            >
+            <StyledFiltersTextContainer style={styles.closeIconContainer}>
               <StyledFilterText
                 color={colors.white}
-                fontSize='14'
+                fontSize="14"
                 fontFamily={fonts.Black}
               >
                 {selectedLength <= 0 ? filterText : selectedLength}
               </StyledFilterText>
               <Icon
                 color={colors.white}
-                name='closingX'
+                name="closingX"
                 size={filterIconSize + 2}
-                style={selectedLength >= 10 ? styles.closeIconMore : styles.closeIcon}
+                style={
+                  selectedLength >= 10 ? styles.closeIconMore : styles.closeIcon
+                }
               />
             </StyledFiltersTextContainer>
           </StyledFiltersTextContainer>
@@ -244,71 +229,69 @@ class Filter extends React.Component {
         >
           {filterText}
         </StyledFilterText>
-        <Icon
-          name='filter'
-          size={filterIconSize + 6}
-          color={primaryColor}
-        />
+        <Icon name="filter" size={filterIconSize + 6} color={primaryColor} />
       </StyledFiltersTextContainer>
-    )
-  }
+    );
+  };
 
   renderFilterContainer = (disabled) => {
-    const { isSelected } = this.state
+    const { isSelected } = this.state;
 
-    return isSelected ? this.renderSingleSelected() : this.renderNoSelection(disabled)
-  }
+    return isSelected
+      ? this.renderSingleSelected()
+      : this.renderNoSelection(disabled);
+  };
 
   renderMultiSelectFilterContainer = (disabled) => {
-    const { multiSelectedList } = this.state
-    const { multiSelect } = this.props
-    const selectedLength = multiSelectedList.length
+    const { multiSelectedList } = this.state;
+    const { multiSelect } = this.props;
+    const selectedLength = multiSelectedList.length;
 
     return multiSelect && selectedLength > 0
       ? this.renderMultiSelected()
-      : this.renderNoSelection(disabled)
-  }
+      : this.renderNoSelection(disabled);
+  };
 
   renderRow = (index, option, isSelected) => {
-    const { filterText, multiSelectedList } = this.state
+    const { filterText, multiSelectedList } = this.state;
     const {
       multiSelect,
       filterPrimaryColor,
       filterSecondaryColor,
       filterLabel,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryColor = filterPrimaryColor || themeColor
+    const primaryColor = filterPrimaryColor || themeColor;
 
-    const isMultiSelected = !!multiSelectedList.includes(index)
+    const isMultiSelected = !!multiSelectedList.includes(index);
     const checkBox = (
       <Icon
         color={primaryColor}
-        name='checkboxFilled'
+        name="checkboxFilled"
         size={20}
         style={styles.checkboxStyle}
       />
-    )
+    );
 
     const checkboxBorder = (
       <Icon
         size={20}
         color={filterSecondaryColor}
-        name='checkboxEmpty'
+        name="checkboxEmpty"
         style={styles.checkboxStyle}
       />
-    )
+    );
 
     return multiSelect ? (
       <StyledFiltersTextContainer
         backgroundColor={isMultiSelected ? filterSecondaryColor : colors.white}
-        flexDirection='row'
-        justifyContent='flex-start'
-        alignItems='center'
+        flexDirection="row"
+        justifyContent="flex-start"
+        alignItems="center"
         style={Platform.OS === 'android' ? styles.rowSelected : {}}
         height={51}
       >
@@ -326,31 +309,38 @@ class Filter extends React.Component {
     ) : (
       <StyledFiltersTextContainer
         backgroundColor={
-            isSelected && filterText !== filterLabel ? filterSecondaryColor : colors.white
-          }
-        flexDirection='row'
-        justifyContent='flex-start'
-        alignItems='center'
+          isSelected && filterText !== filterLabel
+            ? filterSecondaryColor
+            : colors.white
+        }
+        flexDirection="row"
+        justifyContent="flex-start"
+        alignItems="center"
         height={51}
       >
         <StyledFilterText
-            color={
-              isSelected && filterText !== filterLabel ? primaryColor : colors.richBlackDefault
-            }
-            fontSize={4}
-            fontFamily={isSelected && filterText !== filterLabel ? fonts.Black : fonts.Regular}
-            style={styles.singleSelectDropdownRow}
-          >
-            {index}
-          </StyledFilterText>
+          color={
+            isSelected && filterText !== filterLabel
+              ? primaryColor
+              : colors.richBlackDefault
+          }
+          fontSize={4}
+          fontFamily={
+            isSelected && filterText !== filterLabel
+              ? fonts.Black
+              : fonts.Regular
+          }
+          style={styles.singleSelectDropdownRow}
+        >
+          {index}
+        </StyledFilterText>
       </StyledFiltersTextContainer>
-    )
-  }
+    );
+  };
 
   renderSingleSelectDropdown = () => {
-    const {
-      disabled, options, dropdownShadow, dropdownPositionRight
-    } = this.props
+    const { disabled, options, dropdownShadow, dropdownPositionRight } =
+      this.props;
 
     return (
       <ModalDropdown
@@ -361,7 +351,7 @@ class Filter extends React.Component {
         dropdownShadow={dropdownShadow}
         style={styles.filter}
         onSelect={(index, option) => {
-          this.handleOnSelect(option)
+          this.handleOnSelect(option);
         }}
         options={options}
         renderRow={this.renderRow}
@@ -369,16 +359,12 @@ class Filter extends React.Component {
       >
         {this.renderFilterContainer(disabled)}
       </ModalDropdown>
-    )
-  }
+    );
+  };
 
   renderMultiSelectDropdown = () => {
-    const {
-      disabled,
-      options,
-      dropdownShadow,
-      dropdownPositionRight
-    } = this.props
+    const { disabled, options, dropdownShadow, dropdownPositionRight } =
+      this.props;
 
     return (
       <ModalDropdown
@@ -390,7 +376,7 @@ class Filter extends React.Component {
         dropdownStyle={styles.dropdownStyle}
         dropdownShadow={dropdownShadow}
         onSelect={(index, option) => {
-          this.handleMultiOnSelect(option)
+          this.handleMultiOnSelect(option);
         }}
         options={options}
         renderRow={this.renderRow}
@@ -398,30 +384,26 @@ class Filter extends React.Component {
       >
         {this.renderMultiSelectFilterContainer(disabled)}
       </ModalDropdown>
-    )
-  }
+    );
+  };
 
   render() {
-    const {
-      multiSelect,
-      filterContainerHeight,
-      themeName
-    } = this.props
+    const { multiSelect, filterContainerHeight, themeName } = this.props;
 
-    const themeObj = getThemeObject(themeName)
+    const themeObj = getThemeObject(themeName);
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <StyledFiltersTextContainer
           height={filterContainerHeight}
-          maxWidth='250'
+          maxWidth="250"
         >
-          {multiSelect ? this.renderMultiSelectDropdown() : this.renderSingleSelectDropdown()}
+          {multiSelect
+            ? this.renderMultiSelectDropdown()
+            : this.renderSingleSelectDropdown()}
         </StyledFiltersTextContainer>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -436,11 +418,11 @@ Filter.defaultProps = {
     shadowOpacity: 0.25,
     shadowColor: 'black',
     shadowRadius: 15,
-    shadowOffset: { width: 0, height: 20 }
+    shadowOffset: { width: 0, height: 20 },
   },
   dropdownPositionRight: false,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Filter.propTypes = {
   themeName: oneOfType([
@@ -451,16 +433,16 @@ Filter.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
+        darker: string,
+      }).isRequired,
+    }),
   ]),
   disabled: bool,
   multiSelect: bool,
@@ -471,6 +453,6 @@ Filter.propTypes = {
   dropdownPositionRight: bool,
   filterIconSize: number,
   filterLabel: string,
-  options: arrayOf(oneOfType([number, object, string])).isRequired
-}
-export default Filter
+  options: arrayOf(oneOfType([number, object, string])).isRequired,
+};
+export default Filter;

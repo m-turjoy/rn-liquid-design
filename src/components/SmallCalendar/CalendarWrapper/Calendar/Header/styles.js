@@ -1,44 +1,38 @@
-import {
-  StyleSheet,
-  Platform
-} from 'react-native'
-import * as defaultStyle from '../utils/style'
-import {
-  colors,
-  fonts
-} from '../../../../../config'
+import { StyleSheet, Platform } from 'react-native';
+import * as defaultStyle from '../utils/style';
+import { colors, fonts } from '../../../../../config';
 
 export default function (theme = {}) {
-  const appStyle = { ...defaultStyle, ...theme }
+  const appStyle = { ...defaultStyle, ...theme };
 
   return StyleSheet.create({
     header: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: 'center'
+      alignItems: 'center',
     },
     monthText: {
       fontFamily: fonts.Regular,
       fontSize: 12,
       color: colors.richBlackDefault,
-      marginRight: 11
+      marginRight: 11,
     },
     arrow: {
-      paddingVertical: 20
+      paddingVertical: 20,
     },
     arrowImage: {
       ...Platform.select({
         ios: {
-          tintColor: appStyle.arrowColor
+          tintColor: appStyle.arrowColor,
         },
         android: {
-          tintColor: appStyle.arrowColor
-        }
-      })
+          tintColor: appStyle.arrowColor,
+        },
+      }),
     },
     week: {
       flexDirection: 'row',
-      justifyContent: 'space-around'
+      justifyContent: 'space-around',
     },
     dayHeader: {
       marginTop: 2,
@@ -47,22 +41,22 @@ export default function (theme = {}) {
       textAlign: 'center',
       fontSize: 10,
       fontFamily: fonts.Regular,
-      color: theme.primaryColor
+      color: theme.primaryColor,
     },
     inputWrapperStyle: {
       ...Platform.select({
         ios: {
-          paddingLeft: 6
+          paddingLeft: 6,
         },
         android: {
-          paddingLeft: 3
-        }
-      })
+          paddingLeft: 3,
+        },
+      }),
     },
     centerWrapper: {
       flexDirection: 'row',
       justifyContent: 'center',
-      alignItems: 'center'
-    }
-  })
+      alignItems: 'center',
+    },
+  });
 }

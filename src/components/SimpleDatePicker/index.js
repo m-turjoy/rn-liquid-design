@@ -1,87 +1,72 @@
-import React, { Component } from 'react'
-import {
-  string,
-  bool,
-  func
-} from 'prop-types'
-import { Platform } from 'react-native'
-import moment from 'moment'
-import { ThemeProvider } from 'styled-components'
-import {
-  TextFieldsWrapper,
-  ContainerWrapper
-} from './styled'
-import {
-  defaultThemeName,
-  getThemeObject
-} from '../../../src/config/theme'
-import { colors } from '../../../src/config'
-import { TextField } from '../../../src/components'
+import React, { Component } from 'react';
+import { string, bool, func } from 'prop-types';
+import { Platform } from 'react-native';
+import moment from 'moment';
+import { ThemeProvider } from 'styled-components';
+import { TextFieldsWrapper, ContainerWrapper } from './styled';
+import { defaultThemeName, getThemeObject } from '../../../src/config/theme';
+import { colors } from '../../../src/config';
+import { TextField } from '../../../src/components';
 
 class SimpleDatePicker extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       isValid: true,
-      prevText: 0
-    }
+      prevText: 0,
+    };
   }
 
   updateText = (text) => {
-    const { prevText } = this.state
+    const { prevText } = this.state;
 
     this.setState({
-      curText: text.length === 2 && prevText < text.length ? `${text} / ` : (text.length === 7 && prevText < text.length ? `${text} / ` : text),
-      prevText: text.length
-    })
-  }
+      curText:
+        text.length === 2 && prevText < text.length
+          ? `${text} / `
+          : text.length === 7 && prevText < text.length
+            ? `${text} / `
+            : text,
+      prevText: text.length,
+    });
+  };
 
   updateSelectText = (text) => {
-    const {
-      curText,
-      prevText
-    } = this.state
+    const { curText, prevText } = this.state;
 
-    const { onEndEditing } = this.props
+    const { onEndEditing } = this.props;
 
     this.setState({
-      curText: text.length === 2 && prevText < text.length ? `${text} / ` : (text.length === 7 && prevText < text.length ? `${text} / ` : text),
+      curText:
+        text.length === 2 && prevText < text.length
+          ? `${text} / `
+          : text.length === 7 && prevText < text.length
+            ? `${text} / `
+            : text,
       prevText: text.length,
-      isValid: moment(`${text}`, 'DD / MM / YYYY', true).isValid()
-    })
+      isValid: moment(`${text}`, 'DD / MM / YYYY', true).isValid(),
+    });
 
     if (curText.length === 14) {
-      const formatedDate = `${curText.slice(10, 14)}-${curText.slice(5, 7)}-${curText.slice(0, 2)}`
+      const formatedDate = `${curText.slice(10, 14)}-${curText.slice(5, 7)}-${curText.slice(0, 2)}`;
 
-      onEndEditing(formatedDate)
+      onEndEditing(formatedDate);
     }
-  }
+  };
 
   render() {
-    const {
-      themeName,
-      withLabel,
-      labelText,
-      disabled,
-      errorMessage
-    } = this.props
+    const { themeName, withLabel, labelText, disabled, errorMessage } =
+      this.props;
 
-    const {
-      isValid,
-      curText
-    } = this.state
+    const { isValid, curText } = this.state;
 
-    const themeObj = getThemeObject(themeName)
+    const themeObj = getThemeObject(themeName);
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
-        <ContainerWrapper
-          flexDirection='column'
-        >
+      <ThemeProvider theme={themeObj}>
+        <ContainerWrapper flexDirection="column">
           <TextFieldsWrapper
-            flexDirection='row'
+            flexDirection="row"
             justifyContent={withLabel ? 'flex-start' : 'center'}
             alignItems={withLabel ? 'flex-start' : 'center'}
             height={80}
@@ -93,9 +78,13 @@ class SimpleDatePicker extends Component {
               textInputLabel={labelText}
               themeName={themeName}
               maxLength={14}
-              placeholder='dd / mm / yyyy'
-              onChange={event => this.updateText(event.nativeEvent.text)}
-              onEndEditing={event => (event.nativeEvent.text ? this.updateSelectText(event.nativeEvent.text) : null)}
+              placeholder="dd / mm / yyyy"
+              onChange={(event) => this.updateText(event.nativeEvent.text)}
+              onEndEditing={(event) =>
+                event.nativeEvent.text
+                  ? this.updateSelectText(event.nativeEvent.text)
+                  : null
+              }
               value={curText}
               backgroundColor={colors.sensitiveGreyDefault}
               wrapperWidth={120}
@@ -104,12 +93,12 @@ class SimpleDatePicker extends Component {
               paddingBottom={Platform.OS === 'android' ? 12.5 : 6}
               paddingTop={6}
               disabled={disabled}
-              keyboardType='numeric'
+              keyboardType="numeric"
             />
           </TextFieldsWrapper>
         </ContainerWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -119,8 +108,8 @@ SimpleDatePicker.propTypes = {
   disabled: bool,
   withLabel: bool,
   labelText: string,
-  onEndEditing: func
-}
+  onEndEditing: func,
+};
 
 SimpleDatePicker.defaultProps = {
   themeName: defaultThemeName,
@@ -128,7 +117,7 @@ SimpleDatePicker.defaultProps = {
   withLabel: true,
   errorMessage: '* Error Message',
   labelText: 'Start date',
-  onEndEditing: () => { }
-}
+  onEndEditing: () => {},
+};
 
-export default SimpleDatePicker
+export default SimpleDatePicker;

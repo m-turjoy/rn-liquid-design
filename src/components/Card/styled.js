@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   alignItems,
@@ -10,14 +10,14 @@ import {
   justifyContent,
   position,
   space,
-  width
-} from 'styled-system'
-import { shadowStyle } from '../../config/complexStyles'
+  width,
+} from 'styled-system';
+import { shadowStyle } from '../../config/complexStyles';
 
 const stacked = complexStyle({
   prop: 'stacked',
-  key: 'stacked'
-})
+  key: 'stacked',
+});
 
 const StyledCard = styled.TouchableOpacity.attrs({ activeOpacity: 1 })`
   ${alignItems};
@@ -31,12 +31,12 @@ const StyledCard = styled.TouchableOpacity.attrs({ activeOpacity: 1 })`
   ${stacked};
   ${space};
   ${width};
-`
+`;
 
 const CardWrapper = styled.View`
   align-items: center;
   justify-content: center;
   ${space};
   ${justifyContent}
-`
-export { StyledCard, CardWrapper }
+`;
+export { StyledCard, CardWrapper };

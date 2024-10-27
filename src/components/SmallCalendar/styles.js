@@ -1,16 +1,16 @@
-import { StyleSheet } from 'react-native'
-import { colors } from '../../../src/config'
+import { StyleSheet } from 'react-native';
+import { colors } from '../../../src/config';
 
 const styles = StyleSheet.create({
   calendarContainer: {
     borderRadius: 6,
     width: 280,
-    minHeight: 240
+    minHeight: 240,
   },
   calendar: {
     borderRadius: 6,
-    backgroundColor: colors.white
-  }
-})
+    backgroundColor: colors.white,
+  },
+});
 
-export default styles
+export default styles;

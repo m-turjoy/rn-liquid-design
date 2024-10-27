@@ -1,51 +1,49 @@
-import React, { Component } from 'react'
-import { FlatList, Animated, Easing } from 'react-native'
-import { string, number, func, object, array, oneOfType } from 'prop-types'
+import React, { Component } from 'react';
+import { FlatList, Animated, Easing } from 'react-native';
+import { string, number, func, object, array, oneOfType } from 'prop-types';
 import {
   RowWrapper,
   Label,
   TouchableItemWrapper,
   OptionWrapper,
-  AnimatedIconWrapper
-} from './styled'
-import Icon from '../MerckIcons'
-import { colors, fonts } from '../../config'
+  AnimatedIconWrapper,
+} from './styled';
+import Icon from '../MerckIcons';
+import { colors, fonts } from '../../config';
 
 class FlyoutItem extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       opened: false,
-      spinValue: new Animated.Value(0)
-    }
-    this.subOptionsToDisplay = []
+      spinValue: new Animated.Value(0),
+    };
+    this.subOptionsToDisplay = [];
   }
 
   openSubOptions = () => {
     this.setState({
-      opened: true
-    })
-    Animated.timing(this.state.spinValue,
-      {
-        toValue: 1,
-        duration: 150,
-        easing: Easing.linear,
-        useNativeDriver: true
-      }).start()
-  }
+      opened: true,
+    });
+    Animated.timing(this.state.spinValue, {
+      toValue: 1,
+      duration: 150,
+      easing: Easing.linear,
+      useNativeDriver: true,
+    }).start();
+  };
 
   hideSubOptions = () => {
     this.setState({
-      opened: false
-    })
-    Animated.timing(this.state.spinValue,
-      {
-        toValue: 0,
-        duration: 150,
-        easing: Easing.linear,
-        useNativeDriver: true
-      }).start()
-  }
+      opened: false,
+    });
+    Animated.timing(this.state.spinValue, {
+      toValue: 0,
+      duration: 150,
+      easing: Easing.linear,
+      useNativeDriver: true,
+    }).start();
+  };
 
   keyExtractor = (item, index) => item;
 
@@ -63,40 +61,44 @@ class FlyoutItem extends Component {
       optionPressedWrapper,
       containerWidth,
       subOptionContainerHeight,
-      subOptionFontSize
-    } = this.props
+      subOptionFontSize,
+    } = this.props;
 
     return (
       <RowWrapper>
         <TouchableItemWrapper
           onPress={() => {
-            onSubOptionPress(item)
+            onSubOptionPress(item);
           }}
         >
           <OptionWrapper
             style={subOptionContainerStyle}
             height={subOptionContainerHeight}
             width={containerWidth}
-            flexDirection='row'
+            flexDirection="row"
             paddingLeft={10}
             paddingRight={16}
-            justifyContent='space-between'
-            alignItems='center'
+            justifyContent="space-between"
+            alignItems="center"
             borderBottomWidth={1}
             borderColor={colors.sensitiveGreyDark}
             backgroundColor={
-              optionPressedWrapper === item ?
-              subOptionContainerBackgroundColorActive :
-              subOptionContainerBackgroundColor
+              optionPressedWrapper === item
+                ? subOptionContainerBackgroundColorActive
+                : subOptionContainerBackgroundColor
             }
           >
             <Label
               style={[subOptionTitleStyle, { marginLeft: 10 }]}
-              color={optionPressedWrapper === item ? subOptionActiveColor : subOptionColor}
+              color={
+                optionPressedWrapper === item
+                  ? subOptionActiveColor
+                  : subOptionColor
+              }
               fontFamily={
-                optionPressedWrapper === item ?
-                subOptionActiveFontFamily :
-                subOptionFontFamily
+                optionPressedWrapper === item
+                  ? subOptionActiveFontFamily
+                  : subOptionFontFamily
               }
               fontSize={subOptionFontSize}
               numberOfLines={1}
@@ -106,12 +108,12 @@ class FlyoutItem extends Component {
           </OptionWrapper>
         </TouchableItemWrapper>
       </RowWrapper>
-    )
-  }
+    );
+  };
 
   renderSubOptions = () => {
-    const { opened } = this.state
-    if (!opened) return null
+    const { opened } = this.state;
+    if (!opened) return null;
 
     return (
       <FlatList
@@ -120,8 +122,8 @@ class FlyoutItem extends Component {
         keyExtractor={this.keyExtractor}
         style={{ flex: 1 }}
       />
-    )
-  }
+    );
+  };
 
   render() {
     const {
@@ -137,25 +139,25 @@ class FlyoutItem extends Component {
       iconColor,
       iconSize,
       subOptions,
-      rowBackgroundColor
-    } = this.props
+      rowBackgroundColor,
+    } = this.props;
     if (subOptions[0]) {
-      this.subOptionsToDisplay = subOptions[0].map(val => val.name)
+      this.subOptionsToDisplay = subOptions[0].map((val) => val.name);
     }
     const rotateIcon = this.state.spinValue.interpolate({
       inputRange: [0, 1],
-      outputRange: ['0deg', '-180deg']
-    })
+      outputRange: ['0deg', '-180deg'],
+    });
 
     return (
       <RowWrapper>
         <TouchableItemWrapper
           onPress={() => {
-            onItemPress()
+            onItemPress();
             if (subOptions[0]) {
-              this.openSubOptions()
+              this.openSubOptions();
               if (this.state.opened) {
-                this.hideSubOptions()
+                this.hideSubOptions();
               }
             }
           }}
@@ -164,14 +166,22 @@ class FlyoutItem extends Component {
             width={containerWidth}
             height={containerHeight}
             style={containerStyle}
-            flexDirection='row'
+            flexDirection="row"
             paddingLeft={15}
             paddingRight={16}
-            justifyContent='space-between'
-            alignItems='center'
+            justifyContent="space-between"
+            alignItems="center"
             borderBottomWidth={1}
-            borderColor={this.state.opened ? colors.sensitiveGreyDark : colors.sensitiveGreyDefault}
-            backgroundColor={this.state.opened ? colors.sensitiveGreyDefault : rowBackgroundColor}
+            borderColor={
+              this.state.opened
+                ? colors.sensitiveGreyDark
+                : colors.sensitiveGreyDefault
+            }
+            backgroundColor={
+              this.state.opened
+                ? colors.sensitiveGreyDefault
+                : rowBackgroundColor
+            }
           >
             <Label
               style={itemTitleStyle}
@@ -182,28 +192,20 @@ class FlyoutItem extends Component {
             >
               {title}
             </Label>
-            {
-              subOptions[0] ?
-                <AnimatedIconWrapper
-                  style={{
-                    transform: [
-                      { rotate: rotateIcon }
-                    ]
-                  }}
-                >
-                  <Icon
-                    name='arrowDown'
-                    color={iconColor}
-                    size={iconSize}
-                  />
-                </AnimatedIconWrapper> :
-              null
-            }
+            {subOptions[0] ? (
+              <AnimatedIconWrapper
+                style={{
+                  transform: [{ rotate: rotateIcon }],
+                }}
+              >
+                <Icon name="arrowDown" color={iconColor} size={iconSize} />
+              </AnimatedIconWrapper>
+            ) : null}
           </OptionWrapper>
         </TouchableItemWrapper>
         {this.renderSubOptions()}
       </RowWrapper>
-    )
+    );
   }
 }
 
@@ -222,12 +224,12 @@ FlyoutItem.defaultProps = {
   subOptions: [],
   subOptionTitleStyle: {
     fontSize: 16,
-    marginLeft: 10
+    marginLeft: 10,
   },
   subOptionContainerStyle: {
     height: 50,
     width: 250,
-    alignItems: 'center'
+    alignItems: 'center',
   },
   onSubOptionPress: () => {},
   subOptionContainerBackgroundColorActive: colors.sensitiveGreyDark,
@@ -239,8 +241,8 @@ FlyoutItem.defaultProps = {
   rowBackgroundColor: colors.white,
   optionPressedWrapper: '',
   subOptionContainerHeight: 50,
-  subOptionFontSize: 16
-}
+  subOptionFontSize: 16,
+};
 
 FlyoutItem.propTypes = {
   title: string,
@@ -267,7 +269,7 @@ FlyoutItem.propTypes = {
   rowBackgroundColor: string,
   optionPressedWrapper: string,
   subOptionContainerHeight: number,
-  subOptionFontSize: number
-}
+  subOptionFontSize: number,
+};
 
-export default FlyoutItem
+export default FlyoutItem;

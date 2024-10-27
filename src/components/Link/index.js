@@ -1,31 +1,16 @@
-import React, { Component } from 'react'
-import {
-  bool,
-  string,
-  number,
-  PropTypes
-} from 'prop-types'
-import {
-  Linking,
-  Platform
-} from 'react-native'
-import { ThemeProvider } from 'styled-components'
-import {
-  fonts,
-  theme
-} from '../../config'
-import {
-  LinkText,
-  TouchableWrapper,
-  ViewWrapper
-} from './styled'
-import Icon from '../../../src/components/MerckIcons'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+import React, { Component } from 'react';
+import { bool, string, number, PropTypes } from 'prop-types';
+import { Linking, Platform } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import { fonts, theme } from '../../config';
+import { LinkText, TouchableWrapper, ViewWrapper } from './styled';
+import Icon from '../../../src/components/MerckIcons';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class Link extends Component {
   state = {
-    changeFontWeight: 400
-  }
+    changeFontWeight: 400,
+  };
   render() {
     const {
       text,
@@ -36,15 +21,15 @@ class Link extends Component {
       source,
       active,
       inline,
-      themeName
-    } = this.props
-    let themeObj = getThemeObject(themeName)
-    let themeColor = themeObj.colors.primary.base
-    const primaryColor = color || themeColor
+      themeName,
+    } = this.props;
+    let themeObj = getThemeObject(themeName);
+    let themeColor = themeObj.colors.primary.base;
+    const primaryColor = color || themeColor;
 
-    const adjustFontFamily = () => (active && fonts.Black) || fontFamily
-    const adjustFontWeight = () => (active && Platform.OS === 'ios' ? 900
-      : this.state.changeFontWeight)
+    const adjustFontFamily = () => (active && fonts.Black) || fontFamily;
+    const adjustFontWeight = () =>
+      active && Platform.OS === 'ios' ? 900 : this.state.changeFontWeight;
 
     const renderInline = (
       <LinkText
@@ -59,24 +44,26 @@ class Link extends Component {
       >
         {text}
       </LinkText>
-    )
+    );
 
     const renderLink = (
       <ViewWrapper
         onPress={() => Linking.openURL(source)}
-        onShowUnderlay={() => (Platform.OS === 'ios' ?
-        this.setState({ changeFontWeight: 900 }) : null)}
-        onHideUnderlay={() => (Platform.OS === 'ios' ?
-        this.setState({ changeFontWeight: 400 }) : null)}
-        underlayColor='transparent'
+        onShowUnderlay={() =>
+          Platform.OS === 'ios'
+            ? this.setState({ changeFontWeight: 900 })
+            : null
+        }
+        onHideUnderlay={() =>
+          Platform.OS === 'ios'
+            ? this.setState({ changeFontWeight: 400 })
+            : null
+        }
+        underlayColor="transparent"
         activeOpacity={1}
       >
         <TouchableWrapper>
-          <Icon
-            name='arrowRight'
-            size={16}
-            color={primaryColor}
-          />
+          <Icon name="arrowRight" size={16} color={primaryColor} />
           <LinkText
             {...this.props}
             color={primaryColor}
@@ -89,19 +76,13 @@ class Link extends Component {
           </LinkText>
         </TouchableWrapper>
       </ViewWrapper>
-    )
+    );
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
-        {(inline ?
-        renderInline
-        :
-        renderLink
-      )}
+      <ThemeProvider theme={themeObj}>
+        {inline ? renderInline : renderLink}
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -110,8 +91,8 @@ Link.defaultProps = {
   fontFamily: fonts.Regular,
   inline: false,
   android: false,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Link.propTypes = {
   text: string,
@@ -131,17 +112,17 @@ Link.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default Link
+export default Link;

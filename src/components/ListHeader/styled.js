@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   fontWeight,
   color,
@@ -10,38 +10,36 @@ import {
   height,
   backgroundColor,
   fontSize,
-  fontFamily
-} from 'styled-system'
+  fontFamily,
+} from 'styled-system';
 
-const HeaderWrapper = styled.View`
-`
-const HeaderChildWrapper = styled.View``
+const HeaderWrapper = styled.View``;
+const HeaderChildWrapper = styled.View``;
 
 const Title = styled.Text`
   ${color}
   ${fontWeight}
   ${fontSize}
   ${fontFamily}
-`
+`;
 const TitleWrapper = styled.View`
   ${marginLeft}
   ${alignItems}
   ${justifyContent}
-`
-const HeaderTouchableWrapper = styled.TouchableHighlight`
-`
+`;
+const HeaderTouchableWrapper = styled.TouchableHighlight``;
 
 const TitleIconWrapper = styled.View`
   ${flexDirection}
   ${justifyContent}
   ${marginLeft}
   ${alignItems}
-`
+`;
 const Separator = styled.View`
   ${width}
   ${height}
   ${backgroundColor}
-`
+`;
 export {
   HeaderWrapper,
   Title,
@@ -49,5 +47,5 @@ export {
   TitleWrapper,
   Separator,
   HeaderTouchableWrapper,
-  HeaderChildWrapper
-}
+  HeaderChildWrapper,
+};

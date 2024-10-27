@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Animated, Easing, Modal } from 'react-native'
+import React, { Component } from 'react';
+import { Animated, Easing, Modal } from 'react-native';
 import {
   object,
   number,
@@ -7,17 +7,13 @@ import {
   array,
   string,
   bool,
-  func
-} from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import {
-  colors,
-  fonts,
-  theme
-} from '../../config'
-import { defaultThemeName } from '../../config/theme'
-import Icon from '../MerckIcons'
-import List from '../List'
+  func,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { colors, fonts, theme } from '../../config';
+import { defaultThemeName } from '../../config/theme';
+import Icon from '../MerckIcons';
+import List from '../List';
 import {
   PaginationWrapper,
   DropdownPerPageWrapper,
@@ -38,12 +34,12 @@ import {
   ModalWrapper,
   Separator,
   Container,
-  IconTouchable
-} from './styled'
-import RowItem from './RowItem'
+  IconTouchable,
+} from './styled';
+import RowItem from './RowItem';
 
 class TablePagination extends Component {
-  state={
+  state = {
     itemsPerPage: this.props.actualItemsPerPage,
     itemsAmount: this.props.itemsAmount,
     actualPageVisible: this.props.currentPage,
@@ -52,25 +48,25 @@ class TablePagination extends Component {
     dropdownItemsOpened: false,
     dropdownPagesOpened: false,
     dropdownItemPressed: 0,
-    dropdownPagesPressed: 0
-  }
+    dropdownPagesPressed: 0,
+  };
   // eslint-disable-next-line
   itemsPosition = {}
-  itemsFrame = {}
+  itemsFrame = {};
 
-  pagesPosition = {}
-  pagesFrame = {}
+  pagesPosition = {};
+  pagesFrame = {};
 
   componentDidUpdate() {
-    const { onChange } = this.props
-    const { itemsAmount, itemsPerPage, actualPageVisible } = this.state
-    const pageCount = Math.ceil(itemsAmount / itemsPerPage)
+    const { onChange } = this.props;
+    const { itemsAmount, itemsPerPage, actualPageVisible } = this.state;
+    const pageCount = Math.ceil(itemsAmount / itemsPerPage);
     if (actualPageVisible > pageCount) {
-      onChange(pageCount)
-      // eslint-disable-next-line
+      onChange(pageCount);
+
       this.setState({
-        actualPageVisible: pageCount
-      })
+        actualPageVisible: pageCount,
+      });
     }
   }
 
@@ -78,133 +74,144 @@ class TablePagination extends Component {
     if (this.itemsPosition && this.itemsPosition.root) {
       this.itemsPosition.root.measure((fx, fy, width, height, px, py) => {
         this.itemsFrame = {
-          x: px, y: py, w: width, h: height
-        }
+          x: px,
+          y: py,
+          w: width,
+          h: height,
+        };
 
-        return callback && callback()
-      })
+        return callback && callback();
+      });
     }
-  }
+  };
 
   updatePagesPosition = (callback) => {
     if (this.pagesPosition && this.pagesPosition.root) {
       this.pagesPosition.root.measure((fx, fy, width, height, px, py) => {
         this.pagesFrame = {
-          x: px, y: py, w: width, h: height
-        }
+          x: px,
+          y: py,
+          w: width,
+          h: height,
+        };
 
-        return callback && callback()
-      })
+        return callback && callback();
+      });
     }
-  }
+  };
 
   spinItemsArrowUp = () => {
     this.updateItemsPosition(() => {
-      Animated.timing(this.state.spinItemsValue,
-        {
-          toValue: 1,
-          duration: 100,
-          easing: Easing.linear,
-          useNativeDriver: true
-        }).start(() => {
-        this.setState({
-          dropdownItemsOpened: true
-        })
-      })
-    })
-  }
-
-  spinItemsArrowDown = () => {
-    Animated.timing(this.state.spinItemsValue,
-      {
-        toValue: 0,
+      Animated.timing(this.state.spinItemsValue, {
+        toValue: 1,
         duration: 100,
         easing: Easing.linear,
-        useNativeDriver: true
+        useNativeDriver: true,
       }).start(() => {
+        this.setState({
+          dropdownItemsOpened: true,
+        });
+      });
+    });
+  };
+
+  spinItemsArrowDown = () => {
+    Animated.timing(this.state.spinItemsValue, {
+      toValue: 0,
+      duration: 100,
+      easing: Easing.linear,
+      useNativeDriver: true,
+    }).start(() => {
       this.setState({
-        dropdownItemsOpened: false
-      })
-    })
-  }
+        dropdownItemsOpened: false,
+      });
+    });
+  };
 
   spinPagesArrowUp = () => {
     this.updatePagesPosition(() => {
-      Animated.timing(this.state.spinPagesValue,
-        {
-          toValue: 1,
-          duration: 100,
-          easing: Easing.linear,
-          useNativeDriver: true
-        }).start(() => {
-        this.setState({
-          dropdownPagesOpened: true
-        })
-      })
-    })
-  }
-
-  spinPagesArrowDown = () => {
-    Animated.timing(this.state.spinPagesValue,
-      {
-        toValue: 0,
+      Animated.timing(this.state.spinPagesValue, {
+        toValue: 1,
         duration: 100,
         easing: Easing.linear,
-        useNativeDriver: true
+        useNativeDriver: true,
       }).start(() => {
+        this.setState({
+          dropdownPagesOpened: true,
+        });
+      });
+    });
+  };
+
+  spinPagesArrowDown = () => {
+    Animated.timing(this.state.spinPagesValue, {
+      toValue: 0,
+      duration: 100,
+      easing: Easing.linear,
+      useNativeDriver: true,
+    }).start(() => {
       this.setState({
-        dropdownPagesOpened: false
-      })
-    })
-  }
+        dropdownPagesOpened: false,
+      });
+    });
+  };
 
   hideItemsDropdown = () => {
-    this.spinItemsArrowDown()
-  }
+    this.spinItemsArrowDown();
+  };
 
   hidePagesDropdown = () => {
-    this.spinPagesArrowDown()
-  }
+    this.spinPagesArrowDown();
+  };
 
   onItemRowPress = (index, item) => {
-    const { onItemRowPressed, onItemsDropdownRowPressed } = this.props
-    this.setState({
-      dropdownItemPressed: index,
-      itemsPerPage: item
-    }, () => {
-      onItemRowPressed(item)
-      onItemsDropdownRowPressed(index)
-    })
-  }
+    const { onItemRowPressed, onItemsDropdownRowPressed } = this.props;
+    this.setState(
+      {
+        dropdownItemPressed: index,
+        itemsPerPage: item,
+      },
+      () => {
+        onItemRowPressed(item);
+        onItemsDropdownRowPressed(index);
+      }
+    );
+  };
 
   onPagesRowPress = (index, item) => {
-    const { onPageChange, onPagesDropdownRowPressed } = this.props
-    this.setState({
-      dropdownPagesPressed: index,
-      actualPageVisible: item
-    }, () => {
-      onPageChange(item)
-      onPagesDropdownRowPressed(index)
-    })
-  }
+    const { onPageChange, onPagesDropdownRowPressed } = this.props;
+    this.setState(
+      {
+        dropdownPagesPressed: index,
+        actualPageVisible: item,
+      },
+      () => {
+        onPageChange(item);
+        onPagesDropdownRowPressed(index);
+      }
+    );
+  };
 
   getPagesRange = (pageNumber, actualPagesNumber) => {
-    const { onPageChange } = this.props
-    const newPagesNumber = Math.min(Math.max(1, pageNumber), actualPagesNumber)
-    this.setState({
-      actualPageVisible: newPagesNumber
-    }, () => {
-      onPageChange(newPagesNumber)
-    })
-  }
+    const { onPageChange } = this.props;
+    const newPagesNumber = Math.min(Math.max(1, pageNumber), actualPagesNumber);
+    this.setState(
+      {
+        actualPageVisible: newPagesNumber,
+      },
+      () => {
+        onPageChange(newPagesNumber);
+      }
+    );
+  };
 
   renderSeparator = () => (
     <Separator
       backgroundColor={colors.sensitiveGreyDefault}
       height={1}
-      width='100%'
+      width="100%"
     />
-  )
+  );
 
   renderItemsRow = ({ item, index }) => {
     const {
@@ -217,11 +224,9 @@ class TablePagination extends Component {
       dropdownItemsRowTextColorActive,
       dropdownItemsRowTextColor,
       dropdownItemsRowTextFontSize,
-      themeName
-    } = this.props
-    const {
-      dropdownItemPressed
-    } = this.state
+      themeName,
+    } = this.props;
+    const { dropdownItemPressed } = this.state;
 
     return (
       <RowItem
@@ -242,8 +247,8 @@ class TablePagination extends Component {
         hideItemsDropdown={this.hideItemsDropdown}
         themeName={themeName}
       />
-    )
-  }
+    );
+  };
 
   renderPagesRow = ({ item, index }) => {
     const {
@@ -256,12 +261,9 @@ class TablePagination extends Component {
       dropdownPagesRowTextColorActive,
       dropdownPagesRowTextColor,
       dropdownPagesRowTextFontSize,
-      themeName
-    } = this.props
-    const {
-      dropdownPagesPressed,
-      actualPageVisible
-    } = this.state
+      themeName,
+    } = this.props;
+    const { dropdownPagesPressed, actualPageVisible } = this.state;
 
     return (
       <RowItem
@@ -283,8 +285,8 @@ class TablePagination extends Component {
         hideItemsDropdown={this.hidePagesDropdown}
         themeName={themeName}
       />
-    )
-  }
+    );
+  };
 
   renderItemsDropdown = () => {
     const {
@@ -293,29 +295,28 @@ class TablePagination extends Component {
       itemsDropdownStyle,
       itemsPerPage,
       dropdownItemsRowHeight,
-      paginationBelow
-    } = this.props
+      paginationBelow,
+    } = this.props;
 
-    const topPositionWhenBelow = this.itemsFrame.y - (itemsPerPage.length * dropdownItemsRowHeight)
-    const topPositionWhenAbove = this.itemsFrame.y + this.itemsFrame.h
+    const topPositionWhenBelow =
+      this.itemsFrame.y - itemsPerPage.length * dropdownItemsRowHeight;
+    const topPositionWhenAbove = this.itemsFrame.y + this.itemsFrame.h;
 
     return (
       <Modal
-        animationType='fade'
+        animationType="fade"
         visible
         transparent
         onRequestClose={() => this.hideItemsDropdown()}
       >
-        <TouchableModalWrapper
-          onPress={() => this.hideItemsDropdown()}
-        >
+        <TouchableModalWrapper onPress={() => this.hideItemsDropdown()}>
           <ModalWrapper
             flexGrow={1}
             shadowColor={colors.richBlackDefault}
             shadowOffset={{
-                width: 2,
-                height: 10
-              }}
+              width: 2,
+              height: 10,
+            }}
             shadowOpacity={0.15}
             shadowRadius={6}
             elevation={15}
@@ -326,95 +327,107 @@ class TablePagination extends Component {
               keyExtractor={(item, index) => `${item}${index}`}
               renderSeparator={this.renderSeparator}
               listContainerStyle={[
-                  itemsDropdownStyle,
-                  // eslint-disable-next-line
+                itemsDropdownStyle,
+                // eslint-disable-next-line
                   {
-                    width: itemsDropdownWidth,
-                    maxHeight: dropdownItemsRowHeight * 4,
-                    backgroundColor: itemsDropdownBackgroundColor,
-                    elevation: 15,
-                    position: 'absolute',
-                    borderRadius: 6,
-                    flex: 1,
-                    top: paginationBelow ? topPositionWhenBelow : topPositionWhenAbove,
-                    left: this.itemsFrame.x + this.itemsFrame.w - itemsDropdownWidth + 15,
-                    overflow: 'hidden'
-                  }
-                ]}
+                  width: itemsDropdownWidth,
+                  maxHeight: dropdownItemsRowHeight * 4,
+                  backgroundColor: itemsDropdownBackgroundColor,
+                  elevation: 15,
+                  position: 'absolute',
+                  borderRadius: 6,
+                  flex: 1,
+                  top: paginationBelow
+                    ? topPositionWhenBelow
+                    : topPositionWhenAbove,
+                  left:
+                    this.itemsFrame.x +
+                    this.itemsFrame.w -
+                    itemsDropdownWidth +
+                    15,
+                  overflow: 'hidden',
+                },
+              ]}
               showsVerticalScrollIndicator={false}
             />
           </ModalWrapper>
         </TouchableModalWrapper>
       </Modal>
-    )
-  }
+    );
+  };
 
-   renderPagesDropdown = (pageCount) => {
-     const {
-       pagesDropdownWidth,
-       pagesDropdownBackgroundColor,
-       pagesDropdownStyle,
-       paginationBelow,
-       dropdownPagesRowHeight
-     } = this.props
+  renderPagesDropdown = (pageCount) => {
+    const {
+      pagesDropdownWidth,
+      pagesDropdownBackgroundColor,
+      pagesDropdownStyle,
+      paginationBelow,
+      dropdownPagesRowHeight,
+    } = this.props;
 
-     const buildPagesNumberArray = Object.keys([...Array(pageCount)])
-     // eslint-disable-next-line
+    const buildPagesNumberArray = Object.keys([...Array(pageCount)])
+      // eslint-disable-next-line
        .map(v => parseInt(v)).map(item => item + 1)
-     const topPositionWhenBelow = buildPagesNumberArray.length < 4 ?
-       this.pagesFrame.y - (buildPagesNumberArray.length * dropdownPagesRowHeight) :
-       this.pagesFrame.y - (dropdownPagesRowHeight * 4)
-     const topPositionWhenAbove = this.pagesFrame.y + this.pagesFrame.h
+    const topPositionWhenBelow =
+      buildPagesNumberArray.length < 4
+        ? this.pagesFrame.y -
+          buildPagesNumberArray.length * dropdownPagesRowHeight
+        : this.pagesFrame.y - dropdownPagesRowHeight * 4;
+    const topPositionWhenAbove = this.pagesFrame.y + this.pagesFrame.h;
 
-     return (
-       <Modal
-         animationType='fade'
-         visible
-         transparent
-         onRequestClose={() => this.hidePagesDropdown()}
-       >
-         <TouchableModalWrapper
-           onPress={() => this.hidePagesDropdown()}
-         >
-           <ModalWrapper
-             flexGrow={1}
-             shadowColor={colors.richBlackDefault}
-             shadowOffset={{
-                width: 2,
-                height: 10
-              }}
-             shadowOpacity={0.15}
-             shadowRadius={6}
-             elevation={15}
-           >
-             <List
-               data={buildPagesNumberArray}
-               renderRow={this.renderPagesRow}
-               keyExtractor={(item, index) => `${item}${index}`}
-               renderSeparator={this.renderSeparator}
-               listContainerStyle={[
-                  pagesDropdownStyle,
-                  // eslint-disable-next-line
+    return (
+      <Modal
+        animationType="fade"
+        visible
+        transparent
+        onRequestClose={() => this.hidePagesDropdown()}
+      >
+        <TouchableModalWrapper onPress={() => this.hidePagesDropdown()}>
+          <ModalWrapper
+            flexGrow={1}
+            shadowColor={colors.richBlackDefault}
+            shadowOffset={{
+              width: 2,
+              height: 10,
+            }}
+            shadowOpacity={0.15}
+            shadowRadius={6}
+            elevation={15}
+          >
+            <List
+              data={buildPagesNumberArray}
+              renderRow={this.renderPagesRow}
+              keyExtractor={(item, index) => `${item}${index}`}
+              renderSeparator={this.renderSeparator}
+              listContainerStyle={[
+                pagesDropdownStyle,
+                // eslint-disable-next-line
                   {
-                    width: pagesDropdownWidth,
-                    maxHeight: dropdownPagesRowHeight * 4,
-                    backgroundColor: pagesDropdownBackgroundColor,
-                    elevation: 15,
-                    position: 'absolute',
-                    borderRadius: 6,
-                    flex: 1,
-                    top: paginationBelow ? topPositionWhenBelow : topPositionWhenAbove,
-                    left: this.pagesFrame.x + this.pagesFrame.w - pagesDropdownWidth + 15,
-                    overflow: 'hidden'
-                  }
-                ]}
-               showsVerticalScrollIndicator={false}
-             />
-           </ModalWrapper>
-         </TouchableModalWrapper>
-       </Modal>
-     )
-   }
+                  width: pagesDropdownWidth,
+                  maxHeight: dropdownPagesRowHeight * 4,
+                  backgroundColor: pagesDropdownBackgroundColor,
+                  elevation: 15,
+                  position: 'absolute',
+                  borderRadius: 6,
+                  flex: 1,
+                  top: paginationBelow
+                    ? topPositionWhenBelow
+                    : topPositionWhenAbove,
+                  left:
+                    this.pagesFrame.x +
+                    this.pagesFrame.w -
+                    pagesDropdownWidth +
+                    15,
+                  overflow: 'hidden',
+                },
+              ]}
+              showsVerticalScrollIndicator={false}
+            />
+          </ModalWrapper>
+        </TouchableModalWrapper>
+      </Modal>
+    );
+  };
 
   renderItemsPerPageContent = () => {
     const {
@@ -436,68 +449,75 @@ class TablePagination extends Component {
       itemsRangeStyle,
       amountItemsLabel,
       itemsPerPageWrapperStyle,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
     const {
       actualPageVisible,
       itemsPerPage,
       itemsAmount,
       dropdownItemsOpened,
-      spinItemsValue
-    } = this.state
+      spinItemsValue,
+    } = this.state;
 
-    const itemsVisible = (itemsPerPage * (actualPageVisible - 1)) + 1
+    const itemsVisible = itemsPerPage * (actualPageVisible - 1) + 1;
 
-    const lastItemIndex = Math.min(itemsAmount, itemsPerPage * actualPageVisible)
+    const lastItemIndex = Math.min(
+      itemsAmount,
+      itemsPerPage * actualPageVisible
+    );
 
     const rotateIcon = spinItemsValue.interpolate({
       inputRange: [0, 1],
-      outputRange: ['0deg', '-180deg']
-    })
+      outputRange: ['0deg', '-180deg'],
+    });
 
     return (
       <Container
         flex={1}
-        justifyContent='flex-start'
-        flexDirection='row'
+        justifyContent="flex-start"
+        flexDirection="row"
         style={itemsPerPageWrapperStyle}
       >
         <DropdownPerPageWrapper
-          flexDirection='row'
-          justifyContent='flex-start'
+          flexDirection="row"
+          justifyContent="flex-start"
           paddingLeft={10}
         >
-          <ItemsWrapper
-            justifyContent='center'
-            alignItems='center'
-          >
+          <ItemsWrapper justifyContent="center" alignItems="center">
             <Items
               fontSize={itemsPerPageLabelFontSize}
               fontFamily={itemsPerPageLabelFontFamily}
               color={itemsPerPageLabelColor}
               style={itemsPerPageLabelStyle}
-            >{itemsPerPageLabel}
+            >
+              {itemsPerPageLabel}
             </Items>
           </ItemsWrapper>
           <DropdownTouchable
-            onPress={() => (dropdownItemsOpened ?
-            this.spinItemsArrowDown() :
-            this.spinItemsArrowUp())
-          }
+            onPress={() =>
+              dropdownItemsOpened
+                ? this.spinItemsArrowDown()
+                : this.spinItemsArrowUp()
+            }
           >
             <ItemsDropdownWrapper
-              ref={(ref) => { this.itemsPosition = ref }}
-              justifyContent='center'
-              alignItems='center'
-              flexDirection='row'
+              ref={(ref) => {
+                this.itemsPosition = ref;
+              }}
+              justifyContent="center"
+              alignItems="center"
+              flexDirection="row"
               paddingLeft={16}
             >
               <ItemsWrapper>
                 <ItemsPerPage
                   fontSize={itemsPerPageNumberFontSize}
                   fontFamily={itemsPerPageNumberFontFamily}
-                  color={theme.themes[themeName].colors.primary.base || itemsPerPageNumberColor}
+                  color={
+                    theme.themes[themeName].colors.primary.base ||
+                    itemsPerPageNumberColor
+                  }
                   style={itemsPerPageNumberStyle}
                 >
                   {itemsPerPage}
@@ -505,16 +525,16 @@ class TablePagination extends Component {
               </ItemsWrapper>
               <AnimatedIconWrapper
                 style={{
-              transform: [
-                { rotate: rotateIcon }
-              ]
-            }}
+                  transform: [{ rotate: rotateIcon }],
+                }}
                 marginLeft={3}
               >
                 <Icon
-                  name='arrowDown'
+                  name="arrowDown"
                   size={iconSize}
-                  color={theme.themes[themeName].colors.primary.base || iconColor}
+                  color={
+                    theme.themes[themeName].colors.primary.base || iconColor
+                  }
                 />
               </AnimatedIconWrapper>
             </ItemsDropdownWrapper>
@@ -522,17 +542,18 @@ class TablePagination extends Component {
           {dropdownItemsOpened ? this.renderItemsDropdown() : null}
         </DropdownPerPageWrapper>
         <ItemsWrapper
-          justifyContent='center'
-          alignItems='center'
+          justifyContent="center"
+          alignItems="center"
           paddingLeft={30}
-          flexDirection='row'
+          flexDirection="row"
         >
           <ItemsRange
             fontSize={itemsRangeFontSize}
             fontFamily={itemsRangeFontFamily}
             color={itemsRangeColor}
             style={itemsRangeStyle}
-          >|
+          >
+            |
           </ItemsRange>
           <ItemsRange
             fontSize={itemsRangeFontSize}
@@ -540,16 +561,16 @@ class TablePagination extends Component {
             color={itemsRangeColor}
             // eslint-disable-next-line
             style={[itemsRangeStyle, {
-              paddingLeft: 25
-            }]}
+                paddingLeft: 25,
+              },
+            ]}
           >
             {`${itemsVisible}-${lastItemIndex} ${amountAndRangeSplittingLabel} ${itemsAmount} ${amountItemsLabel}`}
           </ItemsRange>
         </ItemsWrapper>
       </Container>
-
-    )
-  }
+    );
+  };
 
   renderPagesContent = () => {
     const {
@@ -568,39 +589,39 @@ class TablePagination extends Component {
       pagesRangeStyle,
       amountPagesLabel,
       pagesWrapperStyle,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
     const {
       dropdownPagesOpened,
       spinPagesValue,
       actualPageVisible,
       itemsPerPage,
-      itemsAmount
-    } = this.state
+      itemsAmount,
+    } = this.state;
 
     const rotateIcon = spinPagesValue.interpolate({
       inputRange: [0, 1],
-      outputRange: ['0deg', '-180deg']
-    })
+      outputRange: ['0deg', '-180deg'],
+    });
 
-    const pageCount = Math.ceil(itemsAmount / itemsPerPage)
+    const pageCount = Math.ceil(itemsAmount / itemsPerPage);
 
-    const isDisabledLeft = actualPageVisible === 1
+    const isDisabledLeft = actualPageVisible === 1;
 
-    const isDisabledRight = actualPageVisible === pageCount
+    const isDisabledRight = actualPageVisible === pageCount;
 
     return (
       <Container
         flex={1}
-        justifyContent='flex-end'
-        flexDirection='row'
+        justifyContent="flex-end"
+        flexDirection="row"
         style={pagesWrapperStyle}
       >
         <ItemsPagesWrapper
-          justifyContent='center'
-          alignItems='center'
-          flexDirection='row'
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="row"
           paddingRight={8}
         >
           <PagesRange
@@ -612,49 +633,48 @@ class TablePagination extends Component {
             {`${actualPageVisible} ${amountAndRangeSplittingLabel} ${pageCount} ${amountPagesLabel}`}
           </PagesRange>
         </ItemsPagesWrapper>
-        <PagesDropdownWrapper
-          flexDirection='row'
-        >
+        <PagesDropdownWrapper flexDirection="row">
           <IconTouchable
             onPress={() => {
-              const pageNumber = actualPageVisible - 1
-              this.getPagesRange(pageNumber, pageCount)
+              const pageNumber = actualPageVisible - 1;
+              this.getPagesRange(pageNumber, pageCount);
             }}
             disabled={isDisabledLeft}
           >
             <IconWrapper
-              justifyContent='center'
-              alignItems='center'
+              justifyContent="center"
+              alignItems="center"
               borderLeftWidth={2}
               borderLeftColor={colors.sensitiveGreyDefault}
               paddingRight={8}
               paddingLeft={8}
             >
               <Icon
-                name='arrowLeft'
+                name="arrowLeft"
                 size={horizontalIconSize}
                 color={
-                  isDisabledLeft ?
-                  colors.sensitiveGreyDark :
-                  theme.themes[themeName].colors.primary.base ||
-                  horizontalIconColor
+                  isDisabledLeft
+                    ? colors.sensitiveGreyDark
+                    : theme.themes[themeName].colors.primary.base ||
+                      horizontalIconColor
                 }
               />
             </IconWrapper>
           </IconTouchable>
           <DropdownTouchable
-            onPress={() => (dropdownPagesOpened ?
-              this.spinPagesArrowDown() :
-              this.spinPagesArrowUp())
+            onPress={() =>
+              dropdownPagesOpened
+                ? this.spinPagesArrowDown()
+                : this.spinPagesArrowUp()
             }
           >
             <IconPageWrapper
               // eslint-disable-next-line
               ref={ref => this.pagesPosition = ref}
               width={45}
-              flexDirection='row'
-              alignItems='center'
-              justifyContent='center'
+              flexDirection="row"
+              alignItems="center"
+              justifyContent="center"
               borderLeftWidth={2}
               borderRightWidth={2}
               borderLeftColor={colors.sensitiveGreyDefault}
@@ -665,47 +685,50 @@ class TablePagination extends Component {
               <Page
                 fontSize={pageNumberFontSize}
                 fontFamily={pageNumberFontFamily}
-                color={theme.themes[themeName].colors.primary.base || pageNumberColor}
+                color={
+                  theme.themes[themeName].colors.primary.base || pageNumberColor
+                }
                 style={pageNumberStyle}
-              >{actualPageVisible}
+              >
+                {actualPageVisible}
               </Page>
               <AnimatedIconWrapper
                 style={{
-                  transform: [
-                    { rotate: rotateIcon }
-                  ],
-                  marginLeft: 1
+                  transform: [{ rotate: rotateIcon }],
+                  marginLeft: 1,
                 }}
               >
                 <Icon
-                  name='arrowDown'
+                  name="arrowDown"
                   size={iconSize}
-                  color={theme.themes[themeName].colors.primary.base || iconColor}
+                  color={
+                    theme.themes[themeName].colors.primary.base || iconColor
+                  }
                 />
               </AnimatedIconWrapper>
             </IconPageWrapper>
           </DropdownTouchable>
           <IconTouchable
             onPress={() => {
-              const pageNumber = actualPageVisible + 1
-              this.getPagesRange(pageNumber, pageCount)
+              const pageNumber = actualPageVisible + 1;
+              this.getPagesRange(pageNumber, pageCount);
             }}
             disabled={isDisabledRight}
           >
             <IconWrapper
-              justifyContent='center'
-              alignItems='center'
+              justifyContent="center"
+              alignItems="center"
               paddingLeft={8}
               paddingRight={18}
             >
               <Icon
-                name='arrowRight'
+                name="arrowRight"
                 size={horizontalIconSize}
                 color={
-                  isDisabledRight ?
-                   colors.sensitiveGreyDark :
-                   theme.themes[themeName].colors.primary.base ||
-                   horizontalIconColor
+                  isDisabledRight
+                    ? colors.sensitiveGreyDark
+                    : theme.themes[themeName].colors.primary.base ||
+                      horizontalIconColor
                 }
               />
             </IconWrapper>
@@ -713,22 +736,15 @@ class TablePagination extends Component {
         </PagesDropdownWrapper>
         {dropdownPagesOpened ? this.renderPagesDropdown(pageCount) : null}
       </Container>
-    )
-  }
+    );
+  };
 
   render() {
-    const {
-      themeName,
-      width,
-      height,
-      backgroundColor,
-      paginationBelow
-    } = this.props
+    const { themeName, width, height, backgroundColor, paginationBelow } =
+      this.props;
 
     return (
-      <ThemeProvider
-        theme={theme.themes[themeName]}
-      >
+      <ThemeProvider theme={theme.themes[themeName]}>
         <PaginationWrapper
           width={width}
           height={height}
@@ -738,13 +754,13 @@ class TablePagination extends Component {
           borderBottomLeftRadius={paginationBelow ? 6 : 0}
           borderTopLeftRadius={paginationBelow ? 0 : 6}
           borderTopRightRadius={paginationBelow ? 0 : 6}
-          flexDirection='row'
+          flexDirection="row"
         >
           {this.renderItemsPerPageContent()}
           {this.renderPagesContent()}
         </PaginationWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 TablePagination.propTypes = {
@@ -815,8 +831,8 @@ TablePagination.propTypes = {
   pagesWrapperStyle: oneOfType([object, array]),
   itemsPerPageWrapperStyle: oneOfType([object, array]),
   onItemsDropdownRowPressed: func,
-  onPagesDropdownRowPressed: func
-}
+  onPagesDropdownRowPressed: func,
+};
 
 TablePagination.defaultProps = {
   themeName: defaultThemeName,
@@ -884,10 +900,10 @@ TablePagination.defaultProps = {
   onChange: () => {},
   pagesWrapperStyle: {},
   itemsPerPageWrapperStyle: {
-    paddingLeft: 20
+    paddingLeft: 20,
   },
   onItemsDropdownRowPressed: () => {},
-  onPagesDropdownRowPressed: () => {}
-}
+  onPagesDropdownRowPressed: () => {},
+};
 
-export default TablePagination
+export default TablePagination;

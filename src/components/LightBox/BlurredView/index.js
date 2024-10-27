@@ -1,5 +1,5 @@
-import BlurredView from './BlurredView'
+import BlurredView from './BlurredView';
 
 module.exports = {
-  BlurredView
-}
+  BlurredView,
+};

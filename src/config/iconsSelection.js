@@ -1,402 +1,402 @@
 const iconsSelection = (iconName) => {
   switch (iconName) {
     case 'attention':
-      return '\ue9a0'
+      return '\ue9a0';
     case 'information':
-      return '\ue9ab'
+      return '\ue9ab';
     case 'merckLogo':
-      return '\ue9c7'
+      return '\ue9c7';
     case 'facebook':
-      return '\ue9ba'
+      return '\ue9ba';
     case 'flickr':
-      return '\ue9bb'
+      return '\ue9bb';
     case 'instagram':
-      return '\ue9bc'
+      return '\ue9bc';
     case 'linked-in':
-      return '\ue9bd'
+      return '\ue9bd';
     case 'mail':
-      return '\ue9be'
+      return '\ue9be';
     case 'salesforce':
-      return '\ue9bf'
+      return '\ue9bf';
     case 'skype':
-      return '\ue9c0'
+      return '\ue9c0';
     case 'slack':
-      return '\ue9c1'
+      return '\ue9c1';
     case 'twitter':
-      return '\ue9c4'
+      return '\ue9c4';
     case 'xing':
-      return '\ue9c5'
+      return '\ue9c5';
     case 'checkboxFilled':
-      return '\ue999'
+      return '\ue999';
     case 'checkboxEmpty':
-      return '\ue9a3'
+      return '\ue9a3';
     case 'progressBarIndicator':
-      return '\ue900'
+      return '\ue900';
     case 'tooltipEmpty':
-      return '\ue903'
+      return '\ue903';
     case 'arrowChevron':
-      return '\ue904'
+      return '\ue904';
     case 'progressBarCheck':
-      return '\ue905'
+      return '\ue905';
     case 'progressBarComing':
-      return '\ue906'
+      return '\ue906';
     case 'progressBarDisabled':
-      return '\ue907'
+      return '\ue907';
     case 'radioBtnActive':
-      return '\ue908'
+      return '\ue908';
     case 'radioBtnEmpty':
-      return '\ue909'
+      return '\ue909';
     case 'radioBtnFilled':
-      return '\ue90a'
+      return '\ue90a';
     case 'radioBtnHover':
-      return '\ue90b'
+      return '\ue90b';
     case 'calendar':
-      return '\ue90c'
+      return '\ue90c';
     case 'listview-filled':
-      return '\ue90d'
+      return '\ue90d';
     case 'listview-line':
-      return '\ue90e'
+      return '\ue90e';
     case 'alarm-fill':
-      return '\ue90f'
+      return '\ue90f';
     case 'alarm-line':
-      return '\ue910'
+      return '\ue910';
     case 'atoms-fill':
-      return '\ue911'
+      return '\ue911';
     case 'atoms-line':
-      return '\ue912'
+      return '\ue912';
     case 'basket-filled':
-      return '\ue913'
+      return '\ue913';
     case 'basket-line':
-      return '\ue914'
+      return '\ue914';
     case 'bin-filled':
-      return '\ue915'
+      return '\ue915';
     case 'bin-line':
-      return '\ue916'
+      return '\ue916';
     case 'biotech-filled':
-      return '\ue917'
+      return '\ue917';
     case 'biotech-line':
-      return '\ue918'
+      return '\ue918';
     case 'bitcoin-filled':
-      return '\ue919'
+      return '\ue919';
     case 'bitcoin-line':
-      return '\ue91a'
+      return '\ue91a';
     case 'bottle-filled':
-      return '\ue91b'
+      return '\ue91b';
     case 'bottle-line':
-      return '\ue91c'
+      return '\ue91c';
     case 'bulletList-filled':
-      return '\ue91d'
+      return '\ue91d';
     case 'bulletList-line':
-      return '\ue91e'
+      return '\ue91e';
     case 'camera-filled':
-      return '\ue91f'
+      return '\ue91f';
     case 'camera-line':
-      return '\ue920'
+      return '\ue920';
     case 'chatboxRound-filled':
-      return '\ue921'
+      return '\ue921';
     case 'chatboxRound-line':
-      return '\ue922'
+      return '\ue922';
     case 'chatboxSquare-filled':
-      return '\ue923'
+      return '\ue923';
     case 'chatboxSquare-line':
-      return '\ue924'
+      return '\ue924';
     case 'chats-filled':
-      return '\ue925'
+      return '\ue925';
     case 'chats-line':
-      return '\ue926'
+      return '\ue926';
     case 'clip-filled':
-      return '\ue927'
+      return '\ue927';
     case 'clip-line':
-      return '\ue928'
+      return '\ue928';
     case 'cloudDownload-filled':
-      return '\ue929'
+      return '\ue929';
     case 'cloudDownload-line':
-      return '\ue92a'
+      return '\ue92a';
     case 'cloudUpload-filled':
-      return '\ue92b'
+      return '\ue92b';
     case 'cloudUpload-line':
-      return '\ue92c'
+      return '\ue92c';
     case 'costCenter-filled':
-      return '\ue92d'
+      return '\ue92d';
     case 'costCenter-line':
-      return '\ue92e'
+      return '\ue92e';
     case 'coupon-filled':
-      return '\ue92f'
+      return '\ue92f';
     case 'coupon-line':
-      return '\ue930'
+      return '\ue930';
     case 'dashboard-filled':
-      return '\ue931'
+      return '\ue931';
     case 'dashboard-line':
-      return '\ue932'
+      return '\ue932';
     case 'document-filled':
-      return '\ue933'
+      return '\ue933';
     case 'document-line':
-      return '\ue934'
+      return '\ue934';
     case 'dollar-filled':
-      return '\ue935'
+      return '\ue935';
     case 'dollar-line':
-      return '\ue936'
+      return '\ue936';
     case 'dollarCoins-filled':
-      return '\ue937'
+      return '\ue937';
     case 'dollarCoins-line':
-      return '\ue938'
+      return '\ue938';
     case 'dollarSign-filled':
-      return '\ue939'
+      return '\ue939';
     case 'dollarSign-line':
-      return '\ue93a'
+      return '\ue93a';
     case 'education-filled':
-      return '\ue93b'
+      return '\ue93b';
     case 'education-line':
-      return '\ue93c'
+      return '\ue93c';
     case 'energy-filled':
-      return '\ue93d'
+      return '\ue93d';
     case 'energy-line':
-      return '\ue93e'
+      return '\ue93e';
     case 'euro-filled':
-      return '\ue93f'
+      return '\ue93f';
     case 'euro-line':
-      return '\ue940'
+      return '\ue940';
     case 'filter-filled':
-      return '\ue941'
+      return '\ue941';
     case 'filter-line':
-      return '\ue942'
+      return '\ue942';
     case 'finance-filled':
-      return '\ue943'
+      return '\ue943';
     case 'finance-line':
-      return '\ue944'
+      return '\ue944';
     case 'gridView-filled':
-      return '\ue945'
+      return '\ue945';
     case 'gridView-line':
-      return '\ue946'
+      return '\ue946';
     case 'growth-filled':
-      return '\ue947'
+      return '\ue947';
     case 'growth-line':
-      return '\ue948'
+      return '\ue948';
     case 'headphone-filled':
-      return '\ue949'
+      return '\ue949';
     case 'headphone-line':
-      return '\ue94a'
+      return '\ue94a';
     case 'heart-filled':
-      return '\ue94b'
+      return '\ue94b';
     case 'heart-line':
-      return '\ue94c'
+      return '\ue94c';
     case 'historicalData-filled':
-      return '\ue94d'
+      return '\ue94d';
     case 'historicalData-line':
-      return '\ue94e'
+      return '\ue94e';
     case 'home-filled':
-      return '\ue94f'
+      return '\ue94f';
     case 'home-line':
-      return '\ue950'
+      return '\ue950';
     case 'honeycomb-filled':
-      return '\ue951'
+      return '\ue951';
     case 'honeycomb-line':
-      return '\ue952'
+      return '\ue952';
     case 'income-filled':
-      return '\ue953'
+      return '\ue953';
     case 'income-line':
-      return '\ue954'
+      return '\ue954';
     case 'keys-filled':
-      return '\ue955'
+      return '\ue955';
     case 'keys-line':
-      return '\ue956'
+      return '\ue956';
     case 'language-filled':
-      return '\ue957'
+      return '\ue957';
     case 'language-line':
-      return '\ue958'
+      return '\ue958';
     case 'laptopMobile-filled':
-      return '\ue959'
+      return '\ue959';
     case 'laptopMobile-line':
-      return '\ue95a'
+      return '\ue95a';
     case 'layer-filled':
-      return '\ue95b'
+      return '\ue95b';
     case 'layer-line':
-      return '\ue95c'
+      return '\ue95c';
     case 'location-filled':
-      return '\ue95d'
+      return '\ue95d';
     case 'location-line':
-      return '\ue95e'
+      return '\ue95e';
     case 'lock-filled':
-      return '\ue95f'
+      return '\ue95f';
     case 'lock-line':
-      return '\ue960'
+      return '\ue960';
     case 'logistic-filled':
-      return '\ue961'
+      return '\ue961';
     case 'logistic-line':
-      return '\ue962'
+      return '\ue962';
     case 'logisticUp-filled':
-      return '\ue963'
+      return '\ue963';
     case 'logisticUp-line':
-      return '\ue964'
+      return '\ue964';
     case 'message-filled':
-      return '\ue965'
+      return '\ue965';
     case 'message-line':
-      return '\ue966'
+      return '\ue966';
     case 'mic-filled':
-      return '\ue967'
+      return '\ue967';
     case 'mic-line':
-      return '\ue968'
+      return '\ue968';
     case 'microscope-filled':
-      return '\ue969'
+      return '\ue969';
     case 'microscope-line':
-      return '\ue96a'
+      return '\ue96a';
     case 'money-filled':
-      return '\ue96b'
+      return '\ue96b';
     case 'money-line':
-      return '\ue96c'
+      return '\ue96c';
     case 'movie-filled':
-      return '\ue96d'
+      return '\ue96d';
     case 'movie-line':
-      return '\ue96e'
+      return '\ue96e';
     case 'pencil-filled':
-      return '\ue96f'
+      return '\ue96f';
     case 'pencil-line':
-      return '\ue970'
+      return '\ue970';
     case 'people1-filled':
-      return '\ue971'
+      return '\ue971';
     case 'people1-line':
-      return '\ue972'
+      return '\ue972';
     case 'people2-filled':
-      return '\ue973'
+      return '\ue973';
     case 'people2-line':
-      return '\ue974'
+      return '\ue974';
     case 'person-filled':
-      return '\ue975'
+      return '\ue975';
     case 'person-line':
-      return '\ue976'
+      return '\ue976';
     case 'phone-filled':
-      return '\ue977'
+      return '\ue977';
     case 'phone-line':
-      return '\ue978'
+      return '\ue978';
     case 'pipette-filled':
-      return '\ue979'
+      return '\ue979';
     case 'pipette-line':
-      return '\ue97a'
+      return '\ue97a';
     case 'plane-filled':
-      return '\ue97b'
+      return '\ue97b';
     case 'plane-line':
-      return '\ue97c'
+      return '\ue97c';
     case 'posting-filled':
-      return '\ue97d'
+      return '\ue97d';
     case 'posting-line':
-      return '\ue97e'
+      return '\ue97e';
     case 'pound-filled':
-      return '\ue97f'
+      return '\ue97f';
     case 'pound-line':
-      return '\ue980'
+      return '\ue980';
     case 'puzzle-filled':
-      return '\ue981'
+      return '\ue981';
     case 'puzzle-line':
-      return '\ue982'
+      return '\ue982';
     case 'reaction-filled':
-      return '\ue983'
+      return '\ue983';
     case 'reaction-line':
-      return '\ue984'
+      return '\ue984';
     case 'repost-filled':
-      return '\ue985'
+      return '\ue985';
     case 'repost-line':
-      return '\ue986'
+      return '\ue986';
     case 'roundFlask-filled':
-      return '\ue987'
+      return '\ue987';
     case 'roundFlask-line':
-      return '\ue988'
+      return '\ue988';
     case 'settings-filled':
-      return '\ue989'
+      return '\ue989';
     case 'settings-line':
-      return '\ue98a'
+      return '\ue98a';
     case 'share-filled':
-      return '\ue98b'
+      return '\ue98b';
     case 'share-line':
-      return '\ue98c'
+      return '\ue98c';
     case 'speaker-filled':
-      return '\ue98d'
+      return '\ue98d';
     case 'speaker-line':
-      return '\ue98e'
+      return '\ue98e';
     case 'testTube-filled':
-      return '\ue98f'
+      return '\ue98f';
     case 'testTube-line':
-      return '\ue990'
+      return '\ue990';
     case 'tools-filled':
-      return '\ue991'
+      return '\ue991';
     case 'tools-line':
-      return '\ue992'
+      return '\ue992';
     case 'triangularFlask-filled':
-      return '\ue993'
+      return '\ue993';
     case 'triangularFlask-line':
-      return '\ue994'
+      return '\ue994';
     case 'truck-filled':
-      return '\ue995'
+      return '\ue995';
     case 'truck-line':
-      return '\ue996'
+      return '\ue996';
     case 'watch-filled':
-      return '\ue997'
+      return '\ue997';
     case 'watch-line':
-      return '\ue998'
+      return '\ue998';
     case 'tooltipFilled':
-      return '\ue99a'
+      return '\ue99a';
     case 'add':
-      return '\ue99b'
+      return '\ue99b';
     case 'arrowDown':
-      return '\ue99c'
+      return '\ue99c';
     case 'arrowLeft':
-      return '\ue99d'
+      return '\ue99d';
     case 'arrowRight':
-      return '\ue99e'
+      return '\ue99e';
     case 'arrowUp':
-      return '\ue99f'
+      return '\ue99f';
     case 'attention1':
-      return '\ue9c8'
+      return '\ue9c8';
     case 'bell':
-      return '\ue9a1'
+      return '\ue9a1';
     case 'checkArrow':
-      return '\ue9a2'
+      return '\ue9a2';
     case 'closingX':
-      return '\ue9a4'
+      return '\ue9a4';
     case 'dot':
-      return '\ue9a5'
+      return '\ue9a5';
     case 'doubleArrowLeft':
-      return '\ue9a6'
+      return '\ue9a6';
     case 'doubleArrowRight':
-      return '\ue9a7'
+      return '\ue9a7';
     case 'export':
-      return '\ue9a8'
+      return '\ue9a8';
     case 'favorite':
-      return '\ue9a9'
+      return '\ue9a9';
     case 'filter':
-      return '\ue9aa'
+      return '\ue9aa';
     case 'information1':
-      return '\ue9c6'
+      return '\ue9c6';
     case 'mediaAudio':
-      return '\ue9ac'
+      return '\ue9ac';
     case 'mediaFastForward':
-      return '\ue9ad'
+      return '\ue9ad';
     case 'mediaPause':
-      return '\ue9ae'
+      return '\ue9ae';
     case 'mediaPlay':
-      return '\ue9af'
+      return '\ue9af';
     case 'mediaRewind':
-      return '\ue9b0'
+      return '\ue9b0';
     case 'mediaStop':
-      return '\ue9b1'
+      return '\ue9b1';
     case 'minus':
-      return '\ue9b2'
+      return '\ue9b2';
     case 'options':
-      return '\ue9b3'
+      return '\ue9b3';
     case 'placeholder':
-      return '\ue9b4'
+      return '\ue9b4';
     case 'plus':
-      return '\ue9b5'
+      return '\ue9b5';
     case 'search':
-      return '\ue9b6'
+      return '\ue9b6';
     case 'settings':
-      return '\ue9b7'
+      return '\ue9b7';
     case 'star':
-      return '\ue9b8'
+      return '\ue9b8';
     case 'upload':
-      return '\ue9b9'
+      return '\ue9b9';
     default:
-      return '\ue9b4'
+      return '\ue9b4';
   }
-}
+};
 
-export default iconsSelection
+export default iconsSelection;

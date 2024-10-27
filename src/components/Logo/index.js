@@ -1,45 +1,38 @@
-import React from 'react'
-import { ThemeProvider } from 'styled-components'
-import { number, oneOfType, array, object, string, PropTypes } from 'prop-types'
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import {
-  colors,
-  theme
-} from '../../config'
-import { getThemeObject } from '../../config/theme'
-import { Icon } from '../'
+  number,
+  oneOfType,
+  array,
+  object,
+  string,
+  PropTypes,
+} from 'prop-types';
+import { colors, theme } from '../../config';
+import { getThemeObject } from '../../config/theme';
+import { Icon } from '../';
 
-const Logo = ({
-  color,
-  size,
-  style,
-  themeName
-}) => {
-
-  let themeObj = getThemeObject(themeName)
-  let themeColor = themeObj.colors.primary.base
+const Logo = ({ color, size, style, themeName }) => {
+  let themeObj = getThemeObject(themeName);
+  let themeColor = themeObj.colors.primary.base;
   return (
-    <ThemeProvider
-      theme={themeObj}
-    >
+    <ThemeProvider theme={themeObj}>
       <Icon
-        name='merckLogo'
+        name="merckLogo"
         size={size}
         style={style}
-        color={
-          color !== colors.richPurpleDefault ?
-          color : themeColor
-        }
+        color={color !== colors.richPurpleDefault ? color : themeColor}
       />
     </ThemeProvider>
-  )
-}
+  );
+};
 
 Logo.defaultProps = {
   size: 90,
   style: {},
   color: colors.richPurpleDefault,
-  themeName: 'richPurple'
-}
+  themeName: 'richPurple',
+};
 
 Logo.propTypes = {
   size: number,
@@ -53,17 +46,17 @@ Logo.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default Logo
+export default Logo;

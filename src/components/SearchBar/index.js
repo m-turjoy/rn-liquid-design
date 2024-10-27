@@ -1,11 +1,19 @@
-import React, { Component } from 'react'
-import { Platform } from 'react-native'
-import { number, string, func, array, object, bool, PropTypes } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import Icon from '../MerckIcons'
-import { fonts, colors } from '../../config'
-import List from '../List'
-import ListItem from '../ListItem'
+import React, { Component } from 'react';
+import { Platform } from 'react-native';
+import {
+  number,
+  string,
+  func,
+  array,
+  object,
+  bool,
+  PropTypes,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import Icon from '../MerckIcons';
+import { fonts, colors } from '../../config';
+import List from '../List';
+import ListItem from '../ListItem';
 import {
   SearchBarWrapper,
   IconWrapper,
@@ -13,54 +21,56 @@ import {
   SearchInput,
   SearchContainer,
   IconInputWrapper,
-  Underline
-} from './styled'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  Underline,
+} from './styled';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class SearchBar extends Component {
   constructor(props) {
-    super(props)
-    this.textInput = {}
+    super(props);
+    this.textInput = {};
     this.state = {
       active: false,
       listXPosition: 0,
       listYposition: 0,
       searchResults: [],
-      value: ''
-    }
+      value: '',
+    };
   }
 
-  onInputChange = text => this.handleOnSearchData(text)
+  onInputChange = (text) => this.handleOnSearchData(text);
 
-  escapeRegExp = str => str.replace(/[-[\]/{}()*+?.\\\\|]/g, '\\$&')
+  escapeRegExp = (str) => str.replace(/[-[\]/{}()*+?.\\\\|]/g, '\\$&');
 
   handleOnSearchData = (text) => {
-    const { searchProperty, searchOptions, searchableRange } = this.props
-    const searchValue = this.escapeRegExp(text)
+    const { searchProperty, searchOptions, searchableRange } = this.props;
+    const searchValue = this.escapeRegExp(text);
     const sortedData = text
       ? searchOptions
-        .slice(0, searchableRange)
-        .filter(val => new RegExp(searchValue, 'i').test(val[searchProperty]))
-      : []
+          .slice(0, searchableRange)
+          .filter((val) =>
+            new RegExp(searchValue, 'i').test(val[searchProperty])
+          )
+      : [];
     this.setState({
       searchResults: sortedData,
-      value: text
-    })
-  }
+      value: text,
+    });
+  };
 
   adjustElevation = () => {
-    const { disabled, ghost } = this.props
-    const { active } = this.state
+    const { disabled, ghost } = this.props;
+    const { active } = this.state;
 
-    return ghost ? 0 : disabled ? 0 : (active && 15) || 0
-  }
+    return ghost ? 0 : disabled ? 0 : (active && 15) || 0;
+  };
 
   adjustBorderRadius = () => {
-    const { ghost } = this.props
-    const { searchResults } = this.state
+    const { ghost } = this.props;
+    const { searchResults } = this.state;
 
-    return ghost ? 0 : searchResults.length > 0 ? 0 : 6
-  }
+    return ghost ? 0 : searchResults.length > 0 ? 0 : 6;
+  };
 
   renderRow = ({ item }) => {
     const {
@@ -74,8 +84,8 @@ class SearchBar extends Component {
       titleActiveFontFamily,
       titleActiveColor,
       titleColor,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
     return (
       <ListItem
@@ -84,23 +94,23 @@ class SearchBar extends Component {
           rowTitleStyle,
           {
             marginRight: 15,
-            fontSize: rowTitleStyle.fontSize || 16
-          }
+            fontSize: rowTitleStyle.fontSize || 16,
+          },
         ]}
         containerStyle={[
           rowStyle,
           {
             zIndex: 99,
             alignItems: 'center',
-            width: rowStyle.width || 250
-          }
+            width: rowStyle.width || 250,
+          },
         ]}
         onPress={() => {
-          onRowPress()
+          onRowPress();
           this.setState({
-            value: item[searchProperty]
-          })
-          this.textInput.root.blur()
+            value: item[searchProperty],
+          });
+          this.textInput.root.blur();
         }}
         containerBackgroundColorActive={containerBackgroundColorActive}
         containerBackgroundColor={containerBackgroundColor}
@@ -109,8 +119,8 @@ class SearchBar extends Component {
         titleActiveColor={getThemeObject(themeName).colors.primary.base}
         titleColor={titleColor}
       />
-    )
-  }
+    );
+  };
 
   renderModal = () => {
     const {
@@ -119,9 +129,9 @@ class SearchBar extends Component {
       height,
       width,
       listBackgroundColor,
-      disabled
-    } = this.props
-    if (disabled) return null
+      disabled,
+    } = this.props;
+    if (disabled) return null;
 
     return (
       <List
@@ -132,7 +142,8 @@ class SearchBar extends Component {
           listContainerStyle,
           {
             width: listContainerStyle.width || width,
-            backgroundColor: listContainerStyle.backgroundColor || listBackgroundColor,
+            backgroundColor:
+              listContainerStyle.backgroundColor || listBackgroundColor,
             borderBottomLeftRadius: 6,
             borderBottomRightRadius: 6,
             borderTopLeftRadius: 0,
@@ -143,14 +154,14 @@ class SearchBar extends Component {
             top: this.state.listYposition + height,
             left: this.state.listXPosition,
             elevation: 15,
-            zIndex: 99
-          }
+            zIndex: 99,
+          },
         ]}
         showsVerticalScrollIndicator={false}
-        keyboardShouldPersistTaps='always'
+        keyboardShouldPersistTaps="always"
       />
-    )
-  }
+    );
+  };
   render() {
     const {
       width,
@@ -170,42 +181,45 @@ class SearchBar extends Component {
       disabled,
       ghost,
       withHeader,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
     const lineColor = disabled
       ? colors.transparent
       : this.state.active
         ? themeColor
-        : colors.transparent
-    const activeIcon = iconColorActive || themeColor
+        : colors.transparent;
+    const activeIcon = iconColorActive || themeColor;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <SearchContainer
           shadowColor={colors.richBlackDefault}
           shadowOffset={{
             width: 3,
-            height: 10
+            height: 10,
           }}
           shadowOpacity={disabled ? 0 : this.state.active && 0.2}
           shadowRadius={12}
-          style={Platform.OS === 'ios' && { zIndex: 99, backgroundColor: colors.transparent }}
+          style={
+            Platform.OS === 'ios' && {
+              zIndex: 99,
+              backgroundColor: colors.transparent,
+            }
+          }
         >
           <SearchBarWrapper
-            onLayout={event =>
+            onLayout={(event) =>
               this.setState({
                 listXPosition: event.nativeEvent.layout.x,
-                listYposition: event.nativeEvent.layout.y
+                listYposition: event.nativeEvent.layout.y,
               })
             }
             width={width}
             height={height}
-            overflow='hidden'
+            overflow="hidden"
             backgroundColor={ghost ? colors.transparent : backgroundColor}
             borderBottomLeftRadius={this.adjustBorderRadius()}
             borderBottomRightRadius={this.adjustBorderRadius()}
@@ -217,42 +231,32 @@ class SearchBar extends Component {
             zIndex={disabled ? 0 : 99}
           >
             <IconInputWrapper
-              flexDirection='row'
-              justifyContent='center'
-              alignItems='center'
+              flexDirection="row"
+              justifyContent="center"
+              alignItems="center"
               flex={1}
             >
               <IconWrapper
                 marginLeft={14.2}
                 marginRight={withHeader ? 7.3 : 13.3}
-                alignItems='center'
-                justifyContent='center'
+                alignItems="center"
+                justifyContent="center"
               >
                 {this.state.active ? (
-                  <Icon
-                    name='search'
-                    size={iconSize}
-                    color={activeIcon}
-                  />
+                  <Icon name="search" size={iconSize} color={activeIcon} />
                 ) : (
-                  <Icon
-                    name='search'
-                    size={iconSize}
-                    color={iconColor}
-                  />
+                  <Icon name="search" size={iconSize} color={iconColor} />
                 )}
               </IconWrapper>
-              <SearchInputWrapper
-                marginRight={15}
-              >
+              <SearchInputWrapper marginRight={15}>
                 <SearchInput
                   {...this.props}
                   ref={(ref) => {
-                    this.textInput = ref
+                    this.textInput = ref;
                   }}
                   onChangeText={(text) => {
-                    onChangeText(text)
-                    this.onInputChange(text)
+                    onChangeText(text);
+                    this.onInputChange(text);
                   }}
                   width={width - 60}
                   numberOfLines={1}
@@ -264,26 +268,26 @@ class SearchBar extends Component {
                   value={this.state.value}
                   placeholderTextColor={placeholderTextColor}
                   style={{
-                    color: inputTextColor
+                    color: inputTextColor,
                   }}
                   fontFamily={inputTextFontFamily}
                   fontSize={inputTextFontSize}
                   onFocus={() => {
-                    onFocus()
-                    this.setState({ active: true })
+                    onFocus();
+                    this.setState({ active: true });
                   }}
                   onBlur={() => {
-                    onBlur()
+                    onBlur();
                     this.setState({
                       active: false,
-                      searchResults: []
-                    })
+                      searchResults: [],
+                    });
                   }}
                 />
               </SearchInputWrapper>
             </IconInputWrapper>
             <Underline
-              width='100%'
+              width="100%"
               height={withHeader ? 0 : 2}
               backgroundColor={lineColor}
             />
@@ -291,7 +295,7 @@ class SearchBar extends Component {
           {this.renderModal()}
         </SearchContainer>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -338,18 +342,18 @@ SearchBar.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 SearchBar.defaultProps = {
   width: 250,
@@ -379,7 +383,7 @@ SearchBar.defaultProps = {
   containerBackgroundColor: colors.sensitiveGreyDefault,
   containerBackgroundColorActive: colors.sensitiveGreyDark,
   listBackgroundColor: colors.sensitiveGreyDefault,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
-export default SearchBar
+export default SearchBar;

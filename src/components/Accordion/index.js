@@ -132,7 +132,6 @@ class Accordion extends Component {
           fontSize={this.props.titleFontSize}
           fontWeight={this.props.titleFontWeight}
           lineHeight={this.props.titleLineHeight}
-          // eslint-disable-next-line
           color={
             this.state.activeSections.indexOf(key) === -1
               ? this.props.inactiveTitleColor

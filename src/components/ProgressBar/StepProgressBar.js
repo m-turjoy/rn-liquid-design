@@ -57,7 +57,6 @@ class StepProgressBar extends React.Component {
     const { disabledStep, animationDisabled } = this.props;
     const { progressBarSize, stepCount } = this.state;
     if (position > stepCount - 1) {
-      // eslint-disable-next-line
       position = stepCount - 1;
     }
     const animateToPosition = (progressBarSize / (stepCount - 1)) * position;
@@ -94,7 +93,6 @@ class StepProgressBar extends React.Component {
 
     const progressBarBackgroundStyle = {
       backgroundColor:
-        // eslint-disable-next-line
         currentPosition <= 0
           ? customStyles.unfinishedStepProgressBarColor
           : inactive
@@ -134,7 +132,6 @@ class StepProgressBar extends React.Component {
       : this.progressAnim;
     const progressBarStyle = {
       backgroundColor:
-        // eslint-disable-next-line
         currentPosition <= 0
           ? customStyles.unfinishedStepProgressBarColor
           : inactive
@@ -154,7 +151,7 @@ class StepProgressBar extends React.Component {
   renderStepIndicator = () => {
     const steps = [];
     const { stepCount } = this.state;
-    // eslint-disable-next-line
+
     for (let position = 0; position < stepCount; position++) {
       steps.push(
         <StepContainer

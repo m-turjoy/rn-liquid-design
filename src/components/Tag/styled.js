@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   bgColor,
@@ -11,23 +11,23 @@ import {
   flexDirection,
   fontFamily,
   fontSize,
-  alignItems
-} from 'styled-system'
+  alignItems,
+} from 'styled-system';
 
 const TagContainer = styled.View`
-${bgColor};
-${borderRadius};
-${height};
-${width};
-${space};
-${justifyContent};
-${flexDirection};
-${alignItems};
-`
+  ${bgColor};
+  ${borderRadius};
+  ${height};
+  ${width};
+  ${space};
+  ${justifyContent};
+  ${flexDirection};
+  ${alignItems};
+`;
 
 const TagText = styled.Text`
-${color};
-${fontSize};
-${fontFamily}
-`
-export { TagContainer, TagText }
+  ${color};
+  ${fontSize};
+  ${fontFamily}
+`;
+export { TagContainer, TagText };

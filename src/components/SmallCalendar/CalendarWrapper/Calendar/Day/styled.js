@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   backgroundColor,
   width,
@@ -6,17 +6,13 @@ import {
   color,
   fontFamily,
   fontSize,
-  paddingLeft
-} from 'styled-system'
+  paddingLeft,
+} from 'styled-system';
 
-const TooltipContainer = styled.View``
+const TooltipContainer = styled.View``;
 
-const TooltipWrapper = styled.View``
+const TooltipWrapper = styled.View``;
 
-const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``
+const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``;
 
-export {
-  TooltipContainer,
-  TooltipWrapper,
-  TouchableModalChildrenWrapper
-}
+export { TooltipContainer, TooltipWrapper, TouchableModalChildrenWrapper };

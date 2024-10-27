@@ -160,10 +160,10 @@
         "error",
         {
           "quoteProps": "consistent",
-          "singleQuote": true,
+          "singleQuote": false,
           "tabWidth": 2,
           "trailingComma": "es5",
-          "useTabs": false
+          "useTabs": true
         }
       ]
     }
@@ -174,10 +174,10 @@
   ],
   "prettier": {
     "quoteProps": "consistent",
-    "singleQuote": true,
+    "singleQuote": false,
     "tabWidth": 2,
     "trailingComma": "es5",
-    "useTabs": false
+    "useTabs": true
   },
   "react-native-builder-bob": {
     "source": "src",

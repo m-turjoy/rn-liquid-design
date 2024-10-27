@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { bool, func, number, shape, string, PropTypes } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import { defaultThemeName } from '../../config/theme'
-import { colors, theme } from '../../config'
-import { getThemeObject } from '../../config/theme'
-import Icon from '../MerckIcons'
+import React, { Component } from 'react';
+import { bool, func, number, shape, string, PropTypes } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { defaultThemeName } from '../../config/theme';
+import { colors, theme } from '../../config';
+import { getThemeObject } from '../../config/theme';
+import Icon from '../MerckIcons';
 import {
   ButtonWrapper,
   ButtonTouchableWrapper,
@@ -12,33 +12,33 @@ import {
   IconLeftWrapper,
   Title,
   TitleWrapper,
-  IconWrapper
-} from './styled'
+  IconWrapper,
+} from './styled';
 
 class Button extends Component {
   constructor(props) {
-    super(props)
-    const theme = getThemeObject(this.props.themeName)
-    const themeName = typeof theme === 'string' ? theme : ''
+    super(props);
+    const theme = getThemeObject(this.props.themeName);
+    const themeName = typeof theme === 'string' ? theme : '';
     this.state = {
       themeName,
       theme,
       backgroundPrimaryActive: theme.colors.primary.base,
       backgroundSecondaryActive: colors.sensitiveGreyDefault,
-      backgroundHighlightActive: theme.colors.secondary.base
-    }
+      backgroundHighlightActive: theme.colors.secondary.base,
+    };
   }
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.themeName !== this.props.themeName) {
-      const theme = getThemeObject(nextProps.themeName)
-      const themeName = typeof theme === 'string' ? theme : ''
+      const theme = getThemeObject(nextProps.themeName);
+      const themeName = typeof theme === 'string' ? theme : '';
       this.setState({
         themeName,
         theme,
         backgroundPrimaryActive: theme.colors.primary.base,
-        backgroundHighlightActive: theme.colors.secondary.base
-      })
+        backgroundHighlightActive: theme.colors.secondary.base,
+      });
     }
   }
 
@@ -46,75 +46,86 @@ class Button extends Component {
     (icon && iconLeft && 30) ||
     (icon && !iconLeft && !Big && 6) ||
     (icon && !iconLeft && Big && 13) ||
-    30
+    30;
 
   adjustPrimaryBackground = (active, disabled) =>
     (active && this.state.theme.colors.primary.darker) ||
     (disabled && this.state.theme.colors.primary.lightest) ||
-    this.state.backgroundPrimaryActive
+    this.state.backgroundPrimaryActive;
 
   adjustSecondaryBackground = (active, disabled) =>
     (active && colors.sensitiveGreyDarker) ||
     (disabled && colors.sensitiveGreyLight) ||
-    this.state.backgroundSecondaryActive
+    this.state.backgroundSecondaryActive;
 
   adjustHighlightBackground = (active, disabled) =>
     (active && this.state.theme.colors.secondary.darker) ||
     (disabled && this.state.theme.colors.secondary.lightest) ||
-    this.state.backgroundHighlightActive
+    this.state.backgroundHighlightActive;
 
   handleShowHighlightUnderlay = () => {
-    this.setState({ backgroundHighlightActive: this.state.theme.colors.secondary.darker })
-  }
+    this.setState({
+      backgroundHighlightActive: this.state.theme.colors.secondary.darker,
+    });
+  };
 
   handleHideHighlightUnderlay = () => {
-    this.setState({ backgroundHighlightActive: this.state.theme.colors.secondary.base })
-  }
+    this.setState({
+      backgroundHighlightActive: this.state.theme.colors.secondary.base,
+    });
+  };
 
   handleShowSecondaryUnderlay = () => {
-    this.setState({ backgroundSecondaryActive: colors.sensitiveGreyDarker })
-  }
+    this.setState({ backgroundSecondaryActive: colors.sensitiveGreyDarker });
+  };
 
   handleHideSecondaryUnderlay = () => {
-    this.setState({ backgroundSecondaryActive: colors.sensitiveGreyDefault })
-  }
+    this.setState({ backgroundSecondaryActive: colors.sensitiveGreyDefault });
+  };
 
   handleShowPrimaryUnderlay = () => {
-    this.setState({ backgroundPrimaryActive: this.state.theme.colors.primary.darker })
-  }
+    this.setState({
+      backgroundPrimaryActive: this.state.theme.colors.primary.darker,
+    });
+  };
 
   handleHidePrimaryUnderlay = () => {
-    this.setState({ backgroundPrimaryActive: this.state.theme.colors.primary.base })
-  }
+    this.setState({
+      backgroundPrimaryActive: this.state.theme.colors.primary.base,
+    });
+  };
 
   handleShowUnderlay = (disabled, secondary, highlight) =>
-    (disabled
+    disabled
       ? null
       : (secondary && this.handleShowSecondaryUnderlay()) ||
         (highlight && this.handleShowHighlightUnderlay(this.state.theme)) ||
-        this.handleShowPrimaryUnderlay(this.state.theme))
+        this.handleShowPrimaryUnderlay(this.state.theme);
 
   handleHideUnderlay = (disabled, secondary, highlight) =>
-    (disabled
+    disabled
       ? null
       : (secondary && this.handleHideSecondaryUnderlay()) ||
         (highlight && this.handleHideHighlightUnderlay(this.state.theme)) ||
-        this.handleHidePrimaryUnderlay(this.state.theme))
+        this.handleHidePrimaryUnderlay(this.state.theme);
 
-  renderIconWithTitle = (icon, disabled, titleStyle, fontSize, fontFamily, color, title) => (
+  renderIconWithTitle = (
+    icon,
+    disabled,
+    titleStyle,
+    fontSize,
+    fontFamily,
+    color,
+    title
+  ) => (
     <TitleIconWrapper
-      flexDirection='row'
-      justifyContent='center'
-      alignItems='center'
+      flexDirection="row"
+      justifyContent="center"
+      alignItems="center"
       opacity={1}
     >
-      <IconLeftWrapper
-        marginRight={8}
-      >
-        <Icon
-          name={icon.name}
-          color={color}
-        />
+      <IconLeftWrapper marginRight={8}>
+        <Icon name={icon.name} color={color} />
       </IconLeftWrapper>
       <Title
         color={color}
@@ -125,7 +136,7 @@ class Button extends Component {
         {title}
       </Title>
     </TitleIconWrapper>
-  )
+  );
   renderSecondaryIconWithTitle = (
     icon,
     disabled,
@@ -137,21 +148,22 @@ class Button extends Component {
     primaryIcon
   ) => (
     <TitleIconWrapper
-      flexDirection='row'
-      justifyContent='center'
-      alignItems='center'
+      flexDirection="row"
+      justifyContent="center"
+      alignItems="center"
     >
-      <IconLeftWrapper
-        marginRight={8}
-        opacity={1}
-      >
+      <IconLeftWrapper marginRight={8} opacity={1}>
         <Icon
           name={icon.name}
-          color={disabled ? colors.sensitiveGreyDarkest : primaryIcon || icon.color}
+          color={
+            disabled ? colors.sensitiveGreyDarkest : primaryIcon || icon.color
+          }
         />
       </IconLeftWrapper>
       <Title
-        color={disabled ? colors.sensitiveGreyDarkest : primaryIcon || icon.color}
+        color={
+          disabled ? colors.sensitiveGreyDarkest : primaryIcon || icon.color
+        }
         fontFamily={fontFamily}
         fontSize={fontSize}
         style={titleStyle}
@@ -159,7 +171,7 @@ class Button extends Component {
         {title}
       </Title>
     </TitleIconWrapper>
-  )
+  );
 
   renderHighlightIconWithTitle = (
     icon,
@@ -171,21 +183,20 @@ class Button extends Component {
     title
   ) => (
     <TitleIconWrapper
-      flexDirection='row'
-      justifyContent='center'
-      alignItems='center'
+      flexDirection="row"
+      justifyContent="center"
+      alignItems="center"
       opacity={1}
     >
-      <IconLeftWrapper
-        marginRight={8}
-      >
+      <IconLeftWrapper marginRight={8}>
         <Icon
           name={icon.name}
           color={
             (disabled && this.state.themeName === 'vibrantMagenta') ||
             this.state.themeName === 'richPurple'
               ? colors.white
-              : this.state.themeName === 'vibrantMagenta' || this.state.themeName === 'richPurple'
+              : this.state.themeName === 'vibrantMagenta' ||
+                  this.state.themeName === 'richPurple'
                 ? colors.white
                 : colors.richBlackDefault || icon.color
           }
@@ -196,7 +207,8 @@ class Button extends Component {
           (disabled && this.state.themeName === 'vibrantMagenta') ||
           this.state.themeName === 'richPurple'
             ? colors.white
-            : this.state.themeName === 'vibrantMagenta' || this.state.themeName === 'richPurple'
+            : this.state.themeName === 'vibrantMagenta' ||
+                this.state.themeName === 'richPurple'
               ? colors.white
               : colors.richBlackDefault || icon.color
         }
@@ -207,7 +219,7 @@ class Button extends Component {
         {title}
       </Title>
     </TitleIconWrapper>
-  )
+  );
 
   renderButtonHighlight = (
     borderRadius,
@@ -230,7 +242,11 @@ class Button extends Component {
       style={buttonStyle}
       height={Big ? 50 : height}
       width={!iconLeft && icon && !Big ? height : null}
-      paddingHorizontal={this.adjustWrapperPaddingHorizontal(icon, iconLeft, Big)}
+      paddingHorizontal={this.adjustWrapperPaddingHorizontal(
+        icon,
+        iconLeft,
+        Big
+      )}
     >
       {(iconLeft &&
         icon &&
@@ -243,35 +259,30 @@ class Button extends Component {
           color,
           title
         )) ||
-        (icon &&
-          !iconLeft && (
-            <IconWrapper
-              opacity={1}
-            >
-              <Icon
-                name={icon.name}
-                color={
-                  (disabled && this.state.themeName === 'vibrantMagenta') ||
-                  this.state.themeName === 'richPurple'
-                    ? colors.white
-                    : this.state.themeName === 'vibrantMagenta' ||
+        (icon && !iconLeft && (
+          <IconWrapper opacity={1}>
+            <Icon
+              name={icon.name}
+              color={
+                (disabled && this.state.themeName === 'vibrantMagenta') ||
+                this.state.themeName === 'richPurple'
+                  ? colors.white
+                  : this.state.themeName === 'vibrantMagenta' ||
                       this.state.themeName === 'richPurple'
-                      ? colors.white
-                      : colors.richBlackDefault || icon.color
-                }
-              />
-            </IconWrapper>
-          )) || (
-          <TitleWrapper
-            opacity={1}
-          >
+                    ? colors.white
+                    : colors.richBlackDefault || icon.color
+              }
+            />
+          </IconWrapper>
+        )) || (
+          <TitleWrapper opacity={1}>
             <Title
               color={
                 (disabled && this.state.themeName === 'vibrantMagenta') ||
                 this.state.themeName === 'richPurple'
                   ? colors.white
                   : this.state.themeName === 'vibrantMagenta' ||
-                    this.state.themeName === 'richPurple'
+                      this.state.themeName === 'richPurple'
                     ? colors.white
                     : colors.richBlackDefault || icon.color
               }
@@ -284,7 +295,7 @@ class Button extends Component {
           </TitleWrapper>
         )}
     </ButtonWrapper>
-  )
+  );
 
   renderButtonSecondary = (
     borderRadius,
@@ -308,7 +319,11 @@ class Button extends Component {
       style={buttonStyle}
       height={Big ? 50 : height}
       width={!iconLeft && icon && !Big ? height : null}
-      paddingHorizontal={this.adjustWrapperPaddingHorizontal(icon, iconLeft, Big)}
+      paddingHorizontal={this.adjustWrapperPaddingHorizontal(
+        icon,
+        iconLeft,
+        Big
+      )}
     >
       {(iconLeft &&
         icon &&
@@ -322,20 +337,21 @@ class Button extends Component {
           title,
           primaryIcon
         )) ||
-        (icon &&
-          !iconLeft && (
-            <IconWrapper
-              opacity={1}
-            >
-              <Icon
-                name={icon.name}
-                color={disabled ? colors.sensitiveGreyDarkest : primaryIcon || color}
-              />
-            </IconWrapper>
-          )) || (
+        (icon && !iconLeft && (
+          <IconWrapper opacity={1}>
+            <Icon
+              name={icon.name}
+              color={
+                disabled ? colors.sensitiveGreyDarkest : primaryIcon || color
+              }
+            />
+          </IconWrapper>
+        )) || (
           <TitleWrapper>
             <Title
-              color={disabled ? colors.sensitiveGreyDarkest : primaryIcon || color}
+              color={
+                disabled ? colors.sensitiveGreyDarkest : primaryIcon || color
+              }
               fontFamily={fontFamily}
               fontSize={fontSize}
               style={titleStyle}
@@ -345,7 +361,7 @@ class Button extends Component {
           </TitleWrapper>
         )}
     </ButtonWrapper>
-  )
+  );
 
   renderButtonPrimary = (
     borderRadius,
@@ -368,25 +384,29 @@ class Button extends Component {
       height={Big ? 50 : height}
       width={!iconLeft && icon && !Big ? height : null}
       style={buttonStyle}
-      paddingHorizontal={this.adjustWrapperPaddingHorizontal(icon, iconLeft, Big)}
+      paddingHorizontal={this.adjustWrapperPaddingHorizontal(
+        icon,
+        iconLeft,
+        Big
+      )}
     >
       {(iconLeft &&
         icon &&
-        this.renderIconWithTitle(icon, disabled, titleStyle, fontSize, fontFamily, color, title)) ||
-        (icon &&
-          !iconLeft && (
-            <IconWrapper
-              opacity={1}
-            >
-              <Icon
-                name={icon.name}
-                color={icon.color}
-              />
-            </IconWrapper>
-          )) || (
-          <TitleWrapper
-            opacity={1}
-          >
+        this.renderIconWithTitle(
+          icon,
+          disabled,
+          titleStyle,
+          fontSize,
+          fontFamily,
+          color,
+          title
+        )) ||
+        (icon && !iconLeft && (
+          <IconWrapper opacity={1}>
+            <Icon name={icon.name} color={icon.color} />
+          </IconWrapper>
+        )) || (
+          <TitleWrapper opacity={1}>
             <Title
               color={color}
               fontFamily={fontFamily}
@@ -398,7 +418,7 @@ class Button extends Component {
           </TitleWrapper>
         )}
     </ButtonWrapper>
-  )
+  );
 
   render() {
     const {
@@ -418,24 +438,22 @@ class Button extends Component {
       buttonStyle,
       titleStyle,
       height,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const primaryIcon = this.state.theme.colors.primary.base
-    const secondaryIcon = this.state.theme.colors.secondary.base
+    const primaryIcon = this.state.theme.colors.primary.base;
+    const secondaryIcon = this.state.theme.colors.secondary.base;
 
     return (
-      <ThemeProvider
-        theme={this.state.theme}
-      >
+      <ThemeProvider theme={this.state.theme}>
         <ButtonTouchableWrapper
           activeOpacity={1}
-          underlayColor='transparent'
+          underlayColor="transparent"
           onShowUnderlay={() => {
-            this.handleShowUnderlay(disabled, secondary, highlight)
+            this.handleShowUnderlay(disabled, secondary, highlight);
           }}
           onHideUnderlay={() => {
-            this.handleHideUnderlay(disabled, secondary, highlight)
+            this.handleHideUnderlay(disabled, secondary, highlight);
           }}
           onPress={onPress}
         >
@@ -490,20 +508,20 @@ class Button extends Component {
             )}
         </ButtonTouchableWrapper>
       </ThemeProvider>
-    )
+    );
   }
 }
 
 Title.propTypes = {
   fontSize: number,
   fontFamily: string,
-  color: string
-}
+  color: string,
+};
 Title.defaultProps = {
   fontSize: 4,
   fontFamily: 'Black',
-  color: 'white'
-}
+  color: 'white',
+};
 
 Button.propTypes = {
   icon: shape({}),
@@ -530,18 +548,18 @@ Button.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 Button.defaultProps = {
   title: 'Text',
@@ -560,7 +578,7 @@ Button.defaultProps = {
   fontFamily: 'Black',
   disabled: false,
   active: false,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
-export default Button
+export default Button;

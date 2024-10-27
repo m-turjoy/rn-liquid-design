@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   justifyContent,
   flexDirection,
@@ -9,8 +9,8 @@ import {
   position,
   space,
   flex,
-  bgColor
-} from 'styled-system'
+  bgColor,
+} from 'styled-system';
 
 const ProgressBarWrapper = styled.View`
   ${justifyContent};
@@ -20,7 +20,7 @@ const ProgressBarWrapper = styled.View`
   ${bgColor}
   ${flexDirection};
   ${minWidth}
-`
+`;
 const StepContainer = styled.View`
   ${flexDirection};
   ${justifyContent};
@@ -28,6 +28,5 @@ const StepContainer = styled.View`
   ${space};
   ${flex};
   ${bgColor};
-
-`
-export { ProgressBarWrapper, StepContainer }
+`;
+export { ProgressBarWrapper, StepContainer };

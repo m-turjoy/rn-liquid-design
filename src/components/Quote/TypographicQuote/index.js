@@ -1,18 +1,7 @@
-import React from 'react'
-import {
-  bool,
-  number,
-  string
-} from 'prop-types'
-import {
-  fonts,
-  colors
-} from '../../../config'
-import {
-  QuoteWrapper,
-  PhraseWrapper,
-  AuthorWrapper
-} from './styled'
+import React from 'react';
+import { bool, number, string } from 'prop-types';
+import { fonts, colors } from '../../../config';
+import { QuoteWrapper, PhraseWrapper, AuthorWrapper } from './styled';
 
 const TypographicQuote = ({
   author,
@@ -29,16 +18,14 @@ const TypographicQuote = ({
   authorFontSize,
   authorFontWeight,
   authorLineHeight,
-  authorColor
+  authorColor,
 }) => (
-  <QuoteWrapper
-    width={width}
-  >
+  <QuoteWrapper width={width}>
     <PhraseWrapper
       fontFamily={fontFamily || fonts.Black}
-      fontSize={big ? 32 : (small ? 22 : fontSize)}
+      fontSize={big ? 32 : small ? 22 : fontSize}
       fontWeight={fontWeight || null}
-      lineHeight={big ? 40 : (small ? 27.5 : lineHeight)}
+      lineHeight={big ? 40 : small ? 27.5 : lineHeight}
       color={color || colors.richBlackDefault}
     >
       {`»${quotation}«`}
@@ -53,7 +40,7 @@ const TypographicQuote = ({
       {`– ${author}`}
     </AuthorWrapper>
   </QuoteWrapper>
-)
+);
 
 TypographicQuote.propTypes = {
   quotation: string.isRequired,
@@ -70,12 +57,12 @@ TypographicQuote.propTypes = {
   authorFontSize: number,
   authorFontWeight: number,
   authorLineHeight: number,
-  authorColor: string
-}
+  authorColor: string,
+};
 
 TypographicQuote.defaultProps = {
   big: false,
-  width: 250
-}
+  width: 250,
+};
 
-export default TypographicQuote
+export default TypographicQuote;

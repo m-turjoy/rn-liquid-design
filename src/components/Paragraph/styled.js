@@ -1,5 +1,11 @@
-import styled from 'styled-components'
-import { fontFamily, fontSize, fontWeight, color, letterSpacing } from 'styled-system'
+import styled from 'styled-components';
+import {
+  fontFamily,
+  fontSize,
+  fontWeight,
+  color,
+  letterSpacing,
+} from 'styled-system';
 
 const ParagraphText = styled.Text`
   ${fontFamily};
@@ -8,12 +14,12 @@ const ParagraphText = styled.Text`
   ${color};
   ${letterSpacing}
   backgroundColor: transparent;
-`
+`;
 
 const ParagraphWrapper = styled.View`
   flex-direction: row;
   align-items: baseline;
   justify-content: flex-end;
-`
+`;
 
-export { ParagraphText, ParagraphWrapper }
+export { ParagraphText, ParagraphWrapper };

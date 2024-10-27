@@ -1,3 +1,3 @@
-import BoxShadow from './BoxShadow'
+import BoxShadow from './BoxShadow';
 
-export { BoxShadow }
+export { BoxShadow };

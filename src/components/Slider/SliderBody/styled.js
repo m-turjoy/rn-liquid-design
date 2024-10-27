@@ -1,11 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   fontFamily,
   fontWeight,
   fontSize,
   lineHeight,
-  color
-} from 'styled-system'
+  color,
+} from 'styled-system';
 
 const LabelWrapper = styled.Text`
   ${fontFamily}
@@ -13,6 +13,6 @@ const LabelWrapper = styled.Text`
   ${fontWeight}
   ${lineHeight}
   ${color}
-`
+`;
 
-export { LabelWrapper }
+export { LabelWrapper };

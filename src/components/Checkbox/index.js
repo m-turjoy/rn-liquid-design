@@ -1,22 +1,22 @@
-import React from 'react'
-import { bool, func, string, object, number, PropTypes } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import Icon from '../MerckIcons'
-import { colors, theme } from '../../config'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+import React from 'react';
+import { bool, func, string, object, number, PropTypes } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import Icon from '../MerckIcons';
+import { colors, theme } from '../../config';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 import {
   CheckboxWrapper,
   CheckboxTouchableWrapper,
   CheckboxTitle,
-  CheckboxTitleWrapper
-} from './styled'
+  CheckboxTitleWrapper,
+} from './styled';
 
 const pressArea = {
   top: 10,
   bottom: 10,
   left: 10,
-  right: 10
-}
+  right: 10,
+};
 
 const Checkbox = ({
   disabled,
@@ -31,17 +31,13 @@ const Checkbox = ({
   iconColor,
   titleStyle,
   iconContainerStyle,
-  themeName
+  themeName,
 }) => {
-  const themeObj = getThemeObject(themeName)
+  const themeObj = getThemeObject(themeName);
 
   return (
-    <ThemeProvider
-      theme={themeObj}
-    >
-      <CheckboxWrapper
-        opacity={1}
-      >
+    <ThemeProvider theme={themeObj}>
+      <CheckboxWrapper opacity={1}>
         <CheckboxTouchableWrapper
           activeOpacity={1}
           disabled={disabled}
@@ -51,13 +47,13 @@ const Checkbox = ({
         >
           {checked ? (
             <Icon
-              name='checkboxFilled'
+              name="checkboxFilled"
               size={iconSize}
               color={iconColor || themeObj.colors.primary.base}
             />
           ) : (
             <Icon
-              name='checkboxEmpty'
+              name="checkboxEmpty"
               size={iconSize}
               color={colors.sensitiveGreyDarkest}
             />
@@ -86,24 +82,24 @@ const Checkbox = ({
         </CheckboxTouchableWrapper>
       </CheckboxWrapper>
     </ThemeProvider>
-  )
-}
+  );
+};
 
 CheckboxTitle.defaultProps = {
-  color: 'black'
-}
+  color: 'black',
+};
 
 CheckboxTitle.propTypes = {
-  color: string
-}
+  color: string,
+};
 
 CheckboxTitleWrapper.defaultProps = {
-  ml: 4
-}
+  ml: 4,
+};
 
 CheckboxTitleWrapper.propTypes = {
-  ml: number
-}
+  ml: number,
+};
 
 Checkbox.defaultProps = {
   disabled: false,
@@ -114,12 +110,12 @@ Checkbox.defaultProps = {
   fontSize: 5,
   iconSize: 30,
   titleStyle: {
-    color: colors.richBlackDefault
+    color: colors.richBlackDefault,
   },
   titleContainerStyle: {},
   iconContainerStyle: {},
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Checkbox.propTypes = {
   disabled: bool,
@@ -142,17 +138,17 @@ Checkbox.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default Checkbox
+export default Checkbox;

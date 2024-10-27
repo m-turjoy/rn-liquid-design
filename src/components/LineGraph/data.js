@@ -7,7 +7,7 @@ const data = {
     { x: 5.5, y: 2500 },
     { x: 6.5, y: 2000 },
     { x: 7.5, y: 2000 },
-    { x: 8.5, y: 1900 }
+    { x: 8.5, y: 1900 },
   ],
   secondaryChart: [
     { x: 1, y: 1500 },
@@ -17,7 +17,7 @@ const data = {
     { x: 5.5, y: 3000 },
     { x: 6.5, y: 2800 },
     { x: 7.5, y: 3000 },
-    { x: 8.5, y: 2600 }
+    { x: 8.5, y: 2600 },
   ],
   additionalChart: [
     { x: 1, y: 2000 },
@@ -27,7 +27,7 @@ const data = {
     { x: 5.5, y: 2500 },
     { x: 6.5, y: 2700 },
     { x: 7.5, y: 3200 },
-    { x: 8.5, y: 2200 }
+    { x: 8.5, y: 2200 },
   ],
   additionalChart2: [
     { x: 1, y: 1020 },
@@ -37,7 +37,7 @@ const data = {
     { x: 5.5, y: 3500 },
     { x: 6.5, y: 1700 },
     { x: 7.5, y: 1200 },
-    { x: 8.5, y: 1500 }
+    { x: 8.5, y: 1500 },
   ],
   tickValues: [0, 2000, 4000, 6000],
   label1: 'KW 21',
@@ -45,7 +45,7 @@ const data = {
   label3: 'KW 23',
   label4: 'KW 24',
   legendMonth: '17.Oct.',
-  legendYear: '2017'
-}
+  legendYear: '2017',
+};
 
-export default data
+export default data;

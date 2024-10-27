@@ -1,24 +1,24 @@
-import React from 'react'
-import { Platform } from 'react-native'
-import { ThemeProvider } from 'styled-components'
-import { bool, string, number, oneOfType, arrayOf, node } from 'prop-types'
-import { StyledCard, CardWrapper } from './styled'
-import { theme, colors } from '../../config'
-import { defaultThemeName } from '../../config/theme'
+import React from 'react';
+import { Platform } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import { bool, string, number, oneOfType, arrayOf, node } from 'prop-types';
+import { StyledCard, CardWrapper } from './styled';
+import { theme, colors } from '../../config';
+import { defaultThemeName } from '../../config/theme';
 
 class Card extends React.Component {
   state = {
-    isActive: !!this.props.active
-  }
+    isActive: !!this.props.active,
+  };
 
   handleOnPress = () => {
-    this.setState(prevState => ({
-      isActive: !prevState.isActive
-    }))
-  }
+    this.setState((prevState) => ({
+      isActive: !prevState.isActive,
+    }));
+  };
 
   renderStacked = () => {
-    const { isActive } = this.state
+    const { isActive } = this.state;
 
     if (Platform.OS === 'ios') {
       return (
@@ -27,7 +27,7 @@ class Card extends React.Component {
           {this.renderSingleCard('stackedSecond', false)}
           {this.renderSingleCard('stackedThird', isActive)}
         </CardWrapper>
-      )
+      );
     }
 
     return (
@@ -36,10 +36,13 @@ class Card extends React.Component {
         {this.renderSingleCard('stackedSecond', isActive)}
         {this.renderSingleCard('stackedThird', isActive)}
       </CardWrapper>
-    )
-  }
+    );
+  };
 
-  renderSingleCard = (stackedClass = '', isActiveShadow = this.state.isActive) => {
+  renderSingleCard = (
+    stackedClass = '',
+    isActiveShadow = this.state.isActive
+  ) => {
     const {
       alignItems,
       backgroundColor,
@@ -54,13 +57,11 @@ class Card extends React.Component {
       justifyContent,
       margin,
       width,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
     return (
-      <ThemeProvider
-        theme={theme.themes[themeName]}
-      >
+      <ThemeProvider theme={theme.themes[themeName]}>
         <StyledCard
           alignItems={alignItems}
           bg={backgroundColor}
@@ -86,13 +87,13 @@ class Card extends React.Component {
           </CardWrapper>
         </StyledCard>
       </ThemeProvider>
-    )
-  }
+    );
+  };
 
   render() {
-    const { stacked } = this.props
+    const { stacked } = this.props;
 
-    return stacked ? this.renderStacked() : this.renderSingleCard()
+    return stacked ? this.renderStacked() : this.renderSingleCard();
   }
 }
 
@@ -107,8 +108,8 @@ Card.defaultProps = {
   height: 300,
   justifyContent: 'center',
   width: 300,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Card.propTypes = {
   active: bool,
@@ -125,7 +126,7 @@ Card.propTypes = {
   margin: number,
   stacked: bool,
   width: number,
-  themeName: string
-}
+  themeName: string,
+};
 
-export default Card
+export default Card;

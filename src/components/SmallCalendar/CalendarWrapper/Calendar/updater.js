@@ -1,22 +1,29 @@
-import {parseDate} from './utils/interface';
+import { parseDate } from './utils/interface';
 
 export default function shouldComponentUpdate(nextProps, nextState) {
-  let shouldUpdate = (nextProps.selected || []).reduce((prev, next, i) => {
-    const currentSelected = (this.props.selected || [])[i];
-    if (!currentSelected || !next || parseDate(currentSelected).getTime() !== parseDate(next).getTime()) {
-      return {
-        update: true,
-        field: 'selected'
-      };
-    }
-    return prev;
-  }, {update: false});
+  let shouldUpdate = (nextProps.selected || []).reduce(
+    (prev, next, i) => {
+      const currentSelected = (this.props.selected || [])[i];
+      if (
+        !currentSelected ||
+        !next ||
+        parseDate(currentSelected).getTime() !== parseDate(next).getTime()
+      ) {
+        return {
+          update: true,
+          field: 'selected',
+        };
+      }
+      return prev;
+    },
+    { update: false }
+  );
 
   shouldUpdate = ['markedDates', 'hideExtraDays'].reduce((prev, next) => {
     if (!prev.update && nextProps[next] !== this.props[next]) {
       return {
         update: true,
-        field: next
+        field: next,
       };
     }
     return prev;
@@ -33,7 +40,7 @@ export default function shouldComponentUpdate(nextProps, nextState) {
       } else {
         return {
           update: true,
-          field: next
+          field: next,
         };
       }
     }
@@ -43,13 +50,13 @@ export default function shouldComponentUpdate(nextProps, nextState) {
   if (nextState.currentMonth !== this.state.currentMonth) {
     shouldUpdate = {
       update: true,
-      field: 'current'
+      field: 'current',
     };
   }
 
   if (nextProps.theme !== this.props.theme) {
     shouldUpdate = {
-      update: true
+      update: true,
     };
   }
   //console.log(shouldUpdate.field, shouldUpdate.update);

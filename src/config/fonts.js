@@ -3,7 +3,7 @@ const fonts = {
   Bold: 'Lato-Bold',
   Regular: 'Lato-Regular',
   Merck: 'MerckWeb-Regular',
-  IcoMoon: 'icomoon'
-}
+  IcoMoon: 'icomoon',
+};
 
-export default fonts
+export default fonts;

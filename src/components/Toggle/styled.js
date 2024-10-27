@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Animated } from 'react-native'
+import styled from 'styled-components';
+import { Animated } from 'react-native';
 import {
   backgroundColor,
   height,
@@ -12,8 +12,8 @@ import {
   transform,
   flexDirection,
   position,
-  flex
-} from 'styled-system'
+  flex,
+} from 'styled-system';
 
 const TogglWrapper = styled.View`
   ${height}
@@ -26,8 +26,8 @@ const TogglWrapper = styled.View`
   ${flexDirection}
   ${position}
   ${flex}
-`
-const AnimatedTogglWrapper = Animated.createAnimatedComponent(TogglWrapper)
+`;
+const AnimatedTogglWrapper = Animated.createAnimatedComponent(TogglWrapper);
 
 const TogglGrip = styled.View`
   ${height}
@@ -39,12 +39,7 @@ const TogglGrip = styled.View`
   ${transform}
   ${alignItems}
   ${justifyContent}
-`
-const AnimatedTogglGrip = Animated.createAnimatedComponent(TogglGrip)
+`;
+const AnimatedTogglGrip = Animated.createAnimatedComponent(TogglGrip);
 
-export {
-  TogglWrapper,
-  TogglGrip,
-  AnimatedTogglWrapper,
-  AnimatedTogglGrip
-}
+export { TogglWrapper, TogglGrip, AnimatedTogglWrapper, AnimatedTogglGrip };

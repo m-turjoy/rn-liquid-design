@@ -1,8 +1,5 @@
-import React, { Component } from 'react'
-import {
-  View,
-  Dimensions
-} from 'react-native'
+import React, { Component } from 'react';
+import { View, Dimensions } from 'react-native';
 import {
   bool,
   number,
@@ -11,23 +8,20 @@ import {
   array,
   string,
   oneOfType,
-  shape
-} from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import {
-  fonts,
-  colors
-} from '../../config'
-import Carousel from './Carousel/Carousel'
-import Pagination from './Pagination/Pagination'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  shape,
+} from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import { fonts, colors } from '../../config';
+import Carousel from './Carousel/Carousel';
+import Pagination from './Pagination/Pagination';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
-const { width } = Dimensions.get('window')
+const { width } = Dimensions.get('window');
 
 class PaginationCarousel extends Component {
   componentDidMount = () => {
-    this.forceUpdate()
-  }
+    this.forceUpdate();
+  };
   render() {
     const {
       dotsLength,
@@ -58,13 +52,13 @@ class PaginationCarousel extends Component {
       sliderHeight,
       disabled,
       themeName,
-      iconSize
-    } = this.props
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
-    const bgColor = activeBackgroundColor || themeColor
+      iconSize,
+    } = this.props;
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
+    const bgColor = activeBackgroundColor || themeColor;
 
-    const pagination =
+    const pagination = (
       <Pagination
         dotsLength={dotsLength}
         activeDotIndex={activeDotIndex}
@@ -90,11 +84,10 @@ class PaginationCarousel extends Component {
         iconColor={bgColor}
         iconSize={iconSize}
       />
+    );
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <View>
           <Carousel
             windowSize={windowSize}
@@ -111,8 +104,7 @@ class PaginationCarousel extends Component {
           {pagination}
         </View>
       </ThemeProvider>
-
-    )
+    );
   }
 }
 
@@ -126,10 +118,7 @@ PaginationCarousel.propTypes = {
   onSnapToItem: func.isRequired,
   refProp: func.isRequired,
   innerWidth: number,
-  paginationWidth: oneOfType([
-    string,
-    number
-  ]),
+  paginationWidth: oneOfType([string, number]),
   paginationHeight: number,
   iconPaddingLeft: number,
   iconPaddingRight: number,
@@ -156,18 +145,18 @@ PaginationCarousel.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 PaginationCarousel.defaultProps = {
   innerWidth: width < 350 ? 130 : 210,
@@ -188,7 +177,7 @@ PaginationCarousel.defaultProps = {
   activeFontWeight: null,
   disabled: false,
   themeName: defaultThemeName,
-  iconSize: 24
-}
+  iconSize: 24,
+};
 
-export default PaginationCarousel
+export default PaginationCarousel;

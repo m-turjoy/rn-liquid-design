@@ -323,7 +323,7 @@ Modal.propTypes = {
 Modal.defaultProps = {
   headerTitle: 'Header Label',
   headlineText: 'Headline Text',
-  // eslint-disable-next-line
+
   contentText:
     'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. ',
   modalWidth: width < 350 ? 300 : 350,

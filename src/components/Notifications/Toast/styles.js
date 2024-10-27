@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   defaultStyle: {
@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 20,
     justifyContent: 'center',
-    alignItems: 'center'
-  }
-})
+    alignItems: 'center',
+  },
+});
 
-export default styles
+export default styles;

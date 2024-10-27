@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from 'react-native'
+import { StyleSheet, Platform } from 'react-native';
 
 export default StyleSheet.create({
   container: {
@@ -6,10 +6,10 @@ export default StyleSheet.create({
     width: 300,
     alignItems: 'center',
     paddingVertical: 11,
-    paddingRight: 15
+    paddingRight: 15,
   },
   alignmentStyle: {
     marginTop: Platform.OS === 'ios' ? 2 : 1,
-    alignSelf: 'flex-start'
-  }
-})
+    alignSelf: 'flex-start',
+  },
+});

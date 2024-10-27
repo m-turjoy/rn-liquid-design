@@ -90,7 +90,7 @@ class ProgressBar extends Component {
     const start = this.polarToCartesian(x, y, radius, endAngle);
     const end = this.polarToCartesian(x, y, radius, startAngle);
     const largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
-    // eslint-disable-next-line
+
     const d = [
       'M',
       start.x,
@@ -135,7 +135,7 @@ class ProgressBar extends Component {
     const progressRounded = this.roundProgress(progress / 100, 2);
     const overdueProgress = progressRounded - 1;
     const overdueProgressRounded = this.roundProgress(overdueProgress, 2);
-    // eslint-disable-next-line
+
     const primaryColor = themeName
       ? themeObj.colors.primary.base
       : type === 'step'
@@ -244,7 +244,6 @@ class ProgressBar extends Component {
             progress={progress}
             fill={colors.transparent}
             strokeColor={
-              // eslint-disable-next-line
               inactive
                 ? inactiveProgressBarColor
                 : progress === 0
@@ -307,7 +306,6 @@ class ProgressBar extends Component {
             fill={colors.transparent}
             d={this.state.arcDoverdue}
             strokeColor={
-              // eslint-disable-next-line
               inactive
                 ? inactiveProgressBarColor
                 : progress === 0
@@ -347,7 +345,7 @@ class ProgressBar extends Component {
     );
 
     let progressBar;
-    // eslint-disable-next-line
+
     switch (type) {
       case 'circular':
         progressBar =

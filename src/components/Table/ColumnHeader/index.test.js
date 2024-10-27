@@ -1,8 +1,8 @@
-import React from 'react'
-import { shallow, configure } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-import ColumnHeader from '.'
-import { colors, fonts } from '../../../config'
+import React from 'react';
+import { shallow, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import ColumnHeader from '.';
+import { colors, fonts } from '../../../config';
 
 const props = {
   item: 'Column 01',
@@ -30,48 +30,36 @@ const props = {
   themeObj: {
     colors: {
       primary: {
-        base: '#00000'
-      }
-    }
-  }
-}
+        base: '#00000',
+      },
+    },
+  },
+};
 
 const checkboxTrueProps = {
   ...props,
-  checkbox: true
-}
+  checkbox: true,
+};
 
 const dropdownTrueProps = {
   ...props,
-  dropdown: true
-}
+  dropdown: true,
+};
 
-configure({ adapter: new Adapter() })
+configure({ adapter: new Adapter() });
 describe('Column Header component', () => {
   describe('Renders correctly', () => {
     test('it renders Default Header', () => {
-      const tree = shallow(
-        <ColumnHeader
-          {...props}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<ColumnHeader {...props} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders checkbox Header', () => {
-      const tree = shallow(
-        <ColumnHeader
-          {...checkboxTrueProps}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<ColumnHeader {...checkboxTrueProps} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders dropdown Header', () => {
-      const tree = shallow(
-        <ColumnHeader
-          {...dropdownTrueProps}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
-  })
-})
+      const tree = shallow(<ColumnHeader {...dropdownTrueProps} />);
+      expect(tree).toMatchSnapshot();
+    });
+  });
+});

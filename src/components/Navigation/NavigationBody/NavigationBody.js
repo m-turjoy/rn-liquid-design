@@ -1,26 +1,26 @@
-import React, { Component } from 'react'
-import { FlatList, TouchableWithoutFeedback, View } from 'react-native'
-import { string, shape, arrayOf, func, node, number } from 'prop-types'
-import imageExample from '../../../../src/assets/circle.png'
-import Icon from '../../MerckIcons'
-import colors from '../../../config/colors'
-import fonts from '../../../config/fonts'
-import { ImageWrapper, Image, NavigationTitle, NavigationTabTitle } from './styled'
-import styles from './styles'
+import React, { Component } from 'react';
+import { FlatList, TouchableWithoutFeedback, View } from 'react-native';
+import { string, shape, arrayOf, func, node, number } from 'prop-types';
+import imageExample from '../../../../src/assets/circle.png';
+import Icon from '../../MerckIcons';
+import colors from '../../../config/colors';
+import fonts from '../../../config/fonts';
+import {
+  ImageWrapper,
+  Image,
+  NavigationTitle,
+  NavigationTabTitle,
+} from './styled';
+import styles from './styles';
 
 class NavigationBody extends Component {
-  keyExtractor = item => item.title
+  keyExtractor = (item) => item.title;
 
-  isSelected = index => index === this.props.activeTabIndex
+  isSelected = (index) => index === this.props.activeTabIndex;
 
   renderItem = ({ item: { label, icon }, index }) => {
-    const selected = this.isSelected(index)
-    const {
-      button,
-      buttonSelected,
-      iconWrapper,
-      buttonContent
-    } = styles
+    const selected = this.isSelected(index);
+    const { button, buttonSelected, iconWrapper, buttonContent } = styles;
 
     const {
       tabFontFamily,
@@ -31,22 +31,20 @@ class NavigationBody extends Component {
       activeTabFontColor,
       iconColor,
       iconSize,
-      activeIconColor
-    } = this.props
+      activeIconColor,
+    } = this.props;
 
-    if (index >= 7) return null
+    if (index >= 7) return null;
 
     return (
       <TouchableWithoutFeedback
-        onPress={() => { this.props.onTabChange(index) }}
+        onPress={() => {
+          this.props.onTabChange(index);
+        }}
         style={button}
       >
-        <View
-          style={[buttonContent, selected && buttonSelected]}
-        >
-          <View
-            style={iconWrapper}
-          >
+        <View style={[buttonContent, selected && buttonSelected]}>
+          <View style={iconWrapper}>
             <Icon
               name={icon}
               color={selected ? activeIconColor : iconColor}
@@ -63,8 +61,8 @@ class NavigationBody extends Component {
           </NavigationTabTitle>
         </View>
       </TouchableWithoutFeedback>
-    )
-  }
+    );
+  };
 
   render() {
     const {
@@ -76,14 +74,12 @@ class NavigationBody extends Component {
       navigationFontSize,
       navigationFontColor,
       navigationLineHeight,
-      activeIconColor
-    } = this.props
-    const { flatListWrapper } = styles
+      activeIconColor,
+    } = this.props;
+    const { flatListWrapper } = styles;
 
     return (
-      <View
-        style={flatListWrapper}
-      >
+      <View style={flatListWrapper}>
         <FlatList
           data={tabs}
           extraData={this.props}
@@ -91,12 +87,8 @@ class NavigationBody extends Component {
           keyExtractor={this.keyExtractor}
           scrollEnabled={false}
         />
-        <ImageWrapper
-          borderRadius={30}
-        >
-          <Image
-            source={imagePath}
-          />
+        <ImageWrapper borderRadius={30}>
+          <Image source={imagePath} />
         </ImageWrapper>
         <NavigationTitle
           fontFamily={navigationFontFamily}
@@ -107,20 +99,20 @@ class NavigationBody extends Component {
           {title}
         </NavigationTitle>
       </View>
-    )
+    );
   }
 }
 
 NavigationBody.propTypes = {
   title: string.isRequired,
-  tabs: arrayOf(shape(
-    {
+  tabs: arrayOf(
+    shape({
       title: string.isRequired,
       icon: string.isRequired,
       label: string.isRequired,
-      onPress: func
-    }
-  )),
+      onPress: func,
+    })
+  ),
   imagePath: node,
   onTabChange: func,
   activeTabIndex: number.isRequired,
@@ -136,14 +128,14 @@ NavigationBody.propTypes = {
   tabLineHeight: number,
   iconColor: string,
   iconSize: number,
-  activeIconColor: string
-}
+  activeIconColor: string,
+};
 
 NavigationBody.defaultProps = {
   tabs: [
     {
-      onPress: () => {}
-    }
+      onPress: () => {},
+    },
   ],
   imagePath: imageExample,
   onTabChange: () => {},
@@ -159,7 +151,7 @@ NavigationBody.defaultProps = {
   tabLineHeight: 9.4,
   iconColor: colors.richBlackLightest,
   iconSize: 24,
-  activeIconColor: colors.vibrantCyanDefault
-}
+  activeIconColor: colors.vibrantCyanDefault,
+};
 
-export default NavigationBody
+export default NavigationBody;

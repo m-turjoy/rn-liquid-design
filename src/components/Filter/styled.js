@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   alignItems,
@@ -16,8 +16,8 @@ import {
   textAlign,
   width,
   opacity,
-  top
-} from 'styled-system'
+  top,
+} from 'styled-system';
 
 const StyledFiltersTextContainer = styled.View`
   ${borderRadius}
@@ -30,9 +30,9 @@ const StyledFiltersTextContainer = styled.View`
   ${width}
   ${maxWidth}
   ${minWidth}
-`
+`;
 const StyledFilterText = styled.Text.attrs({
-  numberOfLines: 1
+  numberOfLines: 1,
 })`
   ${alignItems}
   ${color}
@@ -45,8 +45,5 @@ const StyledFilterText = styled.Text.attrs({
   ${opacity}
   ${minWidth}
   ${top}
-`
-export {
-  StyledFilterText,
-  StyledFiltersTextContainer
-}
+`;
+export { StyledFilterText, StyledFiltersTextContainer };

@@ -156,7 +156,6 @@ class SliderBody extends PureComponent {
         Math.min(
           this.props.maximumValue,
           this.props.minimumValue +
-            // eslint-disable-next-line
             Math.round(
               (ratio * (this.props.maximumValue - this.props.minimumValue)) /
                 this.props.step

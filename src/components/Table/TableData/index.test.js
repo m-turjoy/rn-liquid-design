@@ -1,8 +1,8 @@
-import React from 'react'
-import { shallow, configure } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-import TableData from '.'
-import { colors, fonts } from '../../../config'
+import React from 'react';
+import { shallow, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import TableData from '.';
+import { colors, fonts } from '../../../config';
 
 // eslint-disable-next-line
 const dropdownData = 'We\'ve been around for 350 years, yet our majority owners are still the descendants of Friedrich Jacob Merck,the man who founded our company in Darmstadt, Germany in 1668. Since then, we have become a truly global company with 52,000 employees in 66 countries working on breakthrough solutions and technologies. '
@@ -11,14 +11,30 @@ const data = {
   rowName: 'Name 02',
   rowLabel: 'Label 02',
   rowInfo: 'Info',
-  rowData: ['Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2'],
-  rowDataLabel: ['Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2', 'Lorem Ipsum dolor2'],
+  rowData: [
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+  ],
+  rowDataLabel: [
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+    'Lorem Ipsum dolor2',
+  ],
   dropdownInfo: dropdownData,
   imageUrl: require('../../../assets/circle.png'),
   dropdownInfoOpened: true,
   checked: true,
-  disabled: false
-}
+  disabled: false,
+};
 const props = {
   data,
   index: 0,
@@ -63,159 +79,115 @@ const props = {
   themeObj: {
     colors: {
       primary: {
-        base: '#00000'
-      }
-    }
-  }
-}
+        base: '#00000',
+      },
+    },
+  },
+};
 
 const mediumTable = {
   ...props,
-  type: 'medium'
-}
+  type: 'medium',
+};
 
 const largeTable = {
   ...props,
-  type: 'large'
-}
+  type: 'large',
+};
 
 const imageTable = {
   ...props,
-  type: 'image'
-}
+  type: 'image',
+};
 
 const checkboxData = {
   ...props,
   checkbox: true,
-  checkboxChecked: true
-}
+  checkboxChecked: true,
+};
 
 const checkboxSmallTableData = {
   ...checkboxData,
-  type: 'small'
-}
+  type: 'small',
+};
 
 const checkboxMediumTableData = {
   ...checkboxData,
-  type: 'medium'
-}
+  type: 'medium',
+};
 
 const checkboxLargeTableData = {
   ...checkboxData,
-  type: 'large'
-}
+  type: 'large',
+};
 
 const dropdownOptionData = {
   ...props,
   dropdown: true,
-  optionOpened: true
-}
+  optionOpened: true,
+};
 
 const dropdownSmallTableData = {
   ...dropdownOptionData,
-  type: 'small'
-}
+  type: 'small',
+};
 
 const dropdownMediumTableData = {
   ...dropdownOptionData,
-  type: 'medium'
-}
+  type: 'medium',
+};
 
 const dropdownLargeTableData = {
   ...dropdownOptionData,
-  type: 'large'
-}
+  type: 'large',
+};
 
-configure({ adapter: new Adapter() })
+configure({ adapter: new Adapter() });
 describe('Table Data component', () => {
   describe('Renders correctly', () => {
     test('it renders Default small TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...props}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...props} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders Default medium TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...mediumTable}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...mediumTable} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders Default large TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...largeTable}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...largeTable} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders small checkbox TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...checkboxSmallTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...checkboxSmallTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders medium checkbox TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...checkboxMediumTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...checkboxMediumTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders large checkbox TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...checkboxLargeTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...checkboxLargeTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders small dropdown TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...dropdownSmallTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...dropdownSmallTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders medium dropdown TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...dropdownMediumTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...dropdownMediumTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders large dropdown TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...dropdownLargeTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...dropdownLargeTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders large dropdown TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...dropdownLargeTableData}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
+      const tree = shallow(<TableData {...dropdownLargeTableData} />);
+      expect(tree).toMatchSnapshot();
+    });
     test('it renders image TableData', () => {
-      const tree = shallow(
-        <TableData
-          {...imageTable}
-        />,
-      )
-      expect(tree).toMatchSnapshot()
-    })
-  })
-})
+      const tree = shallow(<TableData {...imageTable} />);
+      expect(tree).toMatchSnapshot();
+    });
+  });
+});

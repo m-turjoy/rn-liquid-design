@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   backgroundColor,
   width,
@@ -23,8 +23,8 @@ import {
   borderBottomRightRadius,
   borderTopLeftRadius,
   borderTopRightRadius,
-  paddingLeft
-} from 'styled-system'
+  paddingLeft,
+} from 'styled-system';
 
 const DropdownWrapper = styled.View`
   ${backgroundColor}
@@ -36,8 +36,8 @@ const DropdownWrapper = styled.View`
   ${borderBottomLeftRadius}
   ${borderBottomRightRadius} 
   ${borderTopLeftRadius} 
-  ${borderTopRightRadius} 
-`
+  ${borderTopRightRadius}
+`;
 
 const DropdownLabel = styled.Text`
   ${fontFamily}
@@ -46,7 +46,7 @@ const DropdownLabel = styled.Text`
   ${color}
   ${flexDirection}
   ${opacity}
-`
+`;
 const IconWrapper = styled.View`
   ${space}
   ${width}
@@ -56,14 +56,14 @@ const IconWrapper = styled.View`
   ${marginLeft}
   ${marginRight}
   ${marginBottom}
-`
+`;
 const DropdownOption = styled.Text`
   ${fontSize}
   ${fontFamily}
   ${fontWeight}
   ${space}
   ${color}
-`
+`;
 const DropdownRowWrapper = styled.View`
   ${flex}
   ${height}
@@ -74,22 +74,22 @@ const DropdownRowWrapper = styled.View`
   ${backgroundColor}
   ${borderRadius}
   ${paddingRight}
-`
+`;
 const RowWithCheckboxWrapper = styled.View`
   ${space}
   ${flexDirection}
-`
+`;
 const CheckboxIconWrapper = styled.View`
   ${justifyContent}
   ${alignItems}
-`
+`;
 const DropdownOptionWrapper = styled.View`
   ${justifyContent}
   ${alignItems}
   ${marginLeft}
   ${marginRight}
   ${flex}
-`
+`;
 const DropdownLabelWithIconLeftWrapper = styled.View`
   ${flexDirection}
   ${marginTop}
@@ -100,7 +100,7 @@ const DropdownLabelWithIconLeftWrapper = styled.View`
   ${space}
   ${opacity}
   ${flex}
-`
+`;
 
 const AmountIconWrapper = styled.View`
   ${backgroundColor}
@@ -111,13 +111,13 @@ const AmountIconWrapper = styled.View`
   ${justifyContent}
   ${alignItems}
   ${space}
-`
+`;
 const Amount = styled.Text`
   ${space}
   ${color}
   ${fontFamily}
   ${fontSize}
-`
+`;
 const AmountWrapper = styled.View`
   ${width}
   ${flex}
@@ -125,9 +125,9 @@ const AmountWrapper = styled.View`
   ${justifyContent}
   ${alignItems}
   ${paddingLeft}
-`
+`;
 
-const IconTouchable = styled.TouchableWithoutFeedback``
+const IconTouchable = styled.TouchableWithoutFeedback``;
 
 const IconOptionWrapper = styled.View`
   ${flexDirection}
@@ -135,7 +135,7 @@ const IconOptionWrapper = styled.View`
   ${marginLeft}
   ${marginRight}
   ${alignItems}
-`
+`;
 const AmountIconInnerWrapper = styled.View`
   ${flexDirection}
   ${justifyContent}
@@ -143,7 +143,7 @@ const AmountIconInnerWrapper = styled.View`
   ${flex}
   ${marginLeft}
   ${marginRight}
-`
+`;
 
 export {
   DropdownWrapper,
@@ -160,5 +160,5 @@ export {
   Amount,
   AmountWrapper,
   IconOptionWrapper,
-  AmountIconInnerWrapper
-}
+  AmountIconInnerWrapper,
+};

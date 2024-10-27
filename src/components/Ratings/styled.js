@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   height,
   width,
@@ -7,8 +7,8 @@ import {
   justifyContent,
   flexDirection,
   marginRight,
-  position
-} from 'styled-system'
+  position,
+} from 'styled-system';
 
 const RatingWrapper = styled.View`
   ${height}
@@ -17,16 +17,16 @@ const RatingWrapper = styled.View`
   ${alignItems}
   ${justifyContent}
   ${flexDirection}
-`
+`;
 const IconTouchableWrapper = styled.TouchableOpacity`
   ${marginRight}
-`
+`;
 const IconWrapper = styled.View`
   ${marginRight}
   ${opacity}
-`
+`;
 const IconsWrapper = styled.View`
   ${position}
-`
+`;
 
-export { RatingWrapper, IconTouchableWrapper, IconWrapper, IconsWrapper }
+export { RatingWrapper, IconTouchableWrapper, IconWrapper, IconsWrapper };

@@ -1,7 +1,7 @@
-import React from 'react'
-import { Platform, View } from 'react-native'
-import { ThemeProvider } from 'styled-components'
-import ModalDropdown from 'react-native-modal-dropdown'
+import React from 'react';
+import { Platform, View } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import ModalDropdown from 'react-native-modal-dropdown';
 import {
   string,
   number,
@@ -10,12 +10,9 @@ import {
   bool,
   array,
   oneOfType,
-  shape
-} from 'prop-types'
-import {
-  theme,
-  colors
-} from '../../config'
+  shape,
+} from 'prop-types';
+import { theme, colors } from '../../config';
 import {
   DropdownWrapper,
   DropdownLabel,
@@ -29,41 +26,43 @@ import {
   AmountWrapper,
   DropdownOptionWrapper,
   IconOptionWrapper,
-  AmountIconInnerWrapper
-} from './styled'
-import Icon from '../MerckIcons'
-import styles from './styles'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  AmountIconInnerWrapper,
+} from './styled';
+import Icon from '../MerckIcons';
+import styles from './styles';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 class Dropdown extends React.Component {
   state = {
     dropdownText: this.props.dropdownLabel,
     isSelected: false,
     multiSelectedList: [],
-    optionSelected: this.props.dropdownLabel
-  }
+    optionSelected: this.props.dropdownLabel,
+  };
 
   handleOnSelect = (option) => {
-    this.setState({ dropdownText: option, optionSelected: option })
-  }
+    this.setState({ dropdownText: option, optionSelected: option });
+  };
 
   handleOnMultipleSelect = (option) => {
-    const { multiSelectedList } = this.state
+    const { multiSelectedList } = this.state;
     if (multiSelectedList.includes(option)) {
-      const filtered = multiSelectedList.filter(value => value !== option)
-      this.setState({ multiSelectedList: filtered })
+      const filtered = multiSelectedList.filter((value) => value !== option);
+      this.setState({ multiSelectedList: filtered });
     } else {
-      this.setState({ multiSelectedList: [...multiSelectedList, option] })
+      this.setState({ multiSelectedList: [...multiSelectedList, option] });
     }
-  }
+  };
 
   clearMultiSelectedList = () => {
-    this.setState({ multiSelectedList: [] })
-  }
+    this.setState({ multiSelectedList: [] });
+  };
 
-  chooseTitleColor = (options, themeColor) => ((!this.state.isSelected || this.state.optionSelected) &&
-    options.includes(this.state.dropdownText) ?
-    themeColor : colors.richBlackDefault)
+  chooseTitleColor = (options, themeColor) =>
+    (!this.state.isSelected || this.state.optionSelected) &&
+    options.includes(this.state.dropdownText)
+      ? themeColor
+      : colors.richBlackDefault;
 
   renderAmountIcon = (multiSelectListLength) => {
     const {
@@ -75,17 +74,17 @@ class Dropdown extends React.Component {
       amountClosingIconSize,
       inline,
       multiSelect,
-      themeName
-    } = this.props
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+      themeName,
+    } = this.props;
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryColor = themeColor
+    const primaryColor = themeColor;
 
     return (
       <IconTouchable
         onPress={() => {
-          this.clearMultiSelectedList()
+          this.clearMultiSelectedList();
         }}
       >
         <AmountIconWrapper
@@ -94,15 +93,15 @@ class Dropdown extends React.Component {
           marginRight={(inline && multiSelect && 30) || 4}
         >
           <AmountIconInnerWrapper
-            flexDirection='row'
-            justifyContent='space-around'
-            alignItems='center'
+            flexDirection="row"
+            justifyContent="space-around"
+            alignItems="center"
             flex={1}
             marginLeft={2}
           >
             <AmountWrapper
-              justifyContent='center'
-              alignItems='center'
+              justifyContent="center"
+              alignItems="center"
               flex={2}
               paddingBottom={1}
             >
@@ -115,13 +114,13 @@ class Dropdown extends React.Component {
               </Amount>
             </AmountWrapper>
             <IconWrapper
-              justifyContent='flex-start'
-              alignItems='flex-start'
+              justifyContent="flex-start"
+              alignItems="flex-start"
               flex={1}
               paddingRight={7}
             >
               <Icon
-                name='closingX'
+                name="closingX"
                 color={amountClosingIconColor}
                 size={amountClosingIconSize}
               />
@@ -129,11 +128,11 @@ class Dropdown extends React.Component {
           </AmountIconInnerWrapper>
         </AmountIconWrapper>
       </IconTouchable>
-    )
-  }
+    );
+  };
 
   renderMultiSelectRow = (option) => {
-    const isMultiSelected = !!this.state.multiSelectedList.includes(option)
+    const isMultiSelected = !!this.state.multiSelectedList.includes(option);
     const {
       rowStyle,
       rowTitleStyle,
@@ -147,72 +146,76 @@ class Dropdown extends React.Component {
       checkboxSize,
       rowActiveBackgroundColor,
       rowBackgroundColor,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const multiSelectListLength = this.state.multiSelectedList.length
-    const primaryCheckboxColor = checkboxColor || themeColor
-    const primaryTitleColor = rowTitleActiveColor || themeColor
+    const multiSelectListLength = this.state.multiSelectedList.length;
+    const primaryCheckboxColor = checkboxColor || themeColor;
+    const primaryTitleColor = rowTitleActiveColor || themeColor;
 
     return (
       <DropdownRowWrapper
         style={
-          (inline &&
-            [
-              inlineMultiselectRowStyle,
-              {
-                width: multiSelectListLength > 0 ?
-                  inlineMultiselectRowStyle.width + 60 :
-                  inlineMultiselectRowStyle.width,
-                backgroundColor: isMultiSelected ? rowActiveBackgroundColor : rowBackgroundColor
-              }
-            ]) ||
-          [rowStyle,
+          (inline && [
+            inlineMultiselectRowStyle,
             {
-              backgroundColor: isMultiSelected ? rowActiveBackgroundColor : rowBackgroundColor
-            }
+              width:
+                multiSelectListLength > 0
+                  ? inlineMultiselectRowStyle.width + 60
+                  : inlineMultiselectRowStyle.width,
+              backgroundColor: isMultiSelected
+                ? rowActiveBackgroundColor
+                : rowBackgroundColor,
+            },
+          ]) || [
+            rowStyle,
+            {
+              backgroundColor: isMultiSelected
+                ? rowActiveBackgroundColor
+                : rowBackgroundColor,
+            },
           ]
         }
       >
         <IconOptionWrapper
-          flexDirection='row'
+          flexDirection="row"
           flex={1}
-          alignItems='center'
+          alignItems="center"
           marginLeft={inline ? 17 : 9}
           marginRight={8}
         >
           <IconWrapper
             marginRight={7}
-            alignItems='center'
-            justifyContent='center'
+            alignItems="center"
+            justifyContent="center"
           >
-            {isMultiSelected ?
+            {isMultiSelected ? (
               <Icon
-                name='checkboxFilled'
+                name="checkboxFilled"
                 color={primaryCheckboxColor}
                 size={checkboxSize}
               />
-              :
+            ) : (
               <Icon
-                name='checkboxEmpty'
+                name="checkboxEmpty"
                 color={colors.sensitiveGreyDarker}
                 size={checkboxSize}
               />
-            }
+            )}
           </IconWrapper>
-          <DropdownOptionWrapper
-            flex={1}
-          >
+          <DropdownOptionWrapper flex={1}>
             <DropdownOption
               style={[
                 rowTitleStyle,
                 {
                   color: isMultiSelected ? primaryTitleColor : rowTitleColor,
-                  fontFamily: isMultiSelected ? rowActiveFontFamily : rowFontFamily
-                }
+                  fontFamily: isMultiSelected
+                    ? rowActiveFontFamily
+                    : rowFontFamily,
+                },
               ]}
               numberOfLines={1}
             >
@@ -221,8 +224,8 @@ class Dropdown extends React.Component {
           </DropdownOptionWrapper>
         </IconOptionWrapper>
       </DropdownRowWrapper>
-    )
-  }
+    );
+  };
 
   renderRow = (option, index, isSelected) => {
     const {
@@ -236,40 +239,40 @@ class Dropdown extends React.Component {
       rowTitleColor,
       rowActiveFontFamily,
       rowFontFamily,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const primaryTitleColor = rowTitleActiveColor || themeColor
+    const primaryTitleColor = rowTitleActiveColor || themeColor;
 
     return (
       <DropdownRowWrapper
-        justifyContent='center'
+        justifyContent="center"
         style={[
-          (inline && inlineRowStyle) ||
-          rowStyle,
+          (inline && inlineRowStyle) || rowStyle,
           {
-            backgroundColor: isSelected ?
-              rowActiveBackgroundColor : rowBackgroundColor
-          }
+            backgroundColor: isSelected
+              ? rowActiveBackgroundColor
+              : rowBackgroundColor,
+          },
         ]}
       >
         <DropdownOptionWrapper
           marginLeft={15}
           marginRight={8}
           flex={1}
-          justifyContent='center'
-          alignItem='flex-end'
+          justifyContent="center"
+          alignItem="flex-end"
         >
           <DropdownOption
             style={[
               rowTitleStyle,
               {
                 color: isSelected ? primaryTitleColor : rowTitleColor,
-                fontFamily: isSelected ? rowActiveFontFamily : rowFontFamily
-              }
+                fontFamily: isSelected ? rowActiveFontFamily : rowFontFamily,
+              },
             ]}
             numberOfLines={1}
           >
@@ -277,8 +280,8 @@ class Dropdown extends React.Component {
           </DropdownOption>
         </DropdownOptionWrapper>
       </DropdownRowWrapper>
-    )
-  }
+    );
+  };
 
   renderInlineModalDropdown = () => {
     const {
@@ -297,14 +300,14 @@ class Dropdown extends React.Component {
       inlineMultiSelectContainerStyle,
       dropdownLabel,
       iconSize,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
-    const multiSelectListLength = this.state.multiSelectedList.length
-    const primaryIconColor = iconColor || themeColor
+    const multiSelectListLength = this.state.multiSelectedList.length;
+    const primaryIconColor = iconColor || themeColor;
 
     return (
       <ModalDropdown
@@ -314,38 +317,41 @@ class Dropdown extends React.Component {
         touchableHighlightUnderlayColor={colors.transparent}
         dropdownStyle={
           (inline &&
-            multiSelect &&
-            [
+            multiSelect && [
               inlineMultiselectDropdownStyle,
               styles.inlineMultiselectDropdownStyle,
               {
-                width: multiSelectListLength > 0 ?
-                  inlineMultiselectDropdownStyle.width + 60 :
-                  inlineMultiselectDropdownStyle.width
-              }
-            ]
-          ) ||
-          [inlineDropdownStyle, styles.inlineDropdownStyle]}
+                width:
+                  multiSelectListLength > 0
+                    ? inlineMultiselectDropdownStyle.width + 60
+                    : inlineMultiselectDropdownStyle.width,
+              },
+            ]) || [inlineDropdownStyle, styles.inlineDropdownStyle]
+        }
         onDropdownWillHide={(showDropdown) => {
           if (showDropdown === undefined && multiSelect) {
-            return this.setState({ isSelected: false })
+            return this.setState({ isSelected: false });
           } else if (showDropdown === undefined && !multiSelect) {
-            return this.setState({ dropdownText: this.state.optionSelected, isSelected: false })
+            return this.setState({
+              dropdownText: this.state.optionSelected,
+              isSelected: false,
+            });
           } else if (!multiSelect) {
-            return this.setState({ isSelected: false })
+            return this.setState({ isSelected: false });
           }
         }}
         onDropdownWillShow={() => {
           this.setState({
             dropdownText: dropdownLabel,
-            isSelected: true
-          })
+            isSelected: true,
+          });
         }}
         onSelect={(index, option) => {
-          onOptionPress()
+          onOptionPress();
 
-          return multiSelect ? this.handleOnMultipleSelect(option, index) :
-            this.handleOnSelect(option, index)
+          return multiSelect
+            ? this.handleOnMultipleSelect(option, index)
+            : this.handleOnSelect(option, index);
         }}
         options={options}
         renderRow={multiSelect ? this.renderMultiSelectRow : this.renderRow}
@@ -353,36 +359,40 @@ class Dropdown extends React.Component {
         <DropdownWrapper
           style={
             (inline &&
-              multiSelect &&
-              [inlineMultiSelectContainerStyle, styles.inlineMultiSelectContainerStyle]) ||
-            [inlineDropdownContainerStyle, styles.inlineDropdownContainerStyle]}
+              multiSelect && [
+                inlineMultiSelectContainerStyle,
+                styles.inlineMultiSelectContainerStyle,
+              ]) || [
+              inlineDropdownContainerStyle,
+              styles.inlineDropdownContainerStyle,
+            ]
+          }
           width={
-            inline && multiSelect && multiSelectListLength > 0 ?
-              inlineMultiSelectContainerStyle.width + 60 :
-              inlineMultiSelectContainerStyle.width
+            inline && multiSelect && multiSelectListLength > 0
+              ? inlineMultiSelectContainerStyle.width + 60
+              : inlineMultiSelectContainerStyle.width
           }
         >
           <DropdownLabelWithIconLeftWrapper
-            flexDirection='row'
-            justifyContent='flex-end'
-            alignItems='center'
+            flexDirection="row"
+            justifyContent="flex-end"
+            alignItems="center"
             marginBottom={12}
             marginLeft={10}
             marginTop={12}
             flex={1}
             opacity={disabled ? 0.15 : 1}
           >
-            {multiSelect && this.state.multiSelectedList.length !== 0 ?
-              this.renderAmountIcon(multiSelectListLength)
-              :
-              null
-            }
+            {multiSelect && this.state.multiSelectedList.length !== 0
+              ? this.renderAmountIcon(multiSelectListLength)
+              : null}
             <DropdownLabel
               color={this.chooseTitleColor(options, themeColor)}
               fontFamily={
                 (!this.state.isSelected || this.state.optionSelected) &&
-                  options.includes(this.state.dropdownText) ?
-                  'Lato-Black' : fontFamily
+                options.includes(this.state.dropdownText)
+                  ? 'Lato-Black'
+                  : fontFamily
               }
               fontSize={fontSize}
               style={labelStyle}
@@ -396,24 +406,22 @@ class Dropdown extends React.Component {
             marginLeft={7}
             opacity={disabled ? 0.5 : 1}
           >
-            {this.state.isSelected ?
+            {this.state.isSelected ? (
+              <Icon name="arrowUp" size={iconSize} color={primaryIconColor} />
+            ) : (
               <Icon
-                name='arrowUp'
+                name="arrowDown"
                 size={iconSize}
-                color={primaryIconColor}
+                color={
+                  disabled ? colors.sensitiveGreyDarkest : primaryIconColor
+                }
               />
-              :
-              <Icon
-                name='arrowDown'
-                size={iconSize}
-                color={disabled ? colors.sensitiveGreyDarkest : primaryIconColor}
-              />
-            }
+            )}
           </IconWrapper>
         </DropdownWrapper>
       </ModalDropdown>
-    )
-  }
+    );
+  };
 
   renderDefaultModalDropdown = () => {
     const {
@@ -429,13 +437,13 @@ class Dropdown extends React.Component {
       dropdownContainerStyle,
       dropdownLabel,
       iconSize,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
-    const multiSelectListLength = this.state.multiSelectedList.length
-    const primaryIconColor = iconColor || themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
+    const multiSelectListLength = this.state.multiSelectedList.length;
+    const primaryIconColor = iconColor || themeObj.colors.primary.base;
 
     return (
       <ModalDropdown
@@ -446,24 +454,28 @@ class Dropdown extends React.Component {
         dropdownStyle={[dropdownStyle, styles.dropdownStyle]}
         onDropdownWillHide={(showDropdown) => {
           if (showDropdown === undefined && multiSelect) {
-            return this.setState({ isSelected: false })
+            return this.setState({ isSelected: false });
           } else if (showDropdown === undefined && !multiSelect) {
-            return this.setState({ dropdownText: this.state.optionSelected, isSelected: false })
+            return this.setState({
+              dropdownText: this.state.optionSelected,
+              isSelected: false,
+            });
           } else if (!multiSelect) {
-            return this.setState({ isSelected: false })
+            return this.setState({ isSelected: false });
           }
         }}
         onDropdownWillShow={() => {
           this.setState({
             dropdownText: dropdownLabel,
-            isSelected: true
-          })
+            isSelected: true,
+          });
         }}
         onSelect={(index, option) => {
-          onOptionPress()
+          onOptionPress();
 
-          return multiSelect ? this.handleOnMultipleSelect(option, index) :
-            this.handleOnSelect(option, index)
+          return multiSelect
+            ? this.handleOnMultipleSelect(option, index)
+            : this.handleOnSelect(option, index);
         }}
         options={options}
         renderRow={multiSelect ? this.renderMultiSelectRow : this.renderRow}
@@ -475,26 +487,25 @@ class Dropdown extends React.Component {
           opacity={disabled ? 0.5 : 1}
         >
           <DropdownLabelWithIconLeftWrapper
-            alignItems='center'
-            flexDirection='row'
-            justifyContent='flex-start'
+            alignItems="center"
+            flexDirection="row"
+            justifyContent="flex-start"
             flex={1}
             marginBottom={12}
             marginLeft={15}
             marginTop={12}
             opacity={disabled ? 0.15 : 1}
           >
-            {multiSelect && this.state.multiSelectedList.length !== 0 ?
-              this.renderAmountIcon(multiSelectListLength)
-              :
-              null
-            }
+            {multiSelect && this.state.multiSelectedList.length !== 0
+              ? this.renderAmountIcon(multiSelectListLength)
+              : null}
             <DropdownLabel
               color={this.chooseTitleColor(options, themeColor)}
               fontFamily={
                 (!this.state.isSelected || this.state.optionSelected) &&
-                  options.includes(this.state.dropdownText) ?
-                  'Lato-Black' : fontFamily
+                options.includes(this.state.dropdownText)
+                  ? 'Lato-Black'
+                  : fontFamily
               }
               fontSize={fontSize}
               style={labelStyle}
@@ -509,46 +520,41 @@ class Dropdown extends React.Component {
             marginTop={13}
             opacity={disabled ? 0.5 : 1}
           >
-            {this.state.isSelected ?
+            {this.state.isSelected ? (
+              <Icon name="arrowUp" size={iconSize} color={primaryIconColor} />
+            ) : (
               <Icon
-                name='arrowUp'
+                name="arrowDown"
                 size={iconSize}
-                color={primaryIconColor}
+                color={
+                  disabled ? colors.sensitiveGreyDarkest : primaryIconColor
+                }
               />
-              :
-              <Icon
-                name='arrowDown'
-                size={iconSize}
-                color={disabled ? colors.sensitiveGreyDarkest : primaryIconColor}
-              />
-            }
+            )}
           </IconWrapper>
-          {this.state.isSelected ?
-            <View style={styles.greyLine} />
-            : null
-          }
+          {this.state.isSelected ? <View style={styles.greyLine} /> : null}
         </DropdownWrapper>
       </ModalDropdown>
-    )
-  }
+    );
+  };
 
   render() {
-    const { inline, themeName } = this.props
-    const themeObj = getThemeObject(themeName)
+    const { inline, themeName } = this.props;
+    const themeObj = getThemeObject(themeName);
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
-        {inline ? this.renderInlineModalDropdown() : this.renderDefaultModalDropdown()}
+      <ThemeProvider theme={themeObj}>
+        {inline
+          ? this.renderInlineModalDropdown()
+          : this.renderDefaultModalDropdown()}
       </ThemeProvider>
-    )
+    );
   }
 }
 
 Icon.propTypes = {
-  color: string
-}
+  color: string,
+};
 
 Dropdown.defaultProps = {
   iconSize: 24,
@@ -567,7 +573,7 @@ Dropdown.defaultProps = {
   fontFamily: 'Lato-Regular',
   fontSize: 4,
   options: ['Option 1', 'Option 2', 'Option 3', 'Option 4'],
-  onOptionPress: () => { },
+  onOptionPress: () => {},
   multiSelect: false,
   disabled: false,
   inline: false,
@@ -575,51 +581,51 @@ Dropdown.defaultProps = {
   dropdownContainerStyle: {},
   dropdownStyle: {
     width: 250,
-    height: 200
+    height: 200,
   },
   inlineDropdownContainerStyle: {
     height: 50,
     width: 190,
-    backgroundColor: colors.transparent
+    backgroundColor: colors.transparent,
   },
   inlineMultiSelectContainerStyle: {
     height: 50,
     width: 190,
-    backgroundColor: colors.transparent
+    backgroundColor: colors.transparent,
   },
   inlineMultiselectDropdownStyle: {
     borderRadius: 6,
     width: 190,
-    height: 200
+    height: 200,
   },
   inlineDropdownStyle: {
     width: 190,
-    height: 200
+    height: 200,
   },
   inlineMultiselectRowStyle: {
     height: 50,
     width: 190,
-    flex: 1
+    flex: 1,
   },
   inlineRowStyle: {
     height: 50,
     width: 190,
-    flex: 1
+    flex: 1,
   },
   rowStyle: {
     height: 50,
     width: 250,
-    flex: 1
+    flex: 1,
   },
   multiSelectIconStyle: {
     height: 24,
-    width: 40
+    width: 40,
   },
   labelStyle: {},
   rowTitleStyle: {
-    fontSize: 16
-  }
-}
+    fontSize: 16,
+  },
+};
 
 Dropdown.propTypes = {
   iconSize: number,
@@ -665,17 +671,17 @@ Dropdown.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default Dropdown
+export default Dropdown;

@@ -1,25 +1,16 @@
-import React from 'react'
-import {
-  bool,
-  node,
-  number,
-  string,
-  PropTypes
-} from 'prop-types'
-import { ThemeProvider } from 'styled-components'
+import React from 'react';
+import { bool, node, number, string, PropTypes } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
 import {
   QuoteWrapper,
   PhraseWrapper,
   AuthorWrapper,
   ImageWrapper,
-  Image
-} from './styled'
-import {
-  fonts,
-  colors
-} from '../../config'
-import TypographicQuote from './TypographicQuote'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  Image,
+} from './styled';
+import { fonts, colors } from '../../config';
+import TypographicQuote from './TypographicQuote';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 const Quote = ({
   author,
@@ -39,29 +30,23 @@ const Quote = ({
   authorFontSize,
   authorColor,
   authorLineHeight,
-  themeName
+  themeName,
 }) => {
-  const imgWrapperSize = ((80 * width) / 100)
-  let themeObj = getThemeObject(themeName)
-  let themeColor = themeObj.colors.primary.base
-  const primaryColor = authorColor || themeColor
+  const imgWrapperSize = (80 * width) / 100;
+  let themeObj = getThemeObject(themeName);
+  let themeColor = themeObj.colors.primary.base;
+  const primaryColor = authorColor || themeColor;
 
   return (
-    <ThemeProvider
-      theme={themeObj}
-    >
+    <ThemeProvider theme={themeObj}>
       {imagePath ? (
-        <QuoteWrapper
-          width={width}
-        >
+        <QuoteWrapper width={width}>
           <ImageWrapper
             borderRadius={borderRadius}
             height={imgWrapperSize}
             width={imgWrapperSize}
           >
-            <Image
-              source={imagePath}
-            />
+            <Image source={imagePath} />
           </ImageWrapper>
           <AuthorWrapper
             fontFamily={authorFontFamily || fonts.Black}
@@ -82,27 +67,27 @@ const Quote = ({
             {quotation}
           </PhraseWrapper>
         </QuoteWrapper>
-    ) : (
-      <TypographicQuote
-        width={width}
-        author={author}
-        big={big}
-        small={small}
-        quotation={quotation}
-        fontFamily={fontFamily}
-        fontWeight={fontWeight}
-        fontSize={fontSize}
-        lineHeight={lineHeight}
-        color={color}
-        authorColor={primaryColor}
-        authorFontFamily={authorFontFamily}
-        authorFontWeight={authorFontWeight}
-        authorFontSize={authorFontSize}
-      />
-    )}
+      ) : (
+        <TypographicQuote
+          width={width}
+          author={author}
+          big={big}
+          small={small}
+          quotation={quotation}
+          fontFamily={fontFamily}
+          fontWeight={fontWeight}
+          fontSize={fontSize}
+          lineHeight={lineHeight}
+          color={color}
+          authorColor={primaryColor}
+          authorFontFamily={authorFontFamily}
+          authorFontWeight={authorFontWeight}
+          authorFontSize={authorFontSize}
+        />
+      )}
     </ThemeProvider>
-  )
-}
+  );
+};
 
 Quote.propTypes = {
   quotation: string.isRequired,
@@ -131,18 +116,18 @@ Quote.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
 Quote.defaultProps = {
   big: false,
@@ -150,7 +135,7 @@ Quote.defaultProps = {
   imagePath: null,
   borderRadius: 100,
   width: 250,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
-export default Quote
+export default Quote;

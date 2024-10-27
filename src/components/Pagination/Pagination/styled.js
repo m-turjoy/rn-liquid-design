@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   width,
@@ -11,14 +11,14 @@ import {
   paddingLeft,
   paddingRight,
   opacity,
-  top
-} from 'styled-system'
+  top,
+} from 'styled-system';
 
 const InnerWrapper = styled.View`
   ${width}
   align-items: center;
   justify-content: space-between;
-`
+`;
 
 const TextWrapper = styled.Text`
   ${fontFamily}
@@ -29,14 +29,14 @@ const TextWrapper = styled.Text`
   ${opacity}
   ${top}
   text-align: center;
-`
+`;
 
 const PaginationDotWrapper = styled.View`
   ${paddingLeft}
   ${paddingRight}
   align-items: center;
   justify-content: center;
-`
+`;
 
 const PaginationContainer = styled.View`
   ${width}
@@ -44,7 +44,7 @@ const PaginationContainer = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-`
+`;
 
 const IconWrapper = styled.View`
   ${width}
@@ -52,12 +52,12 @@ const IconWrapper = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-`
+`;
 
 export {
   InnerWrapper,
   TextWrapper,
   PaginationDotWrapper,
   PaginationContainer,
-  IconWrapper
-}
+  IconWrapper,
+};

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   backgroundColor,
   width,
@@ -11,24 +11,24 @@ import {
   justifyContent,
   flexDirection,
   alignItems,
-  underlayColor
-} from 'styled-system'
+  underlayColor,
+} from 'styled-system';
 
-const CalendarContainer = styled.View``
+const CalendarContainer = styled.View``;
 
-const CalendarWrapper = styled.View``
+const CalendarWrapper = styled.View``;
 
-const IconLabelTouchable = styled.TouchableHighlight``
+const IconLabelTouchable = styled.TouchableHighlight``;
 
-const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``
+const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``;
 
-const TextFieldWrapper = styled.View``
+const TextFieldWrapper = styled.View``;
 
-const TextFieldsWrapper = styled.View``
+const TextFieldsWrapper = styled.View``;
 
-const ContainerWrapper = styled.View``
+const ContainerWrapper = styled.View``;
 
-const IconWrapper = styled.View``
+const IconWrapper = styled.View``;
 
 export {
   CalendarContainer,
@@ -38,5 +38,5 @@ export {
   TextFieldWrapper,
   TextFieldsWrapper,
   ContainerWrapper,
-  IconWrapper
-}
+  IconWrapper,
+};

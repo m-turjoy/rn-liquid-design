@@ -1,22 +1,22 @@
-import React from 'react'
-import { bool, func, object, number, string, PropTypes } from 'prop-types'
-import { ThemeProvider } from 'styled-components'
-import Icon from '../MerckIcons'
-import { colors } from '../../config'
+import React from 'react';
+import { bool, func, object, number, string, PropTypes } from 'prop-types';
+import { ThemeProvider } from 'styled-components';
+import Icon from '../MerckIcons';
+import { colors } from '../../config';
 import {
   RadioButtonWrapper,
   RadioButtonTouchableWrapper,
   RadioButtonTitle,
-  RadioButtonTitleWrapper
-} from './styled'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+  RadioButtonTitleWrapper,
+} from './styled';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 const pressArea = {
   top: 10,
   bottom: 10,
   left: 10,
-  right: 10
-}
+  right: 10,
+};
 
 const RadioButton = ({
   disabled,
@@ -31,18 +31,14 @@ const RadioButton = ({
   titleStyle,
   iconColor,
   iconContainerStyle,
-  themeName
+  themeName,
 }) => {
-  const themeObj = getThemeObject(themeName)
-  const themeColor = themeObj.colors.primary.base
+  const themeObj = getThemeObject(themeName);
+  const themeColor = themeObj.colors.primary.base;
 
   return (
-    <ThemeProvider
-      theme={themeObj}
-    >
-      <RadioButtonWrapper
-        opacity={disabled ? 0.5 : 1}
-      >
+    <ThemeProvider theme={themeObj}>
+      <RadioButtonWrapper opacity={disabled ? 0.5 : 1}>
         <RadioButtonTouchableWrapper
           disabled={disabled}
           activeOpacity={1}
@@ -52,13 +48,13 @@ const RadioButton = ({
         >
           {selected ? (
             <Icon
-              name='radioBtnActive'
+              name="radioBtnActive"
               size={iconSize}
               color={iconColor || themeColor}
             />
           ) : (
             <Icon
-              name='radioBtnEmpty'
+              name="radioBtnEmpty"
               size={iconSize}
               color={colors.sensitiveGreyDarkest}
             />
@@ -87,24 +83,24 @@ const RadioButton = ({
         </RadioButtonTouchableWrapper>
       </RadioButtonWrapper>
     </ThemeProvider>
-  )
-}
+  );
+};
 
 RadioButtonTitle.defaultProps = {
-  color: 'black'
-}
+  color: 'black',
+};
 
 RadioButtonTitle.propTypes = {
-  color: string
-}
+  color: string,
+};
 
 RadioButtonTitleWrapper.defaultProps = {
-  ml: 4
-}
+  ml: 4,
+};
 
 RadioButtonTitleWrapper.propTypes = {
-  ml: number
-}
+  ml: number,
+};
 
 RadioButton.defaultProps = {
   disabled: false,
@@ -115,12 +111,12 @@ RadioButton.defaultProps = {
   fontSize: 3,
   iconSize: 24,
   titleStyle: {
-    color: colors.richBlackDefault
+    color: colors.richBlackDefault,
   },
   titleContainerStyle: {},
   iconContainerStyle: {},
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 RadioButton.propTypes = {
   disabled: bool,
@@ -143,17 +139,17 @@ RadioButton.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: PropTypes.shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};
 
-export default RadioButton
+export default RadioButton;

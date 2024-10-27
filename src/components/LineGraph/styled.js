@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   fontFamily,
   fontSize,
@@ -6,15 +6,15 @@ import {
   borderTopColor,
   borderTopWidth,
   color,
-  opacity
-} from 'styled-system'
+  opacity,
+} from 'styled-system';
 
 const LegendsWrapper = styled.View`
   flex-direction: row;
   top: -28px;
   align-items: flex-start;
-  justify-content: space-between
-`
+  justify-content: space-between;
+`;
 
 const LegendWrapper = styled.View`
   flex-direction: column;
@@ -22,7 +22,7 @@ const LegendWrapper = styled.View`
   ${borderTopColor}
   ${borderTopWidth}
   ${opacity}
-`
+`;
 
 const Legend = styled.Text`
   flex-direction: row;
@@ -30,15 +30,10 @@ const Legend = styled.Text`
   ${fontSize}
   ${color}
   ${fontFamily}
-`
+`;
 
 const LineGraphWrapper = styled.View`
-align-items: center;
-`
+  align-items: center;
+`;
 
-export {
-  LegendWrapper,
-  LegendsWrapper,
-  Legend,
-  LineGraphWrapper
-}
+export { LegendWrapper, LegendsWrapper, Legend, LineGraphWrapper };

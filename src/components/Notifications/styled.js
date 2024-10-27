@@ -1,29 +1,24 @@
-import styled from 'styled-components'
-import {
-  fontFamily,
-  color,
-  fontSize,
-  lineHeight
-} from 'styled-system'
+import styled from 'styled-components';
+import { fontFamily, color, fontSize, lineHeight } from 'styled-system';
 
-const NotificationWrapper = styled.View``
+const NotificationWrapper = styled.View``;
 
 const Label = styled.Text`
   ${fontFamily}
   ${color}
   ${fontSize}
   ${lineHeight}
-`
+`;
 
-const IconWrapper = styled.View``
+const IconWrapper = styled.View``;
 
-const IconLabelWrapper = styled.View``
+const IconLabelWrapper = styled.View``;
 
-const LabelWrapper = styled.View``
+const LabelWrapper = styled.View``;
 
-const Container = styled.View``
+const Container = styled.View``;
 
-const IconTouchable = styled.TouchableWithoutFeedback``
+const IconTouchable = styled.TouchableWithoutFeedback``;
 
 export {
   NotificationWrapper,
@@ -32,5 +27,5 @@ export {
   IconLabelWrapper,
   LabelWrapper,
   Container,
-  IconTouchable
-}
+  IconTouchable,
+};

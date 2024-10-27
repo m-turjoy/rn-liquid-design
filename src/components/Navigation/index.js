@@ -1,75 +1,91 @@
-import React, { Component } from 'react'
-import { string, shape, arrayOf, func, node, bool, number, oneOfType } from 'prop-types'
-import SideMenu from 'react-native-side-menu'
-import { ThemeProvider } from 'styled-components'
-import NavigationBody from './NavigationBody/NavigationBody'
-import imageExample from '../../../src/assets/circle.png'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
+import React, { Component } from 'react';
+import {
+  string,
+  shape,
+  arrayOf,
+  func,
+  node,
+  bool,
+  number,
+  oneOfType,
+} from 'prop-types';
+import SideMenu from 'react-native-side-menu';
+import { ThemeProvider } from 'styled-components';
+import NavigationBody from './NavigationBody/NavigationBody';
+import imageExample from '../../../src/assets/circle.png';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
 
 export default class Navigation extends Component {
   state = {
-    activeTabIndex: 0
-  }
-  onTabChange = (index) => { this.setState({ activeTabIndex: index }) }
+    activeTabIndex: 0,
+  };
+  onTabChange = (index) => {
+    this.setState({ activeTabIndex: index });
+  };
 
   render() {
-    const {
-      title, tabs, imagePath, navigationBody, themeName
-    } = this.props
-    const { activeTabIndex } = this.state
+    const { title, tabs, imagePath, navigationBody, themeName } = this.props;
+    const { activeTabIndex } = this.state;
 
-    const themeObj = getThemeObject(themeName)
-    const themeColor = themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const themeColor = themeObj.colors.primary.base;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <SideMenu
-          ref={(d) => { this.drawer = d }}
+          ref={(d) => {
+            this.drawer = d;
+          }}
           {...this.props}
-          menu={<NavigationBody
-            title={title}
-            tabs={tabs}
-            imagePath={imagePath}
-            onTabChange={this.onTabChange}
-            activeTabIndex={activeTabIndex}
-            {...navigationBody}
-            activeTabFontColor={navigationBody.activeTabFontColor || themeColor}
-            activeIconColor={navigationBody.activeIconColor || themeColor}
-          />
+          menu={
+            <NavigationBody
+              title={title}
+              tabs={tabs}
+              imagePath={imagePath}
+              onTabChange={this.onTabChange}
+              activeTabIndex={activeTabIndex}
+              {...navigationBody}
+              activeTabFontColor={
+                navigationBody.activeTabFontColor || themeColor
+              }
+              activeIconColor={navigationBody.activeIconColor || themeColor}
+            />
           }
         >
           {tabs[activeTabIndex].contentView}
         </SideMenu>
       </ThemeProvider>
-    )
+    );
   }
 }
 
 Navigation.defaultProps = {
   isOpen: false,
-  tabs: [{
-    onPress: () => {}
-  }],
+  tabs: [
+    {
+      onPress: () => {},
+    },
+  ],
   imagePath: imageExample,
   navigationBody: {},
   openMenuOffset: 60,
   edgeHitWidth: 300,
   bounceBackOnOverdraw: false,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Navigation.propTypes = {
   isOpen: bool,
   title: string.isRequired,
-  tabs: arrayOf(shape({
-    title: string.isRequired,
-    icon: string.isRequired,
-    label: string.isRequired,
-    onPress: func,
-    contentView: node
-  })),
+  tabs: arrayOf(
+    shape({
+      title: string.isRequired,
+      icon: string.isRequired,
+      label: string.isRequired,
+      onPress: func,
+      contentView: node,
+    })
+  ),
   imagePath: node,
   openMenuOffset: number,
   edgeHitWidth: number,
@@ -88,7 +104,7 @@ Navigation.propTypes = {
     iconColor: string,
     iconSize: number,
     activeIconColor: string,
-    bottomOffset: number
+    bottomOffset: number,
   }),
   themeName: oneOfType([
     string,
@@ -98,15 +114,15 @@ Navigation.propTypes = {
         light: string,
         base: string,
         dark: string,
-        darker: string
+        darker: string,
       }).isRequired,
       secondary: shape({
         lightest: string,
         light: string,
         base: string,
         dark: string,
-        darker: string
-      }).isRequired
-    })
-  ])
-}
+        darker: string,
+      }).isRequired,
+    }),
+  ]),
+};

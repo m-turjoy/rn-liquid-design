@@ -1,13 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-import {
-  borderRadius,
-  position,
-  width,
-  minHeight
-} from 'styled-system'
-import { shadowStyle } from '../../config/complexStyles'
-import { colors } from '../../../src/config'
+import { borderRadius, position, width, minHeight } from 'styled-system';
+import { shadowStyle } from '../../config/complexStyles';
+import { colors } from '../../../src/config';
 
 const StyledCalendar = styled.View`
   ${borderRadius};
@@ -21,6 +16,6 @@ const StyledCalendar = styled.View`
   shadow-offset: 0px 3px;
   background-color: ${colors.white};
   elevation: 15;
-`
+`;
 
-export { StyledCalendar }
+export { StyledCalendar };

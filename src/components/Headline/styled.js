@@ -1,5 +1,11 @@
-import styled from 'styled-components'
-import { fontFamily, fontSize, fontWeight, color, lineHeight } from 'styled-system'
+import styled from 'styled-components';
+import {
+  fontFamily,
+  fontSize,
+  fontWeight,
+  color,
+  lineHeight,
+} from 'styled-system';
 
 const HeadlineText = styled.Text`
   ${fontFamily};
@@ -7,6 +13,6 @@ const HeadlineText = styled.Text`
   ${fontWeight};
   ${color};
   ${lineHeight};
-`
+`;
 
-export { HeadlineText }
+export { HeadlineText };

@@ -85,7 +85,7 @@ const colors = {
   sensitiveYellow: '#ffdcb9',
   sensitiveBlue: '#96d7d2',
   sensitivePink: '#e1c3cd',
-  vibrantCyanDark: '#29abb9'
-}
+  vibrantCyanDark: '#29abb9',
+};
 
-export default colors
+export default colors;

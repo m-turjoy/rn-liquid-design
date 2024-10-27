@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native'
-import { colors } from '../../config'
+import { StyleSheet } from 'react-native';
+import { colors } from '../../config';
 
 const styles = StyleSheet.create({
   defaultStyle: {
@@ -7,12 +7,12 @@ const styles = StyleSheet.create({
     left: 0,
     right: 20,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   containerStyle: {
     padding: 10,
     opacity: 1,
-    borderRadius: 5
+    borderRadius: 5,
   },
   wrapperStyle: {
     shadowColor: colors.richBlackDefault,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowOffset: {
       width: 3,
-      height: 3
+      height: 3,
     },
     top: 0,
     left: 10,
@@ -31,8 +31,8 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 15,
     marginTop: 5,
-    marginBottom: 0
-  }
-})
+    marginBottom: 0,
+  },
+});
 
-export default styles
+export default styles;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   alignItems,
@@ -17,8 +17,8 @@ import {
   minWidth,
   maxWidth,
   opacity,
-  width
-} from 'styled-system'
+  width,
+} from 'styled-system';
 
 const StyledBadge = styled.View`
   ${alignItems};
@@ -32,7 +32,7 @@ const StyledBadge = styled.View`
   ${top};
   ${width};
   ${opacity};
-`
+`;
 const StyledBadgeText = styled.Text`
   ${color};
   ${fontSize};
@@ -42,7 +42,6 @@ const StyledBadgeText = styled.Text`
   ${maxWidth};
   ${opacity};
   ${alignItems};
+`;
 
-`
-
-export { StyledBadge, StyledBadgeText }
+export { StyledBadge, StyledBadgeText };

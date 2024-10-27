@@ -1,5 +1,5 @@
-import { StyleSheet, Platform } from 'react-native'
-import { colors } from '../../config'
+import { StyleSheet, Platform } from 'react-native';
+import { colors } from '../../config';
 
 const styles = StyleSheet.create({
   dropdownStyle: {
@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
     overflow: 'hidden',
-    borderRadius: 6
+    borderRadius: 6,
   },
   dropdownContainerStyle: {
     flexDirection: 'row',
@@ -19,35 +19,35 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 6,
     height: 50,
     width: 250,
-    backgroundColor: colors.white
+    backgroundColor: colors.white,
   },
   inlineMultiselectDropdownStyle: {
     borderWidth: 0,
     borderRadius: 6,
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   inlineDropdownStyle: {
     borderWidth: 0,
     borderRadius: 6,
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   inlineMultiSelectContainerStyle: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   inlineDropdownContainerStyle: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-end'
+    justifyContent: 'flex-end',
   },
   greyLine: {
     width: '100%',
     position: 'absolute',
     height: 1,
     backgroundColor: colors.sensitiveGreyDark,
-    bottom: 0
-  }
-})
+    bottom: 0,
+  },
+});
 
-export default styles
+export default styles;

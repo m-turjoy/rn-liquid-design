@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 import {
   borderColor,
@@ -8,36 +8,36 @@ import {
   color,
   fontFamily,
   fontSize,
-  letterSpacing
-} from 'styled-system'
+  letterSpacing,
+} from 'styled-system';
 
 const TextInput = styled.TextInput`
   ${borderColor}
   ${opacity}
   ${bgColor}
-`
+`;
 const ErrorMessage = styled.Text`
   ${color}
   ${fontFamily}
   ${fontSize}
   ${letterSpacing}
-`
+`;
 const TextInputWrapper = styled.View`
   ${height}
   ${bgColor}
-`
+`;
 const TextInputErrorWrapper = styled.View`
   ${height}
-`
-const TextInputContainer = styled.View``
+`;
+const TextInputContainer = styled.View``;
 
 const Label = styled.Text`
   ${color}
   ${fontFamily}
   ${fontSize}
-`
+`;
 
-const ErrorContainer = styled.View``
+const ErrorContainer = styled.View``;
 
 export {
   TextInput,
@@ -46,5 +46,5 @@ export {
   TextInputContainer,
   Label,
   TextInputErrorWrapper,
-  ErrorContainer
-}
+  ErrorContainer,
+};

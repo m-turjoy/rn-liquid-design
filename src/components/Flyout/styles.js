@@ -1,14 +1,14 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   icon: {
-    paddingTop: 2
+    paddingTop: 2,
   },
   labelLeft: {
-    paddingLeft: 10
+    paddingLeft: 10,
   },
   labelRight: {
-    paddingRight: 10
-  }
-})
-export default styles
+    paddingRight: 10,
+  },
+});
+export default styles;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   width,
   height,
@@ -13,8 +13,8 @@ import {
   opacity,
   backgroundColor,
   paddingHorizontal,
-  paddingVertical
-} from 'styled-system'
+  paddingVertical,
+} from 'styled-system';
 
 const ButtonWrapper = styled.View`
   ${width};
@@ -26,31 +26,30 @@ const ButtonWrapper = styled.View`
   ${paddingVertical};
   justify-content: center;
   align-items: center;
-`
+`;
 const Title = styled.Text`
   ${fontSize};
   ${color};
   ${fontFamily};
   ${opacity}
-`
-const ButtonTouchableWrapper = styled.TouchableHighlight`
-`
+`;
+const ButtonTouchableWrapper = styled.TouchableHighlight``;
 
 const TitleIconWrapper = styled.View`
   ${flexDirection};
   ${alignItems};
   ${justifyContent};
   ${opacity};
-`
+`;
 const IconLeftWrapper = styled.View`
-   ${marginRight}
-`
+  ${marginRight}
+`;
 const IconWrapper = styled.View`
   ${opacity}
-`
+`;
 const TitleWrapper = styled.View`
   ${opacity}
-`
+`;
 
 export {
   ButtonWrapper,
@@ -59,5 +58,5 @@ export {
   TitleIconWrapper,
   IconLeftWrapper,
   TitleWrapper,
-  IconWrapper
-}
+  IconWrapper,
+};

@@ -1,15 +1,14 @@
-import { StyleSheet } from 'react-native'
-import { colors } from '../../config'
+import { StyleSheet } from 'react-native';
+import { colors } from '../../config';
 
 const styles = StyleSheet.create({
-  progressBar: {
-  },
+  progressBar: {},
   circleProgressBarLabelStyle: {
-    lineHeight: 26
+    lineHeight: 26,
   },
   circleTextWrapper: {
     textAlign: 'center',
-    paddingTop: 20
+    paddingTop: 20,
   },
   // container: {
   //   backgroundColor: colors.transparent,
@@ -19,30 +18,30 @@ const styles = StyleSheet.create({
   step: {
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 2
+    zIndex: 2,
   },
   stepLabel: {
     textAlign: 'center',
-    paddingTop: 3
+    paddingTop: 3,
   },
   horizontal: {
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   circleContainer: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   circleWrapper: {
     borderRadius: 100,
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   circleWrapperAndroid: {
     borderRadius: 100,
     overflow: 'hidden',
     borderWidth: 20,
-    borderColor: colors.transparent
-  }
-})
+    borderColor: colors.transparent,
+  },
+});
 
-export default styles
+export default styles;

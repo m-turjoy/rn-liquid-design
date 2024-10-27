@@ -1,5 +1,5 @@
-import { Animated } from 'react-native'
-import styled from 'styled-components'
+import { Animated } from 'react-native';
+import styled from 'styled-components';
 import {
   backgroundColor,
   width,
@@ -7,20 +7,20 @@ import {
   color,
   fontFamily,
   fontSize,
-  paddingLeft
-} from 'styled-system'
+  paddingLeft,
+} from 'styled-system';
 
-const CalendarContainer = styled.View``
+const CalendarContainer = styled.View``;
 
-const CalendarWrapper = styled.View``
+const CalendarWrapper = styled.View``;
 
-const IconLabelTouchable = styled.TouchableHighlight``
+const IconLabelTouchable = styled.TouchableHighlight``;
 
-const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``
+const TouchableModalChildrenWrapper = styled.TouchableWithoutFeedback``;
 
-const TextFieldsWrapper = styled.View``
+const TextFieldsWrapper = styled.View``;
 
-const ContainerWrapper = styled.View``
+const ContainerWrapper = styled.View``;
 
 export {
   CalendarContainer,
@@ -28,5 +28,5 @@ export {
   IconLabelTouchable,
   TouchableModalChildrenWrapper,
   TextFieldsWrapper,
-  ContainerWrapper
-}
+  ContainerWrapper,
+};

@@ -1,5 +1,5 @@
-import { Animated } from 'react-native'
-import styled from 'styled-components'
+import { Animated } from 'react-native';
+import styled from 'styled-components';
 
 import {
   alignItems,
@@ -15,8 +15,8 @@ import {
   textAlign,
   space,
   top,
-  width
-} from 'styled-system'
+  width,
+} from 'styled-system';
 
 const StyledBubble = styled.View`
   ${alignItems};
@@ -30,16 +30,16 @@ const StyledBubble = styled.View`
   ${top};
   ${width};
   ${textAlign}
-`
-const AnimatedBubble = Animated.createAnimatedComponent(StyledBubble)
+`;
+const AnimatedBubble = Animated.createAnimatedComponent(StyledBubble);
 const StyledIcon = styled.Text`
   ${color};
   ${fontSize};
   ${fontFamily};
   ${textAlign};
   background-color: transparent;
-`
+`;
 const IconWrapper = styled.View`
   ${alignItems};
-`
-export { StyledBubble, StyledIcon, IconWrapper, AnimatedBubble }
+`;
+export { StyledBubble, StyledIcon, IconWrapper, AnimatedBubble };

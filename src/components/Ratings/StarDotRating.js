@@ -1,9 +1,9 @@
-import React from 'react'
-import { bool, string, number, func } from 'prop-types'
-import Icon from '../MerckIcons'
-import { IconTouchableWrapper, IconWrapper } from './styled'
-import HalfIcon from './HalfIcon'
-import colors from '../../config/colors'
+import React from 'react';
+import { bool, string, number, func } from 'prop-types';
+import Icon from '../MerckIcons';
+import { IconTouchableWrapper, IconWrapper } from './styled';
+import HalfIcon from './HalfIcon';
+import colors from '../../config/colors';
 
 const StarDotRating = ({
   activeIconColor,
@@ -13,22 +13,16 @@ const StarDotRating = ({
   onIconPress,
   active,
   disabled,
-  halfIcon
+  halfIcon,
 }) => (
   <IconTouchableWrapper
     onPress={onIconPress}
     disabled={disabled}
     activeOpacity={1}
   >
-    <IconWrapper
-      marginRight={6}
-      opacity={disabled ? 0.5 : 1}
-    >
+    <IconWrapper marginRight={6} opacity={disabled ? 0.5 : 1}>
       {halfIcon ? (
-        <HalfIcon
-          type={dot ? 'dot' : 'star'}
-          color={activeIconColor}
-        />
+        <HalfIcon type={dot ? 'dot' : 'star'} color={activeIconColor} />
       ) : (
         <Icon
           name={dot ? 'dot' : 'star'}
@@ -38,7 +32,7 @@ const StarDotRating = ({
       )}
     </IconWrapper>
   </IconTouchableWrapper>
-)
+);
 
 StarDotRating.propTypes = {
   activeIconColor: string,
@@ -48,8 +42,8 @@ StarDotRating.propTypes = {
   onIconPress: func,
   active: bool,
   disabled: bool,
-  halfIcon: bool
-}
+  halfIcon: bool,
+};
 
 StarDotRating.defaultProps = {
   inactiveIconColor: colors.sensitiveGreyDarkest,
@@ -58,7 +52,7 @@ StarDotRating.defaultProps = {
   disabled: false,
   onIconPress: () => {},
   active: false,
-  halfIcon: false
-}
+  halfIcon: false,
+};
 
-export default StarDotRating
+export default StarDotRating;

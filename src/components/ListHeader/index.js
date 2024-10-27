@@ -1,7 +1,15 @@
-import React from 'react'
-import { ThemeProvider } from 'styled-components'
-import { string, func, object, bool, number, oneOfType, array } from 'prop-types'
-import Icon from '../MerckIcons'
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import {
+  string,
+  func,
+  object,
+  bool,
+  number,
+  oneOfType,
+  array,
+} from 'prop-types';
+import Icon from '../MerckIcons';
 import {
   HeaderWrapper,
   Title,
@@ -9,25 +17,30 @@ import {
   TitleWrapper,
   HeaderTouchableWrapper,
   HeaderChildWrapper,
-  TitleIconWrapper
-} from './styled'
-import { theme, colors, fonts } from '../../config'
-import styles from './styles'
+  TitleIconWrapper,
+} from './styled';
+import { theme, colors, fonts } from '../../config';
+import styles from './styles';
 
 const renderBottomSeparator = () => (
   <Separator
-    width='100%'
+    width="100%"
     height={1}
     backgroundColor={colors.sensitiveGreyDarker}
   />
-)
+);
 
 const renderTitleWithIcon = (
-  icon, title, titleStyle, titleFontSize, titleFontFamily, titleColor
+  icon,
+  title,
+  titleStyle,
+  titleFontSize,
+  titleFontFamily,
+  titleColor
 ) => (
   <TitleIconWrapper
-    flexDirection='row'
-    justifyContent='flex-start'
+    flexDirection="row"
+    justifyContent="flex-start"
     marginLeft={15}
   >
     <Icon
@@ -36,21 +49,19 @@ const renderTitleWithIcon = (
       color={icon.color || colors.richBlackDefault}
       style={styles.alignmentStyle}
     />
-    <TitleWrapper
-      marginLeft={10}
-    >
+    <TitleWrapper marginLeft={10}>
       <Title
         style={titleStyle}
         fontSize={titleFontSize}
         fontFamily={titleFontFamily}
         color={titleColor}
-        alignSelf='center'
+        alignSelf="center"
       >
         {title}
       </Title>
     </TitleWrapper>
   </TitleIconWrapper>
-)
+);
 
 const ListHeader = ({
   onPress,
@@ -63,11 +74,9 @@ const ListHeader = ({
   titleFontSize,
   titleFontFamily,
   titleColor,
-  containerWidth
+  containerWidth,
 }) => (
-  <ThemeProvider
-    theme={theme}
-  >
+  <ThemeProvider theme={theme}>
     <HeaderTouchableWrapper
       onPress={onPress}
       underlayColor={colors.transparent}
@@ -77,33 +86,38 @@ const ListHeader = ({
         <HeaderChildWrapper
           style={[containerStyle, styles.headerPadding]}
           width={containerWidth}
-          alignItems='center'
-          flexDirection='row'
+          alignItems="center"
+          flexDirection="row"
         >
-          {
-              icon && iconLeft ? renderTitleWithIcon(icon, title, titleStyle,
-                titleFontSize, titleFontFamily, titleColor) :
-              <TitleWrapper
-                marginLeft={15}
+          {icon && iconLeft ? (
+            renderTitleWithIcon(
+              icon,
+              title,
+              titleStyle,
+              titleFontSize,
+              titleFontFamily,
+              titleColor
+            )
+          ) : (
+            <TitleWrapper marginLeft={15}>
+              <Title
+                style={titleStyle}
+                fontSize={titleFontSize}
+                fontFamily={titleFontFamily}
+                color={titleColor}
               >
-                <Title
-                  style={titleStyle}
-                  fontSize={titleFontSize}
-                  fontFamily={titleFontFamily}
-                  color={titleColor}
-                >
-                  {title}
-                </Title>
-              </TitleWrapper>
-            }
+                {title}
+              </Title>
+            </TitleWrapper>
+          )}
         </HeaderChildWrapper>
         {bottomSeparator()}
       </HeaderWrapper>
     </HeaderTouchableWrapper>
   </ThemeProvider>
-)
+);
 ListHeader.defaultProps = {
-  onPress: () => { },
+  onPress: () => {},
   bottomSeparator: () => renderBottomSeparator(),
   title: 'List Head 01',
   icon: {},
@@ -113,8 +127,8 @@ ListHeader.defaultProps = {
   titleFontFamily: fonts.Black,
   titleColor: colors.richBlackDefault,
   containerWidth: 300,
-  containerStyle: {}
-}
+  containerStyle: {},
+};
 
 ListHeader.propTypes = {
   title: string,
@@ -127,6 +141,6 @@ ListHeader.propTypes = {
   titleFontSize: number,
   titleFontFamily: string,
   titleColor: string,
-  containerWidth: number
-}
-export default ListHeader
+  containerWidth: number,
+};
+export default ListHeader;

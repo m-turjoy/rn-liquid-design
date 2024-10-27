@@ -1,68 +1,82 @@
-import React from 'react'
-import { Animated, Easing } from 'react-native'
-import { ThemeProvider } from 'styled-components'
-import { string, number, bool, PropTypes } from 'prop-types'
-import { StyledBubble, StyledIcon, AnimatedBubble } from './styled'
-import { colors, fonts, theme } from '../../config'
-import { defaultThemeName, getThemeObject } from '../../config/theme'
-import Icon from '../MerckIcons'
-import styles from './styles'
+import React from 'react';
+import { Animated, Easing } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import { string, number, bool, PropTypes } from 'prop-types';
+import { StyledBubble, StyledIcon, AnimatedBubble } from './styled';
+import { colors, fonts, theme } from '../../config';
+import { defaultThemeName, getThemeObject } from '../../config/theme';
+import Icon from '../MerckIcons';
+import styles from './styles';
 
 class Bubble extends React.Component {
   constructor(props) {
-    super(props)
-    this.animatedBubble = new Animated.Value(0)
+    super(props);
+    this.animatedBubble = new Animated.Value(0);
   }
 
   componentDidMount() {
-    const { size } = this.props
-    this.animationSequence(size)
+    const { size } = this.props;
+    this.animationSequence(size);
   }
 
   animationSequence = (size) => {
-    const animationDuration = 225
+    const animationDuration = 225;
     Animated.timing(this.animatedBubble, {
       easing: Easing.elastic(0.9),
       toValue: size,
       duration: animationDuration,
-      delay: animationDuration
-    }).start()
-  }
+      delay: animationDuration,
+    }).start();
+  };
 
-  renderNotificationIcon = (color, fontSize, fontFamily, textAlign, notifications) => (
+  renderNotificationIcon = (
+    color,
+    fontSize,
+    fontFamily,
+    textAlign,
+    notifications
+  ) => (
     <StyledIcon
       color={color}
       fontSize={fontSize}
       fontFamily={fontFamily}
       textAlign={textAlign}
     >
-      {/* eslint-disable-next-line */
+      {
+        /* eslint-disable-next-line */
       notifications > 0 ? (notifications > 99 ? '99' : notifications) : '0'}
     </StyledIcon>
-  )
+  );
 
   renderInfoIcon = () => {
-    const { iconSize } = this.props
+    const { iconSize } = this.props;
 
-    return <Icon
-      color={colors.white}
-      name='information'
-      size={iconSize}
-      style={styles.iconStyle}
-    />
-  }
+    return (
+      <Icon
+        color={colors.white}
+        name="information"
+        size={iconSize}
+        style={styles.iconStyle}
+      />
+    );
+  };
   renderWarningIcon = () => {
-    const { iconSize } = this.props
+    const { iconSize } = this.props;
 
-    return <Icon
-      color={colors.white}
-      name='attention'
-      size={iconSize}
-      style={styles.iconStyle}
-    />
-  }
+    return (
+      <Icon
+        color={colors.white}
+        name="attention"
+        size={iconSize}
+        style={styles.iconStyle}
+      />
+    );
+  };
   render() {
-    const animatedBubble = { width: this.animatedBubble, height: this.animatedBubble }
+    const animatedBubble = {
+      width: this.animatedBubble,
+      height: this.animatedBubble,
+    };
 
     const {
       alignItems,
@@ -81,20 +95,18 @@ class Bubble extends React.Component {
       top,
       warning,
       disabledAnimation,
-      themeName
-    } = this.props
+      themeName,
+    } = this.props;
 
-    const themeObj = getThemeObject(themeName)
-    const primaryColor = backgroundColor || themeObj.colors.primary.base
+    const themeObj = getThemeObject(themeName);
+    const primaryColor = backgroundColor || themeObj.colors.primary.base;
 
     return (
-      <ThemeProvider
-        theme={themeObj}
-      >
+      <ThemeProvider theme={themeObj}>
         <StyledBubble
-          alignItems='center'
+          alignItems="center"
           height={size}
-          justifyContent='center'
+          justifyContent="center"
           width={size}
         >
           <AnimatedBubble
@@ -108,17 +120,26 @@ class Bubble extends React.Component {
             borderRadius={borderRadius}
             justifyContent={justifyContent}
             right={right}
-            style={[{ width: size, height: size }, !disabledAnimation && animatedBubble]}
+            style={[
+              { width: size, height: size },
+              !disabledAnimation && animatedBubble,
+            ]}
             top={top}
           >
             {(notifications &&
-              this.renderNotificationIcon(color, fontSize, fontFamily, textAlign, notifications)) ||
+              this.renderNotificationIcon(
+                color,
+                fontSize,
+                fontFamily,
+                textAlign,
+                notifications
+              )) ||
               (info && this.renderInfoIcon()) ||
               (warning && this.renderWarningIcon())}
           </AnimatedBubble>
         </StyledBubble>
       </ThemeProvider>
-    )
+    );
   }
 }
 
@@ -136,8 +157,8 @@ Bubble.defaultProps = {
   textAlign: 'center',
   warning: false,
   disabledAnimation: false,
-  themeName: defaultThemeName
-}
+  themeName: defaultThemeName,
+};
 
 Bubble.propTypes = {
   alignItems: string,
@@ -157,7 +178,7 @@ Bubble.propTypes = {
   top: number,
   warning: bool,
   disabledAnimation: bool,
-  themeName: string
-}
+  themeName: string,
+};
 
-export default Bubble
+export default Bubble;

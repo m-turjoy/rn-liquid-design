@@ -12,7 +12,8 @@ import {
 import SideMenu from "react-native-side-menu";
 import { ThemeProvider } from "styled-components";
 import NavigationBody from "./NavigationBody/NavigationBody";
-import imageExample from "../../../src/assets/circle.png";
+// import imageExample from "../../assets/circle.png";
+import imageExample from "../../assets/circle.png";
 import { defaultThemeName, getThemeObject } from "../../config/theme";
 
 export default class Navigation extends Component {

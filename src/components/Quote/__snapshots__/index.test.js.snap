@@ -9,7 +9,7 @@ ShallowWrapper {
     borderRadius={100}
     imagePath={
       Object {
-        "testUri": "../../../src/assets/circle.png",
+        "testUri": "../../assets/circle.png",
       }
     }
     quotation="Test"
@@ -41,7 +41,7 @@ ShallowWrapper {
           <Styled(Image)
             source={
               Object {
-                "testUri": "../../../src/assets/circle.png",
+                "testUri": "../../assets/circle.png",
               }
             }
           />
@@ -292,7 +292,7 @@ ShallowWrapper {
             <Styled(Image)
               source={
                 Object {
-                  "testUri": "../../../src/assets/circle.png",
+                  "testUri": "../../assets/circle.png",
                 }
               }
             />
@@ -329,7 +329,7 @@ ShallowWrapper {
             "children": <Styled(Image)
               source={
                 Object {
-                  "testUri": "../../../src/assets/circle.png",
+                  "testUri": "../../assets/circle.png",
                 }
               }
             />,
@@ -343,7 +343,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "source": Object {
-                "testUri": "../../../src/assets/circle.png",
+                "testUri": "../../assets/circle.png",
               },
             },
             "ref": null,
@@ -406,7 +406,7 @@ ShallowWrapper {
             <Styled(Image)
               source={
                 Object {
-                  "testUri": "../../../src/assets/circle.png",
+                  "testUri": "../../assets/circle.png",
                 }
               }
             />
@@ -657,7 +657,7 @@ ShallowWrapper {
               <Styled(Image)
                 source={
                   Object {
-                    "testUri": "../../../src/assets/circle.png",
+                    "testUri": "../../assets/circle.png",
                   }
                 }
               />
@@ -694,7 +694,7 @@ ShallowWrapper {
               "children": <Styled(Image)
                 source={
                   Object {
-                    "testUri": "../../../src/assets/circle.png",
+                    "testUri": "../../assets/circle.png",
                   }
                 }
               />,
@@ -708,7 +708,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "source": Object {
-                  "testUri": "../../../src/assets/circle.png",
+                  "testUri": "../../assets/circle.png",
                 },
               },
               "ref": null,

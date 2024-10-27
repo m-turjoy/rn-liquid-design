@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FlatList, TouchableWithoutFeedback, View } from "react-native";
 import { string, shape, arrayOf, func, node, number } from "prop-types";
-import imageExample from "../../../../src/assets/circle.png";
+import imageExample from "../../../assets/circle.png";
 import Icon from "../../MerckIcons";
 import colors from "../../../config/colors";
 import fonts from "../../../config/fonts";

@@ -93,7 +93,7 @@ ShallowWrapper {
           <Image
             source={
               Object {
-                "testUri": "../../../src/assets/selected.png",
+                "testUri": "../../assets/selected.png",
               }
             }
             style={
@@ -232,7 +232,7 @@ ShallowWrapper {
           "children": <Image
             source={
               Object {
-                "testUri": "../../../src/assets/selected.png",
+                "testUri": "../../assets/selected.png",
               }
             }
             style={
@@ -275,7 +275,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "source": Object {
-              "testUri": "../../../src/assets/selected.png",
+              "testUri": "../../assets/selected.png",
             },
             "style": Object {
               "left": -3.5,
@@ -446,7 +446,7 @@ ShallowWrapper {
             <Image
               source={
                 Object {
-                  "testUri": "../../../src/assets/selected.png",
+                  "testUri": "../../assets/selected.png",
                 }
               }
               style={
@@ -585,7 +585,7 @@ ShallowWrapper {
             "children": <Image
               source={
                 Object {
-                  "testUri": "../../../src/assets/selected.png",
+                  "testUri": "../../assets/selected.png",
                 }
               }
               style={
@@ -628,7 +628,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "source": Object {
-                "testUri": "../../../src/assets/selected.png",
+                "testUri": "../../assets/selected.png",
               },
               "style": Object {
                 "left": -3.5,

@@ -21,7 +21,7 @@ import {
 	DescriptionWrapper,
 	DescriptionText,
 } from "./styled";
-import { colors, fonts, theme } from "../../config";
+import { colors, fonts } from "../../config";
 import { getThemeObject, defaultThemeName } from "../../config/theme";
 
 const getTransformationAnimation = (animation) => {

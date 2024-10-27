@@ -4,7 +4,8 @@ import { Linking, Platform } from "react-native";
 import { ThemeProvider } from "styled-components";
 import { fonts, theme } from "../../config";
 import { LinkText, TouchableWrapper, ViewWrapper } from "./styled";
-import Icon from "../../../src/components/MerckIcons";
+// import Icon from "../../../src/components/MerckIcons";
+import Icon from "../MerckIcons";
 import { defaultThemeName, getThemeObject } from "../../config/theme";
 
 class Link extends Component {

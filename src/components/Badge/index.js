@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { string, bool, number, PropTypes } from "prop-types";
 import { StyledBadge, StyledBadgeText } from "./styled";
-import { theme, colors, fonts } from "../../config";
+import { colors, fonts } from "../../config";
 import Icon from "../MerckIcons";
 import styles from "./styles";
 import { defaultThemeName, getThemeObject } from "../../config/theme";

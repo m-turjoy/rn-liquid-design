@@ -1,6 +1,6 @@
 {
 	"name": "rn-liquid-design",
-	"version": "0.1.11",
+	"version": "0.1.12",
 	"description": "React Native UI Library by Merck",
 	"source": "./src/index.js",
 	"main": "./lib/commonjs/index.js",
